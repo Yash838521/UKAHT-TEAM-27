@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for tracked media files
+        run: |
+          matches=$(git ls-files \
+            | grep -Ei '\.(jpg|jpeg|png|tif|tiff|heic|dng|cr2|nef|arw)$' \
+            | grep -v '^docs/figures/' || true)
+          if [ -n "$matches" ]; then
+            echo "$matches"
+            exit 1
+          fi
+
+      - name: Check for tracked credentials
+        run: |
+          matches=$(git ls-files | grep -E '(^|/)\.env$|metadata_report\.csv|\.pem$|\.key$' || true)
+          if [ -n "$matches" ]; then
+            echo "$matches"
+            exit 1
+          fi
