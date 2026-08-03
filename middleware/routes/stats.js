@@ -1,6 +1,6 @@
 const express = require('express')
-const router  = express.Router()
-const db      = require('../db')
+const router = express.Router()
+const db = require('../db')
 
 // ── GET /api/stats/dataset — full dataset statistical report ──────────────────
 router.get('/dataset', async (req, res) => {
@@ -35,10 +35,13 @@ router.get('/dataset', async (req, res) => {
         COALESCE(c.human_value, a.scene_type) AS scene_type,
         COUNT(*) AS count
       FROM ai_tags a
-      LEFT JOIN corrections c ON c.image_id = a.image_id AND c.field_name = 'scene_type'
+      LEFT JOIN corrections c 
+        ON c.image_id = a.image_id 
+        AND c.field_name = 'scene_type'
       WHERE a.scene_type IS NOT NULL
-      GROUP BY scene_type
-    `)
+      GROUP BY COALESCE(c.human_value, a.scene_type)
+      ORDER BY count DESC
+`)
 
     // People count distribution
     const [people_dist] = await db.query(`
@@ -46,11 +49,13 @@ router.get('/dataset', async (req, res) => {
         COALESCE(c.human_value, a.people_count) AS people_count,
         COUNT(*) AS count
       FROM ai_tags a
-      LEFT JOIN corrections c ON c.image_id = a.image_id AND c.field_name = 'people_count'
+      LEFT JOIN corrections c 
+        ON c.image_id = a.image_id 
+        AND c.field_name = 'people_count'
       WHERE a.people_count IS NOT NULL
-      GROUP BY people_count
+      GROUP BY COALESCE(c.human_value, a.people_count)
       ORDER BY people_count
-    `)
+`)
 
     // Metadata completeness
     const [[completeness]] = await db.query(`
@@ -161,7 +166,7 @@ router.get('/accuracy', async (req, res) => {
       total_corrections: overall.total_corrections,
       per_field,
       scene_accuracy,
-      people_mae:        people_mae.mae
+      people_mae: people_mae.mae
     })
 
   } catch (err) {

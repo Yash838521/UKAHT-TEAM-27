@@ -1,0 +1,26 @@
+<div class="recent-section">
+  <div class="section-head">
+    <span class="section-title">Recently added</span>
+    <span class="section-meta">last 10 uploaded</span>
+  </div>
+
+  <div class="thumb-grid">
+    <div
+      class="thumb"
+      *ngFor="let image of images"
+    >
+      <!-- Placeholder shown when image fails to load -->
+      <div class="thumb-placeholder">
+        <span>🖼</span>
+      </div>
+      <div class="thumb-label">
+        {{ image.scene_type | titlecase }} · {{ getYear(image.date_taken) }}
+      </div>
+    </div>
+
+    <!-- Empty state -->
+    <div class="empty" *ngIf="images.length === 0">
+      No images uploaded yet
+    </div>
+  </div>
+</div>

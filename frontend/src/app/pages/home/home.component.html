@@ -1,0 +1,47 @@
+<div class="page">
+
+  <!-- Top navigation bar -->
+  <app-topbar></app-topbar>
+
+  <!-- Loading state -->
+  <div class="loading" *ngIf="loading">
+    Loading...
+  </div>
+
+  <!-- Error state -->
+  <div class="error-msg" *ngIf="error">
+    {{ error }}
+  </div>
+
+  <!-- Main content -->
+  <ng-container *ngIf="!loading && !error">
+
+    <!-- Hero: search bar -->
+    <section class="hero">
+      <h1>Find the right image</h1>
+      <p>Search by natural language or browse by category below</p>
+      <app-search-bar (search)="onSearch($event)"></app-search-bar>
+    </section>
+
+    <!-- Category grid -->
+    <app-category-grid
+      [categories]="categories"
+      (categoryClick)="onCategoryClick($event)"
+    ></app-category-grid>
+
+    <div class="divider"></div>
+
+    <!-- Recently added thumbnails -->
+    <app-recent-thumbnails [images]="recentImages"></app-recent-thumbnails>
+
+    <!-- Footer stats -->
+    <app-footer-stats
+      [totalImages]="totalImages"
+      [uniqueImages]="uniqueImages"
+      [dateRange]="dateRange"
+      [pending]="pending"
+    ></app-footer-stats>
+
+  </ng-container>
+
+</div>

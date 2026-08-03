@@ -1,0 +1,17 @@
+<div class="section">
+  <div class="section-head">
+    <span class="section-title">Browse by category</span>
+    <span class="section-meta">tag-based filtering</span>
+  </div>
+
+  <div class="cat-grid">
+    <app-category-card
+      *ngFor="let cat of enrichedCategories"
+      [name]="cat.name"
+      [count]="cat.count"
+      [icon]="cat.icon"
+      [color]="cat.color"
+      (categoryClick)="onCategoryClick($event)"
+    ></app-category-card>
+  </div>
+</div>

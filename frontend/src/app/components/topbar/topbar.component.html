@@ -1,0 +1,17 @@
+<nav class="topbar">
+  <div class="logo">
+    <span class="logo-icon">❄</span>
+    UKAHT Image Archive
+  </div>
+
+  <div class="nav">
+    <a
+      *ngFor="let item of navItems"
+      [routerLink]="item.route"
+      class="nav-btn"
+      [class.active]="isActive(item.route)"
+    >
+      {{ item.label }}
+    </a>
+  </div>
+</nav>

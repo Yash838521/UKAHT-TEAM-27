@@ -1,0 +1,11 @@
+<div class="search-wrap">
+  <span class="search-icon">🔍</span>
+  <input
+    type="text"
+    [(ngModel)]="query"
+    (keydown)="onKeydown($event)"
+    placeholder="e.g. two people outside a tent in snow…"
+    class="search-input"
+  />
+  <button class="search-btn" (click)="onSearch()">Search</button>
+</div>
