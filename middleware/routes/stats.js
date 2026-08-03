@@ -175,4 +175,27 @@ router.get('/accuracy', async (req, res) => {
   }
 })
 
+// ── GET /api/stats/tags — distinct object tags with counts ────────────────────
+router.get('/tags', async (req, res) => {
+  try {
+    const [rows] = await db.query(`
+      SELECT
+        JSON_UNQUOTE(JSON_EXTRACT(t.value, '$.tag')) AS tag,
+        COUNT(*) AS count
+      FROM ai_tags,
+      JSON_TABLE(
+        tags, '$[*]'
+        COLUMNS (value JSON PATH '$')
+      ) AS t
+      WHERE tags IS NOT NULL
+      GROUP BY tag
+      ORDER BY count DESC
+      LIMIT 30
+    `)
+    res.json(rows)
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
+  }
+})
 module.exports = router

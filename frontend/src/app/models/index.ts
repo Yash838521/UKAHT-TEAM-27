@@ -32,3 +32,32 @@ export interface StatsResponse {
   scene_types: { scene_type: string; count: number }[]
   duplicates: { total: number; in_clusters: number; total_clusters: number }
 }
+
+export interface ImagesResponse {
+  total:  number
+  page:   number
+  limit:  number
+  pages:  number
+  images: Image[]
+}
+
+export interface TagCount {
+  tag:   string
+  count: number
+}
+
+export interface FilterState {
+  scene_type:    string
+  people_min:    number | null
+  quality_min:   number
+  date_from:     string
+  date_to:       string
+  no_duplicates: boolean
+  tags:          string[]
+  category:      string
+  sort:          string
+  order:         string
+  page:          number
+  limit:         number
+}
+

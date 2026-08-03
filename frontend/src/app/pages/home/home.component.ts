@@ -36,8 +36,8 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private categoriesService: CategoriesService,
-    private imagesService: ImagesService,
-    private router: Router
+    private imagesService:     ImagesService,
+    private router:            Router
   ) {}
 
   ngOnInit() {
@@ -49,10 +49,10 @@ export class HomeComponent implements OnInit {
   loadCategories() {
     this.categoriesService.getCategories().subscribe({
       next: (res) => {
-        this.categories   = res.categories
-        this.totalImages  = res.total_images
-        this.pending      = res.pending
-        this.loading      = false
+        this.categories  = res.categories
+        this.totalImages = res.total_images
+        this.pending     = res.pending
+        this.loading     = false
       },
       error: (err) => {
         this.error   = 'Failed to load categories'
@@ -64,25 +64,20 @@ export class HomeComponent implements OnInit {
 
   loadRecentImages() {
     this.imagesService.getRecent(10).subscribe({
-      next: (images) => {
-        this.recentImages = images
-      },
-      error: (err) => console.error(err)
+      next:  (images) => { this.recentImages = images },
+      error: (err)    => console.error(err)
     })
   }
 
   loadStats() {
     this.categoriesService.getStats().subscribe({
       next: (stats) => {
-        // Calculate unique images (non-duplicates)
         this.uniqueImages = stats.total_images - stats.duplicates.in_clusters
-
-        // Build date range string from per_year data
         if (stats.per_year.length > 0) {
-          const years     = stats.per_year.map(y => y.year)
-          const minYear   = Math.min(...years)
-          const maxYear   = Math.max(...years)
-          this.dateRange  = `${minYear}–${maxYear}`
+          const years      = stats.per_year.map(y => y.year)
+          const minYear    = Math.min(...years)
+          const maxYear    = Math.max(...years)
+          this.dateRange   = `${minYear}–${maxYear}`
         }
       },
       error: (err) => console.error(err)
@@ -97,7 +92,7 @@ export class HomeComponent implements OnInit {
 
   onCategoryClick(category: string) {
     this.router.navigate(['/results'], {
-      queryParams: { mode: 'filter', category }
+      queryParams: { category }
     })
   }
 }

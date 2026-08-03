@@ -1,0 +1,15 @@
+<div class="img-card" (click)="onClick()">
+  <div class="img-thumb">
+    <span class="placeholder-icon">🖼</span>
+    <span class="badge-best" *ngIf="image.is_representative">★ Best</span>
+    <span class="badge-similarity" *ngIf="similarity">{{ similarityLabel }}</span>
+  </div>
+  <div class="img-info">
+    <div class="img-name" [title]="image.filename">{{ image.filename }}</div>
+    <div class="img-meta">
+      <span class="img-tag" *ngIf="image.scene_type">{{ image.scene_type | titlecase }}</span>
+      <span class="img-tag">{{ peopleLabel }}</span>
+      <span class="img-score">{{ qualityScore }}</span>
+    </div>
+  </div>
+</div>

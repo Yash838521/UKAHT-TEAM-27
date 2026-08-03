@@ -12,9 +12,9 @@ import { CategoryGridComponent } from './components/category-grid/category-grid.
 import { CategoryCardComponent } from './components/category-card/category-card.component'
 import { RecentThumbnailsComponent } from './components/recent-thumbnails/recent-thumbnails.component'
 import { FooterStatsComponent } from './components/footer-stats/footer-stats.component'
+import { BrowseComponent } from './pages/browse/browse.component'
 
-import { routes } from './app.routes';
-
+import { routes } from './app.routes'
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { routes } from './app.routes';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    BrowseComponent
   ],
   bootstrap: [AppComponent]
 })
