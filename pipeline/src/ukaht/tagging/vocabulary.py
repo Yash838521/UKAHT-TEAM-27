@@ -10,7 +10,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-VERSION = "0.9"
+VERSION = "1.0"
+
 
 @dataclass(frozen=True)
 class Term:
@@ -182,6 +183,12 @@ ORIENTATION = Facet(
             "Back to the camera",
             "a person photographed from behind",
         ),
+        Term("side_on", "Side on", "a person seen from the side in profile"),
+        Term(
+            "mixed_orientation",
+            "Mixed orientation",
+            "a group of people facing in different directions",
+        ),
     ),
 )
 
@@ -202,6 +209,7 @@ ACTIVITY = Facet(
             "a person reading or writing at a desk",
         ),
         Term("posing", "Standing or posing", "a person standing still facing the camera"),
+        Term("resting", "Resting", "people sitting or lying at ease"),
     ),
 )
 
@@ -218,6 +226,7 @@ NATURE = Facet(
         Term("snow", "Snow", "ground covered in snow"),
         Term("sea_ice", "Sea ice", "frozen sea ice"),
         Term("iceberg", "Iceberg", "an iceberg floating in the sea"),
+        Term("glacier", "Glacier or ice cliff", "a glacier front or ice cliff meeting the sea"),
         Term("exposed_rock", "Exposed rock", "bare rock without snow cover"),
         Term("mountains", "Mountains", "snow-covered mountains in the distance"),
         Term("open_water", "Open water", "open sea water"),
@@ -292,6 +301,7 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "fuel drum",
         "crate",
         "detritus",
+        "rope",
     ),
     "living_domestic": (
         "stove",
@@ -308,6 +318,7 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "curtain",
         "carpet",
         "furniture",
+        "cabinet",
     ),
     "kitchen_provisions": (
         "food tin",
@@ -319,6 +330,7 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "enamel bowl",
         "tray",
         "packaging",
+        "flask",
     ),
     "workshop_equipment": (
         "hand tool",
@@ -333,6 +345,8 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "dial",
         "compass",
         "instrument",
+        "instrument case",
+        "ruler",
     ),
     "radio_electrical": (
         "radio set",
@@ -342,7 +356,16 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "electrical component",
         "antenna",
     ),
-    "clothing_personal": ("boots", "footwear", "jacket", "clothing", "glove", "hat"),
+    "clothing_personal": (
+        "boots",
+        "footwear",
+        "jacket",
+        "clothing",
+        "glove",
+        "hat",
+        "flag",
+        "whale bone",
+    ),
     "paper_archive": (
         "photograph",
         "postcard",
@@ -357,6 +380,7 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "plaque",
     ),
     "transport": ("ship", "boat", "sledge"),
+    "containers": ("box", "case", "canister"),
     "photographic_reference": ("colour reference chart", "scale card"),
 }
 

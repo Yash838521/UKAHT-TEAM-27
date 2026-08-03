@@ -1,7 +1,11 @@
 # Controlled Vocabulary
-**Version:** 0.9 (draft for client review)
+
+**Version:** 1.0
+**Status:** revised following validation against unseen images
+**Maintainer:** Saisha
 **Derived from:** client search requirements and a stratified sample of 39 images
-drawn from all ten archive directories
+drawn from all ten archive directories, then revised following a validation pass
+against 27 further images not used during development
 
 This document lists every term the system uses to describe images, with a rule
 for when each applies and the prompt text used for automatic matching.
@@ -59,9 +63,9 @@ Exactly one value per image.
 
 | Term | Applies when | Does not apply when | Prompt |
 |---|---|---|---|
-| Exterior | A built structure is the subject and the view is outdoors | The building is incidental to a wide landscape | a photograph taken outdoors showing the outside of a building |
+| Exterior | A built structure is the subject of the photograph and the view is outdoors | The image is outdoors but contains no building, or a building is incidental to a wide landscape | a photograph taken outdoors showing the outside of a building |
 | Interior | The view is from inside a building and room context is visible | The subject is an isolated object with no room visible | a photograph taken inside a room of a building |
-| Landscape | Outdoors with terrain, sea, sky or ice as the subject and no building as the subject | A structure dominates the frame | a wide outdoor photograph of a snowy landscape with no buildings |
+| Landscape | Outdoors with terrain, sea, sky, ice, wildlife or loose objects as the subject and no building as the subject | A structure is the subject of the frame | a wide outdoor photograph of a snowy landscape with no buildings |
 | Object study | A single object or small group is photographed against a plain or neutral background for record purposes | The surrounding room or site is legible | a photograph of a single object against a plain background |
 
 Object study exists because three images in the sample could not be placed as
@@ -134,10 +138,16 @@ no people loses the fact that someone is present.
 
 Zero or more, applied where a person is visible.
 
-| Term | Prompt |
-|---|---|
-| Facing the camera | a person looking towards the camera |
-| Back to the camera | a person photographed from behind |
+| Term | Applies when | Prompt |
+|---|---|---|
+| Facing the camera | The person's face is turned towards the lens | a person looking towards the camera |
+| Back to the camera | The person is seen from behind | a person photographed from behind |
+| Side on | The person is in profile, facing neither towards nor away | a person seen from the side in profile |
+| Mixed orientation | Several people face in different directions | a group of people facing in different directions |
+
+Side on and mixed orientation were added during validation. Two images showed a
+person in profile, and one showed a group facing several ways; none of these
+could be recorded with the original pair of terms.
 
 ---
 
@@ -155,9 +165,11 @@ Zero or more, applied where a person is visible.
 | Playing music | a person playing a musical instrument |
 | Reading or writing | a person reading or writing at a desk |
 | Standing or posing | a person standing still facing the camera |
+| Resting | people sitting or lying at ease |
 
-Reading or writing was added from observed content. The remaining terms follow
-the client's stated search cases.
+Reading or writing was added from the development sample and resting from the
+validation pass, where a group photograph showed people at ease rather than
+posing. The remaining terms follow the client's stated search cases.
 
 ---
 
@@ -174,7 +186,8 @@ Zero or more.
 | Whale | a whale at the surface of the sea |
 | Snow | ground covered in snow |
 | Sea ice | frozen sea ice |
-| Iceberg | an iceberg floating in the sea |
+| Iceberg | a detached iceberg floating in open water |
+| Glacier or ice cliff | a glacier front or ice cliff meeting the sea |
 | Exposed rock | bare rock without snow cover |
 | Mountains | snow-covered mountains in the distance |
 | Open water | open sea water |
@@ -185,6 +198,11 @@ Zero or more.
 
 Exposed rock is kept separate from snow. Several sample images show rock as the
 dominant terrain, and collapsing this into a general snow term would lose it.
+
+Glacier or ice cliff was added during validation. One image showed a large ice
+mass across water that could be either a floating iceberg or an ice cliff at the
+shore; the distinction is not always determinable from a photograph, so both
+terms exist and either may be applied where the form is unclear.
 
 ---
 
@@ -227,22 +245,23 @@ Zero or more. Grouped for readability; the groups are not separate facets.
 
 roof · wall · window · door · doorway · timber cladding · metal cladding ·
 beam · truss · cement · cement pillar · steps · walkway · post · ladder ·
-cable · gas cylinder · fuel drum · crate · detritus
+cable · gas cylinder · fuel drum · crate · detritus · rope
 
 ### Living and domestic
 
-stove · fire · heater · shelf · seat · chair · table · cupboard · bed · bunk ·
-blanket · curtain · carpet · furniture · ladder
+stove · fire · heater · shelf · seat · chair · table · cupboard · cabinet ·
+bed · bunk · blanket · curtain · carpet · furniture
 
 ### Kitchen and provisions
 
-food tin · food packet · jar · bottle · plate · cup · enamel bowl · tray ·
-packaging · label
+food tin · food packet · jar · bottle · flask · plate · cup · enamel bowl ·
+tray · packaging
 
 ### Workshop and equipment
 
 hand tool · hammer · saw · nail · paint tin · workbench · machinery ·
-mechanical component · gauge · dial · compass · instrument
+mechanical component · gauge · dial · compass · instrument · instrument case ·
+ruler
 
 ### Radio and electrical
 
@@ -251,7 +270,7 @@ antenna
 
 ### Clothing and personal
 
-boots · footwear · jacket · clothing · glove · hat
+boots · footwear · jacket · clothing · glove · hat · flag · whale bone
 
 ### Paper and archive material
 
@@ -261,6 +280,10 @@ document · information panel · label · plaque
 ### Transport and vessels
 
 ship · boat · sledge
+
+### Containers
+
+box · case · canister
 
 ### Photographic reference objects
 
@@ -289,27 +312,100 @@ image cannot support retrieval. They remain useful as prose in captions.
 
 ---
 
-## 13. Coverage in the sample
+## 13. Validation
 
-Client-listed terms checked against the 39 coded images.
+The vocabulary was tested against 27 images drawn from the archive using a
+different random seed and excluding every image used during development. Terms
+were assigned using only the published list; where no term fitted, the gap was
+recorded rather than approximated.
 
-| Group | Observed | Not observed in sample |
-|---|---|---|
-| Scenic | 5 of 10 | sunset, iceberg, water pool, storm, windy |
-| People and activity | 3 of 11 | back of person, facing camera, singing, music, walking, cooking, sleeping, skiing |
-| Outside structures and fittings | 8 of 20 | main hut, generator shed, emergency shed, anemometer tower, radio tower, gas canister, detritus, cement pillar, truss, beam, cement |
-| Living room | 6 of 10 | fire, heater, cupboard, guitar |
-| Kitchen | 3 of 6 | stove, food packet, cup |
-| Workshop | 1 of 5 | paint tin, hammer, saw, nail |
-| Bunkroom | 3 of 6 | jacket, flag, whale bone |
-| Radio room | 3 of 6 | wiring, headphones, switch panel |
+### Coverage
 
-Absence from a 39-image sample does not mean absence from the archive of 1,008.
-A targeted second pass is required to establish which terms are genuinely
-unsupported by the collection, particularly for people and activity, where the
-sample contains only four images with a person visible.
+| Facet | Assigned | Applicable | Coverage |
+|---|---|---|---|
+| Scene type | 27 | 27 | 100% |
+| People | 27 | 27 | 100% |
+| Shot type | 27 | 27 | 100% |
+| Room | 5 | 5 interiors | 100% |
+| Structure | 6 | 7 exteriors | 86% |
+| Condition | 22 | 27 | 81% |
+| Nature and wildlife | 13 | 27 | 48% |
+| Activity | 3 | 27 | 11% |
+| Orientation | 1 | 27 | 4% |
 
----
+The three required facets reached complete coverage. Room reached complete
+coverage on the images to which it applies. The remaining facets are optional by
+design and their figures reflect image content rather than gaps in the terms:
+only three images contained a person, which bounds activity and orientation.
+
+Object tags: 41 of the 83 available terms were applied across 27 images. Terms
+per image ranged from 4 to 17, with a mean of 9.4.
+
+### Scene distribution
+
+| Scene type | Images |
+|---|---|
+| Object study | 9 |
+| Exterior | 7 |
+| Landscape | 6 |
+| Interior | 5 |
+
+Object study, added during development because three images could not be placed
+as interior or exterior, proved to be the largest single category in the
+validation sample. This supports its inclusion.
+
+### Changes arising
+
+| Change | Evidence |
+|---|---|
+| Added `side_on` to orientation | Two images showed a person in profile, fitting neither existing term |
+| Added `mixed_orientation` | One group photograph showed people facing several directions |
+| Added `resting` to activity | A group image showed people at ease, not posing |
+| Added `glacier` to nature | An ice mass could not be resolved as iceberg or ice cliff |
+| Added object tags `rope`, `cabinet`, `flask`, `ruler`, `instrument case` | Recorded as needed but unavailable during annotation |
+| Added a containers group: `box`, `case`, `canister` | Labelled cases and boxes appeared with no suitable term |
+| Aligned `flag`, `whale bone` and `blanket` between document and code | Present in one but not the other |
+
+### Terms not exercised
+
+The following did not occur in the validation sample: five room terms, four
+structure terms, two people terms, five activity terms and five nature terms.
+
+For room and activity this reflects sample composition rather than a fault in
+the terms, since only five interiors and three images with people were drawn.
+The structure terms are treated separately below.
+
+### Structure identification
+
+Four of the six exterior images were recorded as `outbuilding` because the
+identity of the building could not be established from the photograph. The terms
+`generator_shed`, `emergency_shed`, `anemometer_tower` and `radio_tower` were
+not applied to any image.
+
+This confirms as a measured result what was previously an expectation: small
+outbuildings at these sites are of similar construction and cannot be
+distinguished from image content alone. Reliable assignment requires site maps
+identifying which building stands where. Until those are available, exterior
+images receive `outbuilding` and the more specific terms remain unused.
+
+The single uncovered exterior was an outdoor image containing a sledge and
+wildlife but no building. Under the definition in section 3 this is a landscape,
+and the scene type boundary has been clarified accordingly: exterior requires a
+built structure as the subject of the photograph.
+
+### Ambiguity
+
+Sixteen of the 27 images carried a note recording a difficult choice. Most
+record a refusal to infer beyond what the image shows: building identity not
+visible, garment type unclear, ice formation indeterminate. Two record genuine
+overlap between terms, both concerning the boundary between `radio_room` and
+`museum_display`, where a room containing radio equipment is also arranged for
+public interpretation. Where both apply, `museum_display` takes precedence, since
+it describes the room's present function.
+
+Two images in the sample were near-identical views of the same object,
+independently confirming that near-duplicate detection is required before
+results are presented to users.
 
 ## 14. Open items for the client
 
@@ -326,3 +422,9 @@ sample contains only four images with a person visible.
 
 ---
 
+## 15. Revision record
+
+| Version | Date | Change |
+|---|---|---|
+| 0.9 | | Initial draft from coding sample and client search requirements |
+| 1.0 | | Revised after validation against 27 unseen images: nine terms added, scene type boundary clarified, structure limitation evidenced |
