@@ -1,22 +1,20 @@
 <div class="page">
 
-  <!-- Top navigation bar -->
   <app-topbar></app-topbar>
 
   <!-- Loading state -->
   <div class="loading" *ngIf="loading">
-    Loading...
+    <div class="loading-spinner"></div>
   </div>
 
   <!-- Error state -->
-  <div class="error-msg" *ngIf="error">
+  <div class="error-msg" *ngIf="!loading && error">
     {{ error }}
   </div>
 
-  <!-- Main content -->
-  <ng-container *ngIf="!loading && !error">
+  <ng-container *ngIf="!loading">
 
-    <!-- Hero: search bar -->
+    <!-- Hero search -->
     <section class="hero">
       <h1>Find the right image</h1>
       <p>Search by natural language or browse by category below</p>

@@ -1,27 +1,33 @@
 import { Component, Input } from '@angular/core'
-import { Image } from '../../models'
 import { CommonModule } from '@angular/common'
+import { Image } from '../../models'
+import { environment } from '../../../../environments/environment'
 
 @Component({
   selector: 'app-recent-thumbnails',
   templateUrl: './recent-thumbnails.component.html',
   styleUrls: ['./recent-thumbnails.component.scss'],
   standalone: true,
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule]
 })
 export class RecentThumbnailsComponent {
   @Input() images: Image[] = []
 
   getYear(dateTaken: string): string {
-    if (!dateTaken) return ''
-    return new Date(dateTaken).getFullYear().toString()
+    if (!dateTaken) return '—'
+    try {
+      return new Date(dateTaken).getFullYear().toString()
+    } catch {
+      return '—'
+    }
+  }
+
+  getSceneLabel(image: Image): string {
+    if (!image.scene_type) return 'Unknown'
+    return image.scene_type.charAt(0).toUpperCase() + image.scene_type.slice(1)
   }
 
   getImageUrl(image: Image): string {
-    // In local dev, images are served via Express
-    // storage_url is a relative path like "Various_A/photo1.jpg"
-    return `http://localhost:3000/api/images/${image.id}/file`
+    return `${environment.apiUrl}/images/${image.id}/file`
   }
 }

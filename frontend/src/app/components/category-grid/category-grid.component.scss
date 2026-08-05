@@ -1,5 +1,5 @@
 .section {
-  padding: 20px;
+  padding: 20px 24px;
 }
 
 .section-head {
@@ -10,18 +10,33 @@
 }
 
 .section-title {
-  font-size: 13px;
-  font-weight: 500;
-  color: #1a1a1a;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #555;
 }
 
 .section-meta {
   font-size: 12px;
-  color: #999;
+  color: #333;
 }
 
 .cat-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+}
+
+.skeleton {
+  aspect-ratio: 1.8;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #13151f 25%, #1a1d2e 50%, #13151f 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
