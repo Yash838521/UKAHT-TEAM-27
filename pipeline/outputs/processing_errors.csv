@@ -1,0 +1,5 @@
+image_uid,file_name,model,error_message,attempted_at
+e6f22aee978d4eea89bc273e4f846207,A1c251_13.jpg,CLIP,image file is truncated (34 bytes not processed),2026-08-05T02:26:27+00:00
+d64012d8185445929e5f54af5ca55b03,A1c260a.jpg,CLIP,cannot identify image file 'E:\\UKAHT_Pipeline\\data\\images\\Condition_Artefacts\\Artefacts_A_Var_Copyrright_L_Ling\\A1c260a.jpg',2026-08-05T02:26:28+00:00
+e6f22aee978d4eea89bc273e4f846207,A1c251_13.jpg,Florence-2,image file is truncated (34 bytes not processed),2026-08-05T02:27:39+00:00
+d64012d8185445929e5f54af5ca55b03,A1c260a.jpg,Florence-2,cannot identify image file 'E:\\UKAHT_Pipeline\\data\\images\\Condition_Artefacts\\Artefacts_A_Var_Copyrright_L_Ling\\A1c260a.jpg',2026-08-05T02:27:39+00:00
