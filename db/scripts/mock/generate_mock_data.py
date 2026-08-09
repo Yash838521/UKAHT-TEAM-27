@@ -60,6 +60,43 @@ VALID_CATEGORIES = [
     'Camp life', 'Vehicles', 'Landscape', 'Unique only'
 ]
 
+# Realistic mock captions — Florence-2 style descriptions
+# Exterior captions
+EXTERIOR_CAPTIONS = [
+    "Two researchers standing outside a red tent in snowy conditions near the camp.",
+    "An expedition member loading supplies onto a sledge beside the base hut.",
+    "A group of people in heavy winter clothing gathered outside the camp buildings.",
+    "A snow vehicle parked next to fuel drums at the Antarctic expedition base.",
+    "An exterior view of the camp with flags visible against a grey overcast sky.",
+    "A lone figure walking across a snow-covered landscape carrying equipment.",
+    "Several sledges loaded with gear arranged outside the main camp building.",
+    "Researchers working on scientific equipment in an open snow field.",
+    "A tent pitched in the snow with mountains visible in the distance.",
+    "Two people unloading crates from a snow vehicle near the fuel storage area.",
+    "An aerial view of the expedition camp with multiple huts and antenna visible.",
+    "A flag on a pole outside the main building with snow drifts in the background.",
+]
+
+# Interior captions
+INTERIOR_CAPTIONS = [
+    "Scientists reviewing data on laptops inside the dimly lit camp hut.",
+    "A cluttered table with scientific instruments and food supplies inside the base.",
+    "Two researchers examining samples under a microscope in the interior lab space.",
+    "Camp beds and personal equipment arranged along the walls of the sleeping quarters.",
+    "A stove with cooking equipment on a table inside the expedition hut.",
+    "Scientific gear and clothing hanging from hooks in the interior of the base.",
+    "A generator and electrical equipment in a utility room of the camp building.",
+    "Researchers gathered around a table reviewing maps and expedition notes.",
+    "A narrow corridor inside the base with ladders and equipment stored along the walls.",
+    "Interior view of the kitchen area with food stores and cooking equipment visible.",
+]
+
+def get_caption(scene_type):
+    """Return a realistic Florence-2 style caption based on scene type."""
+    if scene_type == 'exterior':
+        return random.choice(EXTERIOR_CAPTIONS)
+    return random.choice(INTERIOR_CAPTIONS)
+
 # Helper functions
 def weighted_choice(choices):
     values, weights = zip(*choices)
@@ -165,7 +202,6 @@ def build_categories(scene_type, people_count, tags):
 
     assignments = []
 
-    # Scene type → primary category
     if scene_type == 'exterior':
         assignments.append(('Exterior', round(random.uniform(0.65, 0.95), 3), True))
         if random.random() < 0.55:
@@ -173,12 +209,10 @@ def build_categories(scene_type, people_count, tags):
     elif scene_type == 'interior':
         assignments.append(('Interior', round(random.uniform(0.60, 0.92), 3), True))
 
-    # People count → People category
     if people_count and people_count > 0:
         conf = round(random.uniform(0.70, 0.95) if people_count >= 2 else random.uniform(0.55, 0.85), 3)
         assignments.append(('People', conf, False))
 
-    # Tags → Equipment, Vehicles, Camp life
     if any(t in vehicle_tags for t in tag_names):
         assignments.append(('Vehicles', round(random.uniform(0.55, 0.88), 3), False))
     if any(t in equip_tags for t in tag_names):
@@ -186,17 +220,14 @@ def build_categories(scene_type, people_count, tags):
     if any(t in camp_tags for t in tag_names):
         assignments.append(('Camp life', round(random.uniform(0.48, 0.82), 3), False))
 
-    # 10% noise — wrong category assignment
     if random.random() < 0.10:
         noise = random.choice(VALID_CATEGORIES)
         if noise not in [a[0] for a in assignments]:
             assignments.append((noise, round(random.uniform(0.25, 0.45), 3), False))
 
-    # Fallback
     if not assignments:
         assignments.append(('Landscape', round(random.uniform(0.35, 0.55), 3), True))
 
-    # Build final JSON structure
     return [
         {
             'category':    cat,
@@ -208,8 +239,8 @@ def build_categories(scene_type, people_count, tags):
     ]
 
 
-# STEP 1 — ai_tags (including categories JSON)
-print("\nStep 1: Populating ai_tags + categories...")
+# STEP 1 — ai_tags (including categories JSON and caption)
+print("\nStep 1: Populating ai_tags + categories + captions...")
 
 failed_tagging = set(random.sample(image_ids, int(len(image_ids) * 0.15)))
 ai_tag_map     = {}
@@ -232,6 +263,7 @@ for image_id in image_ids:
     model        = random.choice(AI_MODELS)
     is_verified  = random.random() < 0.08
     categories   = build_categories(scene_type, people_count, tags)
+    caption      = get_caption(scene_type)
 
     cursor.execute("""
         UPDATE ai_tags SET
@@ -241,6 +273,7 @@ for image_id in image_ids:
             people_confidence = %s,
             tags              = %s,
             categories        = %s,
+            caption           = %s,
             model_name        = %s,
             is_verified       = %s
         WHERE image_id = %s
@@ -249,6 +282,7 @@ for image_id in image_ids:
         people_count, people_conf,
         json.dumps(tags),
         json.dumps(categories),
+        caption,
         model, is_verified,
         image_id
     ))
@@ -257,12 +291,13 @@ for image_id in image_ids:
         'scene_type':   scene_type,
         'people_count': people_count,
         'tags':         tags,
-        'categories':   categories
+        'categories':   categories,
+        'caption':      caption
     }
     ai_success += 1
 
 conn.commit()
-print(f"  {ai_success} tagged, {len(failed_tagging)} failed")
+print(f"  {ai_success} tagged with captions, {len(failed_tagging)} failed")
 
 
 # STEP 2 — quality_scores
@@ -443,6 +478,9 @@ print(f"ai_tags failed/empty:           {cursor.fetchone()[0]}")
 
 cursor.execute("SELECT COUNT(*) FROM ai_tags WHERE categories IS NOT NULL")
 print(f"images with categories:         {cursor.fetchone()[0]}")
+
+cursor.execute("SELECT COUNT(*) FROM ai_tags WHERE caption IS NOT NULL")
+print(f"images with captions:           {cursor.fetchone()[0]}")
 
 cursor.execute("SELECT COUNT(*) FROM quality_scores WHERE overall_score IS NOT NULL")
 print(f"quality_scores populated:       {cursor.fetchone()[0]}")

@@ -36,9 +36,10 @@ CREATE TABLE ai_tags (
     scene_confidence    FLOAT,
     people_count        INT,
     people_confidence   FLOAT,
-    tags                JSON, 
+    tags                JSON,
     -- [{"tag": "tent", "confidence": 0.87}, ...]
     categories          JSON,
+    caption             TEXT,
     model_name          VARCHAR(100),
     is_verified         BOOLEAN DEFAULT FALSE,
     tagged_at           DATETIME DEFAULT CURRENT_TIMESTAMP,
