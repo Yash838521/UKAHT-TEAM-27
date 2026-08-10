@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core'
 import { HttpClient, HttpParams } from '@angular/common/http'
 import { Observable } from 'rxjs'
 import { environment } from '../../../environments/environment'
-import { Image, ImagesResponse, TagCount } from '../models'
+import { Image, ImagesResponse, TagCount, ImageDetail } from '../models'
 
 @Injectable({ providedIn: 'root' })
 export class ImagesService {
@@ -43,4 +43,14 @@ export class ImagesService {
   getTagCounts(): Observable<TagCount[]> {
     return this.http.get<TagCount[]>(`${this.base}/stats/tags`)
   }
+
+  // Image detail page — full metadata for one image
+getImageById(id: number): Observable<ImageDetail> {
+  return this.http.get<ImageDetail>(`${this.base}/images/${id}`)
+}
+
+// Image detail page — other images in same duplicate cluster
+getSimilarImages(id: number): Observable<Image[]> {
+  return this.http.get<Image[]>(`${this.base}/images/${id}/similar`)
+}
 }

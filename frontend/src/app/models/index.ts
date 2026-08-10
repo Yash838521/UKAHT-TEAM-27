@@ -62,3 +62,44 @@ export interface FilterState {
   page:          number
   limit:         number
 }
+
+// ── Image detail (used on /images/:id page) ───────────
+export interface ImageDetail {
+  id:                number
+  filename:          string
+  storage_url:       string
+  uploaded_at:       string
+  date_taken:        string | null
+  camera_make:       string | null
+  camera_model:      string | null
+  serial_number:     string | null
+  lens_model:        string | null
+  image_width:       number | null
+  image_height:      number | null
+  iso:               number | null
+  flash:             string | null
+  white_balance:     string | null
+  orientation:       string | null
+  software:          string | null
+  gps_latitude:      number | null
+  gps_longitude:     number | null
+  scene_type:        string | null
+  scene_confidence:  number | null
+  people_count:      number | null
+  people_confidence: number | null
+  tags:              { tag: string; confidence: number }[]
+  categories:        { category: string; confidence: number; is_primary: boolean }[]
+  caption:           string | null
+  model_name:        string | null
+  is_verified:       boolean
+  sharpness_score:   number | null
+  exposure_score:    number | null
+  overall_score:     number | null
+  is_best_in_group:  boolean
+  cluster_id:        number | null
+  similarity_score:  number | null
+  is_representative: boolean
+  corrected_scene_type:   string | null
+  corrected_people_count: string | null
+  reviewer:               string | null
+}
