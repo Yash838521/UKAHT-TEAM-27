@@ -10,7 +10,6 @@ def get_sharpness_val(grey_img):
     return sharpness_val
 
 # sharpness
-
 def get_sharpness_score(sharpness_val,ref_max=500):
     score = sharpness_val/ref_max
     if score>1:
@@ -20,7 +19,6 @@ def get_sharpness_score(sharpness_val,ref_max=500):
     return round(score,4)
 
 # exposure
-
 def get_exposure_info(grey_img):
     histogram = cv2.calcHist([grey_img],[0],None,[256],[0,256]).flatten()
     total_pixels = grey_img.size
@@ -39,7 +37,6 @@ def get_exposure_score(dark_clipped_pcnt,bright_clipped_pcnt,avg_brightness):
     return round(exposure_score,4)
 
 # finding images
-
 def find_jpg_images(input_list):
     jpg_files = []
     for p in input_list:
@@ -63,8 +60,11 @@ def find_jpg_images(input_list):
             unique_files.append(f)
     return unique_files
 
-# duplicate cluster
 
+def get_labeled_name(img_path):
+    return f"{img_path.parent.name}/{img_path.name}"
+
+# duplicate cluster
 def load_best_in_group_info(cluster_csv_path):
     best_in_group_lookup = {}
     with open(cluster_csv_path,newline="") as csv_file:
@@ -106,8 +106,9 @@ def main():
         dark_pct,bright_pct,avg_brightness,brightness_spread = get_exposure_info(grey_img)
         exposure_score = get_exposure_score(dark_pct,bright_pct,avg_brightness)
         overall_score = round((sharpness_score+exposure_score)/2,4)
-        is_best_in_group = best_in_group_lookup.get(img_path.name,False)
-        row = {"id":row_id,"image_id":row_id,"image_name":img_path.name,"sharpness_score":sharpness_score,"exposure_score":exposure_score,"overall_score":overall_score,"is_best_in_group":is_best_in_group,"scored_at":run_timestamp}
+        labeled_name = get_labeled_name(img_path)
+        is_best_in_group = best_in_group_lookup.get(labeled_name,False)
+        row = {"id":row_id,"image_id":row_id,"image_name":labeled_name,"sharpness_score":sharpness_score,"exposure_score":exposure_score,"overall_score":overall_score,"is_best_in_group":is_best_in_group,"scored_at":run_timestamp}
         if args.with_diagnostics:
             row["sharpness_raw_variance"] = round(sharpness_val,2)
             row["dark_clipped_percent"] = round(dark_pct,2)
@@ -115,7 +116,7 @@ def main():
             row["average_brightness"] = round(avg_brightness,2)
             row["brightness_spread"] = round(brightness_spread,2)
         all_rows.append(row)
-        print(img_path.name,"sharpness:",sharpness_score,"exposure:",exposure_score,"overall:",overall_score,"best_in_group:",is_best_in_group)
+        print(labeled_name,"sharpness:",sharpness_score,"exposure:",exposure_score,"overall:",overall_score,"best_in_group:",is_best_in_group)
         row_id += 1
     col_names = ["id","image_id","image_name","sharpness_score","exposure_score","overall_score","is_best_in_group","scored_at"]
     if args.with_diagnostics:
