@@ -1,7 +1,7 @@
 """
 UKAHT Mock Data Generator
 Populates ai_tags, quality_scores, duplicate_clusters, embeddings,
-categories, image_categories data.
+categories, image_categories data, and upload_batches.
 """
 
 import os
@@ -467,6 +467,58 @@ conn.commit()
 print("  12 corrections inserted across 2 reviewers")
 
 
+# STEP 6 — upload_batches + link images to batches
+print("\nStep 6: Populating upload_batches and linking images...")
+
+STAFF_MEMBERS = ['staff_alice', 'staff_bob', 'staff_carol']
+
+# Split all image IDs into mock batches of 5-20 images each
+remaining_ids  = list(image_ids)
+random.shuffle(remaining_ids)
+batch_groups   = []
+
+while remaining_ids:
+    size  = random.randint(5, 20)
+    group = remaining_ids[:size]
+    remaining_ids = remaining_ids[size:]
+    batch_groups.append(group)
+
+# Create batches going back in time — newest first in DB
+from datetime import datetime, timedelta
+
+batch_count = 0
+for i, group in enumerate(batch_groups):
+    # Spread batches over the last 90 days
+    days_ago     = int(i * (90 / max(len(batch_groups), 1)))
+    uploaded_at  = datetime.now() - timedelta(days=days_ago, hours=random.randint(0, 8))
+    uploaded_by  = random.choice(STAFF_MEMBERS)
+    total_files  = len(group)
+    # Simulate ~95% success rate
+    failed       = sum(1 for _ in group if random.random() < 0.05)
+    success      = total_files - failed
+
+    cursor.execute("""
+        INSERT INTO upload_batches
+            (uploaded_by, uploaded_at, total_files, success, failed)
+        VALUES (%s, %s, %s, %s, %s)
+    """, (uploaded_by, uploaded_at, total_files, success, failed))
+
+    batch_id = cursor.lastrowid
+
+    # Link images to this batch
+    for image_id in group:
+        cursor.execute(
+            "UPDATE images SET batch_id = %s WHERE id = %s",
+            (batch_id, image_id)
+        )
+
+    batch_count += 1
+
+conn.commit()
+print(f"  {batch_count} batches created")
+print(f"  {len(image_ids)} images linked to batches")
+
+
 # FINAL SUMMARY
 print("\nSummary")
 
@@ -499,6 +551,12 @@ print(f"human corrections logged:       {cursor.fetchone()[0]}")
 
 cursor.execute("SELECT COUNT(*) FROM ai_tags WHERE is_verified = TRUE")
 print(f"images verified by staff:       {cursor.fetchone()[0]}")
+
+cursor.execute("SELECT COUNT(*) FROM upload_batches")
+print(f"upload batches created:         {cursor.fetchone()[0]}")
+
+cursor.execute("SELECT COUNT(*) FROM images WHERE batch_id IS NOT NULL")
+print(f"images linked to batches:       {cursor.fetchone()[0]}")
 
 cursor.close()
 conn.close()
