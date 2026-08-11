@@ -50,10 +50,30 @@ from ukaht.tagging.calibration import (
 )
 
 DEFAULT_WEIGHTS = {
-    "confidence": 0.35,
-    "quality": 0.20,
-    "agreement": 0.30,
-    "novelty": 0.15,
+    "confidence": 0.50,
+    "quality": 0.35,
+    "agreement": 0.15,
+    "novelty": 0.00,
+}
+
+MEASURED_WEIGHTS = dict(DEFAULT_WEIGHTS)
+
+UNIFORM_WEIGHTS = {
+    "confidence": 0.25,
+    "quality": 0.25,
+    "agreement": 0.25,
+    "novelty": 0.25,
+}
+
+WEIGHT_SETS = {
+    "measured": MEASURED_WEIGHTS,
+    "uniform": UNIFORM_WEIGHTS,
+    "confidence_quality": {
+        "confidence": 0.60,
+        "quality": 0.40,
+        "agreement": 0.00,
+        "novelty": 0.00,
+    },
 }
 
 REVIEW_THRESHOLD = 0.55
@@ -61,43 +81,113 @@ REVIEW_THRESHOLD = 0.55
 SCORED_FACETS = ("scene_type", "shot_type", "room", "nature", "condition")
 
 TERM_LEXICON: dict[str, tuple[str, ...]] = {
-    "exterior": ("building", "exterior", "outside", "hut", "cabin", "shed", "structure"),
-    "interior": ("interior", "inside", "room", "wall", "floor", "ceiling"),
-    "landscape": ("landscape", "mountain", "snow-covered", "horizon", "scenery", "terrain"),
-    "object_study": ("close-up", "background is blurred", "plain", "white surface", "focal point"),
-    "wide": ("landscape", "wide", "background", "distance", "overall scene"),
-    "medium": ("shelf", "wall", "section", "part of"),
-    "detail": ("close-up", "closeup", "focal point", "blurred"),
-    "living_room": ("living room", "armchair", "sofa", "fireplace", "lounge"),
-    "kitchen": ("kitchen", "stove", "oven", "kettle", "countertop", "pantry"),
-    "workshop": ("workshop", "workbench", "tools", "garage", "machinery"),
-    "bunkroom": ("bunk", "bed", "bedroom", "mattress", "pillow", "dormitory"),
-    "radio_room": ("radio", "control panel", "knobs", "dials", "switches", "antenna"),
-    "storage": ("shelf", "shelves", "stacked", "crates", "storage", "containers"),
-    "museum_display": ("museum", "display", "plaque", "information", "exhibit", "label"),
+    "exterior": (
+        "building", "exterior", "outside", "hut", "cabin", "shed", "structure",
+        "roof", "chimney", "facade", "wall of", "house", "lodge",
+    ),
+    "interior": (
+        "interior", "inside", "room", "wall", "floor", "ceiling", "indoor",
+        "shelf", "shelves", "furniture", "doorway",
+    ),
+    "landscape": (
+        "landscape", "mountain", "snow-covered", "horizon", "scenery", "terrain",
+        "expanse", "coastline", "shore", "vast", "glacier", "wilderness",
+    ),
+    "object_study": (
+        "close-up", "closeup", "background is blurred", "plain", "white surface",
+        "focal point", "against a", "resting on", "lying on", "sitting on",
+        "photograph of a", "the object", "appears to be made of", "blurred, but",
+        "wooden surface", "beige", "cardboard", "white background", "the item",
+    ),
+    "wide": (
+        "landscape", "wide", "background", "in the distance", "overall scene",
+        "vast", "expanse", "panoramic", "surrounding",
+    ),
+    "medium": (
+        "shelf", "wall", "section", "part of", "row of", "collection of",
+        "arranged", "stacked", "several",
+    ),
+    "detail": (
+        "close-up", "closeup", "focal point", "blurred", "detail", "tightly",
+        "the surface", "texture", "engraved", "label reads", "written on",
+    ),
+    "living_room": (
+        "living room", "armchair", "sofa", "fireplace", "lounge", "couch",
+        "coffee table", "bookshelf",
+    ),
+    "kitchen": (
+        "kitchen", "stove", "oven", "kettle", "countertop", "pantry",
+        "cooking", "saucepan", "frying pan", "utensil", "food tin",
+    ),
+    "workshop": (
+        "workshop", "workbench", "tools", "garage", "machinery", "wrench",
+        "hammer", "toolbox", "equipment scattered",
+    ),
+    "bunkroom": (
+        "bunk", "bed", "bedroom", "mattress", "pillow", "dormitory",
+        "blanket", "linens", "sleeping",
+    ),
+    "radio_room": (
+        "radio", "control panel", "knobs", "dials", "switches", "antenna",
+        "receiver", "transmitter", "wires", "electronic",
+    ),
+    "storage": (
+        "shelf", "shelves", "stacked", "crates", "storage", "containers",
+        "boxes", "supplies", "arranged neatly",
+    ),
+    "museum_display": (
+        "museum", "display", "plaque", "information", "exhibit", "label",
+        "survey", "collection", "catalogue", "poster", "signboard",
+        "condition survey", "list of items", "documentation",
+    ),
     "penguin": ("penguin",),
     "dog": ("dog", "husky", "sled dog"),
     "seal": ("seal",),
-    "bird": ("bird",),
+    "bird": ("bird", "puffin"),
     "whale": ("whale",),
-    "snow": ("snow", "snowy", "snow-covered"),
-    "sea_ice": ("sea ice", "frozen", "ice"),
+    "snow": ("snow", "snowy", "snow-covered", "snow-capped"),
+    "sea_ice": ("sea ice", "frozen", "ice floe", "ice-covered"),
     "iceberg": ("iceberg",),
     "glacier": ("glacier", "ice cliff", "ice shelf"),
-    "exposed_rock": ("rock", "rocky", "boulder", "pebble"),
-    "mountains": ("mountain", "peak", "range"),
-    "open_water": ("water", "sea", "ocean", "bay"),
+    "exposed_rock": ("rock", "rocky", "boulder", "pebble", "stone"),
+    "mountains": ("mountain", "peak", "range", "snow-capped"),
+    "open_water": ("water", "sea", "ocean", "bay", "lake"),
     "coastline": ("shore", "coast", "shoreline", "beach"),
-    "sunset": ("sunset", "sunrise", "orange sky", "pink sky"),
-    "overcast": ("overcast", "cloudy", "grey sky", "gloomy"),
-    "clear_sky": ("clear", "blue sky", "sunny"),
-    "weathered_timber": ("weathered", "peeling", "worn", "aged", "dilapidated"),
-    "paint_loss": ("peeling paint", "chipped", "flaking", "faded"),
-    "rust": ("rust", "rusted", "rusty", "corroded", "corrosion"),
-    "structural_damage": ("broken", "collapsed", "crumbling", "damaged", "rubble"),
-    "object_wear": ("worn", "aged", "weathered", "old", "wear and tear"),
+    "sunset": ("sunset", "sunrise", "orange sky", "pink sky", "warm glow"),
+    "overcast": ("overcast", "cloudy", "grey sky", "gloomy", "bleak"),
+    "clear_sky": ("clear", "blue sky", "sunny", "clear and blue"),
+    "weathered_timber": (
+        "weathered", "peeling", "worn", "aged", "dilapidated", "chipped",
+        "cracks", "faded",
+    ),
+    "paint_loss": (
+        "peeling paint", "chipped", "flaking", "faded", "paint peeling",
+        "discoloured", "discolored",
+    ),
+    "rust": ("rust", "rusted", "rusty", "corroded", "corrosion", "oxidised"),
+    "structural_damage": (
+        "broken", "collapsed", "crumbling", "damaged", "rubble", "debris",
+    ),
+    "object_wear": (
+        "worn", "aged", "weathered", "old", "wear and tear", "signs of wear",
+        "frayed", "scratches", "grime",
+    ),
     "sound": (),
 }
+
+DOCUMENT_MARKERS = (
+    "survey",
+    "list of items",
+    "written on",
+    "text reads",
+    "label reads",
+    "titled",
+    "poster",
+    "signboard",
+    "printed",
+    "document",
+)
+
 
 PEOPLE_MARKERS = (
     "person",
@@ -262,6 +352,12 @@ def agreement_signal(description: str, assigned: dict[str, str]) -> tuple[float,
     if checked == 0:
         return 0.5, 0, 0
 
+    # A description dominated by transcribed text describes what the image
+    # depicts only indirectly, so absence of the expected expressions is not
+    # evidence that the assigned terms are wrong.
+    if corroborated == 0 and any(marker in description for marker in DOCUMENT_MARKERS):
+        return 0.5, corroborated, checked
+
     return round(1.0 - corroborated / checked, 4), corroborated, checked
 
 
@@ -408,6 +504,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--model", default="openai/clip-vit-base-patch32")
     parser.add_argument("--prompt-cache", type=Path, default=Path("data/interim/prompt_vectors.npz"))
     parser.add_argument("--review-threshold", type=float, default=REVIEW_THRESHOLD)
+    parser.add_argument(
+        "--weights",
+        choices=sorted(WEIGHT_SETS),
+        default="measured",
+        help="component weighting to apply",
+    )
     args = parser.parse_args(argv)
 
     problems = vocab.validate()
@@ -437,6 +539,8 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Quality measurements: {len(quality)}")
     print(f"Descriptions: {len(descriptions)}")
     print(f"Reference images: {len(reference)}")
+    weights = WEIGHT_SETS[args.weights]
+    print(f"Weights ({args.weights}): " + ", ".join(f"{k} {v:.2f}" for k, v in weights.items()))
     print()
 
     scores = score_archive(
@@ -447,7 +551,7 @@ def main(argv: list[str] | None = None) -> int:
         quality,
         descriptions,
         reference,
-        DEFAULT_WEIGHTS,
+        WEIGHT_SETS[args.weights],
         args.review_threshold,
     )
 
