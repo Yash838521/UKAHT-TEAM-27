@@ -1,0 +1,1005 @@
+id,image_id,image_name,sharpness_score,exposure_score,overall_score,is_best_in_group,scored_at
+1,1,JNH/Port Lockroy 24th April 2020 JNH (48) (Large).jpg,0.1019,0.8158,0.4588,False,2026-08-11 18:55:19
+2,2,JNH/Port Lockroy 24th April 2020 JNH (39) (Large).jpg,0.2803,0.9762,0.6282,False,2026-08-11 18:55:19
+3,3,JNH/P7630236 (Large).jpg,1,0.941,0.9705,False,2026-08-11 18:55:19
+4,4,JNH/Port Lockroy 24th April 2020 JNH (9) (Large).jpg,0.2983,0.8163,0.5573,False,2026-08-11 18:55:19
+5,5,JNH/Port Lockroy 24th April 2020 JNH (49) (Large).jpg,0.3991,0.8711,0.6351,False,2026-08-11 18:55:19
+6,6,JNH/Port Lockroy 24th April 2020 JNH (8) (Large).jpg,0.1803,0.9132,0.5468,False,2026-08-11 18:55:19
+7,7,JNH/Port Lockroy 24th April 2020 JNH (32) (Large).jpg,0.3552,0.9563,0.6558,False,2026-08-11 18:55:19
+8,8,JNH/Port Lockroy 24th April 2020 JNH (27) (Large).jpg,0.1218,0.5499,0.3359,False,2026-08-11 18:55:19
+9,9,JNH/Port Lockroy 24th April 2020 JNH (5) (Large).jpg,0.4186,0.9197,0.6692,False,2026-08-11 18:55:19
+10,10,JNH/Port Lockroy 24th April 2020 JNH (20) (Large).jpg,0.175,0.7426,0.4588,False,2026-08-11 18:55:19
+11,11,JNH/Port Lockroy 24th April 2020 JNH (2) (Large).jpg,1,0.9444,0.9722,False,2026-08-11 18:55:19
+12,12,JNH/Port Lockroy 24th April 2020 JNH (16) (Large).jpg,0.5231,0.3903,0.4567,False,2026-08-11 18:55:19
+13,13,JNH/Port Lockroy 24th April 2020 JNH (43) (Large).jpg,0.3225,0.9255,0.624,False,2026-08-11 18:55:19
+14,14,JNH/Port Lockroy 24th April 2020 JNH (11) (Large).jpg,0.3035,0.8371,0.5703,False,2026-08-11 18:55:19
+15,15,JNH/Port Lockroy 24th April 2020 JNH (44) (Large).jpg,0.1696,0.6499,0.4098,False,2026-08-11 18:55:19
+16,16,JNH/Port Lockroy 24th April 2020 JNH (51) (Large).jpg,0.3017,0.8441,0.5729,False,2026-08-11 18:55:19
+17,17,JNH/Port Lockroy 24th April 2020 JNH (56) (Large).jpg,0.4549,0.8925,0.6737,False,2026-08-11 18:55:19
+18,18,JNH/Port Lockroy 24th April 2020 JNH (3) (Large).jpg,1,0.9174,0.9587,False,2026-08-11 18:55:19
+19,19,JNH/Port Lockroy 24th April 2020 JNH (21) (Large).jpg,0.3953,0.8196,0.6074,False,2026-08-11 18:55:19
+20,20,JNH/Port Lockroy 24th April 2020 JNH (4) (Large).jpg,1,0.9856,0.9928,False,2026-08-11 18:55:19
+21,21,JNH/Port Lockroy 24th April 2020 JNH (26) (Large).jpg,0.4723,0.6258,0.549,False,2026-08-11 18:55:19
+22,22,JNH/Port Lockroy 24th April 2020 JNH (33) (Large).jpg,1,0.8957,0.9478,False,2026-08-11 18:55:19
+23,23,JNH/Port Lockroy 24th April 2020 JNH (34) (Large).jpg,0.8639,0.9754,0.9196,False,2026-08-11 18:55:19
+24,24,JNH/Port Lockroy 24th April 2020 JNH (10) (Large).jpg,0.1836,0.9158,0.5497,False,2026-08-11 18:55:19
+25,25,JNH/Port Lockroy 24th April 2020 JNH (42) (Large).jpg,0.4984,0.9175,0.708,False,2026-08-11 18:55:19
+26,26,JNH/Port Lockroy 24th April 2020 JNH (17) (Large).jpg,0.4156,0.6616,0.5386,False,2026-08-11 18:55:19
+27,27,JNH/Port Lockroy 24th April 2020 JNH (24) (Large).jpg,0.0676,0.8108,0.4392,False,2026-08-11 18:55:19
+28,28,JNH/Port Lockroy 24th April 2020 JNH (6) (Large).jpg,0.7901,0.9325,0.8613,False,2026-08-11 18:55:19
+29,29,JNH/Port Lockroy 24th April 2020 JNH (23) (Large).jpg,0.1834,0.5988,0.3911,False,2026-08-11 18:55:19
+30,30,JNH/Port Lockroy 24th April 2020 JNH (1) (Large).jpg,1,0.8933,0.9466,False,2026-08-11 18:55:19
+31,31,JNH/Port Lockroy 24th April 2020 JNH (36) (Large).jpg,0.7581,0.8855,0.8218,False,2026-08-11 18:55:19
+32,32,JNH/Port Lockroy 24th April 2020 JNH (31) (Large).jpg,0.1492,0.7682,0.4587,False,2026-08-11 18:55:19
+33,33,JNH/Port Lockroy 24th April 2020 JNH (52) (Large).jpg,0.7765,0.9666,0.8716,False,2026-08-11 18:55:19
+34,34,JNH/Port Lockroy 24th April 2020 JNH (55) (Large).jpg,1,0.9091,0.9546,False,2026-08-11 18:55:19
+35,35,JNH/Port Lockroy 24th April 2020 JNH (40) (Large).jpg,0.5587,0.8893,0.724,False,2026-08-11 18:55:19
+36,36,JNH/Port Lockroy 24th April 2020 JNH (12) (Large).jpg,0.3354,0.9063,0.6208,False,2026-08-11 18:55:19
+37,37,JNH/Port Lockroy 24th April 2020 JNH (47) (Large).jpg,0.2403,0.8307,0.5355,False,2026-08-11 18:55:19
+38,38,JNH/Port Lockroy 24th April 2020 JNH (30) (Large).jpg,0.2559,0.8638,0.5598,False,2026-08-11 18:55:19
+39,39,JNH/Port Lockroy 24th April 2020 JNH (37) (Large).jpg,0.5417,0.8098,0.6758,False,2026-08-11 18:55:19
+40,40,JNH/Port Lockroy 24th April 2020 JNH (22) (Large).jpg,0.1171,0.6743,0.3957,False,2026-08-11 18:55:19
+41,41,JNH/Port Lockroy 24th April 2020 JNH (7) (Large).jpg,0.5165,0.9226,0.7195,False,2026-08-11 18:55:19
+42,42,JNH/Port Lockroy 24th April 2020 JNH (25) (Large).jpg,0.0572,0.837,0.4471,False,2026-08-11 18:55:19
+43,43,JNH/Port Lockroy 24th April 2020 JNH (13) (Large).jpg,0.5209,0.9168,0.7188,False,2026-08-11 18:55:19
+44,44,JNH/Port Lockroy 24th April 2020 JNH (41) (Large).jpg,0.2902,0.9633,0.6268,False,2026-08-11 18:55:19
+45,45,JNH/Port Lockroy 24th April 2020 JNH (14) (Large).jpg,0.1183,0.9786,0.5484,False,2026-08-11 18:55:19
+46,46,JNH/Port Lockroy 24th April 2020 JNH (54) (Large).jpg,0.3961,0.2746,0.3354,False,2026-08-11 18:55:19
+47,47,JNH/Port Lockroy 24th April 2020 JNH (53) (Large).jpg,0.1695,0.7349,0.4522,False,2026-08-11 18:55:19
+48,48,JNH/Port Lockroy 24th April 2020 JNH (19) (Large).jpg,0.2126,0.779,0.4958,False,2026-08-11 18:55:19
+49,49,JNH/Port Lockroy 24th April 2020 JNH (28) (Large).jpg,0.1389,0.7295,0.4342,False,2026-08-11 18:55:19
+50,50,JNH/Port Lockroy 24th April 2020 JNH (18) (Large).jpg,0.0603,0.3637,0.212,False,2026-08-11 18:55:19
+51,51,JNH/P7630273 (Large).jpg,0.5499,0.84,0.695,False,2026-08-11 18:55:19
+52,52,JNH/Port Lockroy 24th April 2020 JNH (29) (Large).jpg,0.0925,0.9745,0.5335,False,2026-08-11 18:55:19
+53,53,JNH/P7630268 (Large).JPG,0.8329,0.9044,0.8686,False,2026-08-11 18:55:19
+54,54,JNH/P7630264 (Large).JPG,0.5664,0.8778,0.7221,False,2026-08-11 18:55:19
+55,55,JNH/P7630267 (Large).JPG,0.9778,0.9621,0.97,False,2026-08-11 18:55:19
+56,56,JNH/P7630259 (Large).JPG,1,0.8847,0.9424,False,2026-08-11 18:55:19
+57,57,JNH/P7630262 (Large).JPG,0.5001,0.7364,0.6182,False,2026-08-11 18:55:19
+58,58,JNH/P7630265 (Large).JPG,0.204,0.7873,0.4956,False,2026-08-11 18:55:19
+59,59,JNH/P7630260 (Large).JPG,0.7336,0.8913,0.8124,False,2026-08-11 18:55:19
+60,60,JNH/P7630263 (Large).JPG,0.6394,0.9049,0.7722,False,2026-08-11 18:55:19
+61,61,JNH/P7630276 (Large).JPG,0.5998,0.9333,0.7666,False,2026-08-11 18:55:19
+62,62,JNH/P7630258 (Large).JPG,1,0.875,0.9375,False,2026-08-11 18:55:19
+63,63,JNH/P7630266 (Large).JPG,0.6288,0.8126,0.7207,False,2026-08-11 18:55:19
+64,64,A_1_h_16/A_1_h_16(1).jpg,0.0532,0.7802,0.4167,False,2026-08-11 18:55:19
+65,65,A_1_h_16/A_1_h_16(4).jpg,0.0372,0.9702,0.5037,False,2026-08-11 18:55:19
+66,66,A_1_h_16/HY9A2343.jpg,0.0532,0.7802,0.4167,False,2026-08-11 18:55:19
+67,67,A_1_h_16/HY9A2344.jpg,0.0394,0.9636,0.5015,False,2026-08-11 18:55:19
+68,68,A_1_h_16/HY9A2345.jpg,0.0391,0.9518,0.4954,False,2026-08-11 18:55:19
+69,69,A_1_h_16/HY9A2346.jpg,0.0372,0.9702,0.5037,False,2026-08-11 18:55:19
+70,70,A_1_h_16/A_1_h_16(2).jpg,0.0394,0.9636,0.5015,False,2026-08-11 18:55:19
+71,71,A_1_h_16/A_1_h_16(3).jpg,0.0391,0.9518,0.4954,False,2026-08-11 18:55:19
+72,72,A_1_h_16/P1010139.JPG,0.0777,0.9508,0.5142,False,2026-08-11 18:55:19
+73,73,A_1_h_16/P1010138.JPG,0.0607,0.9964,0.5286,False,2026-08-11 18:55:19
+74,74,A_1_h_16/A_1_h_16(14).JPG,0.1421,0.9321,0.5371,False,2026-08-11 18:55:19
+75,75,A_1_h_16/PC130169.JPG,0.2929,0.972,0.6324,False,2026-08-11 18:55:19
+76,76,A_1_h_16/A_1_h_16(6).JPG,0.0777,0.9508,0.5142,False,2026-08-11 18:55:19
+77,77,A_1_h_16/A_1_h_16(13).JPG,0.1635,0.9875,0.5755,False,2026-08-11 18:55:19
+78,78,A_1_h_16/A_1_h_16(12).JPG,0.164,0.9552,0.5596,False,2026-08-11 18:55:19
+79,79,A_1_h_16/A_1_h_16(7).JPG,0.0827,0.9327,0.5077,False,2026-08-11 18:55:19
+80,80,A_1_h_16/P1010141.JPG,0.0858,0.9363,0.511,False,2026-08-11 18:55:19
+81,81,A_1_h_16/P1010140.JPG,0.0827,0.9327,0.5077,False,2026-08-11 18:55:19
+82,82,A_1_h_16/A_1_h_16(11).JPG,0.0876,0.954,0.5208,False,2026-08-11 18:55:19
+83,83,A_1_h_16/A_1_h_16(8).JPG,0.0858,0.9363,0.511,False,2026-08-11 18:55:19
+84,84,A_1_h_16/P1010143.JPG,0.0857,0.9542,0.52,False,2026-08-11 18:55:19
+85,85,A_1_h_16/A_1_h_16(9).JPG,0.0857,0.9542,0.52,False,2026-08-11 18:55:19
+86,86,A_1_h_16/A_1_h_16(10).JPG,0.2929,0.972,0.6324,False,2026-08-11 18:55:19
+87,87,A_1_h_16/A_1_h_16(5).JPG,0.0607,0.9964,0.5286,False,2026-08-11 18:55:19
+88,88,A_1_h_16/PC130171.JPG,0.164,0.9552,0.5596,False,2026-08-11 18:55:19
+89,89,A_1_h_16/PC130170.JPG,0.0876,0.954,0.5208,False,2026-08-11 18:55:19
+90,90,A_1_h_16/PC130172.JPG,0.1635,0.9875,0.5755,False,2026-08-11 18:55:19
+91,91,A_1_h_16/PC130173.JPG,0.1421,0.9321,0.5371,False,2026-08-11 18:55:19
+92,92,1112 new acquisitions/A1h164d.JPG,0.36,0.9823,0.6711,False,2026-08-11 18:55:19
+93,93,1112 new acquisitions/A1h165a.JPG,0.0887,0.9772,0.533,False,2026-08-11 18:55:19
+94,94,1112 new acquisitions/F2011-1a.JPG,0.1063,0.9357,0.521,False,2026-08-11 18:55:19
+95,95,1112 new acquisitions/DSC03227.JPG,0.0521,0.9927,0.5224,False,2026-08-11 18:55:19
+96,96,1112 new acquisitions/A1h165c.JPG,0.1923,0.9927,0.5925,False,2026-08-11 18:55:19
+97,97,1112 new acquisitions/F2011-1b.JPG,0.1037,0.9846,0.5442,False,2026-08-11 18:55:19
+98,98,1112 new acquisitions/A1h165b.JPG,0.2319,0.959,0.5954,False,2026-08-11 18:55:19
+99,99,1112 new acquisitions/DSC03193.JPG,0.217,0.9609,0.589,False,2026-08-11 18:55:19
+100,100,1112 new acquisitions/DSC03222.JPG,0.28,0.9922,0.6361,False,2026-08-11 18:55:19
+101,101,1112 new acquisitions/A1h164b.JPG,0.1844,0.827,0.5057,False,2026-08-11 18:55:19
+102,102,1112 new acquisitions/A1h164c.JPG,0.2554,0.853,0.5542,False,2026-08-11 18:55:19
+103,103,1112 new acquisitions/DSC03194.JPG,0.1978,0.9772,0.5875,False,2026-08-11 18:55:19
+104,104,1112 new acquisitions/DSC03221.JPG,0.0714,0.9349,0.5032,False,2026-08-11 18:55:19
+105,105,1112 new acquisitions/A1h164a.JPG,0.2467,0.989,0.6178,False,2026-08-11 18:55:19
+106,106,1112 new acquisitions/A1h166.JPG,0.1154,0.9133,0.5144,False,2026-08-11 18:55:19
+107,107,1112 new acquisitions/A1h167.JPG,1,0.9797,0.9898,False,2026-08-11 18:55:19
+108,108,1112 new acquisitions/A1h165.JPG,0.3521,0.9249,0.6385,False,2026-08-11 18:55:19
+109,109,1112 new acquisitions/A1a61a.JPG,0.0692,0.8946,0.4819,False,2026-08-11 18:55:19
+110,110,1112 new acquisitions/A1a60d.JPG,0.2245,0.9551,0.5898,False,2026-08-11 18:55:19
+111,111,1112 new acquisitions/A1a61b.JPG,0.0909,0.9158,0.5034,False,2026-08-11 18:55:19
+112,112,1112 new acquisitions/A1a61c.JPG,0.0748,0.9942,0.5345,False,2026-08-11 18:55:19
+113,113,1112 new acquisitions/A1a60c.JPG,0.0708,0.9487,0.5098,False,2026-08-11 18:55:19
+114,114,1112 new acquisitions/A1a60b.JPG,0.1027,0.9276,0.5152,False,2026-08-11 18:55:19
+115,115,1112 new acquisitions/A1a61d.JPG,0.1393,0.9881,0.5637,False,2026-08-11 18:55:19
+116,116,1112 new acquisitions/A1a60a.JPG,0.0745,0.917,0.4958,False,2026-08-11 18:55:19
+117,117,1112 new acquisitions/DSC03198.JPG,0.1343,0.9659,0.5501,False,2026-08-11 18:55:19
+118,118,1112 new acquisitions/DSC03205.JPG,0.8275,0.9919,0.9097,False,2026-08-11 18:55:19
+119,119,1112 new acquisitions/A1h167a.JPG,0.3048,0.8003,0.5526,False,2026-08-11 18:55:19
+120,120,1112 new acquisitions/DSC03204.JPG,0.4891,0.9303,0.7097,False,2026-08-11 18:55:19
+121,121,1112 new acquisitions/DSC03199.JPG,0.0614,0.8163,0.4388,False,2026-08-11 18:55:19
+122,122,1112 new acquisitions/DSC03206.JPG,0.8866,0.9435,0.915,False,2026-08-11 18:55:19
+123,123,1112 new acquisitions/DSC03217.JPG,0.1089,0.8843,0.4966,False,2026-08-11 18:55:19
+124,124,1112 new acquisitions/F2011-2c.JPG,0.1309,0.953,0.5419,False,2026-08-11 18:55:19
+125,125,1112 new acquisitions/F2011-2b.JPG,0.5011,0.9472,0.7242,False,2026-08-11 18:55:19
+126,126,1112 new acquisitions/DSC03189.JPG,0.1964,0.9712,0.5838,False,2026-08-11 18:55:19
+127,127,1112 new acquisitions/DSC03200.JPG,0.1201,0.975,0.5476,False,2026-08-11 18:55:19
+128,128,1112 new acquisitions/F2011-2a.JPG,0.1984,0.9333,0.5658,False,2026-08-11 18:55:19
+129,129,Artefacts_A_Var_Copyrright_L_Ling/A1e41m.jpg,0.4158,0.8741,0.645,False,2026-08-11 18:55:19
+130,130,Artefacts_A_Var_Copyrright_L_Ling/A1b5.jpg,0.8429,0.929,0.886,False,2026-08-11 18:55:19
+131,131,Artefacts_A_Var_Copyrright_L_Ling/A1c1.jpg,0.303,0.9331,0.618,False,2026-08-11 18:55:19
+132,132,Artefacts_A_Var_Copyrright_L_Ling/A1c197a.jpg,0.145,0.979,0.562,False,2026-08-11 18:55:19
+133,133,Artefacts_A_Var_Copyrright_L_Ling/A1e41z.jpg,0.161,0.9235,0.5422,False,2026-08-11 18:55:19
+134,134,Artefacts_A_Var_Copyrright_L_Ling/A1b53.jpg,0.0096,0.9429,0.4762,False,2026-08-11 18:55:19
+135,135,Artefacts_A_Var_Copyrright_L_Ling/A1c206a.jpg,0.1384,0.9583,0.5484,False,2026-08-11 18:55:19
+136,136,Artefacts_A_Var_Copyrright_L_Ling/A1b76b.jpg,0.0321,0.6669,0.3495,False,2026-08-11 18:55:19
+137,137,Artefacts_A_Var_Copyrright_L_Ling/A1c33b.jpg,0.033,0.9837,0.5084,False,2026-08-11 18:55:19
+138,138,Artefacts_A_Var_Copyrright_L_Ling/A1b8_1.jpg,0.9108,0.9269,0.9188,False,2026-08-11 18:55:19
+139,139,Artefacts_A_Var_Copyrright_L_Ling/A1c215_1.jpg,0.0888,0.9797,0.5342,False,2026-08-11 18:55:19
+140,140,Artefacts_A_Var_Copyrright_L_Ling/A1f17_2b.jpg,0.0311,0.9479,0.4895,False,2026-08-11 18:55:19
+141,141,Artefacts_A_Var_Copyrright_L_Ling/A1c250_1.jpg,0.0695,0.9182,0.4938,False,2026-08-11 18:55:19
+142,142,Artefacts_A_Var_Copyrright_L_Ling/A1c33c.jpg,0.0193,0.9986,0.509,False,2026-08-11 18:55:19
+143,143,Artefacts_A_Var_Copyrright_L_Ling/A1c32.jpg,0.7196,0.9889,0.8542,False,2026-08-11 18:55:19
+144,144,Artefacts_A_Var_Copyrright_L_Ling/A1d40.jpg,1,0.8847,0.9424,False,2026-08-11 18:55:19
+145,145,Artefacts_A_Var_Copyrright_L_Ling/A1c271b.jpg,0.0937,0.9214,0.5075,False,2026-08-11 18:55:19
+146,146,Artefacts_A_Var_Copyrright_L_Ling/A1b46.jpg,0.8973,0.9639,0.9306,False,2026-08-11 18:55:19
+147,147,Artefacts_A_Var_Copyrright_L_Ling/A1e20.jpg,0.1901,0.9201,0.5551,False,2026-08-11 18:55:19
+148,148,Artefacts_A_Var_Copyrright_L_Ling/A1e34.jpg,0.4944,0.985,0.7397,False,2026-08-11 18:55:19
+149,149,Artefacts_A_Var_Copyrright_L_Ling/A1b52.jpg,0.7461,0.9479,0.847,False,2026-08-11 18:55:19
+150,150,Artefacts_A_Var_Copyrright_L_Ling/A1e41l.jpg,0.0679,0.6926,0.3802,False,2026-08-11 18:55:19
+151,151,Artefacts_A_Var_Copyrright_L_Ling/A1c197b.jpg,0.1101,0.9794,0.5448,False,2026-08-11 18:55:19
+152,152,Artefacts_A_Var_Copyrright_L_Ling/A1c2.jpg,0.3444,0.9932,0.6688,False,2026-08-11 18:55:19
+153,153,Artefacts_A_Var_Copyrright_L_Ling/A1e41n.jpg,0.2966,0.9008,0.5987,False,2026-08-11 18:55:19
+154,154,Artefacts_A_Var_Copyrright_L_Ling/A1e41y.jpg,0.1063,0.8868,0.4966,False,2026-08-11 18:55:19
+155,155,Artefacts_A_Var_Copyrright_L_Ling/A1c206b.jpg,0.2545,0.9543,0.6044,False,2026-08-11 18:55:19
+156,156,Artefacts_A_Var_Copyrright_L_Ling/A1b76a.jpg,0.1851,0.8579,0.5215,False,2026-08-11 18:55:19
+157,157,Artefacts_A_Var_Copyrright_L_Ling/A1c33a.jpg,0.017,0.9516,0.4843,False,2026-08-11 18:55:19
+158,158,Artefacts_A_Var_Copyrright_L_Ling/A1c1y.jpg,0.2012,0.9287,0.5649,False,2026-08-11 18:55:19
+159,159,Artefacts_A_Var_Copyrright_L_Ling/A1c252_1.jpg,0.2124,0.9501,0.5812,False,2026-08-11 18:55:19
+160,160,Artefacts_A_Var_Copyrright_L_Ling/A1c135a.jpg,0.3965,0.8827,0.6396,False,2026-08-11 18:55:19
+161,161,Artefacts_A_Var_Copyrright_L_Ling/A1c135.jpg,0.2163,0.953,0.5846,False,2026-08-11 18:55:19
+162,162,Artefacts_A_Var_Copyrright_L_Ling/A1c250_2.jpg,0.2157,0.9652,0.5904,False,2026-08-11 18:55:19
+163,163,Artefacts_A_Var_Copyrright_L_Ling/A1c215_2.jpg,0.0971,0.8961,0.4966,False,2026-08-11 18:55:19
+164,164,Artefacts_A_Var_Copyrright_L_Ling/A1f17_2a.jpg,0.0325,0.9319,0.4822,False,2026-08-11 18:55:19
+165,165,Artefacts_A_Var_Copyrright_L_Ling/A1b8_2.jpg,0.7418,0.7438,0.7428,False,2026-08-11 18:55:19
+166,166,Artefacts_A_Var_Copyrright_L_Ling/A1c271a.jpg,0.1458,0.9111,0.5284,False,2026-08-11 18:55:19
+167,167,Artefacts_A_Var_Copyrright_L_Ling/A1e41x.jpg,0.2914,0.9277,0.6096,False,2026-08-11 18:55:19
+168,168,Artefacts_A_Var_Copyrright_L_Ling/A1e41o.jpg,0.2387,0.9426,0.5906,False,2026-08-11 18:55:19
+169,169,Artefacts_A_Var_Copyrright_L_Ling/A1e34a.jpg,0.4869,0.9545,0.7207,False,2026-08-11 18:55:19
+170,170,Artefacts_A_Var_Copyrright_L_Ling/A1e41k.jpg,0.0434,0.9714,0.5074,False,2026-08-11 18:55:19
+171,171,Artefacts_A_Var_Copyrright_L_Ling/A1b69.jpg,0.1799,0.9022,0.541,False,2026-08-11 18:55:19
+172,172,Artefacts_A_Var_Copyrright_L_Ling/A1b41.jpg,0.3126,0.8261,0.5694,False,2026-08-11 18:55:19
+173,173,Artefacts_A_Var_Copyrright_L_Ling/A1b55.jpg,1,0.9857,0.9928,False,2026-08-11 18:55:19
+174,174,Artefacts_A_Var_Copyrright_L_Ling/A1c251_13.jpg,0.6962,0.9871,0.8416,False,2026-08-11 18:55:19
+175,175,Artefacts_A_Var_Copyrright_L_Ling/A1c33d.jpg,0.0357,0.9946,0.5152,False,2026-08-11 18:55:19
+176,176,Artefacts_A_Var_Copyrright_L_Ling/A1c35.jpg,0.0264,0.9901,0.5082,False,2026-08-11 18:55:19
+177,177,Artefacts_A_Var_Copyrright_L_Ling/A1c21.jpg,0.1114,0.9673,0.5394,False,2026-08-11 18:55:19
+178,178,Artefacts_A_Var_Copyrright_L_Ling/A1c250_6.jpg,0.163,0.9829,0.573,False,2026-08-11 18:55:19
+179,179,Artefacts_A_Var_Copyrright_L_Ling/A1c250_7.jpg,0.1627,0.866,0.5144,False,2026-08-11 18:55:19
+180,180,Artefacts_A_Var_Copyrright_L_Ling/A1c66m.jpg,0.11,0.9474,0.5287,False,2026-08-11 18:55:19
+181,181,Artefacts_A_Var_Copyrright_L_Ling/A1c66z.jpg,0.3934,0.8387,0.616,False,2026-08-11 18:55:19
+182,182,Artefacts_A_Var_Copyrright_L_Ling/A1c134a.jpg,0.2088,0.9204,0.5646,False,2026-08-11 18:55:19
+183,183,Artefacts_A_Var_Copyrright_L_Ling/A1c20.jpg,0.4096,0.9093,0.6594,False,2026-08-11 18:55:19
+184,184,Artefacts_A_Var_Copyrright_L_Ling/A1c1j.jpg,0.6763,0.621,0.6486,False,2026-08-11 18:55:19
+185,185,Artefacts_A_Var_Copyrright_L_Ling/A1b77a.jpg,0.0282,0.5597,0.294,False,2026-08-11 18:55:19
+186,186,Artefacts_A_Var_Copyrright_L_Ling/A1c32a.jpg,0.0331,0.9522,0.4926,False,2026-08-11 18:55:19
+187,187,Artefacts_A_Var_Copyrright_L_Ling/A1b9a.jpg,0.0864,0.9854,0.5359,False,2026-08-11 18:55:19
+188,188,Artefacts_A_Var_Copyrright_L_Ling/A1c251_12.jpg,0.2327,0.8569,0.5448,False,2026-08-11 18:55:19
+189,189,Artefacts_A_Var_Copyrright_L_Ling/A1b61a.jpg,0.6793,0.9665,0.8229,False,2026-08-11 18:55:19
+190,190,Artefacts_A_Var_Copyrright_L_Ling/A1e32.jpg,0.0499,0.8684,0.4591,False,2026-08-11 18:55:19
+191,191,Artefacts_A_Var_Copyrright_L_Ling/A1e26.jpg,0.0899,0.9628,0.5264,False,2026-08-11 18:55:19
+192,192,Artefacts_A_Var_Copyrright_L_Ling/A1e41j.jpg,0.3813,0.8728,0.627,False,2026-08-11 18:55:19
+193,193,Artefacts_A_Var_Copyrright_L_Ling/A1e30.jpg,0.0877,0.97,0.5288,False,2026-08-11 18:55:19
+194,194,Artefacts_A_Var_Copyrright_L_Ling/A1e24.jpg,0.0802,0.989,0.5346,False,2026-08-11 18:55:19
+195,195,Artefacts_A_Var_Copyrright_L_Ling/A1b9c.jpg,0.3917,0.8946,0.6432,False,2026-08-11 18:55:19
+196,196,Artefacts_A_Var_Copyrright_L_Ling/A1c251_10.jpg,0.2622,0.972,0.6171,False,2026-08-11 18:55:19
+197,197,Artefacts_A_Var_Copyrright_L_Ling/A1c1h.jpg,0.4513,0.4572,0.4542,False,2026-08-11 18:55:19
+198,198,Artefacts_A_Var_Copyrright_L_Ling/A1c36.jpg,0.0253,0.9424,0.4838,False,2026-08-11 18:55:19
+199,199,Artefacts_A_Var_Copyrright_L_Ling/A1b36&37.jpg,0.1101,0.7728,0.4414,False,2026-08-11 18:55:19
+200,200,Artefacts_A_Var_Copyrright_L_Ling/A1c134c.jpg,0.0508,0.9137,0.4822,False,2026-08-11 18:55:19
+201,201,Artefacts_A_Var_Copyrright_L_Ling/A1c252_7.jpg,0.2477,0.9293,0.5885,False,2026-08-11 18:55:19
+202,202,Artefacts_A_Var_Copyrright_L_Ling/A1c66x.jpg,0.3249,0.7517,0.5383,False,2026-08-11 18:55:19
+203,203,Artefacts_A_Var_Copyrright_L_Ling/A1e9 (2).jpg,0.06,0.8271,0.4436,False,2026-08-11 18:55:19
+204,204,Artefacts_A_Var_Copyrright_L_Ling/A1c7&143.jpg,0.0346,0.9637,0.4992,False,2026-08-11 18:55:19
+205,205,Artefacts_A_Var_Copyrright_L_Ling/A1c250_5.jpg,0.213,0.9718,0.5924,False,2026-08-11 18:55:19
+206,206,Artefacts_A_Var_Copyrright_L_Ling/A1c66y.jpg,0.3,0.9774,0.6387,False,2026-08-11 18:55:19
+207,207,Artefacts_A_Var_Copyrright_L_Ling/A1c134b.jpg,0.0234,0.9355,0.4794,False,2026-08-11 18:55:19
+208,208,Artefacts_A_Var_Copyrright_L_Ling/A1c251_11.jpg,0.2724,0.9191,0.5958,False,2026-08-11 18:55:19
+209,209,Artefacts_A_Var_Copyrright_L_Ling/A1c28a.jpg,0.0203,0.6266,0.3234,False,2026-08-11 18:55:19
+210,210,Artefacts_A_Var_Copyrright_L_Ling/A1b9b.jpg,0.4571,0.954,0.7056,False,2026-08-11 18:55:19
+211,211,Artefacts_A_Var_Copyrright_L_Ling/A1b43.jpg,0.6315,0.9457,0.7886,False,2026-08-11 18:55:19
+212,212,Artefacts_A_Var_Copyrright_L_Ling/A1c5.jpg,0.1002,0.9815,0.5409,False,2026-08-11 18:55:19
+213,213,Artefacts_A_Var_Copyrright_L_Ling/A1b31a.jpg,0.0839,0.8715,0.4777,False,2026-08-11 18:55:19
+214,214,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1b.jpg,0.0739,0.8823,0.4781,False,2026-08-11 18:55:19
+215,215,Artefacts_A_Var_Copyrright_L_Ling/A1c251_3.jpg,0.524,0.9157,0.7198,False,2026-08-11 18:55:19
+216,216,Artefacts_A_Var_Copyrright_L_Ling/A1c78b.jpg,0.4421,0.9019,0.672,False,2026-08-11 18:55:19
+217,217,Artefacts_A_Var_Copyrright_L_Ling/A1e42.jpg,0.4472,0.9094,0.6783,False,2026-08-11 18:55:19
+218,218,Artefacts_A_Var_Copyrright_L_Ling/A1b70a.jpg,0.1229,0.9782,0.5506,False,2026-08-11 18:55:19
+219,219,Artefacts_A_Var_Copyrright_L_Ling/A1b71e.jpg,0.0411,0.7485,0.3948,False,2026-08-11 18:55:19
+220,220,Artefacts_A_Var_Copyrright_L_Ling/A1c78.jpg,0.0274,0.8758,0.4516,False,2026-08-11 18:55:19
+221,221,Artefacts_A_Var_Copyrright_L_Ling/A1c4b.jpg,0.1989,0.974,0.5864,False,2026-08-11 18:55:19
+222,222,Artefacts_A_Var_Copyrright_L_Ling/A1b71r.jpg,1,0.9215,0.9608,False,2026-08-11 18:55:19
+223,223,Artefacts_A_Var_Copyrright_L_Ling/A1c216b.jpg,0.0986,0.913,0.5058,False,2026-08-11 18:55:19
+224,224,Artefacts_A_Var_Copyrright_L_Ling/A1c260d.jpg,0.1172,0.9098,0.5135,False,2026-08-11 18:55:19
+225,225,Artefacts_A_Var_Copyrright_L_Ling/A1c250_12a.jpg,0.2023,0.9951,0.5987,False,2026-08-11 18:55:19
+226,226,Artefacts_A_Var_Copyrright_L_Ling/A1c169.jpg,0.0747,0.8999,0.4873,False,2026-08-11 18:55:19
+227,227,Artefacts_A_Var_Copyrright_L_Ling/A1c182.jpg,0.2035,0.971,0.5872,False,2026-08-11 18:55:19
+228,228,Artefacts_A_Var_Copyrright_L_Ling/A1c196.jpg,0.2797,0.9826,0.6312,False,2026-08-11 18:55:19
+229,229,Artefacts_A_Var_Copyrright_L_Ling/A1c257_1a.jpg,0.0402,0.947,0.4936,False,2026-08-11 18:55:19
+230,230,Artefacts_A_Var_Copyrright_L_Ling/A1c19a.jpg,0.9991,0.9389,0.969,False,2026-08-11 18:55:19
+231,231,Artefacts_A_Var_Copyrright_L_Ling/A1c251_13a.jpg,0.2327,0.8569,0.5448,False,2026-08-11 18:55:19
+232,232,Artefacts_A_Var_Copyrright_L_Ling/A1c236a.jpg,0.0425,0.8641,0.4533,False,2026-08-11 18:55:19
+233,233,Artefacts_A_Var_Copyrright_L_Ling/A1c168.jpg,0.0787,0.8798,0.4792,False,2026-08-11 18:55:19
+234,234,Artefacts_A_Var_Copyrright_L_Ling/A1f20&5.jpg,0.0315,0.9377,0.4846,False,2026-08-11 18:55:19
+235,235,Artefacts_A_Var_Copyrright_L_Ling/A1e25a.jpg,0.1435,0.8818,0.5127,False,2026-08-11 18:55:19
+236,236,Artefacts_A_Var_Copyrright_L_Ling/A1f21.jpg,0.0299,0.9841,0.507,False,2026-08-11 18:55:19
+237,237,Artefacts_A_Var_Copyrright_L_Ling/A1c261a.jpg,0.1011,0.8314,0.4662,False,2026-08-11 18:55:19
+238,238,Artefacts_A_Var_Copyrright_L_Ling/A1c215_2a.jpg,0.1857,0.9195,0.5526,False,2026-08-11 18:55:19
+239,239,Artefacts_A_Var_Copyrright_L_Ling/A1b71s.jpg,0.2244,0.8117,0.518,False,2026-08-11 18:55:19
+240,240,Artefacts_A_Var_Copyrright_L_Ling/A1c4c.jpg,0.0692,0.9656,0.5174,False,2026-08-11 18:55:19
+241,241,Artefacts_A_Var_Copyrright_L_Ling/A1b19.jpg,0.4531,0.3412,0.3972,False,2026-08-11 18:55:19
+242,242,Artefacts_A_Var_Copyrright_L_Ling/A1c222.jpg,0.0506,0.9935,0.522,False,2026-08-11 18:55:19
+243,243,Artefacts_A_Var_Copyrright_L_Ling/A1e57.jpg,0.09,0.8614,0.4757,False,2026-08-11 18:55:19
+244,244,Artefacts_A_Var_Copyrright_L_Ling/A1c251_2.jpg,0.1673,0.8906,0.529,False,2026-08-11 18:55:19
+245,245,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1c.jpg,0.052,0.9155,0.4838,False,2026-08-11 18:55:19
+246,246,Artefacts_A_Var_Copyrright_L_Ling/(3).jpg,0.0327,0.9548,0.4938,False,2026-08-11 18:55:19
+247,247,Artefacts_A_Var_Copyrright_L_Ling/A1e3.jpg,0.1798,0.9382,0.559,False,2026-08-11 18:55:19
+248,248,Artefacts_A_Var_Copyrright_L_Ling/A1d7.jpg,0.0176,0.8112,0.4144,False,2026-08-11 18:55:19
+249,249,Artefacts_A_Var_Copyrright_L_Ling/A1e1.jpg,0.0988,0.6297,0.3642,False,2026-08-11 18:55:19
+250,250,Artefacts_A_Var_Copyrright_L_Ling/A1b31b.jpg,0.304,0.7143,0.5092,False,2026-08-11 18:55:19
+251,251,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1a.jpg,0.0808,0.8638,0.4723,False,2026-08-11 18:55:19
+252,252,Artefacts_A_Var_Copyrright_L_Ling/A1c220c.jpg,0.2654,0.94,0.6027,False,2026-08-11 18:55:19
+253,253,Artefacts_A_Var_Copyrright_L_Ling/A1c78a.jpg,0.1664,0.8877,0.527,False,2026-08-11 18:55:19
+254,254,Artefacts_A_Var_Copyrright_L_Ling/A1c2&85etc.jpg,0.2075,0.9431,0.5753,False,2026-08-11 18:55:19
+255,255,Artefacts_A_Var_Copyrright_L_Ling/A1c208.jpg,0.1052,0.9775,0.5414,False,2026-08-11 18:55:19
+256,256,Artefacts_A_Var_Copyrright_L_Ling/A1d21.jpg,0.1151,0.9584,0.5368,False,2026-08-11 18:55:19
+257,257,Artefacts_A_Var_Copyrright_L_Ling/A1b71q.jpg,0.0983,0.7059,0.4021,False,2026-08-11 18:55:19
+258,258,Artefacts_A_Var_Copyrright_L_Ling/A1c4a.jpg,0.1537,0.9279,0.5408,False,2026-08-11 18:55:19
+259,259,Artefacts_A_Var_Copyrright_L_Ling/A1c215_2c.jpg,0.1025,0.9296,0.516,False,2026-08-11 18:55:19
+260,260,Artefacts_A_Var_Copyrright_L_Ling/A1c90.jpg,0.0308,0.8759,0.4534,False,2026-08-11 18:55:19
+261,261,Artefacts_A_Var_Copyrright_L_Ling/A1e25c.jpg,0.1856,0.9706,0.5781,False,2026-08-11 18:55:19
+262,262,Artefacts_A_Var_Copyrright_L_Ling/A1c257_1b.jpg,0.2366,0.9706,0.6036,False,2026-08-11 18:55:19
+263,263,Artefacts_A_Var_Copyrright_L_Ling/A1c181.jpg,0.0972,0.9928,0.545,False,2026-08-11 18:55:19
+264,264,Artefacts_A_Var_Copyrright_L_Ling/A1c19c.jpg,0.4071,0.5941,0.5006,False,2026-08-11 18:55:19
+265,265,Artefacts_A_Var_Copyrright_L_Ling/A1c180.jpg,0.0908,0.9399,0.5154,False,2026-08-11 18:55:19
+266,266,Artefacts_A_Var_Copyrright_L_Ling/A1c217d.jpg,0.1639,0.9922,0.578,False,2026-08-11 18:55:19
+267,267,Artefacts_A_Var_Copyrright_L_Ling/A1c215_2b.jpg,0.1691,0.8975,0.5333,False,2026-08-11 18:55:19
+268,268,Artefacts_A_Var_Copyrright_L_Ling/A1c261b.jpg,0.0829,0.8692,0.476,False,2026-08-11 18:55:19
+269,269,Artefacts_A_Var_Copyrright_L_Ling/A1b71p.jpg,1,0.7589,0.8794,False,2026-08-11 18:55:19
+270,270,Artefacts_A_Var_Copyrright_L_Ling/A1d20.jpg,0.0365,0.9808,0.5087,False,2026-08-11 18:55:19
+271,271,Artefacts_A_Var_Copyrright_L_Ling/A1c251_12&13.jpg,0.4576,0.9866,0.7221,False,2026-08-11 18:55:19
+272,272,Artefacts_A_Var_Copyrright_L_Ling/A1c209.jpg,0.0673,0.9214,0.4944,False,2026-08-11 18:55:19
+273,273,Artefacts_A_Var_Copyrright_L_Ling/A1b32.jpg,1,0.9394,0.9697,False,2026-08-11 18:55:19
+274,274,Artefacts_A_Var_Copyrright_L_Ling/A1c251_1.jpg,0.3216,0.8851,0.6034,False,2026-08-11 18:55:19
+275,275,Artefacts_A_Var_Copyrright_L_Ling/A1c220b.jpg,0.1494,0.9599,0.5546,False,2026-08-11 18:55:19
+276,276,Artefacts_A_Var_Copyrright_L_Ling/A1c250 (2).jpg,0.2093,0.9976,0.6034,False,2026-08-11 18:55:19
+277,277,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1d.jpg,0.0667,0.9076,0.4872,False,2026-08-11 18:55:19
+278,278,Artefacts_A_Var_Copyrright_L_Ling/A1e4.jpg,0.079,0.9006,0.4898,False,2026-08-11 18:55:19
+279,279,Artefacts_A_Var_Copyrright_L_Ling/A1f17a.jpg,0.0295,0.9873,0.5084,False,2026-08-11 18:55:19
+280,280,Artefacts_A_Var_Copyrright_L_Ling/A1c219.jpg,0.0906,0.9121,0.5014,False,2026-08-11 18:55:19
+281,281,Artefacts_A_Var_Copyrright_L_Ling/A1b10a.jpg,0.5172,0.885,0.7011,False,2026-08-11 18:55:19
+282,282,Artefacts_A_Var_Copyrright_L_Ling/A1c231.jpg,0.0349,0.9056,0.4702,False,2026-08-11 18:55:19
+283,283,Artefacts_A_Var_Copyrright_L_Ling/A1c251_6b.jpg,0.1773,0.9549,0.5661,False,2026-08-11 18:55:19
+284,284,Artefacts_A_Var_Copyrright_L_Ling/A1b71t.jpg,0.114,0.874,0.494,False,2026-08-11 18:55:19
+285,285,Artefacts_A_Var_Copyrright_L_Ling/A1b71c.jpg,0.1162,0.8662,0.4912,False,2026-08-11 18:55:19
+286,286,Artefacts_A_Var_Copyrright_L_Ling/A1c56.jpg,0.0504,0.9044,0.4774,False,2026-08-11 18:55:19
+287,287,Artefacts_A_Var_Copyrright_L_Ling/A1c42.jpg,0.301,0.914,0.6075,False,2026-08-11 18:55:19
+288,288,Artefacts_A_Var_Copyrright_L_Ling/A1c216d.jpg,0.1108,0.9822,0.5465,False,2026-08-11 18:55:19
+289,289,Artefacts_A_Var_Copyrright_L_Ling/A1c260b.jpg,0.2353,0.9616,0.5984,False,2026-08-11 18:55:19
+290,290,Artefacts_A_Var_Copyrright_L_Ling/A1c147.jpg,0.4781,0.9781,0.7281,False,2026-08-11 18:55:19
+291,291,Artefacts_A_Var_Copyrright_L_Ling/A1c190.jpg,0.14,0.9662,0.5531,False,2026-08-11 18:55:19
+292,292,Artefacts_A_Var_Copyrright_L_Ling/A1c185.jpg,0.3418,0.9293,0.6356,False,2026-08-11 18:55:19
+293,293,Artefacts_A_Var_Copyrright_L_Ling/A1c257_2.jpg,0.1278,0.964,0.5459,False,2026-08-11 18:55:19
+294,294,Artefacts_A_Var_Copyrright_L_Ling/A1c191.jpg,0.1897,0.9773,0.5835,False,2026-08-11 18:55:19
+295,295,Artefacts_A_Var_Copyrright_L_Ling/A1c146.jpg,0.3674,0.9628,0.6651,False,2026-08-11 18:55:19
+296,296,Artefacts_A_Var_Copyrright_L_Ling/A1c186a.jpg,0.0339,0.9881,0.511,False,2026-08-11 18:55:19
+297,297,Artefacts_A_Var_Copyrright_L_Ling/A1c80.jpg,0.0426,0.567,0.3048,False,2026-08-11 18:55:19
+298,298,Artefacts_A_Var_Copyrright_L_Ling/A1c216e.jpg,0.1121,0.9942,0.5532,False,2026-08-11 18:55:19
+299,299,Artefacts_A_Var_Copyrright_L_Ling/A1c260c.jpg,0.1491,0.9386,0.5438,False,2026-08-11 18:55:19
+300,300,Artefacts_A_Var_Copyrright_L_Ling/A1c261g.jpg,0.3324,0.8372,0.5848,False,2026-08-11 18:55:19
+301,301,Artefacts_A_Var_Copyrright_L_Ling/A1c94.jpg,0.3856,0.8731,0.6294,False,2026-08-11 18:55:19
+302,302,Artefacts_A_Var_Copyrright_L_Ling/A1c217a.jpg,0.073,0.9917,0.5324,False,2026-08-11 18:55:19
+303,303,Artefacts_A_Var_Copyrright_L_Ling/A1b71b.jpg,0.065,0.9043,0.4846,False,2026-08-11 18:55:19
+304,304,Artefacts_A_Var_Copyrright_L_Ling/A1c57.jpg,0.4659,0.9521,0.709,False,2026-08-11 18:55:19
+305,305,Artefacts_A_Var_Copyrright_L_Ling/A1b71u.jpg,0.6665,0.9477,0.8071,False,2026-08-11 18:55:19
+306,306,Artefacts_A_Var_Copyrright_L_Ling/A1c251_6c.jpg,0.5258,0.9264,0.7261,False,2026-08-11 18:55:19
+307,307,Artefacts_A_Var_Copyrright_L_Ling/A1e45.jpg,0.1371,0.9717,0.5544,False,2026-08-11 18:55:19
+308,308,Artefacts_A_Var_Copyrright_L_Ling/A1c218.jpg,0.4336,0.9708,0.7022,False,2026-08-11 18:55:19
+309,309,Artefacts_A_Var_Copyrright_L_Ling/A1c173b.jpg,0.0813,0.9345,0.5079,False,2026-08-11 18:55:19
+310,310,Artefacts_A_Var_Copyrright_L_Ling/A1d1.jpg,0.1182,0.9897,0.554,False,2026-08-11 18:55:19
+311,311,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1e.jpg,0.1669,0.8031,0.485,False,2026-08-11 18:55:19
+312,312,Artefacts_A_Var_Copyrright_L_Ling/A1c252_14a.jpg,0.202,0.9204,0.5612,False,2026-08-11 18:55:19
+313,313,Artefacts_A_Var_Copyrright_L_Ling/(2).jpg,0.3723,0.9508,0.6616,False,2026-08-11 18:55:19
+314,314,Artefacts_A_Var_Copyrright_L_Ling/A1c220e.jpg,0.1942,0.9679,0.581,False,2026-08-11 18:55:19
+315,315,Artefacts_A_Var_Copyrright_L_Ling/A1b35.jpg,0.5862,0.9229,0.7546,False,2026-08-11 18:55:19
+316,316,Artefacts_A_Var_Copyrright_L_Ling/A1b10b.jpg,0.5598,0.981,0.7704,False,2026-08-11 18:55:19
+317,317,Artefacts_A_Var_Copyrright_L_Ling/A1c251_6a.jpg,0.2216,0.8721,0.5468,False,2026-08-11 18:55:19
+318,318,Artefacts_A_Var_Copyrright_L_Ling/A1b71w.jpg,0.519,0.8378,0.6784,False,2026-08-11 18:55:19
+319,319,Artefacts_A_Var_Copyrright_L_Ling/A1c55.jpg,0.0584,0.8138,0.4361,False,2026-08-11 18:55:19
+320,320,Artefacts_A_Var_Copyrright_L_Ling/A1c261e.jpg,0.5989,0.5406,0.5698,False,2026-08-11 18:55:19
+321,321,Artefacts_A_Var_Copyrright_L_Ling/A1c178.jpg,0.1615,0.9741,0.5678,False,2026-08-11 18:55:19
+322,322,Artefacts_A_Var_Copyrright_L_Ling/A1c144.jpg,0.2795,0.9834,0.6315,False,2026-08-11 18:55:19
+323,323,Artefacts_A_Var_Copyrright_L_Ling/A1c150.jpg,0.0532,0.9351,0.4942,False,2026-08-11 18:55:19
+324,324,Artefacts_A_Var_Copyrright_L_Ling/A1c19e.jpg,0.4862,0.4785,0.4824,False,2026-08-11 18:55:19
+325,325,Artefacts_A_Var_Copyrright_L_Ling/A1c187.jpg,0.3949,0.9508,0.6728,False,2026-08-11 18:55:19
+326,326,Artefacts_A_Var_Copyrright_L_Ling/A1c192.jpg,0.4179,0.9351,0.6765,False,2026-08-11 18:55:19
+327,327,Artefacts_A_Var_Copyrright_L_Ling/A1c186.jpg,0.2631,0.9791,0.6211,False,2026-08-11 18:55:19
+328,328,Artefacts_A_Var_Copyrright_L_Ling/A1c257_1.jpg,0.2133,0.9779,0.5956,False,2026-08-11 18:55:19
+329,329,Artefacts_A_Var_Copyrright_L_Ling/A1c151.jpg,0.4768,0.9751,0.726,False,2026-08-11 18:55:19
+330,330,Artefacts_A_Var_Copyrright_L_Ling/A1c113_1.jpg,0.0802,0.9077,0.494,False,2026-08-11 18:55:19
+331,331,Artefacts_A_Var_Copyrright_L_Ling/A1f2b.jpg,0.027,0.9723,0.4996,False,2026-08-11 18:55:19
+332,332,Artefacts_A_Var_Copyrright_L_Ling/A1c97.jpg,0.0279,0.9215,0.4747,False,2026-08-11 18:55:19
+333,333,Artefacts_A_Var_Copyrright_L_Ling/A1c217b.jpg,0.1372,0.9827,0.5599,False,2026-08-11 18:55:19
+334,334,Artefacts_A_Var_Copyrright_L_Ling/A1c216f.jpg,0.0974,0.9954,0.5464,False,2026-08-11 18:55:19
+335,335,Artefacts_A_Var_Copyrright_L_Ling/A1c54.jpg,0.7181,0.9914,0.8547,False,2026-08-11 18:55:19
+336,336,Artefacts_A_Var_Copyrright_L_Ling/A1b71a.jpg,0.0459,0.8674,0.4566,False,2026-08-11 18:55:19
+337,337,Artefacts_A_Var_Copyrright_L_Ling/A1b71v.jpg,1,0.9461,0.973,False,2026-08-11 18:55:19
+338,338,Artefacts_A_Var_Copyrright_L_Ling/A1b34.jpg,0.5132,0.8885,0.7008,False,2026-08-11 18:55:19
+339,339,Artefacts_A_Var_Copyrright_L_Ling/A1c233.jpg,0.2386,0.9459,0.5922,False,2026-08-11 18:55:19
+340,340,Artefacts_A_Var_Copyrright_L_Ling/A1c251_7.jpg,0.4134,0.9141,0.6638,False,2026-08-11 18:55:19
+341,341,Artefacts_A_Var_Copyrright_L_Ling/A1c173a.jpg,0.3091,0.918,0.6136,False,2026-08-11 18:55:19
+342,342,Artefacts_A_Var_Copyrright_L_Ling/A1b44b.jpg,0.8924,0.9284,0.9104,False,2026-08-11 18:55:19
+343,343,Artefacts_A_Var_Copyrright_L_Ling/A1e32z.jpg,0.6188,0.8958,0.7573,False,2026-08-11 18:55:19
+344,344,Artefacts_A_Var_Copyrright_L_Ling/A1f18a.jpg,0.0218,0.8748,0.4483,False,2026-08-11 18:55:19
+345,345,Artefacts_A_Var_Copyrright_L_Ling/A1c171d.jpg,0.1001,0.9445,0.5223,False,2026-08-11 18:55:19
+346,346,Artefacts_A_Var_Copyrright_L_Ling/A1e101.jpg,0.2389,0.9054,0.5721,False,2026-08-11 18:55:19
+347,347,Artefacts_A_Var_Copyrright_L_Ling/A1d22e.jpg,0.0869,0.8778,0.4824,False,2026-08-11 18:55:19
+348,348,Artefacts_A_Var_Copyrright_L_Ling/A1e7a.jpg,0.4523,0.9116,0.6819,False,2026-08-11 18:55:19
+349,349,Artefacts_A_Var_Copyrright_L_Ling/A1c29&30.jpg,0.2502,0.9309,0.5905,False,2026-08-11 18:55:19
+350,350,Artefacts_A_Var_Copyrright_L_Ling/A1c65.jpg,0.23,0.9341,0.5821,False,2026-08-11 18:55:19
+351,351,Artefacts_A_Var_Copyrright_L_Ling/A1c214c.jpg,0.0654,0.9275,0.4964,False,2026-08-11 18:55:19
+352,352,Artefacts_A_Var_Copyrright_L_Ling/A1f15.jpg,0.0306,0.9897,0.5102,False,2026-08-11 18:55:19
+353,353,Artefacts_A_Var_Copyrright_L_Ling/A1c148.jpg,0.3958,0.9872,0.6915,False,2026-08-11 18:55:19
+354,354,Artefacts_A_Var_Copyrright_L_Ling/A1c235e.jpg,0.1431,0.8771,0.5101,False,2026-08-11 18:55:19
+355,355,Artefacts_A_Var_Copyrright_L_Ling/A1c166a.jpg,0.0713,0.6007,0.336,False,2026-08-11 18:55:19
+356,356,Artefacts_A_Var_Copyrright_L_Ling/A1c235d.jpg,0.1714,0.8658,0.5186,False,2026-08-11 18:55:19
+357,357,Artefacts_A_Var_Copyrright_L_Ling/A1c149.jpg,0.2821,0.9631,0.6226,False,2026-08-11 18:55:19
+358,358,Artefacts_A_Var_Copyrright_L_Ling/A1c175.jpg,0.1411,0.909,0.525,False,2026-08-11 18:55:19
+359,359,Artefacts_A_Var_Copyrright_L_Ling/A1f14.jpg,0.0314,0.9757,0.5036,False,2026-08-11 18:55:19
+360,360,Artefacts_A_Var_Copyrright_L_Ling/A1c261h.jpg,0.1222,0.9096,0.5159,False,2026-08-11 18:55:19
+361,361,Artefacts_A_Var_Copyrright_L_Ling/A1c214b.jpg,0.0703,0.9629,0.5166,False,2026-08-11 18:55:19
+362,362,Artefacts_A_Var_Copyrright_L_Ling/A1c58.jpg,0.0529,0.9752,0.514,False,2026-08-11 18:55:19
+363,363,Artefacts_A_Var_Copyrright_L_Ling/A1f22a.jpg,0.0116,0.8834,0.4475,False,2026-08-11 18:55:19
+364,364,Artefacts_A_Var_Copyrright_L_Ling/A1c218a.jpg,0.086,0.9439,0.515,False,2026-08-11 18:55:19
+365,365,Artefacts_A_Var_Copyrright_L_Ling/A1b71z.jpg,1,0.9052,0.9526,False,2026-08-11 18:55:19
+366,366,Artefacts_A_Var_Copyrright_L_Ling/A1c202b.jpg,0.5433,0.9887,0.766,False,2026-08-11 18:55:19
+367,367,Artefacts_A_Var_Copyrright_L_Ling/A1d22d.jpg,0.0906,0.9378,0.5142,False,2026-08-11 18:55:19
+368,368,Artefacts_A_Var_Copyrright_L_Ling/A1c221_2.jpg,0.0579,0.9896,0.5238,False,2026-08-11 18:55:19
+369,369,Artefacts_A_Var_Copyrright_L_Ling/A1c170a.jpg,0.2115,0.9015,0.5565,False,2026-08-11 18:55:19
+370,370,Artefacts_A_Var_Copyrright_L_Ling/A1c252_13.jpg,0.2092,0.853,0.5311,False,2026-08-11 18:55:19
+371,371,Artefacts_A_Var_Copyrright_L_Ling/A1b44a.jpg,1,0.9342,0.9671,False,2026-08-11 18:55:19
+372,372,Artefacts_A_Var_Copyrright_L_Ling/A1f4.jpg,0.0131,0.9467,0.4799,False,2026-08-11 18:55:19
+373,373,Artefacts_A_Var_Copyrright_L_Ling/A1e8.jpg,0.1727,0.8207,0.4967,False,2026-08-11 18:55:19
+374,374,Artefacts_A_Var_Copyrright_L_Ling/A1c252_11.jpg,0.2137,0.9389,0.5763,False,2026-08-11 18:55:19
+375,375,Artefacts_A_Var_Copyrright_L_Ling/A1c170c.jpg,0.1075,0.9709,0.5392,False,2026-08-11 18:55:19
+376,376,Artefacts_A_Var_Copyrright_L_Ling/A1e7b.jpg,0.2252,0.8784,0.5518,False,2026-08-11 18:55:19
+377,377,Artefacts_A_Var_Copyrright_L_Ling/A1b71x.jpg,1,0.8486,0.9243,False,2026-08-11 18:55:19
+378,378,Artefacts_A_Var_Copyrright_L_Ling/A1c66.jpg,0.2342,0.9911,0.6126,False,2026-08-11 18:55:19
+379,379,Artefacts_A_Var_Copyrright_L_Ling/A1f22c.jpg,0.013,0.9027,0.4578,False,2026-08-11 18:55:19
+380,380,Artefacts_A_Var_Copyrright_L_Ling/A1f16.jpg,0.2683,0.9898,0.629,False,2026-08-11 18:55:19
+381,381,Artefacts_A_Var_Copyrright_L_Ling/A1c177.jpg,0.0999,0.972,0.536,False,2026-08-11 18:55:19
+382,382,Artefacts_A_Var_Copyrright_L_Ling/A1c251_11b.jpg,0.2724,0.9191,0.5958,False,2026-08-11 18:55:19
+383,383,Artefacts_A_Var_Copyrright_L_Ling/A1c188.jpg,0.2815,0.9853,0.6334,False,2026-08-11 18:55:19
+384,384,Artefacts_A_Var_Copyrright_L_Ling/A1c166b.jpg,0.0767,0.8584,0.4676,False,2026-08-11 18:55:19
+385,385,Artefacts_A_Var_Copyrright_L_Ling/A1f17.jpg,0.0345,0.9469,0.4907,False,2026-08-11 18:55:19
+386,386,Artefacts_A_Var_Copyrright_L_Ling/A1c176.jpg,0.1574,0.9578,0.5576,False,2026-08-11 18:55:19
+387,387,Artefacts_A_Var_Copyrright_L_Ling/A1c98.jpg,0.0344,0.9708,0.5026,False,2026-08-11 18:55:19
+388,388,Artefacts_A_Var_Copyrright_L_Ling/A1c214a.jpg,0.0905,0.9925,0.5415,False,2026-08-11 18:55:19
+389,389,Artefacts_A_Var_Copyrright_L_Ling/A1b71y.jpg,0.7961,0.8588,0.8274,False,2026-08-11 18:55:19
+390,390,Artefacts_A_Var_Copyrright_L_Ling/A1f22b.jpg,0.0109,0.8919,0.4514,False,2026-08-11 18:55:19
+391,391,Artefacts_A_Var_Copyrright_L_Ling/A1c170b.jpg,0.1453,0.973,0.5592,False,2026-08-11 18:55:19
+392,392,Artefacts_A_Var_Copyrright_L_Ling/A1c251_8.jpg,0.2088,0.8961,0.5524,False,2026-08-11 18:55:19
+393,393,Artefacts_A_Var_Copyrright_L_Ling/A1c252_10.jpg,0.3542,0.9727,0.6634,False,2026-08-11 18:55:19
+394,394,Artefacts_A_Var_Copyrright_L_Ling/A1e9.jpg,0.1272,0.9305,0.5288,False,2026-08-11 18:55:19
+395,395,Artefacts_A_Var_Copyrright_L_Ling/A1c113_2a.jpg,0.2259,0.9097,0.5678,False,2026-08-11 18:55:19
+396,396,Artefacts_A_Var_Copyrright_L_Ling/A1f1.jpg,0.066,0.9675,0.5168,False,2026-08-11 18:55:19
+397,397,Artefacts_A_Var_Copyrright_L_Ling/A1c171b.jpg,0.1399,0.9707,0.5553,False,2026-08-11 18:55:19
+398,398,Artefacts_A_Var_Copyrright_L_Ling/A1c252_14.jpg,0.2098,0.8699,0.5398,False,2026-08-11 18:55:19
+399,399,Artefacts_A_Var_Copyrright_L_Ling/A1b69a.jpg,0.0849,0.9742,0.5296,False,2026-08-11 18:55:19
+400,400,Artefacts_A_Var_Copyrright_L_Ling/A1c77.jpg,0.1293,0.92,0.5247,False,2026-08-11 18:55:19
+401,401,Artefacts_A_Var_Copyrright_L_Ling/A1c172.jpg,1,0.8744,0.9372,False,2026-08-11 18:55:19
+402,402,Artefacts_A_Var_Copyrright_L_Ling/A1c166.jpg,0.3297,0.908,0.6188,False,2026-08-11 18:55:19
+403,403,Artefacts_A_Var_Copyrright_L_Ling/A1d31&32.jpg,0.6783,0.975,0.8266,False,2026-08-11 18:55:19
+404,404,Artefacts_A_Var_Copyrright_L_Ling/A1c235c.jpg,0.3166,0.921,0.6188,False,2026-08-11 18:55:19
+405,405,Artefacts_A_Var_Copyrright_L_Ling/A1d18b.jpg,0.0405,0.6068,0.3236,False,2026-08-11 18:55:19
+406,406,Artefacts_A_Var_Copyrright_L_Ling/A1b28a.jpg,0.0488,0.7171,0.3829,False,2026-08-11 18:55:19
+407,407,Artefacts_A_Var_Copyrright_L_Ling/A1c235b.jpg,0.1945,0.9251,0.5598,False,2026-08-11 18:55:19
+408,408,Artefacts_A_Var_Copyrright_L_Ling/A1c252_789.jpg,0.5559,0.9193,0.7376,False,2026-08-11 18:55:19
+409,409,Artefacts_A_Var_Copyrright_L_Ling/A1c89.jpg,0.0765,0.9912,0.5338,False,2026-08-11 18:55:19
+410,410,Artefacts_A_Var_Copyrright_L_Ling/A1d22b.jpg,0.0822,0.9946,0.5384,False,2026-08-11 18:55:19
+411,411,Artefacts_A_Var_Copyrright_L_Ling/A1b11z.jpg,0.0526,0.953,0.5028,False,2026-08-11 18:55:19
+412,412,Artefacts_A_Var_Copyrright_L_Ling/A1c171c.jpg,0.101,0.9443,0.5227,False,2026-08-11 18:55:19
+413,413,Artefacts_A_Var_Copyrright_L_Ling/A1c252_123456.jpg,0.5367,0.957,0.7468,False,2026-08-11 18:55:19
+414,414,Artefacts_A_Var_Copyrright_L_Ling/A1c113_2b.jpg,0.2102,0.8292,0.5197,False,2026-08-11 18:55:19
+415,415,Artefacts_A_Var_Copyrright_L_Ling/A1f2.jpg,0.0285,0.9897,0.5091,False,2026-08-11 18:55:19
+416,416,Artefacts_A_Var_Copyrright_L_Ling/A1c171a.jpg,0.2011,0.9947,0.5979,False,2026-08-11 18:55:19
+417,417,Artefacts_A_Var_Copyrright_L_Ling/A1c218_2.jpg,0.2948,0.9914,0.6431,False,2026-08-11 18:55:19
+418,418,Artefacts_A_Var_Copyrright_L_Ling/A1c207.jpg,0.2828,0.9738,0.6283,False,2026-08-11 18:55:19
+419,419,Artefacts_A_Var_Copyrright_L_Ling/A1e66.jpg,0.0827,0.7777,0.4302,False,2026-08-11 18:55:19
+420,420,Artefacts_A_Var_Copyrright_L_Ling/A1c68&69.jpg,0.027,0.9582,0.4926,False,2026-08-11 18:55:19
+421,421,Artefacts_A_Var_Copyrright_L_Ling/A1c60.jpg,0.0313,0.9863,0.5088,False,2026-08-11 18:55:19
+422,422,Artefacts_A_Var_Copyrright_L_Ling/A1c218e.jpg,0.2845,0.9445,0.6145,False,2026-08-11 18:55:19
+423,423,Artefacts_A_Var_Copyrright_L_Ling/A1d12.jpg,0.2791,0.974,0.6265,False,2026-08-11 18:55:19
+424,424,Artefacts_A_Var_Copyrright_L_Ling/A1c250_11a.jpg,0.3749,0.9157,0.6453,False,2026-08-11 18:55:19
+425,425,Artefacts_A_Var_Copyrright_L_Ling/A1b28b.jpg,0.1891,0.9604,0.5748,False,2026-08-11 18:55:19
+426,426,Artefacts_A_Var_Copyrright_L_Ling/A1d18a.jpg,0.0641,0.7476,0.4059,False,2026-08-11 18:55:19
+427,427,Artefacts_A_Var_Copyrright_L_Ling/A1c235a.jpg,0.2067,0.8935,0.5501,False,2026-08-11 18:55:19
+428,428,Artefacts_A_Var_Copyrright_L_Ling/A1c251_10a.jpg,0.2135,0.9673,0.5904,False,2026-08-11 18:55:19
+429,429,Artefacts_A_Var_Copyrright_L_Ling/A1f11.jpg,0.0279,0.9943,0.5111,False,2026-08-11 18:55:19
+430,430,Artefacts_A_Var_Copyrright_L_Ling/A1c158.jpg,0.016,0.8254,0.4207,False,2026-08-11 18:55:19
+431,431,Artefacts_A_Var_Copyrright_L_Ling/A1c218d.jpg,0.0949,0.9289,0.5119,False,2026-08-11 18:55:19
+432,432,Artefacts_A_Var_Copyrright_L_Ling/A1b11y.jpg,0.1568,0.9467,0.5518,False,2026-08-11 18:55:19
+433,433,Artefacts_A_Var_Copyrright_L_Ling/A1d22a.jpg,0.0758,0.8653,0.4706,False,2026-08-11 18:55:19
+434,434,Artefacts_A_Var_Copyrright_L_Ling/A1b29.jpg,0.607,0.9093,0.7582,False,2026-08-11 18:55:19
+435,435,Artefacts_A_Var_Copyrright_L_Ling/A1c113_2c.jpg,0.1327,0.9675,0.5501,False,2026-08-11 18:55:19
+436,436,Artefacts_A_Var_Copyrright_L_Ling/A1b42a.jpg,0.5277,0.9774,0.7526,False,2026-08-11 18:55:19
+437,437,Artefacts_A_Var_Copyrright_L_Ling/A1e41s.jpg,0.256,0.9542,0.6051,False,2026-08-11 18:55:19
+438,438,Artefacts_A_Var_Copyrright_L_Ling/A1b72.jpg,0.247,0.8006,0.5238,False,2026-08-11 18:55:19
+439,439,Artefacts_A_Var_Copyrright_L_Ling/A1e1b.jpg,0.1879,0.8134,0.5006,False,2026-08-11 18:55:19
+440,440,Artefacts_A_Var_Copyrright_L_Ling/A1e28.jpg,0.3884,0.9795,0.684,False,2026-08-11 18:55:19
+441,441,Artefacts_A_Var_Copyrright_L_Ling/A1b74c.jpg,0.4658,0.6504,0.5581,False,2026-08-11 18:55:19
+442,442,Artefacts_A_Var_Copyrright_L_Ling/A1c1s.jpg,0.8538,0.9447,0.8992,False,2026-08-11 18:55:19
+443,443,Artefacts_A_Var_Copyrright_L_Ling/A1c166_2.jpg,0.1848,0.9351,0.56,False,2026-08-11 18:55:19
+444,444,Artefacts_A_Var_Copyrright_L_Ling/A1c140a.jpg,0.0408,0.6496,0.3452,False,2026-08-11 18:55:19
+445,445,Artefacts_A_Var_Copyrright_L_Ling/A1e50&d21.jpg,0.1382,0.8963,0.5172,False,2026-08-11 18:55:19
+446,446,Artefacts_A_Var_Copyrright_L_Ling/A1c166_3.jpg,0.2509,0.9231,0.587,False,2026-08-11 18:55:19
+447,447,Artefacts_A_Var_Copyrright_L_Ling/A1c1r.jpg,0.5794,0.7176,0.6485,False,2026-08-11 18:55:19
+448,448,Artefacts_A_Var_Copyrright_L_Ling/A1c13.jpg,1,0.9603,0.9802,False,2026-08-11 18:55:19
+449,449,Artefacts_A_Var_Copyrright_L_Ling/A1b74b.jpg,0.3327,0.9183,0.6255,False,2026-08-11 18:55:19
+450,450,Artefacts_A_Var_Copyrright_L_Ling/A1b67.jpg,0.1124,0.987,0.5497,False,2026-08-11 18:55:19
+451,451,Artefacts_A_Var_Copyrright_L_Ling/A1b73.jpg,0.3823,0.6559,0.5191,False,2026-08-11 18:55:19
+452,452,Artefacts_A_Var_Copyrright_L_Ling/A1c258_1.jpg,0.1,0.9015,0.5008,False,2026-08-11 18:55:19
+453,453,Artefacts_A_Var_Copyrright_L_Ling/A1a10a.jpg,0.8308,0.4913,0.661,False,2026-08-11 18:55:19
+454,454,Artefacts_A_Var_Copyrright_L_Ling/A1c9.jpg,0.1335,0.3685,0.251,False,2026-08-11 18:55:19
+455,455,Artefacts_A_Var_Copyrright_L_Ling/A1e41r.jpg,0.2801,0.8249,0.5525,False,2026-08-11 18:55:19
+456,456,Artefacts_A_Var_Copyrright_L_Ling/A1c195a.jpg,0.1154,0.9696,0.5425,False,2026-08-11 18:55:19
+457,457,Artefacts_A_Var_Copyrright_L_Ling/A1c195c.jpg,0.1925,0.948,0.5702,False,2026-08-11 18:55:19
+458,458,Artefacts_A_Var_Copyrright_L_Ling/A1e41p.jpg,0.1844,0.9513,0.5678,False,2026-08-11 18:55:19
+459,459,Artefacts_A_Var_Copyrright_L_Ling/A1b42b.jpg,0.1253,0.8311,0.4782,False,2026-08-11 18:55:19
+460,460,Artefacts_A_Var_Copyrright_L_Ling/A1c252_11a.jpg,0.3366,0.9445,0.6405,False,2026-08-11 18:55:19
+461,461,Artefacts_A_Var_Copyrright_L_Ling/A1b65.jpg,0.479,0.9293,0.7042,False,2026-08-11 18:55:19
+462,462,Artefacts_A_Var_Copyrright_L_Ling/A1e1a.jpg,0.0782,0.8812,0.4797,False,2026-08-11 18:55:19
+463,463,Artefacts_A_Var_Copyrright_L_Ling/A1b19a.jpg,0.6597,0.8544,0.757,False,2026-08-11 18:55:19
+464,464,Artefacts_A_Var_Copyrright_L_Ling/A1c1p.jpg,0.2692,0.9439,0.6065,False,2026-08-11 18:55:19
+465,465,Artefacts_A_Var_Copyrright_L_Ling/A1c166_1.jpg,0.1949,0.8052,0.5,False,2026-08-11 18:55:19
+466,466,Artefacts_A_Var_Copyrright_L_Ling/A1c265a.jpg,0.0807,0.9634,0.522,False,2026-08-11 18:55:19
+467,467,Artefacts_A_Var_Copyrright_L_Ling/A1c140b.jpg,0.0683,0.6791,0.3737,False,2026-08-11 18:55:19
+468,468,Artefacts_A_Var_Copyrright_L_Ling/A1a12.jpg,0.0974,0.4685,0.283,False,2026-08-11 18:55:19
+469,469,Artefacts_A_Var_Copyrright_L_Ling/A1c140c.jpg,0.0561,0.8797,0.4679,False,2026-08-11 18:55:19
+470,470,Artefacts_A_Var_Copyrright_L_Ling/A1b74a.jpg,0.2957,0.7861,0.5409,False,2026-08-11 18:55:19
+471,471,Artefacts_A_Var_Copyrright_L_Ling/A1c1q.jpg,0.2587,0.9178,0.5882,False,2026-08-11 18:55:19
+472,472,Artefacts_A_Var_Copyrright_L_Ling/A1b70.jpg,0.2186,0.9101,0.5644,False,2026-08-11 18:55:19
+473,473,Artefacts_A_Var_Copyrright_L_Ling/A1c277.jpg,0.4456,0.8847,0.6652,False,2026-08-11 18:55:19
+474,474,Artefacts_A_Var_Copyrright_L_Ling/A1b64.jpg,0.0679,0.9447,0.5063,False,2026-08-11 18:55:19
+475,475,Artefacts_A_Var_Copyrright_L_Ling/A1c263.jpg,0.6302,0.7868,0.7085,False,2026-08-11 18:55:19
+476,476,Artefacts_A_Var_Copyrright_L_Ling/A1a10b.jpg,0.178,0.2541,0.216,False,2026-08-11 18:55:19
+477,477,Artefacts_A_Var_Copyrright_L_Ling/A1e41q.jpg,0.1544,0.8507,0.5026,False,2026-08-11 18:55:19
+478,478,Artefacts_A_Var_Copyrright_L_Ling/A1c195b.jpg,0.2477,0.898,0.5728,False,2026-08-11 18:55:19
+479,479,Artefacts_A_Var_Copyrright_L_Ling/A1b42c.jpg,0.2612,0.8992,0.5802,False,2026-08-11 18:55:19
+480,480,Artefacts_A_Var_Copyrright_L_Ling/A1b34a.jpg,0.7248,0.9117,0.8182,False,2026-08-11 18:55:19
+481,481,Artefacts_A_Var_Copyrright_L_Ling/A1e41u.jpg,0.154,0.9433,0.5486,False,2026-08-11 18:55:19
+482,482,Artefacts_A_Var_Copyrright_L_Ling/A1c194b.jpg,0.4362,0.9947,0.7154,False,2026-08-11 18:55:19
+483,483,Artefacts_A_Var_Copyrright_L_Ling/A1c92b.jpg,0.3242,0.8893,0.6068,False,2026-08-11 18:55:19
+484,484,Artefacts_A_Var_Copyrright_L_Ling/A1b48.jpg,1,0.9661,0.983,False,2026-08-11 18:55:19
+485,485,Artefacts_A_Var_Copyrright_L_Ling/A1b74.jpg,0.0842,0.8884,0.4863,False,2026-08-11 18:55:19
+486,486,Artefacts_A_Var_Copyrright_L_Ling/A1c28.jpg,0.0329,0.8994,0.4662,False,2026-08-11 18:55:19
+487,487,Artefacts_A_Var_Copyrright_L_Ling/A1c1u.jpg,0.4068,0.9019,0.6544,False,2026-08-11 18:55:19
+488,488,Artefacts_A_Var_Copyrright_L_Ling/A1b75a.jpg,0.3606,0.9488,0.6547,False,2026-08-11 18:55:19
+489,489,Artefacts_A_Var_Copyrright_L_Ling/A1c182b.jpg,0.1404,0.9521,0.5462,False,2026-08-11 18:55:19
+490,490,Artefacts_A_Var_Copyrright_L_Ling/A1b59a.jpg,0.3639,0.915,0.6395,False,2026-08-11 18:55:19
+491,491,Artefacts_A_Var_Copyrright_L_Ling/A1c182c.jpg,0.0515,0.9661,0.5088,False,2026-08-11 18:55:19
+492,492,Artefacts_A_Var_Copyrright_L_Ling/A1c1t.jpg,0.1813,0.8138,0.4976,False,2026-08-11 18:55:19
+493,493,Artefacts_A_Var_Copyrright_L_Ling/A1b75.jpg,1,0.8856,0.9428,False,2026-08-11 18:55:19
+494,494,Artefacts_A_Var_Copyrright_L_Ling/A1b61.jpg,0.7368,0.8816,0.8092,False,2026-08-11 18:55:19
+495,495,Artefacts_A_Var_Copyrright_L_Ling/A1b14b.jpg,1,0.8876,0.9438,False,2026-08-11 18:55:19
+496,496,Artefacts_A_Var_Copyrright_L_Ling/A1c266.jpg,0.1456,0.9468,0.5462,False,2026-08-11 18:55:19
+497,497,Artefacts_A_Var_Copyrright_L_Ling/A1e41t.jpg,0.1755,0.8692,0.5224,False,2026-08-11 18:55:19
+498,498,Artefacts_A_Var_Copyrright_L_Ling/A1e41v.jpg,0.1195,0.8531,0.4863,False,2026-08-11 18:55:19
+499,499,Artefacts_A_Var_Copyrright_L_Ling/A1c92a.jpg,0.1972,0.9395,0.5684,False,2026-08-11 18:55:19
+500,500,Artefacts_A_Var_Copyrright_L_Ling/A1c270.jpg,0.3547,0.9547,0.6547,False,2026-08-11 18:55:19
+501,501,Artefacts_A_Var_Copyrright_L_Ling/A1b77.jpg,0.0693,0.8001,0.4347,False,2026-08-11 18:55:19
+502,502,Artefacts_A_Var_Copyrright_L_Ling/A1c264.jpg,0.0422,0.9807,0.5114,False,2026-08-11 18:55:19
+503,503,Artefacts_A_Var_Copyrright_L_Ling/A1b75b.jpg,0.1548,0.9448,0.5498,False,2026-08-11 18:55:19
+504,504,Artefacts_A_Var_Copyrright_L_Ling/A1c182a.jpg,0.0958,0.9287,0.5122,False,2026-08-11 18:55:19
+505,505,Artefacts_A_Var_Copyrright_L_Ling/A1b59c.jpg,0.2982,0.9817,0.64,False,2026-08-11 18:55:19
+506,506,Artefacts_A_Var_Copyrright_L_Ling/A1b59b.jpg,0.9354,0.9602,0.9478,False,2026-08-11 18:55:19
+507,507,Artefacts_A_Var_Copyrright_L_Ling/A1b75c.jpg,0.3812,0.8318,0.6065,False,2026-08-11 18:55:19
+508,508,Artefacts_A_Var_Copyrright_L_Ling/A1c1w.jpg,0.2217,0.9755,0.5986,False,2026-08-11 18:55:19
+509,509,Artefacts_A_Var_Copyrright_L_Ling/A1c16.jpg,0.0867,0.7733,0.43,False,2026-08-11 18:55:19
+510,510,Artefacts_A_Var_Copyrright_L_Ling/A1b14a.jpg,1,0.9078,0.9539,False,2026-08-11 18:55:19
+511,511,Artefacts_A_Var_Copyrright_L_Ling/A1b76.jpg,0.1415,0.8554,0.4984,False,2026-08-11 18:55:19
+512,512,Artefacts_A_Var_Copyrright_L_Ling/A1e41w.jpg,0.0844,0.9406,0.5125,False,2026-08-11 18:55:19
+513,513,"Marsden, Neil/Survey office 2.jpg",0.0992,0.9096,0.5044,False,2026-08-11 18:55:19
+514,514,"Marsden, Neil/Building the new bar.jpg",1,0.8117,0.9058,False,2026-08-11 18:55:19
+515,515,"Marsden, Neil/Filling water tank in summer.jpg",0.3824,0.8206,0.6015,False,2026-08-11 18:55:19
+516,516,"Marsden, Neil/Bar and firreplacee taking shape.jpg",0.3398,0.8344,0.5871,False,2026-08-11 18:55:19
+517,517,"Marsden, Neil/Bunkroom cleaning.jpg",0.162,0.9307,0.5464,False,2026-08-11 18:55:19
+518,518,"Marsden, Neil/At the bar.jpg",0.1016,0.9512,0.5264,False,2026-08-11 18:55:19
+519,519,"Marsden, Neil/Survey office (1).jpg",0.4254,0.846,0.6357,False,2026-08-11 18:55:19
+520,520,"Marsden, Neil/Relaxing on new extension roof.jpg",0.4748,0.8919,0.6834,False,2026-08-11 18:55:19
+521,521,"Marsden, Neil/Survey office relaxation.jpg",0.0961,0.8681,0.4821,False,2026-08-11 18:55:19
+522,522,"Marsden, Neil/Radio shack.jpg",0.543,0.7508,0.6469,False,2026-08-11 18:55:19
+523,523,"Marsden, Neil/Winter set in.jpg",0.1118,0.7416,0.4267,False,2026-08-11 18:55:19
+524,524,"Marsden, Neil/Medium size female husky.jpg",0.1581,0.8981,0.5281,False,2026-08-11 18:55:19
+525,525,"Marsden, Neil/Noticeboard.jpg",0.1779,0.8298,0.5038,False,2026-08-11 18:55:19
+526,526,"Marsden, Neil/Party time.jpg",0.1492,0.9679,0.5586,False,2026-08-11 18:55:19
+527,527,"Marsden, Neil/Extension disappears.jpg",0.071,0.8107,0.4408,False,2026-08-11 18:55:19
+528,528,"Marsden, Neil/Midwinter celebrations.jpg",0.1265,0.8288,0.4776,False,2026-08-11 18:55:19
+529,529,"Marsden, Neil/From the sea ice.jpg",0.1634,0.7624,0.4629,False,2026-08-11 18:55:19
+530,530,"Marsden, Neil/Repairs.jpg",0.0893,0.9057,0.4975,False,2026-08-11 18:55:19
+531,531,"Marsden, Neil/Sometimes they were quite clean.jpg",0.0178,0.9031,0.4604,False,2026-08-11 18:55:19
+532,532,"Marsden, Neil/Bathroom.jpg",0.1371,0.9289,0.533,False,2026-08-11 18:55:19
+533,533,"Marsden, Neil/1964 extension basis.jpg",0.0482,0.9684,0.5083,False,2026-08-11 18:55:19
+534,534,"Marsden, Neil/RRS JB unloading at Stonington.jpg",0.1981,0.9965,0.5973,False,2026-08-11 18:55:19
+535,535,"Marsden, Neil/Snow arrives.jpg",0.119,0.6089,0.364,False,2026-08-11 18:55:19
+536,536,"Marsden, Neil/Finishing new extension.jpg",0.3527,0.9287,0.6407,False,2026-08-11 18:55:19
+537,537,"Marsden, Neil/Scrubout.jpg",1,0.9835,0.9918,False,2026-08-11 18:55:19
+538,538,"Marsden, Neil/Saturday night at the bar.jpg",0.271,0.7581,0.5146,False,2026-08-11 18:55:19
+539,539,"Marsden, Neil/Proper radio op.jpg",0.1479,0.7804,0.4642,False,2026-08-11 18:55:19
+540,540,"Marsden, Neil/Restocking coal bunker.jpg",0.2681,0.8998,0.584,False,2026-08-11 18:55:19
+541,541,"Marsden, Neil/Pretend radio op.jpg",0.6126,0.708,0.6603,False,2026-08-11 18:55:19
+542,542,"Marsden, Neil/repairs for sledging season.jpg",0.3449,0.9984,0.6716,False,2026-08-11 18:55:19
+543,543,"Marsden, Neil/Geology office.jpg",0.1168,0.7539,0.4354,False,2026-08-11 18:55:19
+544,544,"Marsden, Neil/More unloading.jpg",0.1544,0.8395,0.497,False,2026-08-11 18:55:19
+545,545,"Marsden, Neil/Usual view from sledge (2).jpg",0.4073,0.7898,0.5985,False,2026-08-11 18:55:19
+546,546,"Marsden, Neil/Stonington from Neny Island.jpg",0.9236,0.9642,0.9439,False,2026-08-11 18:55:19
+547,547,"Marsden, Neil/RRS JB unloading.jpg",0.3886,0.8122,0.6004,False,2026-08-11 18:55:19
+548,548,"Marsden, Neil/Diesel mech, electrician in new extension.jpg",0.0728,0.8139,0.4434,False,2026-08-11 18:55:19
+549,549,"Marsden, Neil/Unloading 1.jpg",0.0811,0.8305,0.4558,False,2026-08-11 18:55:19
+550,550,"Marsden, Neil/Afternoon smoko.jpg",0.0877,0.911,0.4994,False,2026-08-11 18:55:19
+551,551,"Marsden, Neil/Relaxing in library.jpg",0.5752,0.8103,0.6928,False,2026-08-11 18:55:19
+552,552,"Marsden, Neil/Library laughter.jpg",0.2606,0.8704,0.5655,False,2026-08-11 18:55:19
+553,553,"Marsden, Neil/Louge relaxation.jpg",0.1652,0.9915,0.5784,False,2026-08-11 18:55:19
+554,554,"Marsden, Neil/RRS JB in Back Bay.jpg",0.4183,0.9859,0.7021,False,2026-08-11 18:55:19
+555,555,"Marsden, Neil/Writing survey report.jpg",0.5106,0.8755,0.693,False,2026-08-11 18:55:19
+556,556,"Marsden, Neil/1964 extension.jpg",0.2153,0.9251,0.5702,False,2026-08-11 18:55:19
+557,557,"Marsden, Neil/Usual view from sledge.jpg",0.1884,0.7176,0.453,False,2026-08-11 18:55:19
+558,558,"Marsden, Neil/Relaxing in lounge.jpg",0.144,0.9317,0.5378,False,2026-08-11 18:55:19
+559,559,"Marsden, Neil/Completed extension.jpg",0.1688,0.9531,0.5609,False,2026-08-11 18:55:19
+560,560,"Marsden, Neil/RRS JB wedged into Back Bay ice.jpg",0.17,0.993,0.5815,False,2026-08-11 18:55:19
+561,561,"Marsden, Neil/Lounge scrubout.jpg",0.1486,0.9872,0.5679,False,2026-08-11 18:55:19
+562,562,"Marsden, Neil/Making new harnesses.JPG",0.0676,0.9922,0.5299,False,2026-08-11 18:55:19
+563,563,SfM_A_external/DSC_7159.JPG,0.4181,0.607,0.5126,False,2026-08-11 18:55:19
+564,564,SfM_A_external/DSC_7171.JPG,0.1845,0.4477,0.3161,False,2026-08-11 18:55:19
+565,565,SfM_A_external/DSC_7165.JPG,0.2211,0.5155,0.3683,False,2026-08-11 18:55:19
+566,566,SfM_A_external/DSC_7207.JPG,0.1259,0.6976,0.4118,False,2026-08-11 18:55:19
+567,567,SfM_A_external/DSC_7206.JPG,0.1642,0.4306,0.2974,False,2026-08-11 18:55:19
+568,568,SfM_A_external/DSC_7164.JPG,0.1936,0.4088,0.3012,False,2026-08-11 18:55:19
+569,569,SfM_A_external/DSC_7170.JPG,0.1231,0.4642,0.2936,False,2026-08-11 18:55:19
+570,570,SfM_A_external/DSC_7158.JPG,0.2704,0.7201,0.4952,False,2026-08-11 18:55:19
+571,571,SfM_A_external/DSC_7199.JPG,0.1584,0.5295,0.344,False,2026-08-11 18:55:19
+572,572,SfM_A_external/DSC_7166.JPG,0.0994,0.3649,0.2322,False,2026-08-11 18:55:19
+573,573,SfM_A_external/DSC_7172.JPG,0.1444,0.5065,0.3254,False,2026-08-11 18:55:19
+574,574,SfM_A_external/DSC_7204.JPG,0.1383,0.2859,0.2121,False,2026-08-11 18:55:19
+575,575,SfM_A_external/DSC_7205.JPG,0.1026,0.5741,0.3384,False,2026-08-11 18:55:19
+576,576,SfM_A_external/DSC_7173.JPG,0.1529,0.3583,0.2556,False,2026-08-11 18:55:19
+577,577,SfM_A_external/DSC_7167.JPG,0.2609,0.6668,0.4638,False,2026-08-11 18:55:19
+578,578,SfM_A_external/DSC_7198.JPG,0.1314,0.5679,0.3496,False,2026-08-11 18:55:19
+579,579,SfM_A_external/DSC_7188.JPG,0.1352,0.3875,0.2613,False,2026-08-11 18:55:19
+580,580,SfM_A_external/DSC_7163.JPG,0.1515,0.6495,0.4005,False,2026-08-11 18:55:19
+581,581,SfM_A_external/DSC_7177.JPG,0.165,0.2791,0.2221,False,2026-08-11 18:55:19
+582,582,SfM_A_external/DSC_7201.JPG,0.162,0.6137,0.3879,False,2026-08-11 18:55:19
+583,583,SfM_A_external/DSC_7200.JPG,0.1374,0.3887,0.263,False,2026-08-11 18:55:19
+584,584,SfM_A_external/DSC_7176.JPG,0.175,0.2853,0.2302,False,2026-08-11 18:55:19
+585,585,SfM_A_external/DSC_7162.JPG,0.1767,0.5669,0.3718,False,2026-08-11 18:55:19
+586,586,SfM_A_external/DSC_7189.JPG,0.1309,0.2768,0.2038,False,2026-08-11 18:55:19
+587,587,SfM_A_external/DSC_7174.JPG,0.1622,0.3025,0.2324,False,2026-08-11 18:55:19
+588,588,SfM_A_external/DSC_7160.JPG,0.354,0.6322,0.4931,False,2026-08-11 18:55:19
+589,589,SfM_A_external/DSC_7148.JPG,0.0791,0.5181,0.2986,False,2026-08-11 18:55:19
+590,590,SfM_A_external/DSC_7202.JPG,0.1552,0.3689,0.262,False,2026-08-11 18:55:19
+591,591,SfM_A_external/DSC_7203.JPG,0.1363,0.5105,0.3234,False,2026-08-11 18:55:19
+592,592,SfM_A_external/DSC_7149.JPG,0.0765,0.6241,0.3503,False,2026-08-11 18:55:19
+593,593,SfM_A_external/DSC_7161.JPG,0.1204,0.5888,0.3546,False,2026-08-11 18:55:19
+594,594,SfM_A_external/DSC_7175.JPG,0.1784,0.3231,0.2508,False,2026-08-11 18:55:19
+595,595,SfM_A_external/DSC_7139.JPG,0.2048,0.6252,0.415,False,2026-08-11 18:55:19
+596,596,SfM_A_external/DSC_7138.JPG,0.0877,0.6766,0.3822,False,2026-08-11 18:55:19
+597,597,SfM_A_external/DSC_7114.JPG,0.21,0.5467,0.3783,False,2026-08-11 18:55:19
+598,598,SfM_A_external/DSC_7128.JPG,0.1792,0.5514,0.3653,False,2026-08-11 18:55:19
+599,599,SfM_A_external/DSC_7129.JPG,0.2253,0.5781,0.4017,False,2026-08-11 18:55:19
+600,600,SfM_A_external/DSC_7115.JPG,0.171,0.5396,0.3553,False,2026-08-11 18:55:19
+601,601,SfM_A_external/DSC_7117.JPG,0.2487,0.3768,0.3128,False,2026-08-11 18:55:19
+602,602,SfM_A_external/DSC_7116.JPG,0.2287,0.4376,0.3332,False,2026-08-11 18:55:19
+603,603,SfM_A_external/DSC_7133.JPG,0.1853,0.4167,0.301,False,2026-08-11 18:55:19
+604,604,SfM_A_external/DSC_7127.JPG,0.1746,0.5581,0.3664,False,2026-08-11 18:55:19
+605,605,SfM_A_external/DSC_7126.JPG,0.2091,0.6104,0.4098,False,2026-08-11 18:55:19
+606,606,SfM_A_external/DSC_7132.JPG,0.2046,0.461,0.3328,False,2026-08-11 18:55:19
+607,607,SfM_A_external/DSC_7118.JPG,0.2483,0.5354,0.3918,False,2026-08-11 18:55:19
+608,608,SfM_A_external/DSC_7124.JPG,0.147,0.5239,0.3355,False,2026-08-11 18:55:19
+609,609,SfM_A_external/DSC_7130.JPG,0.1978,0.4541,0.326,False,2026-08-11 18:55:19
+610,610,SfM_A_external/DSC_7131.JPG,0.1851,0.4356,0.3104,False,2026-08-11 18:55:19
+611,611,SfM_A_external/DSC_7125.JPG,0.1597,0.5932,0.3764,False,2026-08-11 18:55:19
+612,612,SfM_A_external/DSC_7119.JPG,0.2307,0.4508,0.3408,False,2026-08-11 18:55:19
+613,613,SfM_A_external/DSC_7121.JPG,0.2523,0.3057,0.279,False,2026-08-11 18:55:19
+614,614,SfM_A_external/DSC_7135.JPG,0.1284,0.5518,0.3401,False,2026-08-11 18:55:19
+615,615,SfM_A_external/DSC_7134.JPG,0.219,0.3641,0.2915,False,2026-08-11 18:55:19
+616,616,SfM_A_external/DSC_7120.JPG,0.2381,0.3907,0.3144,False,2026-08-11 18:55:19
+617,617,SfM_A_external/DSC_7136.JPG,0.0857,0.8325,0.4591,False,2026-08-11 18:55:19
+618,618,SfM_A_external/DSC_7122.JPG,0.1541,0.5058,0.33,False,2026-08-11 18:55:19
+619,619,SfM_A_external/DSC_7123.JPG,0.1988,0.3748,0.2868,False,2026-08-11 18:55:19
+620,620,SfM_A_external/DSC_7137.JPG,0.1309,0.7558,0.4434,False,2026-08-11 18:55:19
+621,621,SfM_A_external/DSC_7193.JPG,0.2086,0.4873,0.348,False,2026-08-11 18:55:19
+622,622,SfM_A_external/DSC_7187.JPG,0.1391,0.4195,0.2793,False,2026-08-11 18:55:19
+623,623,SfM_A_external/DSC_7178.JPG,0.1659,0.2976,0.2318,False,2026-08-11 18:55:19
+624,624,SfM_A_external/DSC_7150.JPG,0.0891,0.6375,0.3633,False,2026-08-11 18:55:19
+625,625,SfM_A_external/DSC_7144.JPG,0.0795,0.495,0.2872,False,2026-08-11 18:55:19
+626,626,SfM_A_external/DSC_7145.JPG,0.0933,0.5281,0.3107,False,2026-08-11 18:55:19
+627,627,SfM_A_external/DSC_7151.JPG,0.0933,0.8005,0.4469,False,2026-08-11 18:55:19
+628,628,SfM_A_external/DSC_7179.JPG,0.183,0.3653,0.2742,False,2026-08-11 18:55:19
+629,629,SfM_A_external/DSC_7186.JPG,0.1741,0.5531,0.3636,False,2026-08-11 18:55:19
+630,630,SfM_A_external/DSC_7192.JPG,0.1942,0.3882,0.2912,False,2026-08-11 18:55:19
+631,631,SfM_A_external/DSC_7184.JPG,0.1471,0.4744,0.3107,False,2026-08-11 18:55:19
+632,632,SfM_A_external/DSC_7190.JPG,0.1603,0.2594,0.2098,False,2026-08-11 18:55:19
+633,633,SfM_A_external/DSC_7147.JPG,0.0756,0.5146,0.2951,False,2026-08-11 18:55:19
+634,634,SfM_A_external/DSC_7153.JPG,0.1838,0.8597,0.5218,False,2026-08-11 18:55:19
+635,635,SfM_A_external/DSC_7152.JPG,0.2156,0.8114,0.5135,False,2026-08-11 18:55:19
+636,636,SfM_A_external/DSC_7146.JPG,0.0828,0.4938,0.2883,False,2026-08-11 18:55:19
+637,637,SfM_A_external/DSC_7191.JPG,0.1473,0.3425,0.2449,False,2026-08-11 18:55:19
+638,638,SfM_A_external/DSC_7185.JPG,0.1432,0.4604,0.3018,False,2026-08-11 18:55:19
+639,639,SfM_A_external/DSC_7181.JPG,0.1565,0.3608,0.2586,False,2026-08-11 18:55:19
+640,640,SfM_A_external/DSC_7195.JPG,0.1593,0.5792,0.3692,False,2026-08-11 18:55:19
+641,641,SfM_A_external/DSC_7142.JPG,0.1868,0.5465,0.3666,False,2026-08-11 18:55:19
+642,642,SfM_A_external/DSC_7156.JPG,0.09,0.6309,0.3604,False,2026-08-11 18:55:19
+643,643,SfM_A_external/DSC_7208.JPG,0.1239,0.2461,0.185,False,2026-08-11 18:55:19
+644,644,SfM_A_external/DSC_7157.JPG,0.1609,0.3204,0.2406,False,2026-08-11 18:55:19
+645,645,SfM_A_external/DSC_7143.JPG,0.1123,0.5605,0.3364,False,2026-08-11 18:55:19
+646,646,SfM_A_external/DSC_7194.JPG,0.1687,0.49,0.3293,False,2026-08-11 18:55:19
+647,647,SfM_A_external/DSC_7180.JPG,0.1691,0.3897,0.2794,False,2026-08-11 18:55:19
+648,648,SfM_A_external/DSC_7196.JPG,0.1365,0.2437,0.1901,False,2026-08-11 18:55:19
+649,649,SfM_A_external/DSC_7182.JPG,0.1682,0.4122,0.2902,False,2026-08-11 18:55:19
+650,650,SfM_A_external/DSC_7155.JPG,0.0853,0.5643,0.3248,False,2026-08-11 18:55:19
+651,651,SfM_A_external/DSC_7141.JPG,0.1094,0.8458,0.4776,False,2026-08-11 18:55:19
+652,652,SfM_A_external/DSC_7169.JPG,0.138,0.4724,0.3052,False,2026-08-11 18:55:19
+653,653,SfM_A_external/DSC_7168.JPG,0.1234,0.6293,0.3763,False,2026-08-11 18:55:19
+654,654,SfM_A_external/DSC_7140.JPG,0.1083,0.5486,0.3284,False,2026-08-11 18:55:19
+655,655,SfM_A_external/DSC_7154.JPG,0.0708,0.5389,0.3048,False,2026-08-11 18:55:19
+656,656,SfM_A_external/DSC_7183.JPG,0.1461,0.3906,0.2684,False,2026-08-11 18:55:19
+657,657,SfM_A_external/DSC_7197.JPG,0.1845,0.6111,0.3978,False,2026-08-11 18:55:19
+658,658,Main Hut/DSC_0090.JPG,0.1036,0.6625,0.383,False,2026-08-11 18:55:19
+659,659,Main Hut/DSC_0084.JPG,0.1033,0.7908,0.447,False,2026-08-11 18:55:19
+660,660,Main Hut/DSC_0085.JPG,0.2345,0.8824,0.5584,False,2026-08-11 18:55:19
+661,661,Main Hut/DSC_0091.JPG,0.3524,0.909,0.6307,False,2026-08-11 18:55:19
+662,662,Main Hut/DSC_0087.JPG,0.2744,0.9046,0.5895,False,2026-08-11 18:55:19
+663,663,Main Hut/DSC_0093.JPG,0.3438,0.9173,0.6305,False,2026-08-11 18:55:19
+664,664,Main Hut/DSC_0078.JPG,0.1353,0.8778,0.5066,False,2026-08-11 18:55:19
+665,665,Main Hut/DSC_0079.JPG,0.1144,0.853,0.4837,False,2026-08-11 18:55:19
+666,666,Main Hut/DSC_0092.JPG,0.0944,0.6689,0.3817,False,2026-08-11 18:55:19
+667,667,Main Hut/DSC_0086.JPG,0.0809,0.6947,0.3878,False,2026-08-11 18:55:19
+668,668,Main Hut/DSC_0082.JPG,0.2212,0.8654,0.5433,False,2026-08-11 18:55:19
+669,669,Main Hut/DSC_0096.JPG,0.0655,0.7387,0.4021,False,2026-08-11 18:55:19
+670,670,Main Hut/DSC_0069.JPG,0.2539,0.9499,0.6019,False,2026-08-11 18:55:19
+671,671,Main Hut/DSC_0068.JPG,0.0797,0.7504,0.415,False,2026-08-11 18:55:19
+672,672,Main Hut/DSC_0097.JPG,0.3542,0.9629,0.6586,False,2026-08-11 18:55:19
+673,673,Main Hut/DSC_0083.JPG,0.2028,0.8441,0.5234,False,2026-08-11 18:55:19
+674,674,Main Hut/DSC_0095.JPG,0.2891,0.9339,0.6115,False,2026-08-11 18:55:19
+675,675,Main Hut/DSC_0081.JPG,0.1459,0.8215,0.4837,False,2026-08-11 18:55:19
+676,676,Main Hut/DSC_0056.JPG,0.2009,0.8982,0.5496,False,2026-08-11 18:55:19
+677,677,Main Hut/DSC_0057.JPG,0.0974,0.7436,0.4205,False,2026-08-11 18:55:19
+678,678,Main Hut/DSC_0094.JPG,0.0669,0.7227,0.3948,False,2026-08-11 18:55:19
+679,679,Main Hut/DSC_0106.JPG,0.0646,0.5687,0.3166,False,2026-08-11 18:55:19
+680,680,Main Hut/DSC_0112.JPG,0.165,0.9019,0.5334,False,2026-08-11 18:55:19
+681,681,Main Hut/DSC_0099.JPG,0.3369,0.9822,0.6596,False,2026-08-11 18:55:19
+682,682,Main Hut/DSC_0072.JPG,0.1661,0.8761,0.5211,False,2026-08-11 18:55:19
+683,683,Main Hut/DSC_0066.JPG,0.0764,0.7471,0.4118,False,2026-08-11 18:55:19
+684,684,Main Hut/DSC_0067.JPG,0.2648,0.8875,0.5761,False,2026-08-11 18:55:19
+685,685,Main Hut/DSC_0073.JPG,0.1926,0.8869,0.5397,False,2026-08-11 18:55:19
+686,686,Main Hut/DSC_0098.JPG,0.0728,0.731,0.4019,False,2026-08-11 18:55:19
+687,687,Main Hut/DSC_0113.JPG,0.2156,0.7022,0.4589,False,2026-08-11 18:55:19
+688,688,Main Hut/DSC_0111.JPG,0.1743,0.7382,0.4562,False,2026-08-11 18:55:19
+689,689,Main Hut/DSC_0105.JPG,0.3361,0.9557,0.6459,False,2026-08-11 18:55:19
+690,690,Main Hut/DSC_0065.JPG,0.347,0.953,0.65,False,2026-08-11 18:55:19
+691,691,Main Hut/DSC_0071.JPG,0.2263,0.9862,0.6062,False,2026-08-11 18:55:19
+692,692,Main Hut/DSC_0059.JPG,0.0959,0.7218,0.4088,False,2026-08-11 18:55:19
+693,693,Main Hut/DSC_0058.JPG,0.1549,0.6851,0.42,False,2026-08-11 18:55:19
+694,694,Main Hut/DSC_0070.JPG,0.1718,0.8283,0.5,False,2026-08-11 18:55:19
+695,695,Main Hut/DSC_0064.JPG,0.0793,0.7889,0.4341,False,2026-08-11 18:55:19
+696,696,Main Hut/DSC_0110.JPG,0.1864,0.9573,0.5718,False,2026-08-11 18:55:19
+697,697,Main Hut/DSC_0114.JPG,0.1903,0.8716,0.531,False,2026-08-11 18:55:19
+698,698,Main Hut/DSC_0100.JPG,0.0696,0.7253,0.3974,False,2026-08-11 18:55:19
+699,699,Main Hut/DSC_0074.JPG,0.185,0.8818,0.5334,False,2026-08-11 18:55:19
+700,700,Main Hut/DSC_0061.JPG,0.2993,0.3041,0.3017,False,2026-08-11 18:55:19
+701,701,Main Hut/DSC_0115.JPG,0.0969,0.7387,0.4178,False,2026-08-11 18:55:19
+702,702,Main Hut/DSC_0103.JPG,0.0697,0.6528,0.3612,False,2026-08-11 18:55:19
+703,703,Main Hut/DSC_0088.JPG,0.0844,0.7116,0.398,False,2026-08-11 18:55:19
+704,704,Main Hut/DSC_0063.JPG,0.2167,0.7865,0.5016,False,2026-08-11 18:55:19
+705,705,Main Hut/DSC_0062.JPG,0.0989,0.7115,0.4052,False,2026-08-11 18:55:19
+706,706,Main Hut/DSC_0089.JPG,0.289,0.903,0.596,False,2026-08-11 18:55:19
+707,707,Main Hut/DSC_0102.JPG,0.401,0.9509,0.676,False,2026-08-11 18:55:19
+708,708,SfM_W_external/S7R08506.JPG,1,0.8869,0.9434,False,2026-08-11 18:55:19
+709,709,SfM_W_external/S7R08512.JPG,1,0.9549,0.9774,False,2026-08-11 18:55:19
+710,710,SfM_W_external/S7R08472.JPG,1,0.9908,0.9954,False,2026-08-11 18:55:19
+711,711,SfM_W_external/S7R08466.JPG,1,0.9859,0.993,False,2026-08-11 18:55:19
+712,712,SfM_W_external/S7R08499.JPG,1,0.9542,0.9771,False,2026-08-11 18:55:19
+713,713,SfM_W_external/S7R08498.JPG,1,0.9608,0.9804,False,2026-08-11 18:55:19
+714,714,SfM_W_external/S7R08467.JPG,1,0.8501,0.925,False,2026-08-11 18:55:19
+715,715,SfM_W_external/S7R08473.JPG,1,0.9919,0.996,False,2026-08-11 18:55:19
+716,716,SfM_W_external/S7R08513.JPG,1,0.9673,0.9836,False,2026-08-11 18:55:19
+717,717,SfM_W_external/S7R08507.JPG,0.8868,0.9536,0.9202,False,2026-08-11 18:55:19
+718,718,SfM_W_external/S7R08539.JPG,1,0.9746,0.9873,False,2026-08-11 18:55:19
+719,719,SfM_W_external/S7R08511.JPG,1,0.9493,0.9746,False,2026-08-11 18:55:19
+720,720,SfM_W_external/S7R08505.JPG,1,0.9249,0.9624,False,2026-08-11 18:55:19
+721,721,SfM_W_external/S7R08459.JPG,1,0.9778,0.9889,False,2026-08-11 18:55:19
+722,722,SfM_W_external/S7R08465.JPG,1,0.942,0.971,False,2026-08-11 18:55:19
+723,723,SfM_W_external/S7R08471.JPG,1,0.9632,0.9816,False,2026-08-11 18:55:19
+724,724,SfM_W_external/S7R08470.JPG,1,0.9803,0.9902,False,2026-08-11 18:55:19
+725,725,SfM_W_external/S7R08464.JPG,1,0.9785,0.9892,False,2026-08-11 18:55:19
+726,726,SfM_W_external/S7R08458.JPG,1,0.9736,0.9868,False,2026-08-11 18:55:19
+727,727,SfM_W_external/S7R08504.JPG,1,0.9034,0.9517,False,2026-08-11 18:55:19
+728,728,SfM_W_external/S7R08510.JPG,1,0.9456,0.9728,False,2026-08-11 18:55:19
+729,729,SfM_W_external/S7R08538.JPG,1,0.9402,0.9701,False,2026-08-11 18:55:19
+730,730,SfM_W_external/S7R08514.JPG,1,0.9098,0.9549,False,2026-08-11 18:55:19
+731,731,SfM_W_external/S7R08500.JPG,1,0.9642,0.9821,False,2026-08-11 18:55:19
+732,732,SfM_W_external/S7R08528.JPG,1,0.9728,0.9864,False,2026-08-11 18:55:19
+733,733,SfM_W_external/S7R08460.JPG,1,0.9884,0.9942,False,2026-08-11 18:55:19
+734,734,SfM_W_external/S7R08474.JPG,1,0.8924,0.9462,False,2026-08-11 18:55:19
+735,735,SfM_W_external/S7R08448.JPG,1,0.9445,0.9722,False,2026-08-11 18:55:19
+736,736,SfM_W_external/S7R08449.JPG,1,0.9425,0.9712,False,2026-08-11 18:55:19
+737,737,SfM_W_external/S7R08475.JPG,1,0.983,0.9915,False,2026-08-11 18:55:19
+738,738,SfM_W_external/S7R08461.JPG,1,0.9858,0.9929,False,2026-08-11 18:55:19
+739,739,SfM_W_external/S7R08529.JPG,1,0.9147,0.9574,False,2026-08-11 18:55:19
+740,740,SfM_W_external/S7R08501.JPG,1,0.9642,0.9821,False,2026-08-11 18:55:19
+741,741,SfM_W_external/S7R08515.JPG,1,0.9331,0.9666,False,2026-08-11 18:55:19
+742,742,SfM_W_external/S7R08503.JPG,1,0.812,0.906,False,2026-08-11 18:55:19
+743,743,SfM_W_external/S7R08517.JPG,1,0.9741,0.987,False,2026-08-11 18:55:19
+744,744,SfM_W_external/S7R08477.JPG,1,0.7757,0.8878,False,2026-08-11 18:55:19
+745,745,SfM_W_external/S7R08463.JPG,1,0.9705,0.9852,False,2026-08-11 18:55:19
+746,746,SfM_W_external/S7R08488.JPG,1,0.9869,0.9934,False,2026-08-11 18:55:19
+747,747,SfM_W_external/S7R08489.JPG,0.5651,0.9604,0.7628,False,2026-08-11 18:55:19
+748,748,SfM_W_external/S7R08462.JPG,1,0.9017,0.9508,False,2026-08-11 18:55:19
+749,749,SfM_W_external/S7R08476.JPG,1,0.838,0.919,False,2026-08-11 18:55:19
+750,750,SfM_W_external/S7R08516.JPG,1,0.9037,0.9518,False,2026-08-11 18:55:19
+751,751,SfM_W_external/S7R08502.JPG,1,0.8411,0.9206,False,2026-08-11 18:55:19
+752,752,SfM_W_external/S7R08559.JPG,1,0.5488,0.7744,False,2026-08-11 18:55:19
+753,753,SfM_W_external/S7R08565.JPG,1,0.9489,0.9744,False,2026-08-11 18:55:19
+754,754,SfM_W_external/S7R08571.JPG,1,0.9896,0.9948,False,2026-08-11 18:55:19
+755,755,SfM_W_external/S7R08570.JPG,1,0.9649,0.9824,False,2026-08-11 18:55:19
+756,756,SfM_W_external/S7R08564.JPG,1,0.9111,0.9556,False,2026-08-11 18:55:19
+757,757,SfM_W_external/S7R08558.JPG,1,0.9532,0.9766,False,2026-08-11 18:55:19
+758,758,SfM_W_external/S7R08572.JPG,1,0.9288,0.9644,False,2026-08-11 18:55:19
+759,759,SfM_W_external/S7R08566.JPG,1,0.9517,0.9758,False,2026-08-11 18:55:19
+760,760,SfM_W_external/S7R08567.JPG,1,0.955,0.9775,False,2026-08-11 18:55:19
+761,761,SfM_W_external/S7R08573.JPG,1,0.9492,0.9746,False,2026-08-11 18:55:19
+762,762,SfM_W_external/S7R08577.JPG,1,0.9482,0.9741,False,2026-08-11 18:55:19
+763,763,SfM_W_external/S7R08563.JPG,1,0.9448,0.9724,False,2026-08-11 18:55:19
+764,764,SfM_W_external/S7R08562.JPG,1,0.9108,0.9554,False,2026-08-11 18:55:19
+765,765,SfM_W_external/S7R08576.JPG,1,0.8546,0.9273,False,2026-08-11 18:55:19
+766,766,SfM_W_external/S7R08560.JPG,1,0.8256,0.9128,False,2026-08-11 18:55:19
+767,767,SfM_W_external/S7R08574.JPG,1,0.9628,0.9814,False,2026-08-11 18:55:19
+768,768,SfM_W_external/S7R08548.JPG,1,0.9547,0.9774,False,2026-08-11 18:55:19
+769,769,SfM_W_external/S7R08549.JPG,1,0.9629,0.9814,False,2026-08-11 18:55:19
+770,770,SfM_W_external/S7R08575.JPG,1,0.9756,0.9878,False,2026-08-11 18:55:19
+771,771,SfM_W_external/S7R08561.JPG,1,0.9263,0.9632,False,2026-08-11 18:55:19
+772,772,SfM_W_external/S7R08578.JPG,1,0.959,0.9795,False,2026-08-11 18:55:19
+773,773,SfM_W_external/S7R08544.JPG,1,0.9399,0.97,False,2026-08-11 18:55:19
+774,774,SfM_W_external/S7R08550.JPG,1,0.7771,0.8886,False,2026-08-11 18:55:19
+775,775,SfM_W_external/S7R08551.JPG,0.362,0.984,0.673,False,2026-08-11 18:55:19
+776,776,SfM_W_external/S7R08545.JPG,1,0.9262,0.9631,False,2026-08-11 18:55:19
+777,777,SfM_W_external/S7R08579.JPG,1,0.9634,0.9817,False,2026-08-11 18:55:19
+778,778,SfM_W_external/S7R08553.JPG,1,0.9594,0.9797,False,2026-08-11 18:55:19
+779,779,SfM_W_external/S7R08547.JPG,0.6783,0.9237,0.801,False,2026-08-11 18:55:19
+780,780,SfM_W_external/S7R08546.JPG,1,0.9002,0.9501,False,2026-08-11 18:55:19
+781,781,SfM_W_external/S7R08552.JPG,1,0.9118,0.9559,False,2026-08-11 18:55:19
+782,782,SfM_W_external/S7R08556.JPG,1,0.9957,0.9978,False,2026-08-11 18:55:19
+783,783,SfM_W_external/S7R08542.JPG,1,0.9545,0.9772,False,2026-08-11 18:55:19
+784,784,SfM_W_external/S7R08581.JPG,1,0.9332,0.9666,False,2026-08-11 18:55:19
+785,785,SfM_W_external/S7R08580.JPG,1,0.6424,0.8212,False,2026-08-11 18:55:19
+786,786,SfM_W_external/S7R08543.JPG,0.8445,0.8761,0.8603,False,2026-08-11 18:55:19
+787,787,SfM_W_external/S7R08557.JPG,0.9183,0.815,0.8666,False,2026-08-11 18:55:19
+788,788,SfM_W_external/S7R08541.JPG,1,0.5849,0.7924,False,2026-08-11 18:55:19
+789,789,SfM_W_external/S7R08555.JPG,1,0.9713,0.9856,False,2026-08-11 18:55:19
+790,790,SfM_W_external/S7R08569.JPG,1,0.9859,0.993,False,2026-08-11 18:55:19
+791,791,SfM_W_external/S7R08582.JPG,1,0.8305,0.9152,False,2026-08-11 18:55:19
+792,792,SfM_W_external/S7R08568.JPG,1,0.985,0.9925,False,2026-08-11 18:55:19
+793,793,SfM_W_external/S7R08554.JPG,1,0.9224,0.9612,False,2026-08-11 18:55:19
+794,794,SfM_W_external/S7R08540.JPG,1,0.876,0.938,False,2026-08-11 18:55:19
+795,795,SfM_W_external/S7R08527.JPG,1,0.9658,0.9829,False,2026-08-11 18:55:19
+796,796,SfM_W_external/S7R08533.JPG,1,0.9071,0.9536,False,2026-08-11 18:55:19
+797,797,SfM_W_external/S7R08453.JPG,1,0.9216,0.9608,False,2026-08-11 18:55:19
+798,798,SfM_W_external/S7R08447.JPG,1,0.9635,0.9818,False,2026-08-11 18:55:19
+799,799,SfM_W_external/S7R08490.JPG,0.9608,0.933,0.9469,False,2026-08-11 18:55:19
+800,800,SfM_W_external/S7R08484.JPG,1,0.8586,0.9293,False,2026-08-11 18:55:19
+801,801,SfM_W_external/S7R08485.JPG,1,0.8276,0.9138,False,2026-08-11 18:55:19
+802,802,SfM_W_external/S7R08491.JPG,1,0.881,0.9405,False,2026-08-11 18:55:19
+803,803,SfM_W_external/S7R08446.JPG,1,0.9512,0.9756,False,2026-08-11 18:55:19
+804,804,SfM_W_external/S7R08452.JPG,1,0.9687,0.9844,False,2026-08-11 18:55:19
+805,805,SfM_W_external/S7R08532.JPG,0.8044,0.9469,0.8756,False,2026-08-11 18:55:19
+806,806,SfM_W_external/S7R08526.JPG,1,0.9505,0.9752,False,2026-08-11 18:55:19
+807,807,SfM_W_external/S7R08518.JPG,1,0.9448,0.9724,False,2026-08-11 18:55:19
+808,808,SfM_W_external/S7R08530.JPG,1,0.9869,0.9934,False,2026-08-11 18:55:19
+809,809,SfM_W_external/S7R08524.JPG,1,0.9124,0.9562,False,2026-08-11 18:55:19
+810,810,SfM_W_external/S7R08478.JPG,1,0.9602,0.9801,False,2026-08-11 18:55:19
+811,811,SfM_W_external/S7R08444.JPG,0.6233,0.9235,0.7734,False,2026-08-11 18:55:19
+812,812,SfM_W_external/S7R08450.JPG,1,0.9317,0.9658,False,2026-08-11 18:55:19
+813,813,SfM_W_external/S7R08487.JPG,1,0.98,0.99,False,2026-08-11 18:55:19
+814,814,SfM_W_external/S7R08493.JPG,1,0.9076,0.9538,False,2026-08-11 18:55:19
+815,815,SfM_W_external/S7R08492.JPG,1,0.9676,0.9838,False,2026-08-11 18:55:19
+816,816,SfM_W_external/S7R08486.JPG,1,0.8978,0.9489,False,2026-08-11 18:55:19
+817,817,SfM_W_external/S7R08451.JPG,1,0.9596,0.9798,False,2026-08-11 18:55:19
+818,818,SfM_W_external/S7R08445.JPG,0.6154,0.9506,0.783,False,2026-08-11 18:55:19
+819,819,SfM_W_external/S7R08479.JPG,1,0.9761,0.988,False,2026-08-11 18:55:19
+820,820,SfM_W_external/S7R08525.JPG,1,0.934,0.967,False,2026-08-11 18:55:19
+821,821,SfM_W_external/S7R08531.JPG,1,0.9579,0.979,False,2026-08-11 18:55:19
+822,822,SfM_W_external/S7R08519.JPG,1,0.9455,0.9728,False,2026-08-11 18:55:19
+823,823,SfM_W_external/S7R08535.JPG,1,0.9309,0.9654,False,2026-08-11 18:55:19
+824,824,SfM_W_external/S7R08521.JPG,1,0.9809,0.9904,False,2026-08-11 18:55:19
+825,825,SfM_W_external/S7R08509.JPG,1,0.9782,0.9891,False,2026-08-11 18:55:19
+826,826,SfM_W_external/S7R08441.JPG,0.7012,0.896,0.7986,False,2026-08-11 18:55:19
+827,827,SfM_W_external/S7R08455.JPG,1,0.9167,0.9584,False,2026-08-11 18:55:19
+828,828,SfM_W_external/S7R08469.JPG,1,0.9906,0.9953,False,2026-08-11 18:55:19
+829,829,SfM_W_external/S7R08482.JPG,1,0.9268,0.9634,False,2026-08-11 18:55:19
+830,830,SfM_W_external/S7R08496.JPG,1,0.912,0.956,False,2026-08-11 18:55:19
+831,831,SfM_W_external/S7R08497.JPG,1,0.9433,0.9716,False,2026-08-11 18:55:19
+832,832,SfM_W_external/S7R08483.JPG,1,0.9406,0.9703,False,2026-08-11 18:55:19
+833,833,SfM_W_external/S7R08468.JPG,1,0.9749,0.9874,False,2026-08-11 18:55:19
+834,834,SfM_W_external/S7R08454.JPG,1,0.9715,0.9858,False,2026-08-11 18:55:19
+835,835,SfM_W_external/S7R08440.JPG,0.9601,0.8886,0.9244,False,2026-08-11 18:55:19
+836,836,SfM_W_external/S7R08508.JPG,0.8822,0.9457,0.914,False,2026-08-11 18:55:19
+837,837,SfM_W_external/S7R08520.JPG,1,0.769,0.8845,False,2026-08-11 18:55:19
+838,838,SfM_W_external/S7R08534.JPG,1,0.8926,0.9463,False,2026-08-11 18:55:19
+839,839,SfM_W_external/S7R08522.JPG,1,0.9062,0.9531,False,2026-08-11 18:55:19
+840,840,SfM_W_external/S7R08536.JPG,1,0.9783,0.9892,False,2026-08-11 18:55:19
+841,841,SfM_W_external/S7R08456.JPG,1,0.8844,0.9422,False,2026-08-11 18:55:19
+842,842,SfM_W_external/S7R08442.JPG,0.4316,0.9765,0.7041,False,2026-08-11 18:55:19
+843,843,SfM_W_external/S7R08495.JPG,1,0.9224,0.9612,False,2026-08-11 18:55:19
+844,844,SfM_W_external/S7R08481.JPG,1,0.9734,0.9867,False,2026-08-11 18:55:19
+845,845,SfM_W_external/S7R08480.JPG,1,0.9402,0.9701,False,2026-08-11 18:55:19
+846,846,SfM_W_external/S7R08494.JPG,1,0.96,0.98,False,2026-08-11 18:55:19
+847,847,SfM_W_external/S7R08443.JPG,0.5701,0.9473,0.7587,False,2026-08-11 18:55:19
+848,848,SfM_W_external/S7R08457.JPG,1,0.9074,0.9537,False,2026-08-11 18:55:19
+849,849,SfM_W_external/S7R08537.JPG,1,0.9639,0.982,False,2026-08-11 18:55:19
+850,850,SfM_W_external/S7R08523.JPG,1,0.9754,0.9877,False,2026-08-11 18:55:19
+851,851,Various_A/a Ylva P1000662.jpg,0.1158,0.8205,0.4682,False,2026-08-11 18:55:19
+852,852,Various_A/DSC_00691.jpg,0.3712,0.9286,0.6499,False,2026-08-11 18:55:19
+853,853,Various_A/Ad Chart scan 3.jpg,1,0.0425,0.5212,False,2026-08-11 18:55:19
+854,854,"Various_A/Bransfield House, Kristine Hannon (1).jpg",0.3653,0.9483,0.6568,False,2026-08-11 18:55:19
+855,855,Various_A/20121121-DSC_0811 FK.jpg,0.2464,0.9138,0.5801,False,2026-08-11 18:55:19
+856,856,Various_A/a Ylva P10006621.jpg,0.1158,0.8205,0.4682,False,2026-08-11 18:55:19
+857,857,Various_A/Bransfield House 2011 Ylva Grams P1000662.jpg,0.1158,0.8205,0.4682,False,2026-08-11 18:55:19
+858,858,Various_A/DSC_0255.JPG.jpg,0.0483,0.9509,0.4996,False,2026-08-11 18:55:19
+859,859,"Various_A/© UK Antarctic Heritage Trust, 2011, Photo by Rick Price, 2 copy.jpg",0.1006,0.8984,0.4995,False,2026-08-11 18:55:19
+860,860,Various_A/a Cat IMG_5781 50_.jpg,0.2183,0.712,0.4651,False,2026-08-11 18:55:19
+861,861,Various_A/A true Antarctic scene. Kristine Hannon.jpg,0.0387,0.7811,0.4099,False,2026-08-11 18:55:19
+862,862,Various_A/a Cat IMG_5781 50_1.jpg,0.2183,0.712,0.4651,False,2026-08-11 18:55:19
+863,863,Various_A/CAT TOTTY - Rachel P1040162.jpg,0.731,0.8825,0.8068,False,2026-08-11 18:55:19
+864,864,Various_A/DSC_0108 TJOM.JPG,0.0409,0.9063,0.4736,False,2026-08-11 18:55:19
+865,865,Various_A/DSC_0146 (2).JPG,0.1113,0.7239,0.4176,False,2026-08-11 18:55:19
+866,866,Various_A/DSC_0232.JPG,0.0922,0.8934,0.4928,False,2026-08-11 18:55:19
+867,867,Various_A/a Calire IMG_1633.JPG,0.217,0.9828,0.5999,False,2026-08-11 18:55:19
+868,868,Various_A/DSC_0227.JPG,0.0986,0.8881,0.4934,False,2026-08-11 18:55:19
+869,869,Various_A/DSC_0233.JPG,0.0423,0.9609,0.5016,False,2026-08-11 18:55:19
+870,870,Various_A/DSC_0282 TJOM.JPG,0.0659,0.8842,0.475,False,2026-08-11 18:55:19
+871,871,Various_A/DSC_0582.JPG,0.0747,0.937,0.5058,False,2026-08-11 18:55:19
+872,872,Various_A/DSC_0025.JPG,0.0224,0.771,0.3967,False,2026-08-11 18:55:19
+873,873,Various_A/BaseASign.JPG,0.1695,0.841,0.5052,False,2026-08-11 18:55:19
+874,874,Various_A/a Michael DSC_11541.JPG,0.3201,0.9093,0.6147,False,2026-08-11 18:55:19
+875,875,Various_A/1 (39).JPG,0.0281,0.5076,0.2679,False,2026-08-11 18:55:19
+876,876,Various_A/1 (19).JPG,0.1213,0.9587,0.54,False,2026-08-11 18:55:19
+877,877,Various_A/DSC_0033.JPG,0.2048,0.8899,0.5474,False,2026-08-11 18:55:19
+878,878,Various_A/DSC_0231.JPG,0.0648,0.8184,0.4416,False,2026-08-11 18:55:19
+879,879,Various_A/DSC_0219.JPG,0.0961,0.87,0.483,False,2026-08-11 18:55:19
+880,880,Various_A/a Cat IMG_7551.JPG,0.7825,0.994,0.8882,False,2026-08-11 18:55:19
+881,881,Various_A/DSC_0230.JPG,0.0889,0.8676,0.4782,False,2026-08-11 18:55:19
+882,882,Various_A/a Cat IMG_5756.JPG,0.4111,0.9027,0.6569,False,2026-08-11 18:55:19
+883,883,Various_A/DSC_0146.JPG,0.0364,0.9503,0.4934,False,2026-08-11 18:55:19
+884,884,Various_A/Claire IMG_1633.JPG,0.217,0.9828,0.5999,False,2026-08-11 18:55:19
+885,885,Various_A/DSC_0195.JPG,0.027,0.8386,0.4328,False,2026-08-11 18:55:19
+886,886,Various_A/DSC_0181.JPG,0.0654,0.9836,0.5245,False,2026-08-11 18:55:19
+887,887,Various_A/DSC_0142.JPG,0.0237,0.7774,0.4005,False,2026-08-11 18:55:19
+888,888,Various_A/DSC_0591.JPG,0.0297,0.9449,0.4873,False,2026-08-11 18:55:19
+889,889,Various_A/DSC_0234.JPG,0.0914,0.9081,0.4998,False,2026-08-11 18:55:19
+890,890,Various_A/DSC_0235.JPG,0.0776,0.988,0.5328,False,2026-08-11 18:55:19
+891,891,Various_A/DSC_0221.JPG,0.0463,0.898,0.4722,False,2026-08-11 18:55:19
+892,892,Various_A/DSC_0037.JPG,0.3197,0.8871,0.6034,False,2026-08-11 18:55:19
+893,893,Various_A/DSC_0180.JPG,0.0214,0.8754,0.4484,False,2026-08-11 18:55:19
+894,894,Various_A/BRANSFIELD HOUSE Ylva P10107931.JPG,0.0896,0.9086,0.4991,False,2026-08-11 18:55:19
+895,895,Various_A/DSC_01951.JPG,0.027,0.8386,0.4328,False,2026-08-11 18:55:19
+896,896,Various_A/DSC_0237.JPG,0.0721,0.772,0.422,False,2026-08-11 18:55:19
+897,897,Various_A/DSC_0222.JPG,0.1158,0.9799,0.5478,False,2026-08-11 18:55:19
+898,898,Various_A/DSC_0236.JPG,0.0875,0.7588,0.4232,False,2026-08-11 18:55:19
+899,899,Various_A/DSC_0154.JPG,0.0588,0.8829,0.4708,False,2026-08-11 18:55:19
+900,900,Various_A/DSC_0641.JPG,0.2216,0.9088,0.5652,False,2026-08-11 18:55:19
+901,901,Various_A/DSC_0735.JPG,0.0284,0.9212,0.4748,False,2026-08-11 18:55:19
+902,902,Various_A/CAT TOTTY P1000953 Ylva.JPG,0.0609,0.8496,0.4552,False,2026-08-11 18:55:19
+903,903,Various_A/DSC_0047.JPG,0.0661,0.9073,0.4867,False,2026-08-11 18:55:19
+904,904,Various_A/DSC_0046.JPG,0.0431,0.9244,0.4838,False,2026-08-11 18:55:19
+905,905,Various_A/a Cat IMG_9332.JPG,0.0681,0.9606,0.5144,False,2026-08-11 18:55:19
+906,906,Various_A/DSC_0066 TJOM.JPG,0.0595,0.9265,0.493,False,2026-08-11 18:55:19
+907,907,Various_A/DSC_02391.JPG,0.1806,0.8621,0.5214,False,2026-08-11 18:55:19
+908,908,Various_A/DSC_0089 TJOM.JPG,0.0518,0.8202,0.436,False,2026-08-11 18:55:19
+909,909,Various_A/DSC_0247.JPG,0.0394,0.8534,0.4464,False,2026-08-11 18:55:19
+910,910,Various_A/DSC_0086.JPG,0.052,0.9987,0.5254,False,2026-08-11 18:55:19
+911,911,Various_A/IMG_1633.JPG,0.217,0.9828,0.5999,False,2026-08-11 18:55:19
+912,912,Various_A/DSC_0069.JPG,0.0559,0.9277,0.4918,False,2026-08-11 18:55:19
+913,913,Various_A/DSC_0294.JPG,0.07,0.8999,0.485,False,2026-08-11 18:55:19
+914,914,Various_A/DSC_0242.JPG,0.1411,0.8791,0.5101,False,2026-08-11 18:55:19
+915,915,Various_A/a Claire DSC07803.JPG,0.204,0.9355,0.5698,False,2026-08-11 18:55:19
+916,916,Various_A/DSC_0281.JPG,0.044,0.8433,0.4436,False,2026-08-11 18:55:19
+917,917,Various_A/DSC_0070 TJOM.JPG,0.0529,0.873,0.463,False,2026-08-11 18:55:19
+918,918,Various_A/DSC_0071 TJOM.JPG,0.0386,0.8599,0.4492,False,2026-08-11 18:55:19
+919,919,Various_A/DSC_0040.JPG,0.0482,0.9765,0.5124,False,2026-08-11 18:55:19
+920,920,Various_A/DSC_02381.JPG,0.1002,0.9719,0.536,False,2026-08-11 18:55:19
+921,921,Various_A/DSC_0083.JPG,0.0915,0.881,0.4862,False,2026-08-11 18:55:19
+922,922,Various_A/DSC_0120.JPG,0.2105,0.9341,0.5723,False,2026-08-11 18:55:19
+923,923,Various_A/1 (12).JPG,0.1009,0.6443,0.3726,False,2026-08-11 18:55:19
+924,924,Various_A/BRANSFIELD HOUSE Ylva P1010793.JPG,0.0896,0.9086,0.4991,False,2026-08-11 18:55:19
+925,925,Various_A/a Cat IMG_7551-Optimized.JPG,1,0.9947,0.9974,False,2026-08-11 18:55:19
+926,926,Various_A/DSC_0081.JPG,0.0194,0.8868,0.4531,False,2026-08-11 18:55:19
+927,927,Various_A/a Claire IMG_6407.JPG,0.1433,0.9485,0.5459,False,2026-08-11 18:55:19
+928,928,Various_A/DSC_0240.JPG,0.1741,0.8216,0.4978,False,2026-08-11 18:55:19
+929,929,Various_A/DSC_0057.JPG,0.0273,0.9644,0.4958,False,2026-08-11 18:55:19
+930,930,Various_A/DSC_00611.JPG,0.093,0.8257,0.4594,False,2026-08-11 18:55:19
+931,931,Various_A/DSC_0112.JPG,0.0565,0.9954,0.526,False,2026-08-11 18:55:19
+932,932,Various_A/DSC_0728.JPG,0.0618,0.9603,0.511,False,2026-08-11 18:55:19
+933,933,Various_A/DSC_0068 - TJOM.JPG,0.0777,0.9509,0.5143,False,2026-08-11 18:55:19
+934,934,Various_A/DSC_0069 TJOM.JPG,0.0466,0.9129,0.4798,False,2026-08-11 18:55:19
+935,935,Various_A/a Michael DSC_1736.JPG,0.0944,0.9152,0.5048,False,2026-08-11 18:55:19
+936,936,Various_A/DSC_0463.JPG,0.047,0.9046,0.4758,False,2026-08-11 18:55:19
+937,937,Various_A/a Claire IMG_1985.JPG,0.0639,0.9739,0.5189,False,2026-08-11 18:55:19
+938,938,Various_A/DSC_02011.JPG,0.0774,0.86,0.4687,False,2026-08-11 18:55:19
+939,939,Various_A/Cat IMG_0846.JPG,0.324,0.8063,0.5652,False,2026-08-11 18:55:19
+940,940,Various_A/a Cat IMG_8594.JPG,0.0679,0.8462,0.457,False,2026-08-11 18:55:19
+941,941,Various_A/DSC_0058.JPG,0.3427,0.7632,0.553,False,2026-08-11 18:55:19
+942,942,Various_A/DSC_0104.JPG,0.062,0.9596,0.5108,False,2026-08-11 18:55:19
+943,943,Various_A/a Claire IMG_3388.JPG,0.1712,0.8916,0.5314,False,2026-08-11 18:55:19
+944,944,Various_A/1 (10).JPG,0.0611,0.9884,0.5247,False,2026-08-11 18:55:19
+945,945,Various_A/DSC_0101 TJOM.JPG,0.0844,0.7385,0.4114,False,2026-08-11 18:55:19
+946,946,Various_A/1 (47).JPG,0.0813,0.8886,0.485,False,2026-08-11 18:55:19
+947,947,Various_A/DSC_02161.JPG,0.0686,0.8034,0.436,False,2026-08-11 18:55:19
+948,948,Various_A/DSC_0539.JPG,0.0364,0.9697,0.503,False,2026-08-11 18:55:19
+949,949,Various_A/DSC_0061.JPG,0.093,0.8257,0.4594,False,2026-08-11 18:55:19
+950,950,Various_A/a RACHEL MORGAN - Ylva P1010042.JPG,0.114,0.7046,0.4093,False,2026-08-11 18:55:19
+951,951,Various_A/DSC_0115.JPG,0.4446,0.9943,0.7194,False,2026-08-11 18:55:19
+952,952,Various_A/a Claire IMG_6340.JPG,0.1197,0.8616,0.4906,False,2026-08-11 18:55:19
+953,953,Various_A/DSC_0249.JPG,0.059,0.9461,0.5026,False,2026-08-11 18:55:19
+954,954,Various_A/DSC_0089.JPG,0.0664,0.9176,0.492,False,2026-08-11 18:55:19
+955,955,Various_A/DSC_0116.JPG,0.0607,0.878,0.4694,False,2026-08-11 18:55:19
+956,956,Various_A/4.JPG,0.086,0.8986,0.4923,False,2026-08-11 18:55:19
+957,957,Various_A/DSC_0107 TJOM.JPG,0.086,0.8986,0.4923,False,2026-08-11 18:55:19
+958,958,Various_A/BitumenBoatShedDSC02535.JPG,0.4654,0.426,0.4457,False,2026-08-11 18:55:19
+959,959,Various_A/1 (8).JPG,0.0235,0.8821,0.4528,False,2026-08-11 18:55:19
+960,960,Various_A/DSC_0039.JPG,0.0629,0.9307,0.4968,False,2026-08-11 18:55:19
+961,961,Various_A/DSC_0207.JPG,0.0396,0.8652,0.4524,False,2026-08-11 18:55:19
+962,962,Various_A/DSC_0206.JPG,0.0388,0.8678,0.4533,False,2026-08-11 18:55:19
+963,963,Various_A/DSC_0079 TJOM.JPG,0.0836,0.8851,0.4844,False,2026-08-11 18:55:19
+964,964,Various_A/DSC_0199.JPG,0.072,0.8368,0.4544,False,2026-08-11 18:55:19
+965,965,Various_A/DSC_0166.JPG,0.0765,0.9775,0.527,False,2026-08-11 18:55:19
+966,966,Various_A/a Claire IMG_19851.JPG,0.0639,0.9739,0.5189,False,2026-08-11 18:55:19
+967,967,Various_A/CAT TOTTY Rachel P1040161.JPG,0.6569,0.8577,0.7573,False,2026-08-11 18:55:19
+968,968,Various_A/DSC_0204.JPG,0.0418,0.9242,0.483,False,2026-08-11 18:55:19
+969,969,Various_A/DSC_0238.JPG,0.1002,0.9719,0.536,False,2026-08-11 18:55:19
+970,970,Various_A/CAT TOTTY - Claire DSC06438.JPG,0.2284,0.9258,0.5771,False,2026-08-11 18:55:19
+971,971,Various_A/DSC_0239.JPG,0.1806,0.8621,0.5214,False,2026-08-11 18:55:19
+972,972,Various_A/DSC_0205.JPG,0.0571,0.982,0.5196,False,2026-08-11 18:55:19
+973,973,Various_A/DSC_0072 TJOM.JPG,0.0971,0.8786,0.4878,False,2026-08-11 18:55:19
+974,974,Various_A/BHPorch2.JPG,0.1218,0.7226,0.4222,False,2026-08-11 18:55:19
+975,975,Various_A/DSC_02311.JPG,0.0648,0.8184,0.4416,False,2026-08-11 18:55:19
+976,976,Various_A/a Claire IMG_64071.JPG,0.1433,0.9485,0.5459,False,2026-08-11 18:55:19
+977,977,Various_A/DSC_0198.JPG,0.0585,0.8297,0.4441,False,2026-08-11 18:55:19
+978,978,Various_A/a Cat IMG_7551-Optimized1.JPG,1,0.9947,0.9974,False,2026-08-11 18:55:19
+979,979,Various_A/2.JPG,0.0971,0.8786,0.4878,False,2026-08-11 18:55:19
+980,980,Various_A/DSC_0188.JPG,0.1733,0.8639,0.5186,False,2026-08-11 18:55:19
+981,981,Various_A/DSC_0177.JPG,0.1603,0.9562,0.5582,False,2026-08-11 18:55:19
+982,982,Various_A/a RACHEL MORGAN - Ylva P10100421.JPG,0.114,0.7046,0.4093,False,2026-08-11 18:55:19
+983,983,Various_A/a Michael DSC_1154.JPG,0.3201,0.9093,0.6147,False,2026-08-11 18:55:19
+984,984,Various_A/DSC_02301.JPG,0.0889,0.8676,0.4782,False,2026-08-11 18:55:19
+985,985,Various_A/DSC_0229.JPG,0.0921,0.8926,0.4923,False,2026-08-11 18:55:19
+986,986,Various_A/DSC_0201.JPG,0.0774,0.86,0.4687,False,2026-08-11 18:55:19
+987,987,Various_A/DSC_0215.JPG,0.0356,0.9029,0.4692,False,2026-08-11 18:55:19
+988,988,Various_A/DSC_0200.JPG,0.0633,0.8923,0.4778,False,2026-08-11 18:55:19
+989,989,Various_A/DSC_0228.JPG,0.1238,0.9057,0.5147,False,2026-08-11 18:55:19
+990,990,Various_A/a Claire DSC078031.JPG,0.204,0.9355,0.5698,False,2026-08-11 18:55:19
+991,991,Various_A/3.JPG,0.0777,0.9509,0.5143,False,2026-08-11 18:55:19
+992,992,Various_A/1.JPG,0.0608,0.9785,0.5197,False,2026-08-11 18:55:19
+993,993,Various_A/aa Cat IMG_7551.JPG,0.7825,0.994,0.8882,False,2026-08-11 18:55:19
+994,994,Various_A/a Cat IMG_97581.JPG,0.1961,0.8452,0.5206,False,2026-08-11 18:55:19
+995,995,Various_A/a Cat IMG_9758.JPG,0.1961,0.8452,0.5206,False,2026-08-11 18:55:19
+996,996,Various_A/DSC_0216.JPG,0.0686,0.8034,0.436,False,2026-08-11 18:55:19
+997,997,Various_A/DSC_0202.JPG,0.0454,0.99,0.5177,False,2026-08-11 18:55:19
+998,998,Various_A/DSC_0203.JPG,0.0221,0.8538,0.438,False,2026-08-11 18:55:19
+999,999,Various_A/DSC_0217.JPG,0.1121,0.8517,0.4819,False,2026-08-11 18:55:19
+1000,1000,Various_A/DSC_02471.JPG,0.0394,0.8534,0.4464,False,2026-08-11 18:55:19
+1001,1001,Various_A/DSC_0029.JPG,0.0797,0.9792,0.5294,False,2026-08-11 18:55:19
+1002,1002,Various_A/DSC_0175.JPG,0.0853,0.9824,0.5339,False,2026-08-11 18:55:19
+1003,1003,Various_A/DSC_0161.JPG,0.1086,0.9739,0.5412,False,2026-08-11 18:55:19
+1004,1004,Various_A/a Cat IMG_93321.JPG,0.0681,0.9606,0.5144,False,2026-08-11 18:55:19
