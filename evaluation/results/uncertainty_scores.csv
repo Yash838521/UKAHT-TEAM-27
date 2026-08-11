@@ -1,0 +1,1007 @@
+image_uid,file_name,uncertainty_score,confidence_component,quality_component,agreement_component,novelty_component,terms_corroborated,terms_checked,has_description,has_quality,review_recommended,reason,vocabulary_version
+200af01154004118ae8397eb3fe5f15e,P7630236 (Large).jpg,0.2572,0.3157,0.0236,0.3333,0.28,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5d9d6ca54cfb4308b7ca3ec6cd105dfb,P7630258 (Large).JPG,0.3326,0.4349,0.05,0.4,0.336,3,5,True,True,False,The assigned terms are well supported across all measures.,1.0
+670ee9cd37b646358e8b1cd55fc22957,P7630259 (Large).JPG,0.2865,0.4107,0.0461,0.25,0.39,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+bc173a734aaf4bfda01eb017594a2f6e,P7630260 (Large).JPG,0.1577,0.154,0.2033,0.0,0.4211,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+9937c64b77dc4232987c98f864d01132,P7630262 (Large).JPG,0.4648,0.575,0.4054,0.3333,0.5496,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4a364c61c595499283bd9b8123ffde34,P7630263 (Large).JPG,0.3065,0.5161,0.2544,0.25,0.0,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+3c02cda285564ef1823982848b393b9d,P7630264 (Large).JPG,0.3095,0.5145,0.309,0.0,0.4507,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c126d76ddd624a4b84f3d1924a85aba6,P7630265 (Large).JPG,0.411,0.7075,0.5627,0.0,0.3387,3,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fb81dff770d24db5a73faaa93d5a0c8a,P7630266 (Large).JPG,0.5188,0.865,0.2977,0.4,0.2432,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fb62451110a343288e8cdb2209dccc24,P7630267 (Large).JPG,0.19,0.4483,0.0285,0.0,0.1829,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+57e02a40a424473589ca195bb2ec3e93,P7630268 (Large).JPG,0.4527,0.6872,0.1385,0.5,0.2297,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fe34bb2db9ba4f3cadc2954b0c0c0755,P7630273 (Large).jpg,0.1965,0.3706,0.3341,0.0,0.0,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0c273363d58540809461bdf6135c5204,P7630276 (Large).JPG,0.3787,0.5911,0.2668,0.25,0.2897,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9c6380a93cde4ad892d317a58c13140a,Port Lockroy 24th April 2020 JNH (1) (Large).jpg,0.2332,0.4769,0.0427,0.0,0.3847,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+dab76884b75d4230b9960928e4465bed,Port Lockroy 24th April 2020 JNH (10) (Large).jpg,0.2926,0.3554,0.5235,0.0,0.4235,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+1a4b67bd332d4483805df0ee0b2e4d85,Port Lockroy 24th April 2020 JNH (11) (Large).jpg,0.32,0.2153,0.4831,0.25,0.487,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6986f22fa1c04ab9a3d6db65fda27ace,Port Lockroy 24th April 2020 JNH (12) (Large).jpg,0.2833,0.1662,0.4362,0.25,0.4193,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+53405c54172846748fec3f6aeb6edeb4,Port Lockroy 24th April 2020 JNH (13) (Large).jpg,0.1487,0.0,0.3207,0.0,0.5637,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+21b9b3a1b7294793a76cc65df735591c,Port Lockroy 24th April 2020 JNH (14) (Large).jpg,0.4982,0.7386,0.5376,0.25,0.3811,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+619fe62e2ed5423e95ac36afd4bb7e2e,Port Lockroy 24th April 2020 JNH (16) (Large).jpg,0.3971,0.0307,0.53,0.6667,0.5359,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e7f65c6c252545ea8cef06064ce2fdb2,Port Lockroy 24th April 2020 JNH (17) (Large).jpg,0.3827,0.3176,0.486,0.3333,0.4954,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+09d4c922817b4b5cb00ea8831b3f36cf,Port Lockroy 24th April 2020 JNH (18) (Large).jpg,0.5528,0.3266,0.8183,0.6667,0.4988,1,3,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the generated description does not corroborate the assigned terms.",1.0
+eea67b611f824e82bdc8e52f498a10f1,Port Lockroy 24th April 2020 JNH (19) (Large).jpg,0.4652,0.377,0.5608,0.5,0.4742,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+62b88133cd2647e59213f3238f35b76e,Port Lockroy 24th April 2020 JNH (2) (Large).jpg,0.3094,0.4577,0.0222,0.3333,0.2987,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+24109e2aa1294d86bdcfbd71e463b00d,Port Lockroy 24th April 2020 JNH (20) (Large).jpg,0.3507,0.1099,0.598,0.3333,0.6176,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+c75b3142e8c7402ca175ae51766d9219,Port Lockroy 24th April 2020 JNH (21) (Large).jpg,0.372,0.3625,0.435,0.25,0.5545,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+b506c7d0d59043399268f93ff1b06ba5,Port Lockroy 24th April 2020 JNH (22) (Large).jpg,0.2808,0.2098,0.66,0.0,0.5022,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+9dc363e511da4f7bbf43c20b53e77811,Port Lockroy 24th April 2020 JNH (23) (Large).jpg,0.2747,0.2444,0.6504,0.0,0.394,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+bf47e0b0fb6c4e3588ea61dc1e8803b8,Port Lockroy 24th April 2020 JNH (24) (Large).jpg,0.3305,0.3517,0.6351,0.0,0.5361,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+205d65e906924e6fa9c4e7fc283c6cb5,Port Lockroy 24th April 2020 JNH (25) (Large).jpg,0.4553,0.4848,0.6309,0.3333,0.3963,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+322fedeada3f4776a6371852946cbd55,Port Lockroy 24th April 2020 JNH (26) (Large).jpg,0.3145,0.4167,0.4663,0.0,0.5028,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b757e68e5cbc499594a29f2011cb3a0b,Port Lockroy 24th April 2020 JNH (27) (Large).jpg,0.3562,0.4006,0.707,0.0,0.4972,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e8a4c080efc8422a8147bbf433bd554c,Port Lockroy 24th April 2020 JNH (28) (Large).jpg,0.6486,0.5947,0.6249,0.75,0.6031,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2c01621f943e4ffc9cd3878872b28ef0,Port Lockroy 24th April 2020 JNH (29) (Large).jpg,0.5418,0.5538,0.5547,0.5,0.5801,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+48c8e65a85c041f48db9a9260f8f7fd1,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,0.3438,0.2804,0.033,0.6667,0.2603,1,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e62bf61e69224413997efe395a3f8ca3,Port Lockroy 24th April 2020 JNH (30) (Large).jpg,0.5586,0.4562,0.5009,0.75,0.492,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+38eebcb1b63349dd93b7976f7587d1f7,Port Lockroy 24th April 2020 JNH (31) (Large).jpg,0.3423,0.3821,0.6032,0.0,0.5859,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+bc7bdf1f70704816ab5e4adcd8e8351e,Port Lockroy 24th April 2020 JNH (32) (Large).jpg,0.5345,0.6139,0.4044,0.5,0.5918,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+efa7d2c553b643978ebfbdb1d04e4b06,Port Lockroy 24th April 2020 JNH (33) (Large).jpg,0.482,0.304,0.0417,1.0,0.4486,0,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+881eb4ef30ea4e91865e9ee079f8d3e8,Port Lockroy 24th April 2020 JNH (34) (Large).jpg,0.3124,0.2688,0.0915,0.6667,0.0,1,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+1f4dd4388778447fa6f3ac2d843e1516,Port Lockroy 24th April 2020 JNH (36) (Large).jpg,0.3549,0.1907,0.1909,0.6667,0.3332,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+94890ba5ca9d41d3b0c353d0fe4b31cf,Port Lockroy 24th April 2020 JNH (37) (Large).jpg,0.4288,0.4716,0.3511,0.5,0.2904,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+dde38f0ae5c949fe995c64d63b3437a1,Port Lockroy 24th April 2020 JNH (39) (Large).jpg,0.5683,0.5627,0.4413,0.75,0.3875,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+b0eb77e43cdb4ccc96dd9c136f47e1b8,Port Lockroy 24th April 2020 JNH (4) (Large).jpg,0.493,0.629,0.0058,0.75,0.3111,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+b2115b82ec784180889a256fe0e655db,Port Lockroy 24th April 2020 JNH (40) (Large).jpg,0.411,0.4058,0.3091,0.5,0.3813,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+80b5fdcfd2c044a2a12c91485107c6e1,Port Lockroy 24th April 2020 JNH (41) (Large).jpg,0.3178,0.2573,0.4406,0.25,0.4306,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b55e292179bf4ff0ad3b1cc9021ca729,Port Lockroy 24th April 2020 JNH (42) (Large).jpg,0.3508,0.3848,0.334,0.25,0.4957,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+f4736b6aa30e4b4e81c6137186d4596e,Port Lockroy 24th April 2020 JNH (43) (Large).jpg,0.5875,0.6527,0.4363,0.75,0.3118,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+3a5acbaeb0264619a6cffa1bce0b2d37,Port Lockroy 24th April 2020 JNH (44) (Large).jpg,0.3645,0.2655,0.6383,0.25,0.4593,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3d18012b723142568224118ef2e0625b,Port Lockroy 24th April 2020 JNH (47) (Large).jpg,0.4326,0.5362,0.5235,0.25,0.4348,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+56f3fa183ede44e9a4228ef7955207cf,Port Lockroy 24th April 2020 JNH (48) (Large).jpg,0.5065,0.2747,0.6125,0.6667,0.5856,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+808f0c59ee3347f0a24874879a790356,Port Lockroy 24th April 2020 JNH (49) (Large).jpg,0.5017,0.8238,0.4121,0.25,0.3727,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+85690c9cf2214b019b2f23afa12b9bec,Port Lockroy 24th April 2020 JNH (5) (Large).jpg,0.2834,0.3788,0.381,0.0,0.4977,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+405a793161e8459187b39ca81e765a6a,Port Lockroy 24th April 2020 JNH (51) (Large).jpg,0.4331,0.3628,0.4813,0.4,0.599,3,5,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+beedd7812af9411eb791942690720fa6,Port Lockroy 24th April 2020 JNH (52) (Large).jpg,0.2998,0.6683,0.1475,0.0,0.2425,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+678f1a8cbe544efca4c8e2319b592008,Port Lockroy 24th April 2020 JNH (53) (Large).jpg,0.5779,0.7678,0.6043,0.5,0.2555,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+afa0c05ed49a41b3a8834957eada108d,Port Lockroy 24th April 2020 JNH (54) (Large).jpg,0.5449,0.7765,0.6525,0.25,0.451,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9d21448f3aef4f48b07e1897453c07fc,Port Lockroy 24th April 2020 JNH (55) (Large).jpg,0.3381,0.561,0.0364,0.3333,0.23,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+6d35ad96d5ae4f21b56973f9320d772d,Port Lockroy 24th April 2020 JNH (56) (Large).jpg,0.5677,0.8354,0.3701,0.5,0.3422,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+ddc897edaea443898138a661785a1536,Port Lockroy 24th April 2020 JNH (6) (Large).jpg,0.2942,0.3256,0.1529,0.25,0.4979,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+991cd5dbc6ee422b863c2136f1ddd5fd,Port Lockroy 24th April 2020 JNH (7) (Large).jpg,0.4121,0.6031,0.3211,0.25,0.4119,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+cb19e8cbd229498487543673fad443d3,Port Lockroy 24th April 2020 JNH (8) (Large).jpg,0.3139,0.1515,0.5265,0.3333,0.3707,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+af508c9cc07443d5bbc870f4afd5eeba,Port Lockroy 24th April 2020 JNH (9) (Large).jpg,0.2908,0.348,0.4945,0.0,0.4676,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c7b0bc84d0e34425a9ed9512a885811e,A_1_h_16(1).jpg,0.7978,0.6735,0.656,1.0,0.8727,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+13a723cdd6cd4bc281123b3d8de20fd5,A_1_h_16(10).JPG,0.5467,0.6527,0.4355,0.3333,0.8743,2,3,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+189427807d90476bbe24f8ab05210a10,A_1_h_16(11).JPG,0.3474,0.2904,0.5658,0.3333,0.2173,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+65f6365dd64e402398b1249cc32e4948,A_1_h_16(12).JPG,0.2309,0.3628,0.5195,0.0,0.0,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+99d57bccca8c4c52b39bf1f666c1f6ce,A_1_h_16(13).JPG,0.2389,0.3175,0.5069,0.0,0.1763,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+e47221720ee3451da44437a1cd04bc72,A_1_h_16(14).JPG,0.3653,0.3149,0.5419,0.3333,0.3114,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+4a6798f66f344ccd95d8f07cc1fd7410,A_1_h_16(2).jpg,0.5619,0.7351,0.5909,0.5,0.2428,1,2,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+aeb3bfdae6b6487b8673707c22a1870b,A_1_h_16(3).jpg,0.4537,0.3845,0.5958,0.6667,0.0,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+727336bb2bd74d7789d0a3e0f5dfefd7,A_1_h_16(4).jpg,0.2658,0.2773,0.5896,0.0,0.339,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+d1ef91fc3b1840bf8bc3ce2d1ef00d0e,A_1_h_16(5).JPG,0.5268,0.6097,0.565,0.5,0.336,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+428f03f038954de2b1722f35f5eab66d,A_1_h_16(6).JPG,0.5358,0.7889,0.5731,0.0,0.967,2,2,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+aa45bbbdd70e4dcca5c30d6e19519237,A_1_h_16(7).JPG,0.623,0.8672,0.5773,0.5,0.3604,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4aad44f201c04a258ceb6699213accff,A_1_h_16(8).JPG,0.6862,0.8522,0.574,0.75,0.321,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+84ce231b832945c293521d1111a56538,A_1_h_16(9).JPG,0.7517,0.6812,0.5669,1.0,0.6661,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+7b4edbfd51774410a87807a711e6038f,HY9A2343.jpg,0.7978,0.6735,0.656,1.0,0.8727,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+2cc36dd2d9b44c29b8f1b2507b265ea8,HY9A2344.jpg,0.5619,0.7351,0.5909,0.5,0.2428,1,2,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9e365b5561094c538514aa4313b28142,HY9A2345.jpg,0.4537,0.3845,0.5958,0.6667,0.0,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5d864d478bcd42feaaa7437a3b98db8e,HY9A2346.jpg,0.2658,0.2773,0.5896,0.0,0.339,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+63c65070acba4abfbdd67cbc180f54ec,P1010138.JPG,0.5268,0.6097,0.565,0.5,0.336,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+42e30a08440c4804961d01acbdeb858f,P1010139.JPG,0.5358,0.7889,0.5731,0.0,0.967,2,2,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+f9f26b012f7742918e312a2aed2c3bb3,P1010140.JPG,0.623,0.8672,0.5773,0.5,0.3604,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1c95a15212c94900a78166e9e0439c54,P1010141.JPG,0.6862,0.8522,0.574,0.75,0.321,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+149ff7e2c94b4ed9bcdb87bf4c8f7be5,P1010143.JPG,0.7517,0.6812,0.5669,1.0,0.6661,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+f239dae325ea40878af383cbcab6c7f8,PC130169.JPG,0.5467,0.6527,0.4355,0.3333,0.8743,2,3,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+dd508f4b9715421baea60e8634f4165c,PC130170.JPG,0.3474,0.2904,0.5658,0.3333,0.2173,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+dfbc7890c436428280d5c4754ba341c1,PC130171.JPG,0.2309,0.3628,0.5195,0.0,0.0,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+382f3241aa4f47ac81ee343caed08840,PC130172.JPG,0.2389,0.3175,0.5069,0.0,0.1763,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+5d6e7a72ca3a43dabdb197f9a2e7ea48,PC130173.JPG,0.3653,0.3149,0.5419,0.3333,0.3114,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+86084f56ee8f4ae492565d5cf7d6fb7a,A1a60a.JPG,0.5065,0.3942,0.5885,0.6667,0.3385,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ac89fb8c6389431e9c904866b556286b,A1a60b.JPG,0.5379,0.4026,0.5673,0.75,0.3901,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ef9337a70ce846d786fadcdb9fadc750,A1a60c.JPG,0.5577,0.446,0.578,0.75,0.4068,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+58d4e267566b42fda24081b5c6967eb1,A1a60d.JPG,0.5891,0.5757,0.4833,0.75,0.4396,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+8ae240ea8a4e40f7a95ff200149acc5c,A1a61a.JPG,0.5358,0.1805,0.6006,1.0,0.3498,0,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+68bac55734da4c359741d93f6b5b0b09,A1a61b.JPG,0.4461,0.21,0.5791,0.6667,0.3782,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+19669de726d7483496d47a333e0cb520,A1a61c.JPG,0.297,0.3999,0.5574,0.0,0.3039,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+cf4c5e65419b49e6b7dd1a3e35c1ffe8,A1a61d.JPG,0.3354,0.5431,0.5212,0.0,0.2739,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+291a88a0a5994352ac28e7ecf21723ae,A1h164a.JPG,0.5424,0.5082,0.4564,0.75,0.3219,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+8207c89bbf764f57a2e0045eb9247b2a,A1h164b.JPG,0.5206,0.5802,0.5586,0.5,0.3718,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+64fc1fbf1b6840948863fee2a4215a53,A1h164c.JPG,0.3919,0.6733,0.5056,0.0,0.3678,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1c9bdc84bf3149c386f297071cd08531,A1h164d.JPG,0.5853,0.6316,0.3911,0.75,0.4071,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+f63b4c9e8821430180b986feb3c5ee3a,A1h165.JPG,0.674,0.6367,0.4188,1.0,0.4493,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+94a534e0540a4a4b8a84ac4128cf250b,A1h165a.JPG,0.5154,0.3743,0.5559,0.75,0.3217,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ee8910a650cf4d9c9b27eaa80263f098,A1h165b.JPG,0.6626,0.5551,0.4773,1.0,0.486,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d292cc40b4134b45a6d869fe5805a330,A1h165c.JPG,0.2896,0.3414,0.4875,0.0,0.4844,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+9a54d451d6e94eafa23c6cf634c83861,A1h166.JPG,0.3086,0.3285,0.5654,0.0,0.5368,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+41757429df7b42999622c65a60fb271c,A1h167.JPG,0.2906,0.3972,0.0081,0.5,0.0,2,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+15132c6aaa024b04aea110881230f08f,A1h167a.JPG,0.4749,0.2993,0.497,0.75,0.305,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+db4e93713afe4aac84149c0b0073d9a0,DSC03189.JPG,0.5948,0.6242,0.4937,0.75,0.3505,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+eceb12b52c954e37ac759ae3500ed9e2,DSC03193.JPG,0.6616,0.5775,0.4854,1.0,0.4162,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+aecdd1b983e3488cbf33cebea1d0e98d,DSC03194.JPG,0.5731,0.5959,0.4904,0.6667,0.4431,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+a4bf7e2323714298832aa0cdf983068d,DSC03198.JPG,0.3931,0.4169,0.5331,0.25,0.437,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+345cc00f9fba4c5ea58beafc1aa49aa4,DSC03199.JPG,0.4278,0.2502,0.6366,0.5,0.4194,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3a0bdc4383454b839a4ac86a737d02e5,DSC03200.JPG,0.321,0.229,0.5379,0.25,0.3885,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+a867eba7b48d435bb4ef161f092f87f0,DSC03204.JPG,0.3842,0.4395,0.3344,0.5,0.09,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+3e0d326e044749b18fc05233b2f267b5,DSC03205.JPG,0.4058,0.369,0.1067,0.75,0.2024,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+96623c378f6340b9a42e17b4bdebab20,DSC03206.JPG,0.3706,0.2681,0.0906,0.75,0.2245,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+aad0867285844bf8963d914ff4f55279,DSC03217.JPG,0.2638,0.2933,0.5809,0.0,0.2998,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+48a25a6b741e4b408dcdd9f43b835b6b,DSC03221.JPG,0.5375,0.3346,0.5832,1.0,0.0248,0,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+95e5d11bca2d49cd8f5ba041c5e1a6a9,DSC03222.JPG,0.3542,0.2258,0.4351,0.5,0.2544,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d85a03434d744493bdb932f93c028699,DSC03227.JPG,0.1995,0.2434,0.5717,0.0,0.0,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+33ec276be664464db414740d4d703ffc,F2011-1a.JPG,0.5427,0.3724,0.5619,1.0,0.0,0,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+61cf52f21fe34015b8ed30887736aa43,F2011-1b.JPG,0.4943,0.0151,0.5439,1.0,0.5348,0,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ead3133bed854912b46704dc944e0314,F2011-2a.JPG,0.3682,0.1105,0.5076,0.6667,0.1866,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+7b75ecdb7def4f3e8faa1da62667c4c5,F2011-2b.JPG,0.271,0.266,0.3205,0.25,0.2589,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6a0556b030844e5e986e6c14b0c5dbf1,F2011-2c.JPG,0.4092,0.1844,0.5403,0.6667,0.244,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6a410cf9ffff41299c6798bfa2c07cfe,(2).jpg,0.2908,0.4311,0.3963,0.0,0.4041,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6b12968624ab413cbdca5e1849f606b7,(3).jpg,0.5657,0.4537,0.5985,0.6667,0.5814,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+326928728840465b8d3853fe14b426ca,A1a10a.jpg,0.5665,0.6106,0.305,0.75,0.4455,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+60f3037e6e8e426eb773f8b8050f1e4e,A1a10b.jpg,0.7686,0.6924,0.7916,1.0,0.4529,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3a92f526b9d44eb5bc84e3fe9cf2f235,A1a12.jpg,0.5373,0.5856,0.7542,0.4,0.4102,3,5,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b02c5da17f5d4939a7d7442ffb603e68,A1b10a.jpg,0.4997,0.4453,0.3357,0.75,0.3447,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6a99cc8931aa46b5a5425f38151a2cc3,A1b10b.jpg,0.4264,0.5098,0.2717,0.5,0.2907,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0fc8e5ece1dd4140852c21de4c37099d,A1b11y.jpg,0.5766,0.553,0.5272,0.75,0.3506,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+8254b7ddf6c343628407426c22210b13,A1b11z.jpg,0.5409,0.4133,0.5872,0.75,0.3585,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c67370214b6548b488385cbe70a29b40,A1b14a.jpg,0.5088,0.6361,0.0369,0.75,0.3584,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+e42d1b1d74c94d54bb5971df60996e4c,A1b14b.jpg,0.4642,0.5175,0.045,0.75,0.3275,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+76b1622848bc4d569f6a003e1480717a,A1b19.jpg,0.3599,0.4819,0.5917,0.0,0.4857,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+732217b1f530494f926f5e153e926ab0,A1b19a.jpg,0.6102,0.7619,0.2624,0.75,0.4407,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+9b1cdaedeb11482e8124a408796ce11c,A1b28a.jpg,0.4032,0.4267,0.6839,0.25,0.2803,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5932b03de40d43ea8160d14114790d7a,A1b28b.jpg,0.3229,0.479,0.5024,0.0,0.3649,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+4b57126e43b94d1eac901392c33ef2b1,A1b29.jpg,0.5701,0.654,0.2721,0.75,0.4116,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+185f7028f0c64a3fb5523e9c8f25cb93,A1b31a.jpg,0.6737,0.5064,0.6011,1.0,0.5082,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+cc4b724ad51d4e71a425764d59d68626,A1b31b.jpg,0.6907,0.6309,0.5319,1.0,0.4234,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+5bf69d0ee8674a2f99f6611fc91687e4,A1b32.jpg,0.4943,0.5978,0.0242,0.75,0.3681,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e45803f6135e40b88a481d00fa313b29,A1b34.jpg,0.3829,0.5448,0.3367,0.25,0.3326,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+88f02814c3b94574b3a40c4b5a3f060b,A1b34a.jpg,0.365,0.5726,0.2004,0.25,0.3299,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+8952d1825f7c45ec8c3b259ac0482421,A1b35.jpg,0.4552,0.3608,0.2791,0.75,0.3205,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+35f25236570f4a269af2f614488e4be9,A1b36&37.jpg,0.4974,0.4399,0.6248,0.5,0.4565,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+309435a1445c47678fcef465bdf32cc6,A1b41.jpg,0.5118,0.419,0.482,0.75,0.292,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+7a5039499e0c477f947d0c30cf3229a4,A1b42a.jpg,0.4867,0.2423,0.2924,1.0,0.2896,0,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+782fc614f3a74100b44f3324a8f0ac2d,A1b42b.jpg,0.368,0.1092,0.5924,0.5,0.4085,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+325cb917d04e408f9d72b39fbef521ae,A1b42c.jpg,0.358,0.1386,0.4836,0.5,0.4183,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+0ad3702e17744fb3bf9217cf70521d3d,A1b43.jpg,0.4373,0.514,0.2428,0.5,0.3925,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+8b1bbd9a55444f8e9607b0487f1fa0a4,A1b44a.jpg,0.3726,0.6969,0.0263,0.25,0.3229,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b01507dd95fa493397cba73b68d71db6,A1b44b.jpg,0.2919,0.4639,0.0932,0.25,0.2392,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+27fa5b1920f54afda7cdf8209e0ef1b9,A1b46.jpg,0.6041,0.8243,0.0761,0.75,0.5025,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+ef11c8c315d04e97a9a1ba91e9de9033,A1b48.jpg,0.5742,0.7903,0.0136,0.8,0.366,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+1e6a1bd369c84ff79379afbd76768a4a,A1b5.jpg,0.449,0.4132,0.1227,0.75,0.3654,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6e9bde8ac6c649fc9367137f8d6c3f8c,A1b52.jpg,0.4823,0.89,0.1732,0.25,0.408,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4e0b337815c7414eb2aecd707d19e6a6,A1b53.jpg,0.4805,0.4141,0.6171,0.5,0.414,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+7c6d64434179404bab6d882c306cfd60,A1b55.jpg,0.429,0.4188,0.0057,0.75,0.3755,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+882a202e05ed498f9a18ab57e9198f22,A1b59a.jpg,0.2211,0.2432,0.4157,0.0,0.3522,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+19e0cd52ddd34a1aae4603e78c7b4641,A1b59b.jpg,0.416,0.3838,0.0547,0.75,0.3052,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+b2cc2eec212c47caa1bfd4f0e1d9ecc3,A1b59c.jpg,0.4289,0.4843,0.4284,0.4,0.358,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+600cebd86c7b4d6c9bf3053ef3afc429,A1b61.jpg,0.4007,0.5901,0.2053,0.25,0.5209,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+cfc01971550f46c4987881c268d5bd8b,A1b61a.jpg,0.4535,0.5292,0.2058,0.5,0.5139,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+58ad175eddc54d5f92f0246c37b1193b,A1b64.jpg,0.5933,0.4409,0.5814,0.75,0.6516,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+73fe59c32a344c1cbaa4a53c8b81c37c,A1b65.jpg,0.4862,0.3386,0.3409,0.75,0.4967,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+936591e4afb74ae9aada58f7c3333608,A1b67.jpg,0.485,0.391,0.5378,0.5,0.6041,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+de9ddc20b77948398f2a92069d656f2e,A1b69.jpg,0.4725,0.1825,0.5312,0.75,0.516,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+0f85c149dbb14eaab5aecfc64e7e02d9,A1b69a.jpg,0.5039,0.4288,0.5594,0.5,0.6128,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+055fcc88c41545a29877ac4803cb58d1,A1b70.jpg,0.3423,0.3127,0.5048,0.25,0.3791,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5e1b1cabcc574b7fbff013e4db90379f,A1b70a.jpg,0.6373,0.9035,0.535,0.5,0.4275,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+baad081f648844a0ad6d6c5f6bb9b3c8,A1b71a.jpg,0.4957,0.1846,0.6255,0.75,0.5402,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+407928bcb5b048c18d7b5b0d7e4c965f,A1b71b.jpg,0.5203,0.2857,0.5993,0.75,0.5027,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c0c452a65c23467cac3b745cebccd70e,A1b71c.jpg,0.3123,0.1132,0.5838,0.25,0.5394,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+3eb59d8711b94a94831f14658dfd939e,A1b71e.jpg,0.352,0.1878,0.6759,0.25,0.5073,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c07e8179681f4eb984afabd33be8a6df,A1b71p.jpg,0.2292,0.1949,0.0964,0.25,0.4444,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b3fb5bce9f454437a7a6947e69626bf5,A1b71q.jpg,0.4785,0.329,0.6587,0.5,0.5442,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+dc6f8602517d4b48a9fc86bdb2db7bc0,A1b71r.jpg,0.3632,0.3822,0.0314,0.5,0.4877,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5785d4b640244d2fb5242075be621e6f,A1b71s.jpg,0.3143,0.1484,0.5407,0.25,0.528,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+a4d17ac167d24a95ad09636376881441,A1b71t.jpg,0.4105,0.3581,0.582,0.25,0.6249,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+745171cf21e345babaa1e047bd7fa86a,A1b71u.jpg,0.4668,0.3981,0.221,0.75,0.3885,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+8c9ea04df9fb4e388c5654159e049d02,A1b71v.jpg,0.442,0.6406,0.0216,0.5,0.4233,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+a0c7153fc71e4c78b85853dd3d1afdab,A1b71w.jpg,0.4025,0.0762,0.3535,0.75,0.5339,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f3ccd6669c634c6d997baee682d273a8,A1b71x.jpg,0.4113,0.3016,0.0606,0.75,0.4573,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e75bac2e5ce34595bb23ddfc28b37c5b,A1b71y.jpg,0.2217,0.0871,0.1788,0.25,0.5364,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6962fcf8db8e43028156308f27fd3a6c,A1b71z.jpg,0.3994,0.2359,0.0379,0.75,0.5615,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9d1d9ff802e042fc93d973ab4f3a566b,A1b72.jpg,0.4652,0.4021,0.5316,0.5,0.454,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+995bb8e8bad54d7fba0291515eabedc0,A1b73.jpg,0.5894,0.3403,0.5083,1.0,0.4574,0,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d39a027db4fb46dbb7c4cf1b2749b00c,A1b74.jpg,0.4494,0.295,0.5941,0.5,0.5156,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+262599dec4564d8c815674d3d2bd925f,A1b74a.jpg,0.3962,0.2102,0.5081,0.5,0.4733,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2df21c369f694b2aa3f2a6895c40e359,A1b74b.jpg,0.3908,0.2262,0.4331,0.5,0.4999,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ff3dc3fdd9d8495a8a9d41e62ad7c3c2,A1b74c.jpg,0.3539,0.3413,0.4604,0.25,0.4493,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c4cbefaa59bd4be3addbeb9a2d598ce8,A1b75.jpg,0.3995,0.512,0.0458,0.4,0.6079,3,5,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+f95339f3d2e2495eb3737ca625200820,A1b75a.jpg,0.4912,0.3919,0.4041,0.75,0.3214,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+428e12b6825d43109ae303854ed9340f,A1b75b.jpg,0.5906,0.5444,0.5292,0.75,0.4618,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+cba73042d5bc472fbdf5a4b3e0ed77b4,A1b75c.jpg,0.343,0.3223,0.4386,0.25,0.4495,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+95702ff3f9f24aa490f6e2be93dc659d,A1b76.jpg,0.3884,0.1394,0.5729,0.5,0.5,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+aa4c025ef6cf4746bd012cf05c7a4ecf,A1b76a.jpg,0.4004,0.1924,0.5458,0.5,0.4926,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+27e321cd09364ece811e4130a85c66a7,A1b76b.jpg,0.555,0.4808,0.714,0.5,0.6264,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the image differs markedly from those used to establish the terms.",1.0
+8726833d09324012bd32c75578a560b4,A1b77.jpg,0.5345,0.3325,0.6384,0.75,0.4364,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+be037d05be8e42e38df5427c7e7e62dc,A1b77a.jpg,0.4028,0.5003,0.7592,0.0,0.5059,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a0489fd2af674885b9a9d653524acb71,A1b8_1.jpg,0.4518,0.4832,0.0828,0.75,0.2743,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e71edadb31db464d8ced3d68903f1907,A1b8_2.jpg,0.2128,0.29,0.2574,0.0,0.3989,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+087d07bb297c4c6a9422f9449c3b6ec3,A1b9a.jpg,0.6072,0.434,0.554,1.0,0.2966,0,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+379db99103ee4f4d96753f1493526abb,A1b9b.jpg,0.5238,0.3135,0.3441,1.0,0.3019,0,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+7de89a9b652443f8befcb3edfc45570d,A1b9c.jpg,0.5286,0.3024,0.4071,1.0,0.2758,0,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f743a65dde8745bc87abc2fdb978192c,A1c1.jpg,0.434,0.3965,0.445,0.5,0.3749,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+250b882c144345d58a299d92a0168467,A1c113_1.jpg,0.4275,0.6432,0.5888,0.0,0.5642,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+945fdbe5c4604a84bdc1440dd97bea11,A1c113_1a.jpg,0.4676,0.5272,0.606,0.25,0.5794,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b7a360a35589496e8bdaad360c42f6f0,A1c113_1b.jpg,0.4841,0.5602,0.6027,0.25,0.6166,3,4,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+70687e6102e246ab9a32ec9881c7b097,A1c113_1c.jpg,0.6992,0.5167,0.6026,1.0,0.6523,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+061fc5c47006476d9859d3a3f77189bb,A1c113_1d.jpg,0.6885,0.7319,0.5969,0.75,0.5861,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+a282510e63f14c04884769a639c83f8d,A1c113_1e.jpg,0.4769,0.5662,0.5786,0.25,0.587,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+b1755363d67645118c8936080288aac5,A1c113_2a.jpg,0.6511,0.6687,0.5006,0.75,0.6131,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+d754cc8d2f314677a87f0f38d6951efc,A1c113_2b.jpg,0.5131,0.4845,0.5422,0.5,0.5669,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+0b31540d868c4d42b1f26cba1bfd6f5b,A1c113_2c.jpg,0.5668,0.4363,0.5334,0.75,0.5495,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+1b8b338619b1479cbb85ad185cccc09c,A1c13.jpg,0.2519,0.2788,0.0159,0.25,0.5074,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+25f107822183485b8bdfc83951a0cdb4,A1c134a.jpg,0.6245,0.584,0.5066,0.8,0.5255,1,5,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+81d28f285c6148aeb56d014e457d2df2,A1c134b.jpg,0.4102,0.6184,0.6118,0.0,0.4759,3,3,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9872df212b704801aec25db961c93657,A1c134c.jpg,0.5846,0.7035,0.604,0.5,0.4508,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2c09823f5c3946c791893dee894b57b2,A1c135.jpg,0.4693,0.4186,0.489,0.75,0.0,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+0eb350e134444ecb96880706db7b084d,A1c135a.jpg,0.5203,0.6398,0.409,0.5,0.4304,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+92727077b6ff41fab63dd227512e5cec,A1c140a.jpg,0.5649,0.3492,0.7157,0.75,0.4971,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+03da1be966b246f7845b3ec3d74a0494,A1c140b.jpg,0.456,0.4765,0.6874,0.25,0.5118,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2b5cf927b32348928bd49ba4e722b46b,A1c140c.jpg,0.474,0.5057,0.6145,0.25,0.6607,3,4,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+6c9e4de3d2bb46f48a5e7d5ce79d6dbc,A1c144.jpg,0.4088,0.3389,0.4389,0.5,0.3493,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+0f6835b9e50e433bb4ea2eceb8360a37,A1c146.jpg,0.4535,0.292,0.3944,0.75,0.3164,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+0d43bbcf00904bc49fffb64825af96fa,A1c147.jpg,0.3749,0.5185,0.3219,0.25,0.3602,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d80ad05e7645433caec43cbdce64f628,A1c148.jpg,0.5504,0.5854,0.3676,0.75,0.313,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ebf4ea3b1a1d4f16abee137dabcfe311,A1c149.jpg,0.2838,0.3984,0.4455,0.0,0.3682,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+640621454a10479faf651cf1740df6bd,A1c150.jpg,0.5684,0.4315,0.594,0.8,0.3905,1,5,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+13278cd98b9e47a38ac9f34e35874b9f,A1c151.jpg,0.5632,0.5915,0.3239,0.75,0.4425,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+262dfd8e03a243f883ee86c61cffdb96,A1c158.jpg,0.395,0.4303,0.6602,0.25,0.2491,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f88ec7147fe248bfa6ad8e1959512cce,A1c16.jpg,0.3462,0.4261,0.6387,0.0,0.4623,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+8529b2193e2847c5b323ea164566057e,A1c166.jpg,0.5262,0.5699,0.439,0.5,0.5926,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+27aa0a9169f84d208eac4d84cddb6345,A1c166_1.jpg,0.3912,0.2848,0.561,0.3333,0.5287,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d16ef1b67151408086e0c44f839caa0c,A1c166_2.jpg,0.4332,0.5952,0.5151,0.0,0.8124,2,2,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+48d4eeb5f66e49b88402da1f19ffccfe,A1c166_3.jpg,0.2875,0.0923,0.4802,0.25,0.561,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+740ac4a847c841838d25854a9496ce82,A1c166a.jpg,0.3293,0.2427,0.7169,0.0,0.6735,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+1172ca685cd34cb997385d2dacbd6637,A1c166b.jpg,0.4197,0.3008,0.6106,0.3333,0.6155,2,3,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+629117f0a2054982acbbbe0f51584175,A1c168.jpg,0.6056,0.5489,0.6009,0.75,0.4556,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+fe1001f7be6d4b1d8b4d6e7dd65fac63,A1c169.jpg,0.6259,0.5979,0.5952,0.75,0.4837,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d6317e9a91f54eebb7759f9202a04fd7,A1c170a.jpg,0.517,0.3646,0.5125,0.75,0.4124,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+944f34d1d9af4583a456874407f76cec,A1c170b.jpg,0.5818,0.491,0.5236,0.75,0.5348,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+fda8bf0496b4405ca00f2ee06da91afc,A1c170c.jpg,0.3576,0.5221,0.5471,0.0,0.4361,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+91e80391c73f4f5099d3fd24bb1aa064,A1c171a.jpg,0.5902,0.5878,0.4815,0.75,0.4209,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+cbb369d5a603475b99ac303c63dd59ff,A1c171b.jpg,0.4839,0.2969,0.5278,0.75,0.3293,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9a241e087bff4e6986894937d7a3b19b,A1c171c.jpg,0.4614,0.2187,0.5617,0.6667,0.4834,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+cc07b5634f6842198e6a89eeaecbc392,A1c171d.jpg,0.3783,0.5567,0.5621,0.0,0.4733,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a152c9e240d3418cac956d27baa00f54,A1c172.jpg,0.3734,0.5661,0.0502,0.25,0.6014,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+c99b2eb30aeb45fbb8a7f75f0e9d0023,A1c173a.jpg,0.236,0.4188,0.4473,0.0,0.0,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+7f2df8eb0c8d4d86b18c0248e581c26b,A1c173b.jpg,0.4891,0.6571,0.5774,0.25,0.4574,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e71173e63cb0410bbca94c9d460eb226,A1c175.jpg,0.5802,0.4862,0.5517,0.75,0.4978,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+44750596b4864625a1f50eec01f64731,A1c176.jpg,0.3931,0.4157,0.5224,0.25,0.4541,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+096ddf529ad44f5ea0330effd8c91ea8,A1c177.jpg,0.541,0.481,0.5513,0.75,0.2491,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+2eb535cf0187435396b6379226c973ee,A1c178.jpg,0.3238,0.45,0.5135,0.0,0.4237,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+eaf76a041fa7444db1800be54c5df3c5,A1c180.jpg,0.3235,0.4687,0.5696,0.0,0.3033,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6aafaa7d6383453891aabc6e48df75f5,A1c181.jpg,0.3329,0.4628,0.5446,0.0,0.4135,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c9ff158c2bb34b98aed2301d9167854f,A1c182.jpg,0.3015,0.3563,0.4895,0.0,0.5261,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+a952ecce9c3a48dd85ab24d8444e6c5a,A1c182a.jpg,0.5558,0.6342,0.571,0.5,0.4643,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+abfcde5f6ea24a37a44e1978b8063618,A1c182b.jpg,0.5985,0.6182,0.5349,0.75,0.3346,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+252ecb57234845c4af7bc96734cb7933,A1c182c.jpg,0.5757,0.5276,0.5827,0.75,0.3299,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+97aee6f967c945d695975dcc70057a08,A1c185.jpg,0.5126,0.6078,0.4232,0.5,0.4349,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+633d22d760cd41b498d04160f67fe622,A1c186.jpg,0.3106,0.3971,0.4505,0.0,0.5434,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b6eb875e3a864400a71bd04bcca12332,A1c186a.jpg,0.4066,0.4407,0.5844,0.25,0.4029,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5ce98ac973224a99a7ec0de795536a75,A1c187.jpg,0.3504,0.6585,0.3827,0.0,0.289,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+6dc1011aee7d4d2197d5d80706d5644e,A1c188.jpg,0.4145,0.6708,0.437,0.0,0.6153,3,3,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image differs markedly from those used to establish the terms.",1.0
+3dd2407d7a974b72bf105821bf6e5b62,A1c190.jpg,0.3581,0.3225,0.5295,0.25,0.429,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+dc381f2462144b0f9acecb4f29d04cf5,A1c191.jpg,0.516,0.5955,0.4953,0.5,0.3902,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+66f184b666714f0b8dd3550fb858a630,A1c192.jpg,0.4794,0.3034,0.3752,0.8,0.3878,1,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+3647dd8b2aff491f92d29213a0f06e6a,A1c194b.jpg,0.4561,0.4431,0.3404,0.5,0.5529,1,2,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+c6397fdd335548a1a6f7ef113b70cbc6,A1c195a.jpg,0.4016,0.4024,0.5429,0.25,0.5143,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b4d75ef2928442aabaf8eadba10c2c69,A1c195b.jpg,0.2648,0.2266,0.4922,0.0,0.5805,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+db4ff0a9e48440a2b2728165e51ba323,A1c195c.jpg,0.3337,0.4575,0.5053,0.0,0.4831,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6556bbd88e944ba1af7377b79d21100e,A1c196.jpg,0.5593,0.7804,0.4391,0.5,0.3223,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+a38e41299e2d451cb83ddd86a8ab6dde,A1c197a.jpg,0.4209,0.688,0.5214,0.0,0.5056,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+79b98107a1f54983b21ea68d6ced0c99,A1c197b.jpg,0.3465,0.4387,0.5422,0.0,0.5632,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+e3dab2d264774935a4efb6c615d1ee6b,A1c19a.jpg,0.4284,0.4249,0.025,0.75,0.3314,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+3dc2cae5008e43dfba5b595a4362b713,A1c19c.jpg,0.5289,0.3792,0.5181,0.8,0.3504,1,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+636556b1aacf4a2e91ba8ba2596686a1,A1c19e.jpg,0.5166,0.6582,0.5169,0.4,0.4192,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d456f1d50ede42f2b972e202f025ff5c,A1c1h.jpg,0.5283,0.7347,0.5463,0.25,0.5796,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e36ab7ffc1d44769a912e5ba65c2263d,A1c1j.jpg,0.4854,0.5405,0.3458,0.5,0.5141,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+03d7915d0dc04477af0703b49290bbb3,A1c1p.jpg,0.4547,0.4638,0.4609,0.5,0.3343,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+814ce0d03f764196822fa1e4a8f66cc3,A1c1q.jpg,0.4412,0.4075,0.4777,0.5,0.3535,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+cf362aaf28254ec59961cafc046ff490,A1c1r.jpg,0.4542,0.5294,0.3653,0.5,0.3058,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+efd9e5ac208a472c90168e0545ccf2f4,A1c1s.jpg,0.3879,0.3725,0.1098,0.6,0.3704,2,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+b1991f85210c4466b0b5168427837009,A1c1t.jpg,0.4971,0.7211,0.5657,0.25,0.377,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+772c116f945845f38387cf5b091cabf7,A1c1u.jpg,0.2458,0.3359,0.3952,0.0,0.3278,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+f50a331e906c4ed7b79fe8dca2df9a6f,A1c1w.jpg,0.2387,0.2458,0.4768,0.0,0.3818,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+baeeca8efd4a47589e66df1848238900,A1c1y.jpg,0.4285,0.3468,0.5078,0.5,0.3703,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+488e6438bb18445ab069c7635bcd51c6,A1c2&85etc.jpg,0.3961,0.4601,0.4983,0.25,0.403,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+7d3e5b5a7e594d6b945b9136af6d5d82,A1c2.jpg,0.2158,0.2006,0.3961,0.0,0.4423,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+28375e5ca1df45558d8c931d09569574,A1c20.jpg,0.4967,0.403,0.3905,0.75,0.3503,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+815e2bc699744f1991b4284e0a547b59,A1c202b.jpg,0.5245,0.2872,0.2785,1.0,0.4553,0,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+8f861bed96814d628c292e7f09cdf414,A1c206a.jpg,0.5243,0.3936,0.5336,0.75,0.3655,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+586500a41d284e64badca07e35ded0ed,A1c206b.jpg,0.5561,0.4536,0.4656,0.75,0.5283,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9d501d60385245b2879dc843dcce9551,A1c207.jpg,0.464,0.2727,0.4408,0.6667,0.5359,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e19848cbacdd494482fb164cb7f3fc4f,A1c208.jpg,0.4114,0.1427,0.5459,0.6667,0.3485,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+aa323d70653847dd9868bde0b9308577,A1c209.jpg,0.3717,0.5137,0.5911,0.0,0.4909,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d71428a32d3b4c32801ee6a9b4f793cb,A1c21.jpg,0.5401,0.4005,0.5462,0.75,0.4377,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9a63acb9e1104e5eb4cc85eecc391fad,A1c214a.jpg,0.4292,0.4211,0.5487,0.3333,0.4809,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+66598ed44e674610bc1299dc683f3773,A1c214b.jpg,0.5433,0.7961,0.5727,0.25,0.5011,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+f7f23d70819b49eea5f4676c2b992233,A1c214c.jpg,0.3709,0.5478,0.5898,0.0,0.4081,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d44c6de4a88f4696958cc0f0200731a6,A1c215_1.jpg,0.5336,0.5723,0.5548,0.5,0.482,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d4dadceed2914efbbbdfa4b110d3a807,A1c215_2.jpg,0.2142,0.0689,0.5833,0.0,0.4896,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+34ef8974e66044bb97703e209911304a,A1c215_2a.jpg,0.3109,0.1658,0.5208,0.25,0.4917,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+0e332c299da34b8c9343fd11380741d0,A1c215_2b.jpg,0.3422,0.4795,0.5395,0.0,0.443,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+06aa8d37aad848069404a478cdee2c34,A1c215_2c.jpg,0.504,0.3357,0.5667,0.6667,0.4876,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c9ed634687f147dca86d54baf82789e7,A1c216b.jpg,0.5815,0.2474,0.5756,1.0,0.5317,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+41f3af199f9d4ba48c1a7ccf500a3feb,A1c216d.jpg,0.5995,0.5325,0.5406,0.75,0.5336,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+fc59f3efb7de4dda9d416952d388d019,A1c216e.jpg,0.6412,0.6812,0.5351,0.75,0.4716,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+4f88790ffda74182bfcbd1209b96ffaa,A1c216f.jpg,0.5957,0.7254,0.5434,0.5,0.5539,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d7d234ecbe384024962d359f8ce24136,A1c217a.jpg,0.4797,0.6221,0.5595,0.25,0.5005,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+689ed40617454da5bf3efcad15a20c29,A1c217b.jpg,0.3337,0.4158,0.5246,0.0,0.5547,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+2947e8c8912744d280ae7084533a73f5,A1c217d.jpg,0.3715,0.2925,0.5048,0.3333,0.4548,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+47cc56129def41318fa93f52dd0bdf63,A1c218.jpg,0.4355,0.6238,0.3515,0.25,0.4794,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b7c349d0b87e4ea48f0a9eb80e2c7282,A1c218_2.jpg,0.7055,0.6279,0.4266,1.0,0.6696,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+c172033af7494d66899a29af516afe4e,A1c218a.jpg,0.567,0.6341,0.5708,0.5,0.5393,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fa865bfc9ab34c4b97450cdca99f1ba1,A1c218d.jpg,0.4082,0.6237,0.5715,0.0,0.5042,3,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+8dcb20785d5d491eb426a28622d90320,A1c218e.jpg,0.413,0.7799,0.4515,0.0,0.3316,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+dc5cebb734384e7893e159609489a963,A1c219.jpg,0.4432,0.4422,0.5808,0.3333,0.482,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f978510bb4014275ae43d74cdeffd00a,A1c220b.jpg,0.4356,0.3186,0.5264,0.5,0.4589,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+96e0a47dec6f4f5688f03b55dcbe9dcd,A1c220c.jpg,0.3168,0.2522,0.4648,0.25,0.404,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+87cba5891f1044848fedebc4a74d394d,A1c220e.jpg,0.5067,0.3241,0.4963,0.75,0.4603,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c42b2ebe03f242b19b942ec75d395565,A1c221_2.jpg,0.6671,0.6607,0.5694,0.75,0.6464,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+55f40b9c731b4835813b442d3fc7bf21,A1c222.jpg,0.4613,0.641,0.5722,0.25,0.3165,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b47283a387bc40a99d3f192dca722ca1,A1c231.jpg,0.7009,0.5263,0.6168,1.0,0.6221,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+bf21ce8eb3f446e39f35f4dd67d1c635,A1c233.jpg,0.4776,0.6055,0.4785,0.25,0.6334,3,4,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+96cb20db4cb245469d4eb5004a5d37a1,A1c235a.jpg,0.5047,0.3425,0.5186,0.6667,0.5406,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6b7dd2e6547142fa81feec02c1d425de,A1c235b.jpg,0.4253,0.4738,0.5133,0.25,0.5451,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+d121fafabbda493397a80562f11fca72,A1c235c.jpg,0.2776,0.3182,0.4416,0.0,0.5192,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+36af9770ec62443a8b117dd98e09991e,A1c235d.jpg,0.4809,0.1786,0.5508,0.75,0.5547,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+582a01eebe2f419081cdec66d9f2620c,A1c235e.jpg,0.59,0.4894,0.5633,0.75,0.5403,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+270c0d23f77149c28d355f0c86467cc8,A1c236a.jpg,0.419,0.2331,0.6289,0.5,0.4112,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+12ff0fc45dfe432ea6168583bc7dada2,A1c250 (2).jpg,0.309,0.1789,0.4754,0.3333,0.3424,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+36f184fe9eec49eab24c7585bc41c5a9,A1c250_1.jpg,0.5109,0.5423,0.591,0.5,0.3529,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+7438818de69a4acf883439ec4448af7a,A1c250_11a.jpg,0.3979,0.091,0.4088,0.6667,0.5617,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+05fb48db7645466ba203236b0370e894,A1c250_12a.jpg,0.4334,0.4581,0.4806,0.3333,0.5133,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+e39561bf7abe49e0aaa9b233b7c4d184,A1c250_2.jpg,0.3955,0.3862,0.4845,0.3333,0.4232,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d404c6dd4f634f89b354362d7c6d6a30,A1c250_5.jpg,0.299,0.0952,0.4835,0.3333,0.4596,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+4cac48f2e584435898ac9e3c0f31cf4f,A1c250_6.jpg,0.3395,0.2649,0.509,0.25,0.4667,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+e55196524675486d913c28f84fab1c7d,A1c250_7.jpg,0.3593,0.2067,0.556,0.3333,0.5048,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a38b365ade5e4fe09f3e157fb8707be8,A1c251_1.jpg,0.5434,0.4416,0.453,0.75,0.4882,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6a132642024b4c8c889b1975f8247111,A1c251_10.jpg,0.2868,0.1016,0.4539,0.3333,0.4028,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5a48d0e4c727416885303fb119a40314,A1c251_10a.jpg,0.2565,0.0,0.485,0.3333,0.3967,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+ace5fef5bd0c4c6eb5ff7511fad8a655,A1c251_11.jpg,0.3717,0.1905,0.4689,0.5,0.4086,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+2cfa5418e446457c9929d6fe52083982,A1c251_11b.jpg,0.3717,0.1905,0.4689,0.5,0.4086,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+e0a2c118d6e34e73970a6c401a23c81e,A1c251_12&13.jpg,0.1937,0.1384,0.3308,0.0,0.5272,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+bb0d6491c0a740d7b8f629e6cf0a381b,A1c251_12.jpg,0.3339,0.2894,0.5176,0.25,0.3604,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+70c13c0235564862b817d2dc85590ba7,A1c251_13a.jpg,0.3339,0.2894,0.5176,0.25,0.3604,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+13c042abde3648a4a5dc3e87327e40c2,A1c251_2.jpg,0.3129,0.2236,0.5434,0.25,0.3395,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+8dad8543b2b549e7bfb26744a9c609a3,A1c251_3.jpg,0.3499,0.3476,0.3193,0.25,0.5956,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+2fe87c93513a44e7ad1dcb81b8b549f7,A1c251_6a.jpg,0.2844,0.049,0.5182,0.3333,0.4243,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+284e6258967242878329010ab4f5fe85,A1c251_6b.jpg,0.3043,0.1823,0.5117,0.25,0.4211,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+3e7a22d7e5f5402eb0af942a1be06492,A1c251_6c.jpg,0.3209,0.2813,0.314,0.25,0.5641,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+880025971d9d4d79a730f3704de2da81,A1c251_7.jpg,0.3711,0.3928,0.3863,0.25,0.5424,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+5de7ef09647a445ea9cae0df9410cc36,A1c251_8.jpg,0.3309,0.2705,0.5163,0.25,0.3866,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+f543e0578ec440bcb14af3cd7a4c5512,A1c252_1.jpg,0.3824,0.2636,0.4925,0.5,0.2777,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9d09ecfe0c30413a8354de71e896b332,A1c252_10.jpg,0.3883,0.3338,0.3984,0.4,0.4785,3,5,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+2b0ed797b6824fa1989307370d2aefab,A1c252_11.jpg,0.3035,0.2132,0.4962,0.25,0.3643,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+44964e6bb71d4b57bc7288140225b816,A1c252_11a.jpg,0.3459,0.3104,0.4202,0.25,0.5215,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5ce84d3c671c4aa5acd609db41205d9a,A1c252_123456.jpg,0.2955,0.243,0.2952,0.25,0.5092,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+1f07f5e4d2674dd8a91cd127090f0245,A1c252_13.jpg,0.2566,0.0121,0.5333,0.3333,0.3049,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+4a92c4c478594bf7bb0804dcc58531d8,A1c252_14.jpg,0.2698,0.0,0.5262,0.3333,0.4308,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+80958041e0bf478bb2696957aede2fe5,A1c252_14a.jpg,0.2747,0.0,0.5106,0.3333,0.4838,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5719c28e9c354255ad88865d073c54ff,A1c252_7.jpg,0.2795,0.1726,0.4797,0.25,0.321,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5ffdad2d52c84b36b916ab04a57629d1,A1c252_789.jpg,0.3123,0.2833,0.2987,0.25,0.5225,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+fc343834b0354478b308921b4576f8a8,A1c257_1.jpg,0.6274,0.5678,0.4809,0.75,0.7164,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+76786dfec87e44c7ad396daea3e8552b,A1c257_1a.jpg,0.5449,0.6147,0.5971,0.25,0.9022,3,4,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+b8860f8f7b194b7c989247941a18f93a,A1c257_1b.jpg,0.6514,0.4562,0.4698,1.0,0.6518,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+9f7e9304afd144bbad60bc4e208a7351,A1c257_2.jpg,0.5226,0.3404,0.5377,0.6667,0.6397,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+9fb886d8c11a4e02a34da247058702db,A1c258_1.jpg,0.5728,0.45,0.5794,0.75,0.4964,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+aa24b1ad936e46ff971903f1f6b594c0,A1c260b.jpg,0.3064,0.4022,0.4742,0.0,0.4722,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+df6463b7944d492ca9738be574314a6a,A1c260c.jpg,0.3112,0.4438,0.5351,0.0,0.3259,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+343bda5e51354573b5068a43e95b5f84,A1c260d.jpg,0.5031,0.3628,0.5658,0.6667,0.42,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+68b3f73325204aaaa61d94a7a3b7e5fe,A1c261a.jpg,0.3277,0.4426,0.6068,0.0,0.3429,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c060ed0153e24820ad0b9e25574ad604,A1c261b.jpg,0.3704,0.5134,0.6026,0.0,0.468,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a348921ba663465999e40b38dd28ff40,A1c261e.jpg,0.6528,0.5477,0.4244,1.0,0.5083,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+2e09c5d071a94a0a94b5fd3032405f2b,A1c261g.jpg,0.6649,0.595,0.4657,1.0,0.4233,0,2,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+33c81a05b41446ccb2b2dc3df3d66626,A1c261h.jpg,0.4376,0.4449,0.5628,0.3333,0.4624,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+20f0c3d504ff459ca555e8574b0b5de6,A1c263.jpg,0.3502,0.2215,0.3072,0.5,0.4085,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+1412f7ed487f4b9ab162ac69b3b0eeb7,A1c264.jpg,0.3007,0.3097,0.5824,0.0,0.5052,2,2,True,True,False,The assigned terms are well supported across all measures.,1.0
+5f798566c2214107bef4a4992993ba6e,A1c265a.jpg,0.3614,0.2659,0.5662,0.25,0.5337,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+34c2f7d9ddf14117b08f4d045d8db868,A1c266.jpg,0.3576,0.2325,0.5339,0.25,0.6297,3,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+19b8d2d9834d4251953e40d9e22be457,A1c270.jpg,0.5581,0.4778,0.4053,0.8,0.4657,1,5,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+989e2afe3efd4e40aaab8bee18f74594,A1c271a.jpg,0.6109,0.7105,0.5481,0.6,0.4837,2,5,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1cdaa3bdb0e448cba84f84ae5a795d98,A1c271b.jpg,0.5698,0.5626,0.5752,0.6,0.5191,2,5,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+14fac0bd6ad04040a1bf2dcc04efba82,A1c277.jpg,0.3381,0.3905,0.3788,0.25,0.338,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+ecfac314058243298bf26715cc4cc0ef,A1c28.jpg,0.3603,0.1185,0.6205,0.5,0.2984,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c8bd363266aa42ed98c2ca999c0eba2a,A1c28a.jpg,0.5074,0.2325,0.7372,0.75,0.3574,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f3c287d8e6864d78becfeccaf515837e,A1c29&30.jpg,0.4251,0.5912,0.4775,0.25,0.318,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b827630ce8174c1c97cb24b13baa99a6,A1c32.jpg,0.3868,0.7795,0.1727,0.0,0.5293,2,2,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+306413a630224f7d9bfd89b77ca1ff6a,A1c32a.jpg,0.4226,0.3228,0.5993,0.3333,0.5988,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bad21e7793d148758b63425b2f0c5582,A1c33a.jpg,0.541,0.3184,0.6092,0.6667,0.7181,1,3,True,True,False,"Chiefly because the image differs markedly from those used to establish the terms, and the generated description does not corroborate the assigned terms.",1.0
+1980b31f0caa4f4aa17eddf1c179e23e,A1c33b.jpg,0.7314,0.6187,0.5867,1.0,0.6504,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+5647adc4dd124879b86c7bc541ec6826,A1c33c.jpg,0.604,0.6702,0.589,0.5,0.6776,1,2,True,True,True,"Chiefly because the image differs markedly from those used to establish the terms, and the matching scores separated the leading terms only narrowly.",1.0
+1f4d1776ae1c4e36ad0cc3e49ac44bcb,A1c33d.jpg,0.8341,0.89,0.5807,1.0,0.7094,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+2ad19257aa7b4f60a260fcaf49413d4c,A1c35.jpg,0.5851,0.4419,0.5881,0.6667,0.7519,1,3,True,True,True,"Chiefly because the image differs markedly from those used to establish the terms, and the generated description does not corroborate the assigned terms.",1.0
+cb6e04acabb842e9aa949f9c0420ea19,A1c36.jpg,0.4716,0.3883,0.6079,0.5,0.4274,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8dea8230606842f39849a6a4d0c8aa5c,A1c42.jpg,0.566,0.5328,0.4538,0.75,0.4252,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+11c3e210a75440458523f83faa47024b,A1c4a.jpg,0.5414,0.425,0.5366,0.75,0.402,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5255fad03756463b8ca9aa110661532e,A1c4b.jpg,0.4496,0.5889,0.4911,0.25,0.4686,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+5527904b17804ec3ba13503af2f0e0e8,A1c4c.jpg,0.5371,0.8123,0.5722,0.25,0.4224,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+abf0174dc91b4580b3295ee3ecb38f0f,A1c5.jpg,0.5329,0.4314,0.5473,0.75,0.3161,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+b32077f877c64336b02f345c426fa873,A1c54.jpg,0.5258,0.5545,0.1726,0.8,0.3817,1,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f417a5c8038544a59a9b94d8d0abfc2c,A1c55.jpg,0.3942,0.1795,0.6394,0.5,0.3563,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bfe087bc03484bf3b921a755f4b5c8f0,A1c56.jpg,0.4831,0.3626,0.608,0.6,0.3637,2,5,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5b836389f6b949e2945dbcfabf6dacee,A1c57.jpg,0.2841,0.2784,0.3396,0.25,0.2915,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+689f530378b149f398ae8c0bf777ab23,A1c58.jpg,0.6089,0.6026,0.5782,0.75,0.3825,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+ff82eeb885614d9d8a12fc25151424e3,A1c60.jpg,0.6566,0.6109,0.5867,0.8,0.5699,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+fd248e5f000340fdbc5f69900f9dd13c,A1c65.jpg,0.407,0.7065,0.4884,0.0,0.4134,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1db9f0e1b12a4f45b030c418877a265a,A1c66.jpg,0.4287,0.5938,0.463,0.25,0.3553,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+f5c5326002c74e5e8c6c9ca1d10ac067,A1c66m.jpg,0.5932,0.702,0.555,0.6,0.3769,2,5,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+c54ff7cba71248aea2083aab015a901f,A1c66x.jpg,0.4048,0.5063,0.5044,0.25,0.3447,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+59aec1471e7b433b88b78dee46fc090f,A1c66y.jpg,0.4231,0.6041,0.429,0.25,0.3394,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+cf2384c7c14047579b1c40b9f5097ce4,A1c66z.jpg,0.5358,0.7805,0.4285,0.4,0.3795,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+681c8f3939d44ad0b267846776304de5,A1c68&69.jpg,0.6117,0.416,0.6005,1.0,0.3064,0,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ff72b0d551da4d3d9c2dae9d387d3460,A1c7&143.jpg,0.428,0.5055,0.5938,0.25,0.3823,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e689d7161c384654a694cbc48a5238c6,A1c77.jpg,0.4425,0.3872,0.5544,0.5,0.3072,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+db0ba2f91cad428b80556d4ca26f239e,A1c78.jpg,0.5549,0.417,0.6332,0.75,0.382,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+86b4efbc82954bc38f6c5ab3b1b03ba6,A1c78a.jpg,0.3019,0.1674,0.5451,0.25,0.3953,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+7b601c7f60b44e00b820068284c11df7,A1c78b.jpg,0.3218,0.2682,0.374,0.25,0.5206,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+4c240290ffe5415e89bdccb0a6e3bc97,A1c80.jpg,0.4511,0.2826,0.7476,0.5,0.3511,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+532c19a8e9874f278cb2f452d1450cf5,A1c89.jpg,0.6068,0.7091,0.5576,0.5,0.6471,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image differs markedly from those used to establish the terms.",1.0
+82baebced736449a8f750c8430f3f0a9,A1c9.jpg,0.677,0.6267,0.7725,0.8,0.4211,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d30d7e15b5ab452d8a9be6535add55e8,A1c90.jpg,0.4719,0.1694,0.6312,0.75,0.4093,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b0fd82a9d85b47c494f1e5459d508b39,A1c92a.jpg,0.4821,0.2871,0.5059,0.75,0.3697,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+7c17d912733d4af89b73600f99ffc1d7,A1c92b.jpg,0.5153,0.5391,0.4498,0.6,0.3776,2,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f088174428da46e1b9edf6abc693672c,A1c94.jpg,0.4922,0.587,0.4194,0.5,0.3525,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+649a28619940473ab513aa26070ea860,A1c97.jpg,0.5689,0.4818,0.6147,0.75,0.3491,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5ad252561ec242a28f35105a147eb7df,A1c98.jpg,0.5527,0.6465,0.591,0.5,0.3883,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9f9ac986531d410dbfd8f20c02d2f3f4,A1d1.jpg,0.4204,0.3089,0.5332,0.5,0.3708,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f781712dbcad4276bea7e00848e0559b,A1d12.jpg,0.5186,0.4864,0.4429,0.75,0.232,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5bd4aa29d7ca48db919aa0f5d8727130,A1d18a.jpg,0.2993,0.2624,0.6625,0.25,0.0,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5a0d843b910447b28cde846c91aa16b5,A1d18b.jpg,0.2705,0.2919,0.733,0.0,0.145,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+f405056387c6496e96b4e72c649a9901,A1d20.jpg,0.4444,0.3929,0.5858,0.5,0.2648,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2f459fca6a3343d7a7e1af2d5a61e006,A1d21.jpg,0.639,0.6575,0.5476,0.8,0.3956,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+50a2f34fa1f54047ac2c7010b181022c,A1d22a.jpg,0.3095,0.3362,0.6084,0.0,0.4675,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+0e654cdece56408b9d29381ff22d12b6,A1d22b.jpg,0.2557,0.2222,0.5528,0.0,0.4491,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+92d57e6bbb1e4da29b1316eb3b6abc4e,A1d22d.jpg,0.3141,0.3577,0.5705,0.0,0.4985,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+ed1277c0204340d2aa93b4869b75a950,A1d22e.jpg,0.3139,0.3526,0.5967,0.0,0.474,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5fd68202b43541b5ba5c8e928e6973d8,A1d31&32.jpg,0.4779,0.6484,0.203,0.5,0.4025,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+326ae9dab2794ff394f1939b8a2883e7,A1d40.jpg,0.4587,0.7077,0.0461,0.5,0.3452,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9589e6cecba44ab1922c4a7777aaaedb,A1d7.jpg,0.6375,0.5715,0.665,0.8,0.4299,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0b4b9d0bceb045a297846e7d0e6f5515,A1e1.jpg,0.6219,0.6008,0.6888,0.75,0.3258,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5f4b560fc9e04a97b0b2de684989322f,A1e101.jpg,0.6012,0.5465,0.4945,0.75,0.5735,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+985d118923c64d93806266bea3855cf3,A1e1a.jpg,0.4027,0.6309,0.6006,0.0,0.4121,4,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+149ee1f6909d42709ef354c216de2f0b,A1e1b.jpg,0.5135,0.5464,0.5619,0.5,0.3995,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e6db574e6a5843a39b69c656ea6395fa,A1e20.jpg,0.4024,0.7234,0.5179,0.0,0.3045,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+da758079d98f478fb8c4d9dc268c42ce,A1e24.jpg,0.564,0.4837,0.5563,0.75,0.3896,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5814c75e61154b2c909dace23c76256f,A1e25a.jpg,0.5461,0.6245,0.5612,0.5,0.4352,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+3400b758298848e7b49bd1cd8ca5495d,A1e25c.jpg,0.3996,0.5089,0.5004,0.25,0.3093,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+829fdf7643ab4251ab78b929cee09bff,A1e26.jpg,0.4955,0.591,0.5609,0.4,0.3763,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e1aa29aac75449929cd508e7b8a49e66,A1e28.jpg,0.4162,0.5993,0.3752,0.25,0.3759,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+839f5daf7c694e5e8c77fe50c68d1f74,A1e3.jpg,0.6405,0.7735,0.5168,0.75,0.2764,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+f2310b4963d045c2a6d76d1e53f916fe,A1e30.jpg,0.4724,0.263,0.5594,0.75,0.2901,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+4b20b2c828904cad956f1a6088965e4e,A1e32.jpg,0.5235,0.7291,0.6227,0.25,0.4588,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ffb5aee68b4941faaa4622da17fa45ba,A1e32z.jpg,0.4255,0.6782,0.2704,0.25,0.3935,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+475fa720d90e4d16b76df6c93f947c8b,A1e34.jpg,0.4891,0.6577,0.3094,0.5,0.3135,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d2b737f800de45abaef55d3bf31c5bc9,A1e34a.jpg,0.5364,0.5678,0.3261,0.75,0.3162,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+449a3918fb6b42a8bbbff0eb8aa8179c,A1e4.jpg,0.5827,0.5432,0.5924,0.75,0.3273,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+33d1545f54f84aae90fd2fd0fb8891ce,A1e41j.jpg,0.4902,0.5473,0.4221,0.5,0.4281,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+35216d18334d45e785d9991afabf874d,A1e41k.jpg,0.5322,0.552,0.5854,0.5,0.4793,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8c04d7b148524d6fb97c13bfbfb10ac7,A1e41l.jpg,0.396,0.3569,0.6822,0.25,0.3977,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+435698d79d974f9d81036d08159f8958,A1e41m.jpg,0.4336,0.6645,0.4009,0.25,0.3059,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e30c011f5c7546188fdd53f4b7f33ebd,A1e41n.jpg,0.341,0.2357,0.4617,0.25,0.6076,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+758174dc51194c2692c5500ef342c204,A1e41o.jpg,0.425,0.2859,0.4797,0.5,0.5268,2,4,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+fe52cc57960440ff850c7d16ec5c7e9a,A1e41p.jpg,0.388,0.3922,0.5088,0.25,0.4933,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+70f47016d5f546ce90280697488b9e5a,A1e41q.jpg,0.4466,0.7677,0.5671,0.0,0.4298,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+31bfa4d0227d48e7a68a496070e3a752,A1e41r.jpg,0.4355,0.3404,0.502,0.5,0.4399,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+16ad21bd104d4350a02a70ebddf08691,A1e41s.jpg,0.4703,0.7014,0.4647,0.25,0.379,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+98aee97ff3f841dc9105762ee54cb8d4,A1e41t.jpg,0.5318,0.8087,0.547,0.25,0.4293,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4c2bd549341946d09b76ba4f42df7447,A1e41u.jpg,0.429,0.7349,0.5303,0.0,0.4382,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4d6da1b1f5044730ac5873a8d1dc1de9,A1e41v.jpg,0.5236,0.5532,0.5871,0.5,0.4172,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2bb581cf82134df78957052aedac64ed,A1e41w.jpg,0.4664,0.657,0.5731,0.25,0.3121,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+8a8ae70589bb4efa92712d658251ab78,A1e41x.jpg,0.3378,0.3326,0.4541,0.25,0.3704,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+d8f8c7590c8d468d90d81a6cf6cc88a6,A1e41y.jpg,0.513,0.5462,0.5815,0.5,0.3701,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+427c41544277417c932d5e585cc55eda,A1e41z.jpg,0.5945,0.6077,0.534,0.75,0.3334,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+27e0362355dc488f852615e54c5cada7,A1e42.jpg,0.5116,0.5074,0.3679,0.75,0.2364,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f4e360139a814a3ebe19706414a7e93b,A1e45.jpg,0.5226,0.429,0.5291,0.75,0.2774,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+2248e85c1c944e7ea847cbfbb4544c66,A1e50&d21.jpg,0.6249,0.682,0.5586,0.75,0.33,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+fd8a47861c0b4aa898afd49364e4f827,A1e57.jpg,0.3476,0.3315,0.6014,0.2,0.3422,4,5,True,True,False,The assigned terms are well supported across all measures.,1.0
+72d0c90e76034365a4273f3e7270becd,A1e66.jpg,0.5437,0.5994,0.6393,0.5,0.3735,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+416c5dd6107c4dd8a9d30f9aa6a83308,A1e7a.jpg,0.3795,0.69,0.364,0.0,0.4347,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+55ed916a7de14957bdbe6e9b2045e9f6,A1e7b.jpg,0.4439,0.3746,0.5135,0.5,0.4007,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a997c98bf8f549bba09cb19d90e2805e,A1e8.jpg,0.3777,0.5968,0.5681,0.0,0.3683,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+158b64cf9c1d4af8ac7f72a9beb209ac,A1e9 (2).jpg,0.3708,0.5369,0.6332,0.0,0.375,4,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+414f36f72b204666b5fd747fb6026074,A1e9.jpg,0.194,0.1337,0.5515,0.0,0.2457,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+a540dc38a526466c9dc594d11a62644d,A1f1.jpg,0.5192,0.567,0.5734,0.5,0.3738,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e1d09458e13a45aa9e877bbb2ac50257,A1f11.jpg,0.4883,0.2847,0.5855,0.6667,0.4773,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9b3c77682f9043ee8ed24cf50423dd63,A1f14.jpg,0.6757,0.4844,0.5909,1.0,0.5868,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+95fb60a99cc941fa9fee704734db28e5,A1f15.jpg,0.7066,0.5782,0.5858,1.0,0.5806,0,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+4e5fb2b1193c4b0482db82f49c54e8ac,A1f16.jpg,0.5888,0.727,0.4431,0.6,0.4384,2,5,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+c2315253bd7c4b4388c85e1696c05e0e,A1f17.jpg,0.4735,0.1935,0.6005,0.75,0.4047,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1c7fe96da73e4122aee83bea49fd2f3e,A1f17_2a.jpg,0.568,0.2687,0.6077,1.0,0.3495,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+6f9b937f73e14cfe9f53ef70de7d4786,A1f17_2b.jpg,0.5886,0.2966,0.6022,1.0,0.4293,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+095ed2f26a6146fdbc769fc8761326fd,A1f17a.jpg,0.5686,0.2542,0.5874,1.0,0.4144,0,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+5e409756c7f84c3b8fdece9699c32f0a,A1f18a.jpg,0.6583,0.4981,0.637,1.0,0.3773,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f3492f0f1767414295dd959b568ce4f1,A1f2.jpg,0.7012,0.6755,0.587,1.0,0.3157,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+04efff951d364d7aa1d3d73a9f677384,A1f20&5.jpg,0.547,0.5784,0.606,0.5,0.4891,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+4a7558ffbc1740689ec7baffc7da2eb7,A1f21.jpg,0.4932,0.6044,0.5884,0.25,0.593,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d5c2e15307124766a6aa21a6ec0239e5,A1f22a.jpg,0.491,0.2353,0.6397,0.75,0.3712,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b1265525ca9a48698aa0cbd4f0efa14c,A1f22b.jpg,0.5599,0.2281,0.6367,1.0,0.3517,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1c4fcb0d4d3544d28b2892c1d8dee7ee,A1f22c.jpg,0.4968,0.2707,0.6311,0.75,0.3388,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+567bee78456b411e992dd6bbedcd1840,A1f2b.jpg,0.7142,0.6418,0.5949,1.0,0.4709,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+6b287c48a3c54b35bb22abb7e91bdf77,A1f4.jpg,0.6835,0.6195,0.6135,1.0,0.2933,0,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+d222bc2db8274e03b8dae7e35601dc8f,1964 extension basis.jpg,0.5346,0.6802,0.5837,0.4,0.3985,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d1609953fd984d17a5a94ca8900fbc0b,1964 extension.jpg,0.4562,0.8038,0.5008,0.0,0.4981,3,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fc0a632a15fd42c1ab0f22a95b4f1422,Afternoon smoko.jpg,0.4492,0.504,0.583,0.3333,0.3746,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e1ff422048c5482abc511efd18fc996f,At the bar.jpg,0.6622,0.5099,0.5586,1.0,0.4804,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+3c472295fd9747b0aa43553cc7cfb2b6,Bar and firreplacee taking shape.jpg,0.5901,0.5537,0.4624,0.75,0.5257,1,4,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+9f33ebcc5f054f0b96c54244c85562a8,Bathroom.jpg,0.4845,0.5871,0.5462,0.3333,0.4655,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+a57ec9797d13473cb798fa6cb9225bd3,Building the new bar.jpg,0.2011,0.3407,0.0753,0.0,0.4452,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+eb9cf65b13e344a59e2577489e239be3,Bunkroom cleaning.jpg,0.4555,0.2733,0.5305,0.6667,0.3583,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+fca725f89fbe4bdb86b56a228a05440f,Completed extension.jpg,0.562,0.6245,0.5175,0.6,0.3995,2,5,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+bba3f062bc3d4c08b5a68b6ad7456b7e,"Diesel mech, electrician in new extension.jpg",0.4714,0.5269,0.6308,0.3333,0.4057,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b7348c63768f4e8cb698b20021024f88,Extension disappears.jpg,0.4203,0.4333,0.6331,0.3333,0.2802,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3ace3cf71af949b1bf95b8561f1e07bc,Filling water tank in summer.jpg,0.6117,0.667,0.4423,0.6667,0.5987,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+a16b42e8c5aa413c9aaef5627e278430,Finishing new extension.jpg,0.5115,0.8118,0.4169,0.3333,0.293,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e8e68c961dc241479a80328637ac6866,From the sea ice.jpg,0.2677,0.2768,0.597,0.0,0.3428,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+ff099ad324f24f998a3a915aa61704c5,Geology office.jpg,0.466,0.5438,0.6284,0.5,0.0,1,2,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+10cc19fcc94146fb9cd4ac6c9c4f05e2,Library laughter.jpg,0.3715,0.2993,0.4955,0.3333,0.4509,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+31739fa3b81c45eaa8eaf3b3843dd0c0,Louge relaxation.jpg,0.3015,0.4138,0.5043,0.0,0.3719,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e120afd83e3644e8b799b1374586c93a,Lounge scrubout.jpg,0.361,0.5291,0.516,0.0,0.4844,3,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+7e56d67ca75242788605ee1d656b504c,Making new harnesses.JPG,0.4601,0.5096,0.5626,0.3333,0.4617,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c511505d73324b1d99c1e8555d577b82,Medium size female husky.jpg,0.6295,0.6981,0.5459,0.6667,0.5067,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+73a141b11ce94f7f92a55a47b03c661c,Midwinter celebrations.jpg,0.601,0.5593,0.5926,0.6667,0.5784,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+77870418d5f44fc285fd29020ada467a,More unloading.jpg,0.3883,0.3718,0.5716,0.3333,0.2926,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8224ccdb828d446399c74e863535c486,Noticeboard.jpg,0.4569,0.5206,0.5613,0.3333,0.416,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+64a2dc8220b84d7eb3c65e8b2b9ea974,Party time.jpg,0.4124,0.4092,0.5233,0.3333,0.43,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3dee644f19124a7499fcf9b735ff2cfc,Pretend radio op.jpg,0.3077,0.3939,0.3492,0.3333,0.0,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+24708e85a26f41339582a4da9c53afab,Proper radio op.jpg,0.4358,0.4536,0.5991,0.3333,0.3816,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0b187c9b9dbd42dcaa465a6fee399c39,Radio shack.jpg,0.4127,0.3566,0.3739,0.5,0.4206,2,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+2d6d60d9a68e402e801bf184ee5fde47,Relaxing in library.jpg,0.3534,0.3654,0.3308,0.3333,0.3956,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+9e2d1cb6e6134f4f8683e95a2f2b1cef,Relaxing in lounge.jpg,0.3445,0.4825,0.5409,0.0,0.4494,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+bc1060c98f0f48a38efae167f1c7b010,Relaxing on new extension roof.jpg,0.3831,0.8899,0.3584,0.0,0.0,2,2,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+129fa639dba244a7ac0190e63b09433d,repairs for sledging season.jpg,0.4228,0.498,0.3937,0.3333,0.465,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+55c13b5e9bfa46febe0b9f05bbe1e2b7,Repairs.jpg,0.4614,0.4951,0.5841,0.3333,0.4754,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+822ead858f4842fa8c67ba8f88ab6a3e,Restocking coal bunker.jpg,0.7006,0.8639,0.4792,0.8,0.4159,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+40f535be904a492d88b6c562ac239b05,RRS JB in Back Bay.jpg,0.2601,0.4167,0.3547,0.0,0.2888,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+8538506188b84c48a402475fa6c3e025,RRS JB unloading at Stonington.jpg,0.406,0.4513,0.4825,0.3333,0.3436,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1d192bde73a443758e84f95620912b86,RRS JB unloading.jpg,0.4568,0.6158,0.442,0.3333,0.3524,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+13b16173505b4cea9255a0b1c8dee605,RRS JB wedged into Back Bay ice.jpg,0.4588,0.5729,0.5008,0.3333,0.3879,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+2afc619eb8dd445db7f50c42136c7a58,Saturday night at the bar.jpg,0.4773,0.388,0.5342,0.5,0.5647,1,2,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+4213d22bee534e8fb37118f54d66c892,Scrubout.jpg,0.3916,0.4529,0.0066,0.5,0.5453,1,2,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+20ec2a8d2d104c33bce489a61ee86325,Snow arrives.jpg,0.3995,0.3654,0.685,0.3333,0.2307,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+651550c921dc4d2f965be94e22afbd47,Sometimes they were quite clean.jpg,0.6207,0.6448,0.6281,0.6667,0.4626,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+ae361b6981a240e9b844894363d8b8a0,Stonington from Neny Island.jpg,0.3471,0.5833,0.0602,0.3333,0.206,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5964ed59dbd44b96b5b9f8b22530598e,Survey office (1).jpg,0.3188,0.5539,0.4064,0.0,0.2911,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+9210acc46aec451cbd734e89a9c9d20d,Survey office 2.jpg,0.3696,0.5415,0.5766,0.0,0.432,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8a1ab1de18724f539ba0a2bd52775d16,Survey office relaxation.jpg,0.5818,0.584,0.5951,0.6667,0.3891,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+1afeb7ed19f14e85b78396582f76252a,Unloading 1.jpg,0.2996,0.3738,0.6191,0.0,0.2999,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+b12c3c2cd1534be097fe8689133ab426,Usual view from sledge (2).jpg,0.3109,0.127,0.4397,0.3333,0.5237,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5d9b0cd7abd94d14a46149081a685c4d,Usual view from sledge.jpg,0.3312,0.4481,0.5999,0.0,0.3624,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+21dc7c3bd8cb49a291a020b130157533,Winter set in.jpg,0.2799,0.3077,0.6363,0.0,0.2995,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+a1ae2206ca65418caf6793ceaff4503f,Writing survey report.jpg,0.6296,0.5985,0.3434,1.0,0.3432,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+4bba40fd1e1747a0ab2c382153a57948,DSC_7114.JPG,0.5602,0.7109,0.6553,0.5,0.2022,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a8011461178541ceb007df31e1d4a9e4,DSC_7115.JPG,0.6156,0.8549,0.6816,0.5,0.2007,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ece057726e084be480de642e2c4fac1a,DSC_7116.JPG,0.6211,0.8208,0.6877,0.5,0.3085,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9581c135422c4dc887140868ef0aef7e,DSC_7117.JPG,0.6445,0.6865,0.7001,0.75,0.2611,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+46c7f892ff98409395203fe965a74602,DSC_7118.JPG,0.5585,0.7421,0.6369,0.5,0.1427,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+df249e1919444425b9d82f2668c9c183,DSC_7119.JPG,0.6726,0.7918,0.6813,0.75,0.228,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+5028b6b2ecf34ab8ad093b9f5e569d28,DSC_7120.JPG,0.6075,0.8401,0.7009,0.5,0.1554,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+cb5fa2707e3943dda9c3336f02af701d,DSC_7121.JPG,0.6288,0.8654,0.7263,0.5,0.2042,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f1e0429b786549ad9d30b8601057c4ab,DSC_7122.JPG,0.7093,0.8656,0.7052,0.8,0.1684,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+7a24a833ffd04eb29d70d55bc018f024,DSC_7123.JPG,0.594,0.775,0.7308,0.5,0.1776,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d5b45458c15848038a1c2707f645034b,DSC_7124.JPG,0.6779,0.8349,0.7022,0.75,0.1353,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+b622deeb94c5445cbe8ef573bb792859,DSC_7125.JPG,0.6588,0.8353,0.6669,0.75,0.054,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+b655ada8ab9d4742a214696c462c87b6,DSC_7126.JPG,0.5796,0.8671,0.6304,0.5,0.0,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b56fa4d705f54b81b0f012b7320fbcde,DSC_7127.JPG,0.5587,0.7638,0.672,0.5,0.0462,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+70262855e876492e86b84653e57e2213,DSC_7128.JPG,0.5903,0.8529,0.6719,0.5,0.0496,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ca8d91b764864ced9b4046b43014e7f2,DSC_7129.JPG,0.3662,0.6535,0.6336,0.0,0.0717,4,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+97d69fe6123146af91d3cbfd506eb8cc,DSC_7130.JPG,0.4877,0.7468,0.6997,0.25,0.0761,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+57220c4f002e4943a734abef13b533a7,DSC_7131.JPG,0.5955,0.6156,0.7147,0.75,0.0807,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1f7f842e145441db87f6af076c1c380e,DSC_7132.JPG,0.4741,0.6975,0.6928,0.25,0.1096,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+7e1baf72ddec40c393efb52c27c203e8,DSC_7133.JPG,0.6726,0.818,0.7221,0.75,0.1126,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+666e5007c74d4231b752988527c67e42,DSC_7134.JPG,0.6255,0.8626,0.723,0.5,0.1932,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+949daec693f040539cb4949197c25787,DSC_7135.JPG,0.4476,0.5718,0.7022,0.2,0.3134,4,5,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bd74961044624d1f9c96409ee2eaefd1,DSC_7136.JPG,0.6023,0.808,0.6156,0.5,0.3094,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+45a8e089a4234719ab6d907a3e0aad8c,DSC_7137.JPG,0.5215,0.7335,0.6191,0.3333,0.2728,2,3,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bc8b460ac7684818903d1b6745df2226,DSC_7138.JPG,0.5262,0.7296,0.6767,0.3333,0.2369,2,3,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5d5b6f0542674d57b4028a3b3245f04d,DSC_7139.JPG,0.5813,0.7775,0.627,0.5,0.2251,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8591d70625bf4de7a3173485c3508fe2,DSC_7140.JPG,0.5348,0.7932,0.7156,0.25,0.2607,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bcf70e3a1db54932a9dca0292f64711d,DSC_7141.JPG,0.5243,0.5827,0.596,0.5,0.3411,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+01d6f6d1de2c4eaea5d6ffab7fcbca7c,DSC_7142.JPG,0.6827,0.8825,0.6693,0.8,0.0,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+7bf10f471a29499a9217377a55e42434,DSC_7143.JPG,0.7031,0.8699,0.7084,0.8,0.1128,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+6be52af495124a68b79afdc055682b4d,DSC_7144.JPG,0.6587,0.8706,0.7543,0.6,0.1539,2,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+20cca794523c40a08dd573f3df2f1045,DSC_7145.JPG,0.5606,0.7814,0.7328,0.4,0.1369,3,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+66cd472a966343ae97457a5b76b32003,DSC_7146.JPG,0.604,0.7971,0.7528,0.5,0.1629,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c605e6e9beb94f4abadcef0f7230aee6,DSC_7147.JPG,0.695,0.8038,0.7488,0.8,0.1591,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+8086c685e1be43348691810ca26089ee,DSC_7148.JPG,0.634,0.7869,0.7453,0.6,0.1971,2,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+88da6d9046f24ea197abfcb86bce3ed6,DSC_7149.JPG,0.6261,0.888,0.7045,0.5,0.1628,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2f1583239c3c41db9ebbc01bc1c18874,DSC_7150.JPG,0.6901,0.8631,0.6915,0.75,0.1645,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+6a62bc4b4687496c9dfa4dfa7b80e08a,DSC_7151.JPG,0.701,0.7214,0.6238,1.0,0.1581,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+9f5e888e7bcf412ab4781fd16c4f5405,DSC_7152.JPG,0.5407,0.6868,0.5461,0.5,0.2741,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+7b5785a2ba73444a92aa289f8e00e07b,DSC_7153.JPG,0.4324,0.5642,0.5458,0.25,0.3383,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+70720ee201e84c99a337be3203556f3a,DSC_7154.JPG,0.7297,0.6866,0.742,1.0,0.273,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c219aba69e674f9dac18a8ee4616ed2f,DSC_7155.JPG,0.7038,0.8492,0.7231,0.75,0.2462,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+b2efd528d61442d091644642deae8486,DSC_7156.JPG,0.6402,0.7982,0.6936,0.6667,0.1475,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+37bdc9f913fb4d92a5d4b673b45d140b,DSC_7157.JPG,0.6343,0.6442,0.7753,0.75,0.1915,1,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the generated description does not corroborate the assigned terms.",1.0
+e76c27cbd9934355a833e4b3787c705b,DSC_7158.JPG,0.6585,0.8115,0.5497,0.75,0.2635,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+a9917542a0c04462a2c7cef12e809669,DSC_7159.JPG,0.7203,0.7724,0.5063,1.0,0.3248,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+c1ffde1b092349fe9b0a953171cb7490,DSC_7160.JPG,0.7634,0.8718,0.5347,1.0,0.3422,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+a42d5ed083a147b181e0c6c2d6ae4556,DSC_7161.JPG,0.6537,0.7571,0.6922,0.75,0.1685,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+0c43f28570b847a5a82f4f8730ddea06,DSC_7162.JPG,0.6204,0.6834,0.6672,0.8,0.0521,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+c54a9265da8447b695d238e40454c33a,DSC_7163.JPG,0.5349,0.8871,0.6493,0.25,0.1303,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+886c5c85b910400bbb0077e3f9f17490,DSC_7164.JPG,0.587,0.6227,0.7203,0.75,0.0,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3c2734066c0343edbc45f7dc55bdf512,DSC_7165.JPG,0.5917,0.7303,0.6611,0.6,0.1592,2,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+40aa66d26a6e4639b926d6481d0ba5ff,DSC_7166.JPG,0.7063,0.8158,0.7944,0.8,0.146,1,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+b420f50376b8420090cdff76b4f04203,DSC_7167.JPG,0.5275,0.6408,0.5767,0.5,0.2526,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+ef0d0f807c16433698bde6578411c694,DSC_7168.JPG,0.6665,0.7638,0.6742,0.8,0.1621,1,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+9bc0955f947248edb97305040e094531,DSC_7169.JPG,0.5946,0.611,0.7282,0.75,0.0671,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+4812106eed914dabb80e165605440f30,DSC_7170.JPG,0.5418,0.5632,0.7405,0.6,0.1104,2,5,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f714c18eb7ad4d7996e0e4ec9eeff709,DSC_7171.JPG,0.5716,0.5349,0.7102,0.75,0.1159,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a22cd34b206b4c22bcf1e481bf1d2284,DSC_7172.JPG,0.5214,0.5984,0.7108,0.5,0.1318,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+51e6507155304de387c549d532495897,DSC_7173.JPG,0.5554,0.5614,0.7649,0.6,0.1731,2,5,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e615e53dcc8449c1abc183b57c6055c5,DSC_7174.JPG,0.4625,0.5917,0.7817,0.25,0.1602,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+68d72636efa84dfc957ebf3461d81f61,DSC_7175.JPG,0.5676,0.6803,0.7637,0.5,0.1783,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+c966458164714205b1bcc1fc97f050a4,DSC_7176.JPG,0.4681,0.5947,0.7809,0.25,0.1918,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+567b044d786448519f01e803729e5045,DSC_7177.JPG,0.5636,0.6264,0.7894,0.5,0.2434,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+64ca399709d8452e8cac0f475c207eb0,DSC_7178.JPG,0.5604,0.6367,0.7814,0.5,0.2085,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+a66f53ea872e42fbbf6e636af840cc4b,DSC_7179.JPG,0.5006,0.7115,0.7441,0.25,0.1851,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+3af778e8184f49a3b71fbe6770ef0370,DSC_7180.JPG,0.4825,0.6588,0.7427,0.25,0.189,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+a2265c4b08f34a75b2abd32581101634,DSC_7181.JPG,0.586,0.7282,0.7618,0.5,0.1916,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+48a3c1ad93bd4487b3e402d6c5c3a725,DSC_7182.JPG,0.5845,0.7369,0.7342,0.5,0.1982,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f7f4d3ef1b8f42ebb4567ccfe35c053a,DSC_7183.JPG,0.6018,0.773,0.7561,0.5,0.2004,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e78d6cc869134519b556c3e56b574226,DSC_7184.JPG,0.5365,0.8367,0.722,0.25,0.1615,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e753f4c615c743319c0029375d91d154,DSC_7185.JPG,0.5622,0.6736,0.7299,0.5,0.2028,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+67e02fcfd9ac4c8da699901e741597f2,DSC_7186.JPG,0.513,0.763,0.6743,0.25,0.2408,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+01f0cd61adb64b4b83b903fe688445aa,DSC_7187.JPG,0.4861,0.6539,0.7487,0.25,0.2168,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+4c0ac09a836b4f329ff955dda65578ff,DSC_7188.JPG,0.5778,0.7049,0.7639,0.5,0.189,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+3dee2a7a93214427a4c78edb7a283ddf,DSC_7189.JPG,0.5139,0.7047,0.8107,0.25,0.2011,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+56d47c64acb1496eaac2ad7592d25759,DSC_7190.JPG,0.5466,0.7872,0.8001,0.25,0.2403,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+75ed80448ef94728990ea3522033d616,DSC_7191.JPG,0.5402,0.7918,0.7746,0.25,0.2213,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+85d9292a3ffe42bfb938ea42c5711dab,DSC_7192.JPG,0.4901,0.6649,0.7282,0.25,0.2453,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+02918a26adee4dc88229177a4a2d897e,DSC_7193.JPG,0.5578,0.6554,0.6799,0.5,0.2832,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+442d2ce785f74227a656a9ad75d10684,DSC_7194.JPG,0.581,0.7491,0.7028,0.5,0.1884,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b29b2bb5a23c4a0ca37418f448d1e379,DSC_7195.JPG,0.6576,0.7609,0.6727,0.75,0.2118,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+e39135220df9479f83d298e3416cdb49,DSC_7196.JPG,0.7121,0.7712,0.8206,0.75,0.3535,1,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+3de3da5bec6d4282b38b5e1e4c45b12f,DSC_7197.JPG,0.6072,0.8609,0.6449,0.5,0.1791,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+93f5efd56dc6436d893b5136145a44a3,DSC_7198.JPG,0.6093,0.8393,0.694,0.5,0.178,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+39bb893395a1476f8c5c311c02347bee,DSC_7199.JPG,0.6078,0.8349,0.6932,0.5,0.1795,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0be5995bc05544c5806f1321e221b50f,DSC_7200.JPG,0.5043,0.6624,0.7621,0.25,0.3,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+4bfa51f937d747648a1fd781e2fc6260,DSC_7201.JPG,0.6921,0.8716,0.6573,0.75,0.2039,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+276f658970de4874af7a42b8beb3b57e,DSC_7202.JPG,0.6176,0.8257,0.7593,0.5,0.1781,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+09eeabe2127048f38eb398ecc326ad01,DSC_7203.JPG,0.4678,0.6089,0.714,0.25,0.2458,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+025bfbb232974c4590c2be1c1dc39470,DSC_7204.JPG,0.7483,0.9438,0.8027,0.75,0.2159,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9af4a012151847b1838d360c1304a845,DSC_7205.JPG,0.6411,0.8085,0.7088,0.6,0.2425,2,5,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+7c2ca7e99bdd4e51b075aed869f37ff3,DSC_7206.JPG,0.6212,0.8258,0.7292,0.5,0.242,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0484d3de7a90489689be421950784e02,DSC_7207.JPG,0.6088,0.8388,0.6454,0.5,0.2408,2,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+76d206622a26410ead2dfa83bf1fc5d4,DSC_7208.JPG,0.639,0.8268,0.8272,0.5,0.2281,2,4,True,True,True,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+11bec571b4144c13932a267eca2f01b5,DSC_0056.JPG,0.4442,0.6586,0.5202,0.25,0.2308,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1a5177d61adf430191e6d3c2aacc68d4,DSC_0057.JPG,0.408,0.4727,0.6441,0.3333,0.0913,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+26e8b79ebe904744952f63ff8d4abcec,DSC_0058.JPG,0.4668,0.6862,0.633,0.25,0.167,3,4,True,True,False,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f9357ad19d834c489303504828e2efce,DSC_0059.JPG,0.393,0.4291,0.6537,0.3333,0.0804,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+10a9de0dae914c44b2dabac2b273f6a4,DSC_0061.JPG,0.4774,0.6875,0.6988,0.25,0.1466,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+201d4d9c526f4abb89a926bf5d967ee2,DSC_0062.JPG,0.3828,0.4331,0.6561,0.3333,0.0,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5842b4248e8c47e38626678ac3f1696f,DSC_0063.JPG,0.4406,0.6611,0.5554,0.25,0.1541,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b3e20ccc5a474cbbbf3ac9a474455254,DSC_0064.JPG,0.3865,0.3988,0.6369,0.3333,0.1302,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0d130ffa80d045758404c5bf53a92cf4,DSC_0065.JPG,0.5336,0.7368,0.4106,0.5,0.2905,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b1d9b2e65c7a4c65b19592ac27e034df,DSC_0066.JPG,0.3937,0.4184,0.6553,0.3333,0.1079,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c3ad21cce0e1423b9439bc954aace832,DSC_0067.JPG,0.4544,0.6726,0.4861,0.25,0.3118,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+bed0b0b05e634df9a2c66a7035cdfdac,DSC_0068.JPG,0.3796,0.3703,0.652,0.3333,0.131,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c62b9c0af8904e588bd261890921f0be,DSC_0069.JPG,0.5429,0.7528,0.4677,0.5,0.2393,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+80be87353b304824a015c620704d8d66,DSC_0070.JPG,0.3612,0.3668,0.5656,0.3333,0.1312,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+718a7604ab1845fb82a874241a65f204,DSC_0071.JPG,0.5884,0.7659,0.4697,0.6,0.309,2,5,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+700aa52c5acd40bdb972a22d43bbd586,DSC_0072.JPG,0.3994,0.4356,0.5499,0.3333,0.2462,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2d0ab2715848496d85f2cdf1c2c16e13,DSC_0073.JPG,0.6615,0.8441,0.5297,0.75,0.234,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+74db460da8ae42a1ac5004e5bdcaf702,DSC_0074.JPG,0.4987,0.7381,0.5363,0.3333,0.2207,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4a13b7d7101e4752a10aa8191a931a3a,DSC_0078.JPG,0.56,0.7254,0.5677,0.5,0.2835,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+117b7295dfdc48f2bc414117f71bf71a,DSC_0079.JPG,0.5363,0.7987,0.5902,0.3333,0.2585,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+64420ac3453b4dae94e897421efba853,DSC_0081.JPG,0.2905,0.3853,0.5839,0.0,0.2591,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+524bd2f60b84481da9e32adf9fee0661,DSC_0082.JPG,0.4632,0.7002,0.5211,0.25,0.2596,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+6ad0c1736cfd43a98c7c23afeff0fb9c,DSC_0083.JPG,0.5254,0.7081,0.5407,0.5,0.1292,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+05005918eb094ec9bc228fe54a45bdf1,DSC_0084.JPG,0.2861,0.3707,0.6217,0.0,0.2137,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0b10da0783c647288646843a4faa7bdf,DSC_0085.JPG,0.3483,0.6406,0.5063,0.0,0.1519,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c3c4201f02bf4efcae404e5911eea700,DSC_0086.JPG,0.3876,0.3992,0.6736,0.3333,0.0875,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+4e3ecbaa4c894f2c92f1373419a583a8,DSC_0087.JPG,0.4193,0.856,0.4735,0.0,0.1664,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d037ff0fad644e43933083ed95aa726f,DSC_0088.JPG,0.4176,0.4826,0.6647,0.3333,0.1051,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+393ac9f7996e424da11dc4435a44d256,DSC_0089.JPG,0.434,0.6378,0.4654,0.3333,0.1179,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9850e9be94624915a095fa90706f7909,DSC_0090.JPG,0.4036,0.4413,0.6728,0.3333,0.0971,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ad258747ec1c4d51a5bfa72bd8d7cd33,DSC_0091.JPG,0.4442,0.812,0.425,0.25,0.0,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+813b66c4fc5f414e87b436bc90eab8db,DSC_0092.JPG,0.2882,0.3826,0.6758,0.0,0.1273,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+9ccdf981e6224f5ba969232e5032cc5d,DSC_0093.JPG,0.4972,0.6938,0.4268,0.5,0.1269,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b93d2de3cd5746b7b2e073ca1bc117f3,DSC_0094.JPG,0.2817,0.3739,0.6708,0.0,0.1111,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0fbd9a868e704360a830181d4f9bab85,DSC_0095.JPG,0.4632,0.7702,0.453,0.25,0.1868,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+09fdb17e4232427e9451dbd48ebdb123,DSC_0096.JPG,0.2934,0.4205,0.6652,0.0,0.0881,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+bdfb91d1d1a040b7bc5c883349d2c185,DSC_0097.JPG,0.3644,0.6957,0.4023,0.0,0.2696,4,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0b7f616de8c04fa0a5f5c131490b3666,DSC_0098.JPG,0.2854,0.4003,0.6639,0.0,0.0836,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+2358e7f8ac5b494aac6b1e64bcfedabe,DSC_0099.JPG,0.5043,0.7821,0.405,0.4,0.1974,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0e3f86a877294ce0ba98af0440c0cd04,DSC_0100.JPG,0.2918,0.4183,0.6681,0.0,0.0783,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c7c715bdbb384cecb2f835aba94a3ed8,DSC_0102.JPG,0.4651,0.7677,0.379,0.25,0.3037,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9f91b936819b446786733d876a5cf222,DSC_0103.JPG,0.3991,0.4376,0.6971,0.3333,0.0438,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ccf18b4dcefa450cb296ec25d7878a6e,DSC_0105.JPG,0.4924,0.8792,0.4161,0.25,0.1765,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+6fb5a7b3621b4a46a11623839b45676a,DSC_0106.JPG,0.2862,0.3787,0.7338,0.0,0.0461,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+161808786f8b4ef580a5c72afb7a4d27,DSC_0110.JPG,0.5659,0.7991,0.5052,0.5,0.2343,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+43de780ecbd6456486f3e3d153f347af,DSC_0111.JPG,0.4907,0.4876,0.6001,0.6667,0.0,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c6a521e7bb894d47847a1c1dd41bfcf2,DSC_0112.JPG,0.4324,0.6221,0.5402,0.25,0.2109,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+727fff6a79b04180a40c3871daa904cf,DSC_0113.JPG,0.4806,0.4472,0.5898,0.6667,0.0406,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+de57b1dc33a4496295df4c360c863895,DSC_0114.JPG,0.4255,0.6146,0.5372,0.25,0.1866,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+5482eafc2dca45f98cb57e08d550d755,DSC_0115.JPG,0.5225,0.5252,0.6464,0.6667,0.0627,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8e03447d0e1a4b559edf4f809973c18c,DSC_0075.JPG,0.4742,0.7457,0.5,0.25,0.2546,3,4,True,False,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+2e4f9911e1774fcda3cc7213e222469e,DSC_0076.JPG,0.5287,0.7036,0.5,0.5,0.2164,2,4,True,False,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+9669060bf8134cd4986a1b20aa5fac88,DSC_0109.JPG,0.5345,0.7061,0.5,0.5,0.2488,2,4,True,False,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4b1bed8507ab489e96c8e2fabbaf1e06,S7R08440.JPG,0.4416,0.7632,0.0685,0.4,0.2722,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e64a04305183472bb815d3ce9e70cb66,S7R08441.JPG,0.4053,0.7501,0.2209,0.2,0.257,4,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+c9f7ea54d7f64e038e6ce23551741b44,S7R08442.JPG,0.3972,0.6564,0.3504,0.2,0.2491,4,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+af55b70ce0cd4934bda1a5a6af0b3e2f,S7R08443.JPG,0.3038,0.6226,0.279,0.0,0.2003,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b8bf2ef0af7c4724a82dcc8e59fa8468,S7R08444.JPG,0.3484,0.5611,0.2566,0.25,0.171,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c54133a4eb0548039e590e577f945649,S7R08445.JPG,0.2726,0.5541,0.2505,0.0,0.1905,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+9f142d153b1147cc948888b124f93571,S7R08446.JPG,0.1821,0.4382,0.0195,0.0,0.1653,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+d5026d595a684e669efb05086f4139e0,S7R08447.JPG,0.1822,0.4422,0.0146,0.0,0.1636,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+d2f58a1aa29a40c88bd2f1f217a7f994,S7R08448.JPG,0.3779,0.5643,0.0222,0.5,0.1732,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e519e01c282849c294d61daf572ff2e8,S7R08449.JPG,0.3304,0.6049,0.023,0.25,0.2608,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+ff0947d42c9549e684475cfbc637d77f,S7R08450.JPG,0.3118,0.5947,0.0273,0.25,0.1544,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+ea5cb61fa0c944739309ad53fd3641a6,S7R08451.JPG,0.2419,0.3556,0.0162,0.3333,0.0946,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+010559e386d541bbb99c225b9520c37e,S7R08452.JPG,0.311,0.5731,0.0125,0.25,0.2193,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+064c69c507fa41ddad36f3defc5e9220,S7R08453.JPG,0.2538,0.6191,0.0314,0.0,0.2054,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b2e1a0ee2dcb4b2c99d43744da0dd24a,S7R08454.JPG,0.3449,0.5098,0.0114,0.5,0.0949,2,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c125d78f2c7b4b999ebfb597c96a5c41,S7R08455.JPG,0.3827,0.604,0.0333,0.5,0.0979,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e99d82e41a5c4a889581cf1f84c2bc55,S7R08456.JPG,0.2227,0.5429,0.0462,0.0,0.1566,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+be2e471294034d1ead6b7afde4f0f240,S7R08457.JPG,0.397,0.6007,0.037,0.5,0.1954,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+dbeb8d318da346b985c7539e9aa526e7,S7R08458.JPG,0.4075,0.6203,0.0106,0.5,0.2551,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e0c9afa8aaf54419bfa64e08f96bb9a3,S7R08459.JPG,0.4404,0.7568,0.0089,0.5,0.1585,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+acfe2ed465da488caf0c7a8fa3336cad,S7R08460.JPG,0.2224,0.5618,0.0046,0.0,0.1659,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+8e45991d3cb248b6b3653324b6e89703,S7R08461.JPG,0.4056,0.641,0.0057,0.5,0.2009,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+c74128d813f24c33ae5256dfb710783b,S7R08462.JPG,0.4028,0.604,0.0393,0.5,0.2233,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+3995d59e6ad44579883f0668ba0397d5,S7R08463.JPG,0.4062,0.6276,0.0118,0.5,0.2278,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+cdf0ce78d669473a880cdd79cae4f2d9,S7R08464.JPG,0.3946,0.7103,0.0086,0.4,0.1618,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+be077ed484514f6c874081336170fb72,S7R08465.JPG,0.3874,0.5885,0.0232,0.5,0.1784,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+f9502d0a5e9e4a0681b5f756edfc10bb,S7R08466.JPG,0.4325,0.7014,0.0056,0.5,0.2393,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+255df8f871ca4146b2508290d40cb797,S7R08467.JPG,0.3444,0.5962,0.06,0.3333,0.1586,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+6ed52101103e4e0cb3ac7787b76de167,S7R08468.JPG,0.4804,0.75,0.01,0.6,0.2391,2,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+991d5adcf8bb4de4a4efff7e1d9ae221,S7R08469.JPG,0.5051,0.6704,0.0038,0.75,0.2982,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+503040d230da4c269cdac8536dd0628a,S7R08470.JPG,0.3966,0.619,0.0079,0.5,0.1892,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0abc061968e14760bffac4e7f6bb44c4,S7R08471.JPG,0.4188,0.6613,0.0147,0.5,0.2293,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b5ce2e562f0f42899dcf58bcd62ad0a9,S7R08472.JPG,0.6067,0.77,0.0037,1.0,0.2431,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+6ee9ad5722fc40f5a0deb8796143bb8d,S7R08473.JPG,0.4755,0.5951,0.0032,0.75,0.2773,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c2076e0222ee45c1b810326491932946,S7R08474.JPG,0.2374,0.5591,0.043,0.0,0.2209,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+6a2fc8cd874345a6817406420a6ac4e7,S7R08475.JPG,0.4429,0.7293,0.0068,0.5,0.2419,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+15f98477474c421f8692797d7d5ec010,S7R08476.JPG,0.3914,0.6172,0.0648,0.5,0.083,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+3b18929d8c3b4f3e9b4fb9a064e7703f,S7R08477.JPG,0.3444,0.6425,0.0897,0.25,0.1774,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+724cdccdb2584109ac3a3ed58ca49572,S7R08478.JPG,0.4394,0.7049,0.0159,0.5,0.2637,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+93a125cdb3cb4cd9931040a318633f16,S7R08479.JPG,0.417,0.7432,0.0096,0.4,0.2334,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+f947193a336745a787ef380aaf67e371,S7R08480.JPG,0.423,0.5845,0.0239,0.6,0.2245,2,5,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+82bcd30207344242a0ef0df6c11c385d,S7R08481.JPG,0.2419,0.6064,0.0106,0.0,0.1833,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+cb96b02ce9a24b07b273303a1ca41f70,S7R08482.JPG,0.298,0.5135,0.0293,0.3333,0.0829,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+24b48c8eb05b49c089c28b2d03360b73,S7R08483.JPG,0.5385,0.7376,0.0238,0.75,0.3369,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+e139a28d4d114e448bcd7b8523254ed8,S7R08484.JPG,0.4369,0.5748,0.0566,0.6667,0.1629,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+1d0615ea69f5498d80440502147425cd,S7R08485.JPG,0.2945,0.4702,0.069,0.3333,0.1073,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+f4c8ce22b2b8493981205551419d7479,S7R08486.JPG,0.2867,0.4598,0.0409,0.3333,0.1173,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+fa2b038ae4574972b5df6a6f1dff3ae6,S7R08487.JPG,0.3377,0.4676,0.008,0.5,0.1499,2,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+10174af65dbb4430889dce2709c257cb,S7R08488.JPG,0.3848,0.4654,0.0052,0.6667,0.1391,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+19225dfe67bf47b0b3cd5549cab7cb05,S7R08489.JPG,0.4808,0.5504,0.2768,0.6667,0.2187,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d24b8438dc0b4af1b520168ca4db2d88,S7R08490.JPG,0.3374,0.5704,0.0503,0.3333,0.1849,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e1b0ae5a80824d5383892df7b3d3ccc3,S7R08491.JPG,0.2361,0.2853,0.0476,0.3333,0.1782,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+aab4e117dc704dc7bda8fa1bf7a41c73,S7R08492.JPG,0.2346,0.3051,0.013,0.3333,0.1679,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+34bc4e0ada514e849a664e2801e0e440,S7R08493.JPG,0.4189,0.6481,0.037,0.5,0.2311,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+33d8e7418ec2496f8c0ffdb77b86e169,S7R08494.JPG,0.2179,0.5425,0.016,0.0,0.1655,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+b2a1ff2cce664108ab065c5830d1e990,S7R08495.JPG,0.4091,0.555,0.031,0.6667,0.0576,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+00bfc1ad3cae45b1beedf00d2a7c5210,S7R08496.JPG,0.4655,0.7726,0.0352,0.5,0.2539,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+4f6f3b9e3d4f400b992de84d30e60349,S7R08497.JPG,0.4079,0.7174,0.0227,0.4,0.2149,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+85b0e9c224274af0bc0746a49ed3b1c8,S7R08498.JPG,0.3215,0.5405,0.0157,0.3333,0.1949,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+221cf524e1594252bca76d924444195d,S7R08499.JPG,0.4789,0.793,0.0183,0.5,0.3179,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0531f7e2ca1c4993b3d265429ea964a9,S7R08500.JPG,0.4834,0.8383,0.0143,0.5,0.2475,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+394fb31c54174f559f607f7755ae9a44,S7R08501.JPG,0.4376,0.7115,0.0143,0.5,0.2384,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+bf1de832ad4a46a2933f7745cbd79d87,S7R08502.JPG,0.307,0.4867,0.0636,0.3333,0.1594,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+d59bd3c4ecb34482be43547879f97c35,S7R08503.JPG,0.2274,0.5652,0.0752,0.0,0.0967,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+52726b011be14340b4eb831ae6f1c28f,S7R08504.JPG,0.2283,0.5894,0.0386,0.0,0.0952,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+21f19d0b206547e2aa494166d15262fa,S7R08505.JPG,0.3185,0.5439,0.03,0.3333,0.1478,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+09a49b2343234ef9a78214309673179d,S7R08506.JPG,0.301,0.5055,0.0452,0.3333,0.1005,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+16cb160c6d9c46b0ad2f0100f6243986,S7R08507.JPG,0.3208,0.5118,0.0865,0.3333,0.1622,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c712ff581aa44dbfb807f55e11973b93,S7R08508.JPG,0.3243,0.5228,0.0924,0.3333,0.1523,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+9cd23c38569c42cf8a4762c9f8ec07a4,S7R08509.JPG,0.2256,0.2774,0.0087,0.3333,0.1782,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+4da91ade2a6b48028123e3a7948eeb7c,S7R08510.JPG,0.1772,0.4521,0.0218,0.0,0.0973,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+31e163e99a8e4912b46881854820652f,S7R08511.JPG,0.2883,0.4852,0.0203,0.3333,0.0964,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+6ee4be8a62244b14b554fd786fe0765f,S7R08512.JPG,0.2711,0.6812,0.018,0.0,0.1937,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+a2facc83d3f3437c97ff62c52c3cdb76,S7R08513.JPG,0.393,0.6483,0.0131,0.5,0.0901,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+665dfe83d430442cb4df553f7b8ebe54,S7R08514.JPG,0.337,0.6521,0.0361,0.25,0.1767,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+c16b14f2ed404f66b17c886680353bdd,S7R08515.JPG,0.3229,0.6276,0.0268,0.2,0.2523,4,5,True,True,False,The assigned terms are well supported across all measures.,1.0
+4f3bd3ab18464082aa57c47fa718b696,S7R08516.JPG,0.2456,0.299,0.0385,0.3333,0.2219,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+fb3175f4552e4c839c9ec574f93e8f4f,S7R08517.JPG,0.3161,0.5477,0.0104,0.3333,0.1491,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+762f9942eac2447d9c64c9c32c0ee1fa,S7R08518.JPG,0.2365,0.5793,0.0221,0.0,0.1954,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+8f8c0ede2959437685d32f72f04f4ba3,S7R08519.JPG,0.3041,0.5094,0.0218,0.3333,0.143,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+cfcdf234c4164aacbb9bd2badf15080d,S7R08520.JPG,0.333,0.3271,0.0924,0.6667,0.0,1,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+f34298cb29674011a9d81ac502db2d45,S7R08521.JPG,0.2824,0.4919,0.0076,0.3333,0.058,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+00917e7e23184fd2b63c48a83476fae1,S7R08522.JPG,0.3325,0.5991,0.0375,0.3333,0.1024,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+42a037e24ca64b38b8e45066da4eb6bf,S7R08523.JPG,0.3962,0.4997,0.0098,0.6667,0.1291,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+519e2ea8a4f64243ad78ff78c093248c,S7R08524.JPG,0.4271,0.5501,0.035,0.6667,0.1834,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+d5513878a02447ae9b548e1c1033478c,S7R08525.JPG,0.5729,0.6278,0.0264,1.0,0.3193,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+ab5c28fb74f645bc8f5b47deedea8def,S7R08526.JPG,0.5042,0.7683,0.0198,0.6,0.3421,2,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0a2861dda4494bf385821a5e40963228,S7R08527.JPG,0.577,0.681,0.0137,1.0,0.2392,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+e4a6890259cb4f858c25e7f947287d02,S7R08528.JPG,0.4501,0.7523,0.0109,0.5,0.2309,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b26e3a4669bd4ec8bc41914207e0dd39,S7R08529.JPG,0.392,0.7282,0.0341,0.3333,0.2021,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+1911a672ae40403a9ce09ce6f9b92da3,S7R08530.JPG,0.4604,0.5727,0.0052,0.75,0.2261,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+488285bf39484c2a9c61965188b05476,S7R08531.JPG,0.2059,0.5343,0.0168,0.0,0.1035,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+1977d93126e44b05853205a265a6ecec,S7R08532.JPG,0.3236,0.6311,0.1386,0.25,0.0,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+7f43a6e591df4d21a5d9d92941f0b32e,S7R08533.JPG,0.3304,0.6333,0.0372,0.25,0.1756,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+e76a4ee794a847eb87d0b49adef690e2,S7R08534.JPG,0.5049,0.683,0.043,0.75,0.2147,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+284b7fa7caf94cceb35eed725972ad39,S7R08535.JPG,0.3966,0.5878,0.0276,0.5,0.2358,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+988c1358dfa64caca24a54af373db064,S7R08536.JPG,0.3575,0.6157,0.0087,0.3333,0.2682,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+fc22330edd174dfcbe205d11a7ec506a,S7R08537.JPG,0.2768,0.4545,0.0144,0.3333,0.0988,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+56c7f45a74374eb7990d1a165dff3d5b,S7R08538.JPG,0.4181,0.5577,0.0239,0.6667,0.1205,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+412a1a8e700d4587b7a0f765020308e8,S7R08539.JPG,0.331,0.6025,0.0102,0.3333,0.1209,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+d7d09f86eff74a5d8fce5aedd62ab72b,S7R08540.JPG,0.2077,0.5271,0.0496,0.0,0.0885,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+946dbc06c7f342aebb545a06d56f7e19,S7R08541.JPG,0.2912,0.4515,0.166,0.3333,0.0,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+015997e0c07442b8a86db444a4c84a67,S7R08542.JPG,0.1318,0.3078,0.0182,0.0,0.1363,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e54147cdb89f4fbf8ce50b59c92185e5,S7R08543.JPG,0.3272,0.4916,0.1429,0.3333,0.1773,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5e3143de9f4a4a868f608257bed03740,S7R08544.JPG,0.315,0.5343,0.024,0.3333,0.155,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+38ae999c5b0f4f0084e37393fbfcbc3c,S7R08545.JPG,0.5862,0.7131,0.0295,1.0,0.2048,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+98bc2a1bb07d49fc97c9371231f60097,S7R08546.JPG,0.5192,0.6866,0.0399,0.75,0.3058,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+7ae240d3ecae44dcbb221ad0f0d8d66c,S7R08547.JPG,0.2326,0.5235,0.2235,0.0,0.0313,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+dbe5d87c83c741c59541b461cea506e8,S7R08548.JPG,0.3409,0.6611,0.0181,0.25,0.2062,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+bd5d6828130043489c691724d80b9b43,S7R08549.JPG,0.2166,0.5236,0.0148,0.0,0.2025,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+dc33a4d356864a43b6e385ec9260d635,S7R08550.JPG,0.1575,0.36,0.0892,0.0,0.0909,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+f96156d90dd34095a0fca066ff662995,S7R08551.JPG,0.3753,0.4948,0.3892,0.3333,0.162,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+63a835ac35774a38970f46dfa0786c7c,S7R08552.JPG,0.3116,0.5127,0.0353,0.3333,0.1677,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+77645f3d84d247339345ee8f162e572d,S7R08553.JPG,0.524,0.744,0.0162,0.75,0.2359,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+40c8955be5834bc185b426c09f5e63c8,S7R08554.JPG,0.3176,0.5379,0.031,0.3333,0.1545,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+fb4611ae8b154fc19b5b0a84d6201f20,S7R08555.JPG,0.2485,0.3489,0.0115,0.3333,0.1608,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5ed42d08547441219f4626706bd2e249,S7R08556.JPG,0.2018,0.4809,0.0017,0.0,0.2207,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+dc630b60c765458c9848ba4f1854950a,S7R08557.JPG,0.3774,0.5409,0.123,0.5,0.0898,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+3b262ef737d04291ab72a41a363455dc,S7R08558.JPG,0.4109,0.7145,0.0187,0.4,0.2475,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+f4bdab57c96c4c0a92ba68778015a57d,S7R08559.JPG,0.2942,0.3778,0.1805,0.3333,0.1723,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+a5bd8ac5a89e4a10b43b5f90598087be,S7R08560.JPG,0.4745,0.5565,0.0698,0.75,0.2717,1,4,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+6c48eb45c9314ba9aafdd53ad5066ed4,S7R08561.JPG,0.3417,0.6429,0.0295,0.25,0.2385,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+88f48fa8714b47439078ffdd550b4402,S7R08562.JPG,0.3826,0.6805,0.0357,0.3333,0.2484,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+39d9847546364d788c505a4f9fc458ab,S7R08563.JPG,0.3441,0.6379,0.0221,0.3333,0.1094,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5fecfe2b83904ccab43dff05186e61a2,S7R08564.JPG,0.3889,0.629,0.0356,0.5,0.0777,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+543be414203343f79c3807b1c982b1d5,S7R08565.JPG,0.6353,0.821,0.0204,1.0,0.2928,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+28e735ef602c46ae8ecca90d05f584f1,S7R08566.JPG,0.5817,0.8876,0.0193,0.75,0.2811,1,4,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+299ed20abe68446f84d655db05e72120,S7R08567.JPG,0.353,0.6789,0.018,0.25,0.245,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+8f46e246c2c448518ce00b86cb087a15,S7R08568.JPG,0.2103,0.4977,0.006,0.0,0.2325,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+0a6eea1734ba475e97e010e0d1bdc8ac,S7R08569.JPG,0.3135,0.5706,0.0056,0.25,0.2512,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+7374f18cd9ff4828980845ee3fcbb6bd,S7R08570.JPG,0.4976,0.786,0.014,0.6,0.2648,2,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+bacd585a60ee4128be14507aecbb8829,S7R08571.JPG,0.3642,0.7239,0.0042,0.25,0.2336,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+26286ecde23644f2880d4f21b4f2c7b8,S7R08572.JPG,0.6278,0.8191,0.0285,1.0,0.2358,0,5,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+04904d7be7f84bd4994bc2ac71188466,S7R08573.JPG,0.4929,0.7319,0.0203,0.6,0.3512,2,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+a69a6e08f44e4b46b88490a79c3b7518,S7R08574.JPG,0.4714,0.7906,0.0149,0.5,0.278,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+47e1334563b044759da51a2642e25f7e,S7R08575.JPG,0.5353,0.7273,0.0098,0.75,0.3585,1,4,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+e53469c1cfec4f9ba0da2a5ee75c6679,S7R08576.JPG,0.4568,0.7274,0.0582,0.5,0.2707,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+af76f777c4b44a01807053adf4fd362f,S7R08577.JPG,0.4364,0.7843,0.0207,0.4,0.2519,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0487c34d6f0a4c25ba57fceca9fc78e5,S7R08578.JPG,0.3099,0.7765,0.0164,0.0,0.2323,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+ef197fb564cd4bf49a70b92ccaceacc6,S7R08579.JPG,0.3808,0.7479,0.0146,0.25,0.2742,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+b84245763b2f47338309d919a96d57b0,S7R08580.JPG,0.4517,0.6692,0.143,0.5,0.259,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+3f2d6f18c3cc4e21b6757a6ebf6cfd93,S7R08581.JPG,0.2833,0.44,0.0267,0.3333,0.1595,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0336a3297c224f1f9fd1be130ae795ea,S7R08582.JPG,0.4271,0.7327,0.0678,0.4,0.247,3,5,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+931a0e25de4c4e1f8409875540712315,1 (10).JPG,0.7274,0.7055,0.568,1.0,0.4459,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+3cae6513130e4af09b3e3ef0f1c92b19,1 (12).JPG,0.627,0.8926,0.6817,0.3333,0.5219,2,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+8ceaf4da9f8c4a9cb51be51ffb169f68,1 (19).JPG,0.3466,0.4382,0.5437,0.0,0.5635,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+6cd6f7345fb448c6b3009f06b4cb454f,1 (39).JPG,0.4885,0.7604,0.7801,0.0,0.4421,2,2,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+4f370ca4c6de45599800cd5d9083c54e,1 (47).JPG,0.5948,0.7226,0.5958,0.5,0.4848,1,2,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+478b884e83594712bedfaeb74066df88,1 (8).JPG,0.5108,0.6295,0.6331,0.3333,0.4257,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned, and the matching scores separated the leading terms only narrowly.",1.0
+6c880f57b31245da982fcc0b602e16a0,1.JPG,0.3539,0.2975,0.5721,0.3333,0.2361,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ea6eb349d62e4b46969a8c5e8bdf31f2,2.JPG,0.317,0.3592,0.5903,0.0,0.4878,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+1fd1c1530df443739bd77707e79a9677,20121121-DSC_0811 FK.jpg,0.2376,0.1959,0.4866,0.0,0.4783,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+2a37751837614441922424902425f259,3.JPG,0.3523,0.5094,0.573,0.0,0.3962,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+520f71ccf985465e8fa3413b88a4e472,4.JPG,0.3008,0.2578,0.589,0.0,0.6187,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5d065c454d3e4980ad9b6c555b9ae974,a Calire IMG_1633.JPG,0.327,0.3056,0.4767,0.25,0.3315,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+62234286d46444e6a4727133a04a6a96,a Cat IMG_5756.JPG,0.3347,0.342,0.3923,0.3333,0.2434,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+3eeba11b17484070a938948233b7a717,a Cat IMG_5781 50_.jpg,0.5041,0.5578,0.5842,0.3333,0.6134,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+5429f64ae0cf498fac2c72f1bd7ee898,a Cat IMG_5781 50_1.jpg,0.5041,0.5578,0.5842,0.3333,0.6134,2,3,True,True,False,Chiefly because the image differs markedly from those used to establish the terms.,1.0
+88584eddc50b47cd978e1e59849e5e45,a Cat IMG_7551-Optimized.JPG,0.4406,0.4977,0.0021,0.6667,0.4397,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+172c8b26b45a4529a62ff8541d9d2d3c,a Cat IMG_7551-Optimized1.JPG,0.4406,0.4977,0.0021,0.6667,0.4397,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ac4167003b634643be1ea978480593bb,a Cat IMG_7551.JPG,0.4063,0.6186,0.1329,0.3333,0.4215,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+275f33ffb35d436690ccd7e1ba3b93b3,a Cat IMG_8594.JPG,0.7647,0.7524,0.6208,1.0,0.5147,0,2,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+7f3c6a5f2c1c429da2f398079a2584df,a Cat IMG_9332.JPG,0.5727,0.6269,0.5749,0.5,0.589,1,2,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+85851f6e2f684443897c7ca8908bd24d,a Cat IMG_93321.JPG,0.5727,0.6269,0.5749,0.5,0.589,1,2,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+c2a978e6a917409e975c9411b17ea725,a Cat IMG_9758.JPG,0.271,0.3237,0.5443,0.0,0.3259,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+f7ebac8fcfec4a54b49f70c79e757b28,a Cat IMG_97581.JPG,0.271,0.3237,0.5443,0.0,0.3259,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+234fd062a9c3464f9e007006bed2aec6,a Claire DSC07803.JPG,0.6324,0.5198,0.5034,1.0,0.3317,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+ef90871216e04242bfe92d8e98bdba1c,a Claire DSC078031.JPG,0.6324,0.5198,0.5034,1.0,0.3317,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+889f438e86884f56aacd1cd81655dc23,a Claire IMG_1985.JPG,0.4017,0.4196,0.5721,0.25,0.4359,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+ca21acdd200d4267b069eefacaf76979,a Claire IMG_19851.JPG,0.4017,0.4196,0.5721,0.25,0.4359,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+425d74ce96f84df8aa291942997e76f0,a Claire IMG_3388.JPG,0.4962,0.6684,0.5406,0.3333,0.361,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+398fd84f68c7493f84cad6e76132df73,a Claire IMG_6340.JPG,0.341,0.5854,0.5835,0.0,0.1291,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0a44b70afb384a18a2590e44871aa954,a Claire IMG_6407.JPG,0.4802,0.4951,0.5346,0.6667,0.0,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+f6a665c9c37d4c478b89b3ced05f7333,a Claire IMG_64071.JPG,0.4802,0.4951,0.5346,0.6667,0.0,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+dd007e7723c543e3bf35176f5d36cceb,a Michael DSC_1154.JPG,0.3163,0.5149,0.4442,0.0,0.3148,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+026e03c68a98422b88d063b25a4cd297,a Michael DSC_11541.JPG,0.3163,0.5149,0.4442,0.0,0.3148,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0c765419aad24b4ab623734b80c0c7b6,a Michael DSC_1736.JPG,0.6892,0.5179,0.5773,1.0,0.6162,0,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
+a12e9e38f35c4bbdab9de00d1b1039e4,a RACHEL MORGAN - Ylva P1010042.JPG,0.5525,0.7437,0.6498,0.3333,0.415,2,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+67c04bc2a86740e89ed58d84c57c10eb,a RACHEL MORGAN - Ylva P10100421.JPG,0.5525,0.7437,0.6498,0.3333,0.415,2,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+dc0c530ed1754c0295c6701582a82dae,A true Antarctic scene. Kristine Hannon.jpg,0.4965,0.2831,0.6643,0.6667,0.4304,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d365504ad6964df180a2fae5ade78a03,a Ylva P1000662.jpg,0.3776,0.2954,0.6023,0.3333,0.3583,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bb899eb072654c46a0b493183e75a711,a Ylva P10006621.jpg,0.3776,0.2954,0.6023,0.3333,0.3583,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5eb79362b2854ec1baf13d725b4470b6,aa Cat IMG_7551.JPG,0.4063,0.6186,0.1329,0.3333,0.4215,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+989933e4c8f4479296a6c3ece34041e6,Ad Chart scan 3.jpg,0.5936,0.6442,0.383,0.6667,0.6098,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+e4ff79a5b92d4e8c881c434e4dfc7a92,BaseASign.JPG,0.5813,0.5695,0.5619,0.6667,0.4639,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+cca73692fb1545a6aaf1ca342dc170c4,BHPorch2.JPG,0.7673,0.7745,0.6379,1.0,0.4578,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+c54cac66f11e48a59c4976b25b78df6e,BitumenBoatShedDSC02535.JPG,0.5066,0.5554,0.5504,0.5,0.3476,2,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+161ebc4e44194f38893e537c5e921708,Bransfield House 2011 Ylva Grams P1000662.jpg,0.3776,0.2954,0.6023,0.3333,0.3583,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2d3dd70d69464ad2ad1807c2b0af9e95,BRANSFIELD HOUSE Ylva P1010793.JPG,0.5123,0.7084,0.5828,0.3333,0.319,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+0a9cef2de6ab424eafa1dbe56964feb9,BRANSFIELD HOUSE Ylva P10107931.JPG,0.5123,0.7084,0.5828,0.3333,0.319,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+14ab52001c8f4461bdb93a3cd2072ec2,"Bransfield House, Kristine Hannon (1).jpg",0.4263,0.5521,0.4015,0.3333,0.3517,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+e159d18a74064652bae6e833fd3dd4ee,Cat IMG_0846.JPG,0.6159,0.4884,0.4831,1.0,0.3223,0,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+667d013a4b724b5b9cc3b432262e4eff,CAT TOTTY - Claire DSC06438.JPG,0.6409,0.8476,0.4926,0.5,0.6384,1,2,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the image differs markedly from those used to establish the terms.",1.0
+a50908d18fe940dd8ab5c5eeadd234d2,CAT TOTTY - Rachel P1040162.jpg,0.3933,0.3751,0.2084,0.5,0.4688,1,2,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+c465ba3a7886456e92b90c8c55257698,CAT TOTTY P1000953 Ylva.JPG,0.6739,0.7395,0.6236,0.6667,0.6022,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+6981d5c60f834d68a4330ac56789fda5,CAT TOTTY Rachel P1040161.JPG,0.5697,0.7076,0.2628,0.75,0.2965,1,4,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+a76769e6c54d4378ac6790bc0524fac0,Claire IMG_1633.JPG,0.327,0.3056,0.4767,0.25,0.3315,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+02fed63efade428883a06c0d5d8c6eb4,DSC_0025.JPG,0.4524,0.4581,0.6782,0.3333,0.3764,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9f8db52695bd4083bab2d2fdefaf0a5c,DSC_0029.JPG,0.2691,0.3671,0.5605,0.0,0.1899,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+788d7758685e4902aca961def453331a,DSC_0033.JPG,0.3783,0.3574,0.5212,0.3333,0.3263,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+2d71c257de2c4dd89dacf2a0260c40bc,DSC_0037.JPG,0.5624,0.5815,0.4533,0.6667,0.4548,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+afd1bc06ea9642718ab4c887221708b5,DSC_0039.JPG,0.5389,0.5812,0.59,0.5,0.4501,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b7faa1eeb5434f329e614d6e634a9798,DSC_0040.JPG,0.344,0.5013,0.5805,0.0,0.3494,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+03c58c12fe8348909d5214506718f527,DSC_0046.JPG,0.4037,0.3668,0.6044,0.3333,0.3631,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c4242b9ae6e34c0bb78621c654de2878,DSC_0047.JPG,0.4935,0.6763,0.5974,0.3333,0.2486,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+d47b1325acff4ef7baad0fbfbe40cfae,DSC_0057.JPG,0.5786,0.611,0.5979,0.6667,0.3014,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the matching scores separated the leading terms only narrowly.",1.0
+aa0633159ac04309bb92d9ee1d84781f,DSC_0058.JPG,0.2631,0.3407,0.4891,0.0,0.307,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+ea374f2b3716462083982d0c315db5bf,DSC_0061.JPG,0.3162,0.3611,0.6139,0.0,0.4466,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+74ecbc83c7064accbec0552991417bc1,DSC_00611.JPG,0.3162,0.3611,0.6139,0.0,0.4466,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+8191a6c6582d48d6bc41cd09654e48b9,DSC_0066 TJOM.JPG,0.1888,0.0496,0.5937,0.0,0.3512,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+d42f498160b74592bab083838fd4e2d8,DSC_0068 - TJOM.JPG,0.3523,0.5094,0.573,0.0,0.3962,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+9abfd29ecb0f4dcda19456e872c65516,DSC_0069 TJOM.JPG,0.3557,0.4656,0.6069,0.0,0.476,3,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+aea525f5c7d84f1d98526679c04c6967,DSC_0069.JPG,0.3013,0.3202,0.5954,0.0,0.4679,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+5a2fe7958d40454f9ea3a22fd1e27baf,DSC_00691.jpg,0.2494,0.2748,0.4058,0.0,0.4807,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+038e22273b704d3b9999976d564b45d5,DSC_0070 TJOM.JPG,0.2186,0.0946,0.6191,0.0,0.4111,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e01289a322ee4d9e826172d4fa620eb7,DSC_0071 TJOM.JPG,0.2678,0.2232,0.6329,0.0,0.421,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+d18ce433366343d3a2dfd6bdde5ce424,DSC_0072 TJOM.JPG,0.317,0.3592,0.5903,0.0,0.4878,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+ab2d0e7c160b4328a67d914b2ac40441,DSC_0079 TJOM.JPG,0.4149,0.4007,0.5958,0.3333,0.3699,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f89b1044800a4ad28cfd6d496249d523,DSC_0081.JPG,0.465,0.5655,0.6336,0.3333,0.2688,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+d1a111c36f4748028d6d98d30823c821,DSC_0083.JPG,0.3947,0.398,0.5927,0.3333,0.2456,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+291a074dbfba4f45aec3dc923bf9e922,DSC_0086.JPG,0.4454,0.5464,0.5693,0.3333,0.2685,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3c87fd3afca54763926a1ff48a211565,DSC_0089 TJOM.JPG,0.4071,0.3206,0.6408,0.3333,0.4452,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+04e241b3c438400aa8d4032d4ff33c9c,DSC_0089.JPG,0.2302,0.2551,0.5931,0.0,0.1484,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+e7a58067b8ad48afad07b15c84943423,DSC_0101 TJOM.JPG,0.2207,0.0885,0.654,0.0,0.3928,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+b9d804ebb42e4d16a3bda27fc028f294,DSC_0104.JPG,0.5527,0.5082,0.579,0.6667,0.3936,1,3,True,True,True,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+62e792f0738648aabb35dc97d4a117ce,DSC_0107 TJOM.JPG,0.3008,0.2578,0.589,0.0,0.6187,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+77e21f1583a44b29b61b73f0cb8a8b79,DSC_0108 TJOM.JPG,0.3148,0.362,0.6129,0.0,0.4366,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+4a2a29ed5423491b946544d79fe34497,DSC_0112.JPG,0.3614,0.2927,0.5679,0.3333,0.3025,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c256fffbf5cc4488843bcfea36c0a008,DSC_0115.JPG,0.3638,0.4575,0.3355,0.3333,0.2442,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+585f64836700488b86e3ef7244895b9c,DSC_0116.JPG,0.332,0.4879,0.6124,0.0,0.2584,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+2c1317cbd5b04a0cb1b94a2b7019dba9,DSC_0120.JPG,0.5133,0.4888,0.5001,0.6667,0.281,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+254954cc4f324f0993fa8007fed4e096,DSC_0142.JPG,0.2485,0.151,0.6748,0.0,0.4045,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+3cbf4d480ed149178083fa77ba184717,DSC_0146 (2).JPG,0.497,0.5889,0.6437,0.3333,0.4144,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e0b10e8ddb83427daa7c7a1180ce60d0,DSC_0146.JPG,0.4331,0.4509,0.598,0.3333,0.3716,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+33c6dab04502445aa9b66de6a979ed30,DSC_0154.JPG,0.2398,0.1937,0.6116,0.0,0.3312,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c8f3ff76e4df45739fadf6f07f200ec4,DSC_0161.JPG,0.2059,0.1839,0.5453,0.0,0.2162,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+5d8b5c4f56d640609d72b9d829e3dabe,DSC_0166.JPG,0.3386,0.5451,0.5631,0.0,0.2346,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+52594502a3bc46bc9aaae668d2d1f7cb,DSC_0175.JPG,0.4965,0.7197,0.5559,0.3333,0.2226,2,3,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+6a37e1ed757445ff8479682922a4cf9e,DSC_0177.JPG,0.311,0.4752,0.5213,0.0,0.2693,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+3eaaa85ed13c4c00877aa9bb3d50021a,DSC_0180.JPG,0.5534,0.4672,0.637,0.6667,0.4163,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+a3c75a09902b4b0ab0293e39495d5a1a,DSC_0181.JPG,0.6419,0.7629,0.5673,0.6667,0.4097,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+f64355cfddb74d6b88b6d60992a251c2,DSC_0188.JPG,0.4508,0.5117,0.5505,0.3333,0.411,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+c3e189e953544991a3782c71db5cc191,DSC_0195.JPG,0.3644,0.2928,0.6484,0.25,0.3817,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+95bcc790e54648588e4306e91fcc0c5c,DSC_01951.JPG,0.3644,0.2928,0.6484,0.25,0.3817,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+e08c11c89cd84c05aa43c4c8916147bb,DSC_0198.JPG,0.3377,0.3605,0.633,0.0,0.5664,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+79aa7dc152664b058efc5d68cbf8ba06,DSC_0199.JPG,0.4255,0.2465,0.6221,0.5,0.4319,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+bdabc20352c047cba9555c33305c8b1d,DSC_0200.JPG,0.3186,0.3655,0.6051,0.0,0.4641,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+97d22e1c82954176b2a47f905c85fa86,DSC_0201.JPG,0.2867,0.2681,0.6096,0.0,0.4728,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+c60a9d560b3942678f290ea5557b858c,DSC_02011.JPG,0.2867,0.2681,0.6096,0.0,0.4728,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+827a78eca0d945cea74d9cbe2f5452fc,DSC_0202.JPG,0.5563,0.6262,0.5768,0.5,0.4785,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+a1f49aab194e4d108384e0eadda68626,DSC_0203.JPG,0.4509,0.5386,0.6452,0.25,0.3888,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0e0a4b76b4d34f6fabcc00ea3cd2dc66,DSC_0204.JPG,0.282,0.251,0.6052,0.0,0.4872,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+eecbff8ad5264c01a799748fc0438883,DSC_0205.JPG,0.4759,0.6127,0.5729,0.25,0.4794,3,4,True,True,False,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+ab47ed5faa204d959f200a64e74e902b,DSC_0206.JPG,0.2918,0.2568,0.6296,0.0,0.5064,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+4fa7f86113e84554943962786d94c52c,DSC_0207.JPG,0.5132,0.5902,0.6302,0.3333,0.5374,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0c00d993f4ac46e3894b07f2f8f1c21e,DSC_0215.JPG,0.5384,0.4014,0.6175,0.6667,0.4962,1,3,True,True,False,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f2dfc029d9694bf79724395fbcbf9fa1,DSC_0216.JPG,0.3656,0.259,0.6375,0.25,0.483,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+244564f01f3c4634bb42342cf29ad97e,DSC_02161.JPG,0.3656,0.259,0.6375,0.25,0.483,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+4293cb08e19f480e9954e852dc98c745,DSC_0217.JPG,0.2388,0.1309,0.5921,0.0,0.4968,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+558d25060d7e4256b1d95581f9a26408,DSC_0219.JPG,0.2914,0.2663,0.5943,0.0,0.5287,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+3f2e1037d81044a6a780d3c2e33506c7,DSC_0221.JPG,0.4767,0.4126,0.613,0.5,0.398,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+5250519eb3344d8bb43ad0a6431f452d,DSC_0222.JPG,0.3804,0.3703,0.5386,0.25,0.4535,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f10d18611e01405aa48c23a5c9418286,DSC_0227.JPG,0.554,0.6438,0.5856,0.5,0.4101,2,4,True,True,True,Chiefly because the matching scores separated the leading terms only narrowly.,1.0
+901024f986da4f9ca06f482d2c8952bc,DSC_0228.JPG,0.458,0.5223,0.5634,0.3333,0.4168,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3d2ed5bd0d8b48d89ec8f2efa4b04022,DSC_0229.JPG,0.4083,0.3635,0.5877,0.3333,0.4236,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0c2d6e26e7d4460ca3354ff6a99aba70,DSC_0230.JPG,0.3853,0.2421,0.5996,0.3333,0.5377,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+0d7258cf94594f59a1f2055ccb74204c,DSC_02301.JPG,0.3853,0.2421,0.5996,0.3333,0.5377,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+184ced57a072439f93832c12a061ff3e,DSC_0231.JPG,0.435,0.4371,0.6338,0.3333,0.3685,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+60fbb3c60f96487a8869e09caf9fb4f9,DSC_02311.JPG,0.435,0.4371,0.6338,0.3333,0.3685,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1dd0ed8bbf8e4df3b0b5c8216426b4a1,DSC_0232.JPG,0.3736,0.3077,0.5873,0.3333,0.3229,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+517f28a59e334aa8baf4c829e0779d1c,DSC_0233.JPG,0.3712,0.4375,0.5903,0.3333,0.0,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+fa22bbf9f87245019197f09aa2cac558,DSC_0234.JPG,0.3921,0.4408,0.5819,0.3333,0.1427,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b875ff55a4514522b6ea4bbefd48b5ab,DSC_0235.JPG,0.3578,0.2387,0.5582,0.3333,0.4173,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+199c993db7cb47e2b88699a14cc41697,DSC_0236.JPG,0.5056,0.5582,0.644,0.4,0.4097,3,5,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+b8603c450c404cdf8c235b1606147c99,DSC_0237.JPG,0.4082,0.316,0.6479,0.3333,0.4533,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1a0fc7a214c243baa082cc1e6d47cd44,DSC_0238.JPG,0.2648,0.3072,0.5511,0.0,0.3138,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+0321d0085f2147479be3d18959730be2,DSC_02381.JPG,0.2648,0.3072,0.5511,0.0,0.3138,4,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+e05dd3d57eb8447f886dc86118b3010e,DSC_0239.JPG,0.46,0.3582,0.5468,0.5,0.502,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+f90b88fc59fa4e0fbee92f7878d03053,DSC_02391.JPG,0.46,0.3582,0.5468,0.5,0.502,2,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+1ee2f54c60bb4212beb6cfdb95a2a078,DSC_0240.JPG,0.3297,0.1676,0.5669,0.25,0.5513,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+43941e9b089d4f4cba539905fc73a8a7,DSC_0242.JPG,0.2825,0.2324,0.5637,0.0,0.5893,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+0bba94cf27214501948d2b6caf35a46e,DSC_0247.JPG,0.5536,0.4891,0.635,0.6667,0.3693,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+be3b30ae2d8b417384d2ba0fcdcb22d4,DSC_02471.JPG,0.5536,0.4891,0.635,0.6667,0.3693,1,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image is soft or poorly exposed, limiting what can be assigned.",1.0
+376bc5c6132c4563bce9e76ba0d138fb,DSC_0249.JPG,0.4697,0.3408,0.5862,0.6667,0.2214,1,3,True,True,False,Chiefly because the generated description does not corroborate the assigned terms.,1.0
+20213f04219c403e803c2f1edcc1764a,DSC_0255.JPG.jpg,0.2082,0.2572,0.5907,0.0,0.0,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+7ea24f3a78604301877653deb893281b,DSC_0281.JPG,0.2781,0.2115,0.6363,0.0,0.5121,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+41933ed79af544d28b9e8e0d12c83598,DSC_0282 TJOM.JPG,0.3156,0.3615,0.6068,0.0,0.4514,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+a08ea10a16674edb99bdf17a1b1f9bec,DSC_0294.JPG,0.2824,0.3133,0.598,0.0,0.3542,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+82d6f58626334d0ebbe207f533889ce3,DSC_0463.JPG,0.3604,0.3136,0.61,0.3333,0.1911,2,3,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+20f8899f8e6c4e69aac46246a40fa5b1,DSC_0539.JPG,0.2204,0.2481,0.5903,0.0,0.1032,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+505865c8068e4686a5dff54f344109a9,DSC_0582.JPG,0.4294,0.4503,0.5804,0.25,0.5383,3,4,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+43c67b7785a349c49d85910c0142d2e7,DSC_0591.JPG,0.3345,0.2149,0.6042,0.3333,0.2561,2,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+75681bccdc44487bab1c10c62cb31a45,DSC_0641.JPG,0.6117,0.676,0.5035,0.6667,0.4957,1,3,True,True,True,"Chiefly because the matching scores separated the leading terms only narrowly, and the generated description does not corroborate the assigned terms.",1.0
+20ee126280ac4cde94c243397a1e6a95,DSC_0728.JPG,0.4823,0.4506,0.5788,0.5,0.3924,1,2,True,True,False,"Chiefly because the image is soft or poorly exposed, limiting what can be assigned.",1.0
+3d3ac55afb8e465885dba3a2e7a66f33,DSC_0735.JPG,0.2661,0.3146,0.6145,0.0,0.2209,3,3,True,True,False,The assigned terms are well supported across all measures.,1.0
+fab3f0b2e885406396a0b83cb9940f9f,IMG_1633.JPG,0.327,0.3056,0.4767,0.25,0.3315,3,4,True,True,False,The assigned terms are well supported across all measures.,1.0
+9cc17da57b0644ed9ac1017d20e08a20,"© UK Antarctic Heritage Trust, 2011, Photo by Rick Price, 2 copy.jpg",0.6922,0.5077,0.5803,1.0,0.6561,0,3,True,True,True,"Chiefly because the generated description does not corroborate the assigned terms, and the image differs markedly from those used to establish the terms.",1.0
