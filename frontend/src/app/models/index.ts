@@ -1,3 +1,4 @@
+// Image
 export interface Image {
   id:                number
   filename:          string
@@ -24,46 +25,7 @@ export interface ImagesResponse {
   images: Image[]
 }
 
-export interface Category {
-  category: string
-  count:    number
-}
-
-export interface CategoriesResponse {
-  categories:   Category[]
-  total_images: number
-  pending:      number
-}
-
-export interface StatsResponse {
-  total_images: number
-  per_year:     { year: number; count: number }[]
-  scene_types:  { scene_type: string; count: number }[]
-  duplicates:   { total: number; in_clusters: number; total_clusters: number }
-  categories:   { category: string; count: number }[]
-}
-
-export interface TagCount {
-  tag:   string
-  count: number
-}
-
-export interface FilterState {
-  scene_type:    string
-  people_min:    number | null
-  quality_min:   number
-  date_from:     string
-  date_to:       string
-  no_duplicates: boolean
-  tags:          string[]
-  category:      string
-  sort:          string
-  order:         string
-  page:          number
-  limit:         number
-}
-
-// ── Image detail (used on /images/:id page) ───────────
+// Image detail (used on /images/:id page)
 export interface ImageDetail {
   id:                number
   filename:          string
@@ -102,4 +64,78 @@ export interface ImageDetail {
   corrected_scene_type:   string | null
   corrected_people_count: string | null
   reviewer:               string | null
+}
+
+// Categories
+export interface Category {
+  category: string
+  count:    number
+}
+
+export interface CategoriesResponse {
+  categories:   Category[]
+  total_images: number
+  pending:      number
+}
+
+// Stats
+export interface StatsResponse {
+  total_images: number
+  per_year:     { year: number; count: number }[]
+  scene_types:  { scene_type: string; count: number }[]
+  duplicates:   { total: number; in_clusters: number; total_clusters: number }
+  categories:   { category: string; count: number }[]
+}
+
+// Tags
+export interface TagCount {
+  tag:   string
+  count: number
+}
+
+// Filter state (browse page)
+export interface FilterState {
+  scene_type:    string
+  people_min:    number | null
+  quality_min:   number
+  date_from:     string
+  date_to:       string
+  no_duplicates: boolean
+  tags:          string[]
+  category:      string
+  sort:          string
+  order:         string
+  page:          number
+  limit:         number
+}
+
+// Upload batch (upload history tab)
+export interface UploadBatch {
+  id:          number
+  uploaded_by: string
+  uploaded_at: string
+  total_files: number
+  success:     number
+  failed:      number
+}
+
+export interface BatchDetail {
+  batch:  UploadBatch
+  images: {
+    id:          number
+    filename:    string
+    storage_url: string
+    uploaded_at: string
+    processed:   boolean
+  }[]
+}
+
+// Queue file (upload page internal state)
+export type FileStatus = 'ready' | 'uploading' | 'done' | 'failed'
+
+export interface QueueFile {
+  file:     File
+  status:   FileStatus
+  progress: number
+  error:    string
 }

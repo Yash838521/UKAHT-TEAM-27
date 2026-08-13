@@ -1,0 +1,236 @@
+<div class="page">
+
+  <!-- Topbar -->
+  <nav class="topbar">
+    <div class="logo">
+      <span class="logo-icon">❄</span>
+      UKAHT Image Archive
+    </div>
+    <div class="nav">
+      <a class="nav-btn" routerLink="/">Browse</a>
+      <a class="nav-btn active" routerLink="/upload">Upload</a>
+      <a class="nav-btn" routerLink="/admin/corrections">Review queue</a>
+      <a class="nav-btn" routerLink="/analytics/stats">Stats</a>
+    </div>
+  </nav>
+
+  <!-- Tab bar -->
+  <div class="tab-bar">
+    <div
+      class="tab"
+      [class.active]="activeTab === 'upload'"
+      (click)="setTab('upload')"
+    >Upload</div>
+    <div
+      class="tab"
+      [class.active]="activeTab === 'history'"
+      (click)="setTab('history')"
+    >
+      History
+      <span class="tab-badge" *ngIf="historyBadgeCount > 0">
+        {{ historyBadgeCount }}
+      </span>
+    </div>
+  </div>
+
+  <!-- ── UPLOAD TAB ─────────────────────────────────────── -->
+  <div class="page-wrap" *ngIf="activeTab === 'upload'">
+
+    <div class="page-sub">
+      Images are processed by the AI pipeline automatically after upload
+    </div>
+
+    <!-- Drop zone -->
+    <div
+      class="drop-zone"
+      [class.dragging]="isDragging"
+      (dragover)="onDragOver($event)"
+      (dragleave)="onDragLeave()"
+      (drop)="onDrop($event)"
+      (click)="openFilePicker()"
+    >
+      <input
+        #fileInput
+        type="file"
+        multiple
+        accept=".jpg,.jpeg,.png,.tiff"
+        class="file-input-hidden"
+        (change)="onFileSelected($event)"
+      />
+      <div class="drop-icon">☁</div>
+      <div class="drop-title">Drag and drop images here</div>
+      <div class="drop-sub">or click to browse your computer</div>
+      <button class="browse-btn" (click)="$event.stopPropagation(); openFilePicker()">
+        Browse files
+      </button>
+      <div class="drop-formats">JPG, JPEG, PNG · Max 20MB per file</div>
+    </div>
+
+    <!-- Queue — only shown when files selected -->
+    <div *ngIf="queue.length > 0">
+      <div class="section-head">
+        <span class="section-title">
+          Queue — {{ queue.length }} {{ queue.length === 1 ? 'file' : 'files' }}
+        </span>
+        <button class="text-btn" (click)="clearQueue()">Clear all</button>
+      </div>
+
+      <div class="file-list">
+        <div class="file-row" *ngFor="let item of queue; let i = index">
+          <span class="file-icon">🖼</span>
+          <div class="file-info">
+            <div class="file-name" [title]="item.file.name">{{ item.file.name }}</div>
+            <div class="file-size">{{ getFileSizeMB(item.file) }}</div>
+            <!-- Progress bar — only when uploading -->
+            <div class="progress-wrap" *ngIf="item.status === 'uploading'">
+              <div class="progress-bg">
+                <div class="progress-fill" [style.width.%]="item.progress"></div>
+              </div>
+            </div>
+            <!-- Error message -->
+            <div class="file-error" *ngIf="item.error">{{ item.error }}</div>
+          </div>
+          <span
+            class="file-status"
+            [class.status-ready]="item.status === 'ready'"
+            [class.status-uploading]="item.status === 'uploading'"
+            [class.status-done]="item.status === 'done'"
+            [class.status-failed]="item.status === 'failed'"
+          >
+            <ng-container [ngSwitch]="item.status">
+              <ng-container *ngSwitchCase="'ready'">Ready</ng-container>
+              <ng-container *ngSwitchCase="'uploading'">{{ item.progress }}%</ng-container>
+              <ng-container *ngSwitchCase="'done'">✓ Done</ng-container>
+              <ng-container *ngSwitchCase="'failed'">✗ Failed</ng-container>
+            </ng-container>
+          </span>
+          <span
+            class="file-remove"
+            *ngIf="item.status !== 'uploading'"
+            (click)="removeFile(i)"
+          >×</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Options panel -->
+    <div class="options-panel">
+      <div class="options-title">Options</div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-label">Run AI pipeline automatically</div>
+          <div class="option-desc">Scene detection, tagging and captioning after upload</div>
+        </div>
+        <div class="toggle" [class.on]="runPipeline" (click)="runPipeline = !runPipeline">
+          <div class="toggle-knob"></div>
+        </div>
+      </div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-label">Skip duplicates</div>
+          <div class="option-desc">Skip images already in the archive</div>
+        </div>
+        <div class="toggle" [class.on]="skipDuplicates" (click)="skipDuplicates = !skipDuplicates">
+          <div class="toggle-knob"></div>
+        </div>
+      </div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-label">Overwrite existing files</div>
+          <div class="option-desc">Replace images with the same filename</div>
+        </div>
+        <div class="toggle" [class.on]="overwrite" (click)="overwrite = !overwrite">
+          <div class="toggle-knob"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="upload-footer">
+      <div class="file-count" *ngIf="queue.length > 0">
+        {{ queue.length }} {{ queue.length === 1 ? 'file' : 'files' }} · {{ totalSizeMB }} MB total
+      </div>
+      <div *ngIf="queue.length === 0"></div>
+      <button
+        class="upload-btn"
+        [disabled]="!canUpload"
+        (click)="startUpload()"
+      >{{ uploadBtnLabel }}</button>
+    </div>
+
+  </div>
+
+  <!-- ── HISTORY TAB ────────────────────────────────────── -->
+  <div class="page-wrap" *ngIf="activeTab === 'history'">
+
+    <!-- Loading -->
+    <div class="loading-wrap" *ngIf="batchesLoading">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Empty state -->
+    <div class="empty-history" *ngIf="!batchesLoading && batches.length === 0">
+      <div class="empty-icon">☁</div>
+      <div class="empty-msg">No uploads yet</div>
+    </div>
+
+    <!-- Batch list -->
+    <div class="batch-list" *ngIf="!batchesLoading && batches.length > 0">
+      <div class="batch" *ngFor="let batch of batches">
+
+        <!-- Batch header -->
+        <div class="batch-head" (click)="toggleBatchDetail(batch.id)">
+          <div class="batch-meta">
+            <div class="batch-date">{{ getBatchDate(batch.uploaded_at) }}</div>
+            <div class="batch-by">Uploaded by {{ batch.uploaded_by }}</div>
+          </div>
+          <div class="batch-right">
+            <span class="batch-summary" [ngClass]="getBatchSummaryClass(batch)">
+              {{ batch.success }} / {{ batch.total_files }} uploaded
+            </span>
+            <span class="expand-icon">
+              {{ expandedBatchId === batch.id ? '▲' : '▼' }}
+            </span>
+          </div>
+        </div>
+
+        <!-- Expanded batch detail -->
+        <div class="batch-detail" *ngIf="expandedBatchId === batch.id">
+
+          <!-- Loading detail -->
+          <div class="detail-loading" *ngIf="batchDetailLoading && !batchDetails[batch.id]">
+            <div class="spinner small"></div>
+          </div>
+
+          <!-- File list -->
+          <div
+            class="batch-files"
+            *ngIf="batchDetails[batch.id]"
+          >
+            <div
+              class="batch-file"
+              *ngFor="let img of batchDetails[batch.id].images"
+            >
+              <span class="bf-icon">🖼</span>
+              <span class="bf-name" [title]="img.filename">{{ img.filename }}</span>
+              <span class="bf-status bf-ok">✓</span>
+            </div>
+
+            <!-- Show failed count if any -->
+            <div class="batch-failed-note" *ngIf="batch.failed > 0">
+              <span class="bf-status bf-fail">✗</span>
+              {{ batch.failed }} file{{ batch.failed > 1 ? 's' : '' }} failed to upload
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

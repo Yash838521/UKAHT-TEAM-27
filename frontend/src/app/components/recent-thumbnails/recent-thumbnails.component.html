@@ -11,7 +11,11 @@
 
   <!-- Real images from API -->
   <div class="thumb-grid" *ngIf="images.length > 0">
-    <div class="thumb" *ngFor="let image of images">
+    <div
+      class="thumb"
+      *ngFor="let image of images"
+      (click)="onClick(image)"
+    >
       <span class="thumb-icon">🖼</span>
       <div class="thumb-label">
         {{ getSceneLabel(image) }} · {{ getYear(image.date_taken) }}

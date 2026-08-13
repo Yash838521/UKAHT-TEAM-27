@@ -1,6 +1,8 @@
 const express = require('express')
 const router  = express.Router()
 const db      = require('../db')
+const path    = require('path')
+const fs      = require('fs')
 
 // ── Helper: build the base SELECT with all joined tables ─────────────────────
 function baseSelect() {
@@ -26,6 +28,7 @@ function baseSelect() {
       a.people_confidence,
       a.tags,
       a.categories,
+      a.caption,
       a.model_name,
       a.is_verified,
       q.sharpness_score,
@@ -119,7 +122,6 @@ router.get('/', async (req, res) => {
     const where  = conditions.length ? `WHERE ${conditions.join(' AND ')}` : ''
     const offset = (Number(page) - 1) * Number(limit)
 
-    // Validate sort column to prevent SQL injection
     const allowedSort = ['overall_score', 'date_taken', 'people_count', 'filename']
     const safeSort    = allowedSort.includes(sort) ? sort : 'overall_score'
     const safeOrder   = order === 'ASC' ? 'ASC' : 'DESC'
@@ -143,7 +145,7 @@ router.get('/', async (req, res) => {
       ${where}
     `
 
-    const [rows]    = await db.query(sql,      [...params, Number(limit), offset])
+    const [rows]     = await db.query(sql,      [...params, Number(limit), offset])
     const [countRow] = await db.query(countSql, params)
 
     res.json({
@@ -176,6 +178,58 @@ router.get('/recent', async (req, res) => {
   }
 })
 
+// ── GET /api/images/:id/file — serve actual image file ───────────────────────
+// Supports both local dev (sends file) and S3 prod (redirects to signed URL)
+// ?download=true triggers browser download instead of inline preview
+router.get('/:id/file', async (req, res) => {
+  try {
+    const [rows] = await db.query(
+      `SELECT filename, storage_url FROM images WHERE id = ?`,
+      [req.params.id]
+    )
+
+    if (!rows.length) return res.status(404).json({ error: 'Image not found' })
+
+    const { filename, storage_url } = rows[0]
+
+    if (process.env.STORAGE_TYPE === 's3') {
+      // S3 — redirect to a pre-signed URL valid for 5 minutes
+      const { S3Client, GetObjectCommand } = require('@aws-sdk/client-s3')
+      const { getSignedUrl }               = require('@aws-sdk/s3-request-presigner')
+      const s3  = new S3Client({ region: process.env.AWS_REGION })
+      const key = storage_url.replace(`s3://${process.env.AWS_BUCKET_NAME}/`, '')
+
+      const url = await getSignedUrl(s3, new GetObjectCommand({
+        Bucket: process.env.AWS_BUCKET_NAME,
+        Key:    key
+      }), { expiresIn: 300 })
+
+      return res.redirect(url)
+    }
+
+    // Local — resolve absolute path
+    const filePath = path.isAbsolute(storage_url)
+      ? storage_url
+      : path.join(process.cwd(), storage_url)
+
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ error: 'File not found on disk' })
+    }
+
+    // ?download=true → attachment (triggers Save As dialog)
+    // default       → inline (opens in browser / image viewer)
+    if (req.query.download === 'true') {
+      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`)
+    }
+
+    res.sendFile(filePath)
+
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
+  }
+})
+
 // ── GET /api/images/:id — single image detail ────────────────────────────────
 router.get('/:id', async (req, res) => {
   try {
@@ -195,7 +249,6 @@ router.get('/:id', async (req, res) => {
 // ── GET /api/images/:id/similar — images in the same duplicate cluster ───────
 router.get('/:id/similar', async (req, res) => {
   try {
-    // Get cluster_id of this image
     const [[image]] = await db.query(
       `SELECT cluster_id FROM duplicate_clusters WHERE image_id = ?`,
       [req.params.id]

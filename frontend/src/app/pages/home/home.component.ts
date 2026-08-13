@@ -43,7 +43,6 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    // Load all home page data in parallel
     forkJoin({
       categories: this.categoriesService.getCategories().pipe(
         catchError(() => of(null))
@@ -65,15 +64,10 @@ export class HomeComponent implements OnInit {
       this.recentImages = recent ?? []
 
       if (stats) {
-        // Unique = total minus images that are duplicates
         this.uniqueImages = stats.total_images - (stats.duplicates?.in_clusters ?? 0)
-
-        // Date range from actual data
         if (stats.per_year && stats.per_year.length > 0) {
-          const years      = stats.per_year.map(y => y.year)
-          const minYear    = Math.min(...years)
-          const maxYear    = Math.max(...years)
-          this.dateRange   = `${minYear}–${maxYear}`
+          const years    = stats.per_year.map(y => y.year)
+          this.dateRange = `${Math.min(...years)}–${Math.max(...years)}`
         }
       }
 
@@ -91,5 +85,10 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['/results'], {
       queryParams: { category }
     })
+  }
+
+  // Navigate to image detail page on thumbnail click
+  onRecentImageClick(image: Image) {
+    this.router.navigate(['/images', image.id])
   }
 }

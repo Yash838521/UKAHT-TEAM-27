@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core'
+import { Component, Input, Output, EventEmitter } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { Image } from '../../models'
 import { environment } from '../../../../environments/environment'
@@ -11,7 +11,12 @@ import { environment } from '../../../../environments/environment'
   imports: [CommonModule]
 })
 export class RecentThumbnailsComponent {
-  @Input() images: Image[] = []
+  @Input()  images: Image[] = []
+  @Output() imageClick      = new EventEmitter<Image>()
+
+  onClick(image: Image) {
+    this.imageClick.emit(image)
+  }
 
   getYear(dateTaken: string): string {
     if (!dateTaken) return '—'

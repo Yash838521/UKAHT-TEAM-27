@@ -7,7 +7,7 @@ const fs       = require('fs')
 
 const STORAGE_TYPE = process.env.STORAGE_TYPE || 'local'
 
-// ── Local storage setup (dev) ─────────────────────────────────────────────────
+// ── Local storage setup (dev)
 const localStorage = multer.diskStorage({
   destination: (req, file, cb) => {
     const uploadDir = path.join(process.env.LOCAL_IMAGE_BASE || './uploads', 'uploads')

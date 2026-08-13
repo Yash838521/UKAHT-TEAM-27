@@ -30,7 +30,10 @@
     <div class="divider"></div>
 
     <!-- Recently added thumbnails -->
-    <app-recent-thumbnails [images]="recentImages"></app-recent-thumbnails>
+    <app-recent-thumbnails
+      [images]="recentImages"
+      (imageClick)="onRecentImageClick($event)"
+    ></app-recent-thumbnails>
 
     <!-- Footer stats -->
     <app-footer-stats
