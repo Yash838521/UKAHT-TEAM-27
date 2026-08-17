@@ -3,7 +3,6 @@ import json
 import os
 import sys
 from pathlib import Path
-
 import mysql.connector
 import pandas as pd
 
@@ -18,9 +17,10 @@ CSV_PATHS = {
     "florence":   OUTPUT_DIR / "florence_descriptions.csv",
     "vocabulary": OUTPUT_DIR / "clip_vocabulary_tags.csv",
     "clip_index": OUTPUT_DIR / "clip_index.csv",
+    "quality":    OUTPUT_DIR / "quality_scores.csv",
+    "clusters":   OUTPUT_DIR / "clusters.csv",
 }
 
-# Vocabulary facets that map to structured columns — rest go into tags JSON
 SCENE_FACET      = "scene_type"
 PEOPLE_FACET     = "people"
 SITE_FACET       = "site"
@@ -45,8 +45,8 @@ def parse_args():
     parser.add_argument(
         "--steps",
         nargs="+",
-        default=["inventory", "exif", "florence", "vocabulary", "embeddings"],
-        choices=["inventory", "exif", "florence", "vocabulary", "embeddings"],
+        default=["inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
+        choices=["inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
     )
     return parser.parse_args()
 
@@ -333,6 +333,90 @@ def load_embeddings(cursor, conn):
     print(f"embeddings: inserted={inserted} updated={updated} missing={missing}")
 
 
+def load_quality(cursor, conn):
+    path = CSV_PATHS["quality"]
+    if not path.exists():
+        print(f"quality_scores.csv not found at {path}")
+        return
+
+    df   = pd.read_csv(path, dtype=str).fillna("")
+    umap = uid_map(cursor)
+    inserted = updated = missing = 0
+
+    for _, row in df.iterrows():
+        image_id = umap.get(s(row, "image_uid"))
+        if not image_id:
+            missing += 1
+            continue
+
+        values = (
+            f(row, "sharpness_score"),
+            f(row, "exposure_score"),
+            f(row, "overall_score"),
+            s(row, "is_best_in_group") in ("True","true","1","yes"),
+        )
+
+        cursor.execute("SELECT id FROM quality_scores WHERE image_id = %s", (image_id,))
+        if cursor.fetchone():
+            cursor.execute("""
+                UPDATE quality_scores SET
+                    sharpness_score=%s, exposure_score=%s,
+                    overall_score=%s, is_best_in_group=%s
+                WHERE image_id = %s
+            """, values + (image_id,))
+            updated += 1
+        else:
+            cursor.execute("""
+                INSERT INTO quality_scores (image_id, sharpness_score, exposure_score, overall_score, is_best_in_group)
+                VALUES (%s, %s, %s, %s, %s)
+            """, (image_id,) + values)
+            inserted += 1
+
+    conn.commit()
+    print(f"quality: inserted={inserted} updated={updated} missing={missing}")
+
+
+def load_clusters(cursor, conn):
+    path = CSV_PATHS["clusters"]
+    if not path.exists():
+        print(f"clusters.csv not found at {path}")
+        return
+
+    df   = pd.read_csv(path, dtype=str).fillna("")
+    umap = uid_map(cursor)
+    inserted = updated = missing = 0
+
+    for _, row in df.iterrows():
+        image_id = umap.get(s(row, "image_uid"))
+        if not image_id:
+            missing += 1
+            continue
+
+        values = (
+            i(row, "cluster_id"),
+            f(row, "similarity_score"),
+            s(row, "is_representative") in ("True","true","1","yes"),
+        )
+
+        cursor.execute("SELECT id FROM duplicate_clusters WHERE image_id = %s", (image_id,))
+        if cursor.fetchone():
+            cursor.execute("""
+                UPDATE duplicate_clusters SET
+                    cluster_id=%s, similarity_score=%s, is_representative=%s
+                WHERE image_id = %s
+            """, values + (image_id,))
+            updated += 1
+        else:
+            cursor.execute("""
+                INSERT INTO duplicate_clusters (image_id, cluster_id, similarity_score, is_representative)
+                VALUES (%s, %s, %s, %s)
+            """, (image_id,) + values)
+            inserted += 1
+
+    conn.commit()
+    print(f"clusters: inserted={inserted} updated={updated} missing={missing}")
+
+
 def main() -> int:
     args   = parse_args()
     conn   = connect(args)
@@ -346,6 +430,8 @@ def main() -> int:
         if "exif"       in args.steps: load_exif(cursor, conn)
         if "florence"   in args.steps or "vocabulary" in args.steps: load_ai_tags(cursor, conn)
         if "embeddings" in args.steps: load_embeddings(cursor, conn)
+        if "quality"    in args.steps: load_quality(cursor, conn)
+        if "clusters"   in args.steps: load_clusters(cursor, conn)
     except Exception as err:
         print(f"error: {err}")
         conn.rollback()
