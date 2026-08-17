@@ -1,0 +1,130 @@
+image_uid,file_name,category,confidence,is_primary
+c42a596d132d17ad,1964 extension basis.jpg,Antarctic hut restoration or construction work,0.99168,True
+c42a596d132d17ad,1964 extension basis.jpg,people outdoors at an Antarctic heritage site,0.00751,False
+c42a596d132d17ad,1964 extension basis.jpg,interior of a historic Antarctic hut,0.00045,False
+3382eeae20dd56d2,1964 extension.jpg,Antarctic hut restoration or construction work,0.97181,True
+3382eeae20dd56d2,1964 extension.jpg,historic Antarctic building exterior,0.01897,False
+3382eeae20dd56d2,1964 extension.jpg,"building detail such as a wall, roof, window or door",0.00369,False
+9714d7b24a105173,a Cat IMG_5781 50_.jpg,condition survey or conservation record,0.39858,True
+9714d7b24a105173,a Cat IMG_5781 50_.jpg,people working or socialising indoors,0.31031,False
+9714d7b24a105173,a Cat IMG_5781 50_.jpg,interior of a historic Antarctic hut,0.10672,False
+a3b71157b0c47fef,a Cat IMG_5781 50_1.jpg,condition survey or conservation record,0.39858,True
+a3b71157b0c47fef,a Cat IMG_5781 50_1.jpg,people working or socialising indoors,0.31031,False
+a3b71157b0c47fef,a Cat IMG_5781 50_1.jpg,interior of a historic Antarctic hut,0.10672,False
+afea14ad064de498,a Cat IMG_7551-Optimized.JPG,people outdoors at an Antarctic heritage site,0.38284,True
+afea14ad064de498,a Cat IMG_7551-Optimized.JPG,Antarctic hut restoration or construction work,0.27615,False
+afea14ad064de498,a Cat IMG_7551-Optimized.JPG,interior of a historic Antarctic hut,0.1341,False
+9a90729bec376e5d,a Cat IMG_7551-Optimized1.JPG,people outdoors at an Antarctic heritage site,0.38284,True
+9a90729bec376e5d,a Cat IMG_7551-Optimized1.JPG,Antarctic hut restoration or construction work,0.27615,False
+9a90729bec376e5d,a Cat IMG_7551-Optimized1.JPG,interior of a historic Antarctic hut,0.1341,False
+b6720402f96912ee,a Cat IMG_7551.JPG,people outdoors at an Antarctic heritage site,0.4031,True
+b6720402f96912ee,a Cat IMG_7551.JPG,Antarctic hut restoration or construction work,0.21215,False
+b6720402f96912ee,a Cat IMG_7551.JPG,historic Antarctic building exterior,0.21195,False
+d9bb875e3424de6a,A1b10a.jpg,historic artefact close-up,0.65529,True
+d9bb875e3424de6a,A1b10a.jpg,condition survey or conservation record,0.21755,False
+d9bb875e3424de6a,A1b10a.jpg,scientific instrument or technical equipment,0.07945,False
+e595310773fec038,A1b9a.jpg,condition survey or conservation record,0.67091,True
+e595310773fec038,A1b9a.jpg,historic artefact close-up,0.30436,False
+e595310773fec038,A1b9a.jpg,scientific instrument or technical equipment,0.02034,False
+045b9242605636b2,A1b9b.jpg,condition survey or conservation record,0.46466,True
+045b9242605636b2,A1b9b.jpg,historic artefact close-up,0.45605,False
+045b9242605636b2,A1b9b.jpg,scientific instrument or technical equipment,0.06778,False
+0d2aac4460187142,A1b9c.jpg,historic artefact close-up,0.85105,True
+0d2aac4460187142,A1b9c.jpg,scientific instrument or technical equipment,0.07677,False
+0d2aac4460187142,A1b9c.jpg,condition survey or conservation record,0.06942,False
+e952e75b2817758f,A1h164d.JPG,scientific instrument or technical equipment,0.85019,True
+e952e75b2817758f,A1h164d.JPG,historic artefact close-up,0.0678,False
+e952e75b2817758f,A1h164d.JPG,condition survey or conservation record,0.02043,False
+83df35a80d9dd60a,A1h165.JPG,scientific instrument or technical equipment,0.97044,True
+83df35a80d9dd60a,A1h165.JPG,historic artefact close-up,0.018,False
+83df35a80d9dd60a,A1h165.JPG,condition survey or conservation record,0.00841,False
+1850299dd463946f,A1h165a.JPG,scientific instrument or technical equipment,0.89519,True
+1850299dd463946f,A1h165a.JPG,historic artefact close-up,0.08141,False
+1850299dd463946f,A1h165a.JPG,condition survey or conservation record,0.02047,False
+700d501555e9c6b2,A1h165b.JPG,scientific instrument or technical equipment,0.61841,True
+700d501555e9c6b2,A1h165b.JPG,historic artefact close-up,0.21349,False
+700d501555e9c6b2,A1h165b.JPG,condition survey or conservation record,0.11174,False
+d7b12cfe0c2ba1f2,Afternoon smoko.jpg,people working or socialising indoors,0.86726,True
+d7b12cfe0c2ba1f2,Afternoon smoko.jpg,condition survey or conservation record,0.0805,False
+d7b12cfe0c2ba1f2,Afternoon smoko.jpg,unclear or low-quality image,0.02012,False
+d408bde357ad32f4,At the bar.jpg,bar or kitchen inside a heritage hut,0.79654,True
+d408bde357ad32f4,At the bar.jpg,unclear or low-quality image,0.04796,False
+d408bde357ad32f4,At the bar.jpg,interior of a historic Antarctic hut,0.04747,False
+ae87bfe9c0709917,Bar and firreplacee taking shape.jpg,condition survey or conservation record,0.73357,True
+ae87bfe9c0709917,Bar and firreplacee taking shape.jpg,scientific instrument or technical equipment,0.10205,False
+ae87bfe9c0709917,Bar and firreplacee taking shape.jpg,interior of a historic Antarctic hut,0.04458,False
+12b6521a5e9b30f1,DSC_0068.JPG,snowy Antarctic landscape,0.87478,True
+12b6521a5e9b30f1,DSC_0068.JPG,people outdoors at an Antarctic heritage site,0.08246,False
+12b6521a5e9b30f1,DSC_0068.JPG,penguins or other Antarctic wildlife,0.03323,False
+79001a20cc210c50,DSC_0069.JPG,historic Antarctic building exterior,0.53431,True
+79001a20cc210c50,DSC_0069.JPG,Antarctic hut restoration or construction work,0.40401,False
+79001a20cc210c50,DSC_0069.JPG,people outdoors at an Antarctic heritage site,0.03919,False
+61c8bdeeceb9348f,DSC_0070.JPG,snowy Antarctic landscape,0.8425,True
+61c8bdeeceb9348f,DSC_0070.JPG,people outdoors at an Antarctic heritage site,0.09877,False
+61c8bdeeceb9348f,DSC_0070.JPG,penguins or other Antarctic wildlife,0.03925,False
+e79bff07c4445c91,DSC_0071.JPG,historic Antarctic building exterior,0.68632,True
+e79bff07c4445c91,DSC_0071.JPG,Antarctic hut restoration or construction work,0.15781,False
+e79bff07c4445c91,DSC_0071.JPG,interior of a historic Antarctic hut,0.05437,False
+d9b18539022da9b4,DSC_0075.JPG,historic Antarctic building exterior,0.92114,True
+d9b18539022da9b4,DSC_0075.JPG,Antarctic hut restoration or construction work,0.03874,False
+d9b18539022da9b4,DSC_0075.JPG,people outdoors at an Antarctic heritage site,0.02523,False
+507c607c8d5c694c,DSC_0076.JPG,historic Antarctic building exterior,0.82353,True
+507c607c8d5c694c,DSC_0076.JPG,Antarctic hut restoration or construction work,0.11372,False
+507c607c8d5c694c,DSC_0076.JPG,people outdoors at an Antarctic heritage site,0.04909,False
+195279748911cbd0,DSC_0109.JPG,Antarctic hut restoration or construction work,0.70743,True
+195279748911cbd0,DSC_0109.JPG,historic Antarctic building exterior,0.20866,False
+195279748911cbd0,DSC_0109.JPG,people outdoors at an Antarctic heritage site,0.06391,False
+6b4cf24fc9edef20,DSC_7124.JPG,historic Antarctic building exterior,0.4329,True
+6b4cf24fc9edef20,DSC_7124.JPG,Antarctic hut restoration or construction work,0.25783,False
+6b4cf24fc9edef20,DSC_7124.JPG,snow-covered wooden building,0.21873,False
+d216ea9bc1c7a26f,DSC_7125.JPG,historic Antarctic building exterior,0.57418,True
+d216ea9bc1c7a26f,DSC_7125.JPG,snow-covered wooden building,0.29547,False
+d216ea9bc1c7a26f,DSC_7125.JPG,Antarctic hut restoration or construction work,0.05713,False
+56393d910875b893,DSC_7126.JPG,historic Antarctic building exterior,0.79681,True
+56393d910875b893,DSC_7126.JPG,"building detail such as a wall, roof, window or door",0.07511,False
+56393d910875b893,DSC_7126.JPG,people outdoors at an Antarctic heritage site,0.03922,False
+c0d711692a745152,DSC_7127.JPG,historic Antarctic building exterior,0.80867,True
+c0d711692a745152,DSC_7127.JPG,Antarctic hut restoration or construction work,0.07988,False
+c0d711692a745152,DSC_7127.JPG,snow-covered wooden building,0.04952,False
+0f4869cef1d26296,HY9A2345.jpg,historic artefact close-up,0.53048,True
+0f4869cef1d26296,HY9A2345.jpg,unclear or low-quality image,0.25647,False
+0f4869cef1d26296,HY9A2345.jpg,scientific instrument or technical equipment,0.12902,False
+1e1ef4a8cd5440d6,HY9A2346.jpg,unclear or low-quality image,0.78464,True
+1e1ef4a8cd5440d6,HY9A2346.jpg,historic artefact close-up,0.13177,False
+1e1ef4a8cd5440d6,HY9A2346.jpg,condition survey or conservation record,0.04363,False
+dba90b9be2a723dc,P1010138.JPG,scientific instrument or technical equipment,0.53122,True
+dba90b9be2a723dc,P1010138.JPG,bar or kitchen inside a heritage hut,0.23491,False
+dba90b9be2a723dc,P1010138.JPG,interior of a historic Antarctic hut,0.11295,False
+44558cfe8479c4b1,P1010139.JPG,condition survey or conservation record,0.99949,True
+44558cfe8479c4b1,P1010139.JPG,historic artefact close-up,0.00027,False
+44558cfe8479c4b1,P1010139.JPG,bar or kitchen inside a heritage hut,7e-05,False
+5944a5e13aaed7ee,P7630273 (Large).jpg,penguins or other Antarctic wildlife,0.8872,True
+5944a5e13aaed7ee,P7630273 (Large).jpg,snowy Antarctic landscape,0.09288,False
+5944a5e13aaed7ee,P7630273 (Large).jpg,people outdoors at an Antarctic heritage site,0.01873,False
+8a6803aa95fd2442,P7630276 (Large).JPG,Antarctic hut restoration or construction work,0.70979,True
+8a6803aa95fd2442,P7630276 (Large).JPG,historic Antarctic building exterior,0.14265,False
+8a6803aa95fd2442,P7630276 (Large).JPG,interior of a historic Antarctic hut,0.11875,False
+7253795b62ffac55,Port Lockroy 24th April 2020 JNH (1) (Large).jpg,Antarctic hut restoration or construction work,0.9923,True
+7253795b62ffac55,Port Lockroy 24th April 2020 JNH (1) (Large).jpg,interior of a historic Antarctic hut,0.00274,False
+7253795b62ffac55,Port Lockroy 24th April 2020 JNH (1) (Large).jpg,people outdoors at an Antarctic heritage site,0.00261,False
+6a1221a18251bf1d,Port Lockroy 24th April 2020 JNH (2) (Large).jpg,Antarctic hut restoration or construction work,0.6628,True
+6a1221a18251bf1d,Port Lockroy 24th April 2020 JNH (2) (Large).jpg,people outdoors at an Antarctic heritage site,0.24863,False
+6a1221a18251bf1d,Port Lockroy 24th April 2020 JNH (2) (Large).jpg,interior of a historic Antarctic hut,0.07451,False
+82f8eb61df749a5f,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,penguins or other Antarctic wildlife,0.99012,True
+82f8eb61df749a5f,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,people outdoors at an Antarctic heritage site,0.00516,False
+82f8eb61df749a5f,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,snowy Antarctic landscape,0.0037,False
+2eec9ea40aa80570,S7R08578.JPG,Antarctic hut restoration or construction work,0.70271,True
+2eec9ea40aa80570,S7R08578.JPG,historic Antarctic building exterior,0.19921,False
+2eec9ea40aa80570,S7R08578.JPG,people outdoors at an Antarctic heritage site,0.07022,False
+18594371971610a0,S7R08579.JPG,Antarctic hut restoration or construction work,0.62679,True
+18594371971610a0,S7R08579.JPG,historic Antarctic building exterior,0.26462,False
+18594371971610a0,S7R08579.JPG,people outdoors at an Antarctic heritage site,0.05533,False
+7f783afe1441ff78,S7R08580.JPG,Antarctic hut restoration or construction work,0.62033,True
+7f783afe1441ff78,S7R08580.JPG,historic Antarctic building exterior,0.30151,False
+7f783afe1441ff78,S7R08580.JPG,people outdoors at an Antarctic heritage site,0.03463,False
+91cf801b0e36d8c9,S7R08581.JPG,Antarctic hut restoration or construction work,0.28948,True
+91cf801b0e36d8c9,S7R08581.JPG,people outdoors at an Antarctic heritage site,0.26524,False
+91cf801b0e36d8c9,S7R08581.JPG,snowy Antarctic landscape,0.17105,False
+773034f5070e1a75,"© UK Antarctic Heritage Trust, 2011, Photo by Rick Price, 2 copy.jpg",people outdoors at an Antarctic heritage site,0.98153,True
+773034f5070e1a75,"© UK Antarctic Heritage Trust, 2011, Photo by Rick Price, 2 copy.jpg",Antarctic hut restoration or construction work,0.01295,False
+773034f5070e1a75,"© UK Antarctic Heritage Trust, 2011, Photo by Rick Price, 2 copy.jpg",interior of a historic Antarctic hut,0.00302,False
