@@ -1,0 +1,12 @@
+<div class="chips-row" *ngIf="hasChips">
+  <div
+    class="chip"
+    *ngFor="let chip of chips"
+    [class.chip-tag]="chip.type === 'tag'"
+    (click)="remove(chip)"
+  >
+    {{ chip.label }}
+    <span class="chip-x">×</span>
+  </div>
+  <span class="chips-meta" (click)="onClearAll()">Clear all</span>
+</div>

@@ -6,7 +6,8 @@ CREATE TABLE images (
     filename        VARCHAR(255) NOT NULL,
     storage_url     VARCHAR(500) NOT NULL,
     uploaded_at     DATETIME DEFAULT CURRENT_TIMESTAMP,
-    processed       BOOLEAN DEFAULT FALSE
+    processed       BOOLEAN DEFAULT FALSE,
+    batch_id        INT
 );
 
 CREATE TABLE exif_metadata (
@@ -36,9 +37,11 @@ CREATE TABLE ai_tags (
     scene_confidence    FLOAT,
     people_count        INT,
     people_confidence   FLOAT,
-    tags                JSON, 
+    tags                JSON,
     -- [{"tag": "tent", "confidence": 0.87}, ...]
     categories          JSON,
+    caption             TEXT,
+    -- Florence-2 generated image description
     model_name          VARCHAR(100),
     is_verified         BOOLEAN DEFAULT FALSE,
     tagged_at           DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -91,3 +94,19 @@ CREATE TABLE corrections (
     corrected_at    DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (image_id) REFERENCES images(id)
 );
+
+-- ── Upload batches ──────────────────────────────────────────────────────────
+-- upload history
+CREATE TABLE upload_batches (
+    id              INT PRIMARY KEY AUTO_INCREMENT,
+    uploaded_by     VARCHAR(100),
+    uploaded_at     DATETIME DEFAULT CURRENT_TIMESTAMP,
+    total_files     INT DEFAULT 0,
+    success         INT DEFAULT 0,
+    failed          INT DEFAULT 0
+);
+
+-- Add FK from images to upload_batches now that both tables exist
+ALTER TABLE images
+    ADD CONSTRAINT fk_images_batch
+    FOREIGN KEY (batch_id) REFERENCES upload_batches(id);
