@@ -1,0 +1,30 @@
+.cat-card {
+  background: #13151f;
+  border: 1px solid #1e2130;
+  border-radius: 10px;
+  padding: 14px 12px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-color: #4a9eff;
+    background: #161929;
+  }
+}
+
+.cat-icon {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.cat-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ccc;
+  margin-bottom: 2px;
+}
+
+.cat-count {
+  font-size: 11px;
+  color: #444;
+}

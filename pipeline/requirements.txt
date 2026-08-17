@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers==4.45.2
+accelerate
+pillow
+pandas
+numpy
+pyarrow
+tqdm
+timm
+einops
+safetensors
+

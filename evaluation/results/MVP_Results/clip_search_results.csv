@@ -1,0 +1,41 @@
+query,rank,image_uid,file_name,similarity_score
+snow-covered hut,1,8a6803aa95fd2442,P7630276 (Large).JPG,0.29117
+snow-covered hut,2,6b4cf24fc9edef20,DSC_7124.JPG,0.28828
+snow-covered hut,3,9a90729bec376e5d,a Cat IMG_7551-Optimized1.JPG,0.28648
+snow-covered hut,4,afea14ad064de498,a Cat IMG_7551-Optimized.JPG,0.28648
+snow-covered hut,5,91cf801b0e36d8c9,S7R08581.JPG,0.28431
+historic Antarctic building,1,2eec9ea40aa80570,S7R08578.JPG,0.32006
+historic Antarctic building,2,d9b18539022da9b4,DSC_0075.JPG,0.31733
+historic Antarctic building,3,91cf801b0e36d8c9,S7R08581.JPG,0.31545
+historic Antarctic building,4,7f783afe1441ff78,S7R08580.JPG,0.31272
+historic Antarctic building,5,6b4cf24fc9edef20,DSC_7124.JPG,0.3101
+people inside a heritage building,1,d7b12cfe0c2ba1f2,Afternoon smoko.jpg,0.24483
+people inside a heritage building,2,d408bde357ad32f4,At the bar.jpg,0.24056
+people inside a heritage building,3,ae87bfe9c0709917,Bar and firreplacee taking shape.jpg,0.23319
+people inside a heritage building,4,9714d7b24a105173,a Cat IMG_5781 50_.jpg,0.23087
+people inside a heritage building,5,a3b71157b0c47fef,a Cat IMG_5781 50_1.jpg,0.23087
+historic artefact,1,045b9242605636b2,A1b9b.jpg,0.25833
+historic artefact,2,0d2aac4460187142,A1b9c.jpg,0.256
+historic artefact,3,e595310773fec038,A1b9a.jpg,0.25519
+historic artefact,4,d9bb875e3424de6a,A1b10a.jpg,0.2476
+historic artefact,5,1850299dd463946f,A1h165a.JPG,0.23562
+scientific equipment,1,1850299dd463946f,A1h165a.JPG,0.27332
+scientific equipment,2,dba90b9be2a723dc,P1010138.JPG,0.26358
+scientific equipment,3,83df35a80d9dd60a,A1h165.JPG,0.25555
+scientific equipment,4,045b9242605636b2,A1b9b.jpg,0.24595
+scientific equipment,5,0d2aac4460187142,A1b9c.jpg,0.24584
+condition survey photograph,1,ae87bfe9c0709917,Bar and firreplacee taking shape.jpg,0.28604
+condition survey photograph,2,045b9242605636b2,A1b9b.jpg,0.2716
+condition survey photograph,3,c42a596d132d17ad,1964 extension basis.jpg,0.26978
+condition survey photograph,4,44558cfe8479c4b1,P1010139.JPG,0.25994
+condition survey photograph,5,79001a20cc210c50,DSC_0069.JPG,0.25983
+snowy Antarctic landscape,1,91cf801b0e36d8c9,S7R08581.JPG,0.29097
+snowy Antarctic landscape,2,12b6521a5e9b30f1,DSC_0068.JPG,0.28559
+snowy Antarctic landscape,3,5944a5e13aaed7ee,P7630273 (Large).jpg,0.27779
+snowy Antarctic landscape,4,82f8eb61df749a5f,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,0.27766
+snowy Antarctic landscape,5,61c8bdeeceb9348f,DSC_0070.JPG,0.27544
+penguins near a heritage site,1,82f8eb61df749a5f,Port Lockroy 24th April 2020 JNH (3) (Large).jpg,0.34419
+penguins near a heritage site,2,5944a5e13aaed7ee,P7630273 (Large).jpg,0.298
+penguins near a heritage site,3,6a1221a18251bf1d,Port Lockroy 24th April 2020 JNH (2) (Large).jpg,0.26139
+penguins near a heritage site,4,7253795b62ffac55,Port Lockroy 24th April 2020 JNH (1) (Large).jpg,0.25544
+penguins near a heritage site,5,91cf801b0e36d8c9,S7R08581.JPG,0.25352
