@@ -7,7 +7,7 @@ import mysql.connector
 import pandas as pd
 
 
-PIPELINE_DIR = Path(__file__).resolve().parent.parent / "pipeline"
+PIPELINE_DIR = Path(__file__).resolve().parents[3]
 OUTPUT_DIR   = PIPELINE_DIR / "outputs"
 DATA_DIR     = PIPELINE_DIR / "data"
 
@@ -45,8 +45,8 @@ def parse_args():
     parser.add_argument(
         "--steps",
         nargs="+",
-        default=["inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
-        choices=["inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
+        default=["inventory", "exif", "florence", "vocabulary", "embeddings", , "quality", "clusters"],
+        choices=["inventory", "exif", "florence", "vocabulary", "embeddings", , "quality", "clusters"],
     )
     return parser.parse_args()
 
@@ -91,6 +91,39 @@ def f(row, col) -> float | None:
     v = s(row, col)
     try: return float(v) if v else None
     except: return None
+
+
+def load_images(cursor, conn):
+    path = CSV_PATHS["inventory"]
+    if not path.exists():
+        print(f"inventory.csv not found at {path}")
+        return
+
+    df       = pd.read_csv(path, dtype=str).fillna("")
+    base     = os.environ.get("LOCAL_IMAGE_BASE", "")
+    inserted = skipped = 0
+
+    for _, row in df.iterrows():
+        file_name     = s(row, "file_name")
+        relative_path = s(row, "relative_path")
+        if not file_name or not relative_path:
+            continue
+
+        storage_url = f"{base}/{relative_path}".replace("\\", "/") if base else relative_path
+
+        cursor.execute("SELECT id FROM images WHERE filename = %s", (file_name,))
+        if cursor.fetchone():
+            skipped += 1
+            continue
+
+        cursor.execute("""
+            INSERT INTO images (filename, storage_url, uploaded_at, processed)
+            VALUES (%s, %s, NOW(), FALSE)
+        """, (file_name, storage_url))
+        inserted += 1
+
+    conn.commit()
+    print(f"images: inserted={inserted} skipped={skipped}")
 
 
 def load_inventory(cursor, conn):
@@ -426,6 +459,7 @@ def main() -> int:
     print(f"steps: {', '.join(args.steps)}")
 
     try:
+        if "images"     in args.steps: load_images(cursor, conn)
         if "inventory"  in args.steps: load_inventory(cursor, conn)
         if "exif"       in args.steps: load_exif(cursor, conn)
         if "florence"   in args.steps or "vocabulary" in args.steps: load_ai_tags(cursor, conn)
