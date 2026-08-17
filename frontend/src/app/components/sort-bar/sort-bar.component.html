@@ -1,0 +1,17 @@
+<div class="sort-row">
+  <div class="result-count">
+    <span>{{ total | number }}</span> images found
+  </div>
+  <div class="sort-wrap">
+    <span class="sort-label">Sort by</span>
+    <select
+      class="sort-select"
+      [ngModel]="sort"
+      (ngModelChange)="onSortChange($event)"
+    >
+      <option *ngFor="let opt of sortOptions" [value]="opt.value">
+        {{ opt.label }}
+      </option>
+    </select>
+  </div>
+</div>

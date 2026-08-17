@@ -1,0 +1,276 @@
+<div class="page">
+
+  <!-- Topbar -->
+  <nav class="topbar">
+    <div class="logo"><span class="logo-icon">❄</span>UKAHT Image Archive</div>
+    <div class="nav">
+      <a class="nav-btn" routerLink="/">Browse</a>
+      <a class="nav-btn" routerLink="/upload">Upload</a>
+      <a class="nav-btn" routerLink="/admin/corrections">Review queue</a>
+      <a class="nav-btn active" routerLink="/analytics/stats">Stats</a>
+    </div>
+  </nav>
+
+  <!-- Loading -->
+  <div class="loading-wrap" *ngIf="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Error -->
+  <div class="error-msg" *ngIf="!loading && error">{{ error }}</div>
+
+  <!-- Content -->
+  <div class="page-wrap" *ngIf="!loading && stats">
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div>
+        <div class="page-title">Dataset statistics</div>
+        <div class="page-sub">Live overview of the UKAHT image archive</div>
+      </div>
+      <div class="download-group">
+        <button class="dl-btn dl-csv" (click)="downloadCSV()">
+          ⤓ Download CSV
+        </button>
+        <button class="dl-btn dl-pdf" (click)="downloadPDF()">
+          ⤓ Download PDF
+        </button>
+      </div>
+    </div>
+
+    <!-- ── Summary cards ─────────────────────────── -->
+    <div class="summary-row">
+      <div class="stat-card">
+        <div class="stat-val accent">{{ totalImages | number }}</div>
+        <div class="stat-label">Total images</div>
+        <div class="stat-sub">{{ uniqueImages | number }} unique · {{ stats.duplicates.in_clusters }} duplicates</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val green">{{ aiTaggedPct }}</div>
+        <div class="stat-label">AI tagged</div>
+        <div class="stat-sub">{{ stats.verification.total_tagged }} tagged</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val purple">{{ verifiedPct }}</div>
+        <div class="stat-label">Human verified</div>
+        <div class="stat-sub">{{ stats.verification.verified }} of {{ stats.verification.total_tagged }} reviewed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val amber">{{ duplicateRate }}</div>
+        <div class="stat-label">Duplicate rate</div>
+        <div class="stat-sub">{{ stats.duplicates.total_clusters }} clusters detected</div>
+      </div>
+    </div>
+
+    <!-- ── Images per year + Scene + Quality ─────── -->
+    <div class="two-col">
+
+      <!-- Images per year bar chart -->
+      <div class="section">
+        <div class="section-head">
+          <span class="section-title">Images per year</span>
+        </div>
+        <div class="bar-chart">
+          <div class="bar-row" *ngFor="let y of stats.per_year">
+            <span class="bar-label">{{ y.year }}</span>
+            <div class="bar-wrap">
+              <div class="bar-fill blue" [style.width]="barWidth(y.count, maxPerYear)"></div>
+            </div>
+            <span class="bar-val">{{ y.count }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-col">
+
+        <!-- Scene type donut -->
+        <div class="section">
+          <div class="section-head"><span class="section-title">Scene type</span></div>
+          <div class="split-chart">
+            <div class="donut">
+              <svg width="80" height="80" viewBox="0 0 80 80">
+                <circle cx="40" cy="40" r="30" fill="none" stroke="#1a1d2e" stroke-width="12"/>
+                <circle cx="40" cy="40" r="30" fill="none" stroke="#4a9eff" stroke-width="12"
+                  [attr.stroke-dasharray]="donutDasharray"
+                  stroke-dashoffset="0"/>
+                <circle cx="40" cy="40" r="30" fill="none" stroke="#9b93f7" stroke-width="12"
+                  [attr.stroke-dasharray]="interiorDasharray"
+                  [attr.stroke-dashoffset]="donutOffsetInterior"/>
+              </svg>
+              <div class="donut-label">
+                <span class="donut-pct">
+                  {{ scenePercent(stats.scene_types[0]?.count ?? 0).toFixed(0) }}%
+                </span>
+                <span class="donut-sub">ext</span>
+              </div>
+            </div>
+            <div class="split-legend">
+              <div class="legend-row" *ngFor="let s of stats.scene_types">
+                <div class="legend-dot"
+                  [style.background]="s.scene_type === 'exterior' ? '#4a9eff' : '#9b93f7'">
+                </div>
+                <span class="legend-label">{{ s.scene_type | titlecase }}</span>
+                <span class="legend-val">{{ s.count }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quality buckets -->
+        <div class="section">
+          <div class="section-head"><span class="section-title">Quality scores</span></div>
+          <div class="quality-row">
+            <div class="quality-bucket">
+              <div class="qb-val green">{{ stats.quality.high }}</div>
+              <div class="qb-label">High</div>
+              <div class="qb-sub">≥ 0.70</div>
+            </div>
+            <div class="quality-bucket">
+              <div class="qb-val amber">{{ stats.quality.medium }}</div>
+              <div class="qb-label">Medium</div>
+              <div class="qb-sub">0.40–0.70</div>
+            </div>
+            <div class="quality-bucket">
+              <div class="qb-val red">{{ stats.quality.low }}</div>
+              <div class="qb-label">Low</div>
+              <div class="qb-sub">< 0.40</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Metadata + Cameras + People ───────────── -->
+    <div class="three-col">
+
+      <!-- Metadata completeness -->
+      <div class="section">
+        <div class="section-head"><span class="section-title">Metadata</span></div>
+        <div class="prog-row">
+          <div class="prog-label">
+            <span class="prog-key">Has date taken</span>
+            <span class="prog-val">{{ completenessPct(stats.completeness.has_date) }}</span>
+          </div>
+          <div class="prog-bg">
+            <div class="prog-fill blue" [style.width]="completenessWidth(stats.completeness.has_date)"></div>
+          </div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">
+            <span class="prog-key">Has camera model</span>
+            <span class="prog-val">{{ completenessPct(stats.completeness.has_camera) }}</span>
+          </div>
+          <div class="prog-bg">
+            <div class="prog-fill blue" [style.width]="completenessWidth(stats.completeness.has_camera)"></div>
+          </div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">
+            <span class="prog-key">Has GPS</span>
+            <span class="prog-val">{{ completenessPct(stats.completeness.has_gps) }}</span>
+          </div>
+          <div class="prog-bg">
+            <div class="prog-fill blue" [style.width]="completenessWidth(stats.completeness.has_gps)"></div>
+          </div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">
+            <span class="prog-key">AI tagged</span>
+            <span class="prog-val">{{ aiTaggedPct }}</span>
+          </div>
+          <div class="prog-bg">
+            <div class="prog-fill green" [style.width]="aiTaggedWidth()"></div>
+          </div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">
+            <span class="prog-key">Human verified</span>
+            <span class="prog-val">{{ verifiedPct }}</span>
+          </div>
+          <div class="prog-bg">
+            <div class="prog-fill purple" [style.width]="verifiedWidth()"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top cameras -->
+      <div class="section">
+        <div class="section-head"><span class="section-title">Top cameras</span></div>
+        <table class="camera-table">
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Make</th>
+              <th class="align-right">Images</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let cam of stats.cameras.slice(0, 8)">
+              <td>{{ cam.camera_model }}</td>
+              <td>{{ cam.camera_make }}</td>
+              <td class="align-right accent">{{ cam.count }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- People per image -->
+      <div class="section">
+        <div class="section-head"><span class="section-title">People per image</span></div>
+        <div class="bar-chart">
+          <div class="bar-row" *ngFor="let p of stats.people_dist">
+            <span class="bar-label">{{ peopleLabel(p.people_count) }}</span>
+            <div class="bar-wrap">
+              <div class="bar-fill purple" [style.width]="barWidth(p.count, maxPeopleDist)"></div>
+            </div>
+            <span class="bar-val">{{ p.count }}</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── AI accuracy ────────────────────────────── -->
+    <div class="section" *ngIf="accuracy">
+      <div class="section-head">
+        <span class="section-title">AI accuracy — human corrections</span>
+      </div>
+      <div class="two-col">
+        <div>
+          <div class="corr-row">
+            <span class="corr-label">Total corrections by staff</span>
+            <span class="corr-val">{{ accuracy.total_corrections }}</span>
+          </div>
+          <div class="corr-row">
+            <span class="corr-label">Scene type corrections</span>
+            <span class="corr-val">{{ sceneCorrections }}</span>
+          </div>
+          <div class="corr-row">
+            <span class="corr-label">People count corrections</span>
+            <span class="corr-val">{{ peopleCorrections }}</span>
+          </div>
+          <div class="corr-row">
+            <span class="corr-label">People count mean absolute error</span>
+            <span class="corr-val">{{ accuracy.people_mae != null ? (+accuracy.people_mae).toFixed(2) : 'N/A' }}</span>
+          </div>
+        </div>
+
+        <div *ngIf="accuracy.scene_accuracy?.length">
+          <div class="section-title" style="margin-bottom:12px">Scene type confusion</div>
+          <div class="bar-chart">
+            <div class="bar-row" *ngFor="let row of accuracy.scene_accuracy">
+              <span class="bar-label bar-label-wide">{{ confusionLabel(row) }}</span>
+              <div class="bar-wrap">
+                <div class="bar-fill amber"
+                  [style.width]="barWidth(row.count, maxSceneConfusion)"></div>
+              </div>
+              <span class="bar-val">{{ row.count }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

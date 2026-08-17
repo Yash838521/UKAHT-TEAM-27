@@ -1,0 +1,31 @@
+<div class="recent-section">
+  <div class="section-head">
+    <span class="section-title">Recently added</span>
+    <span class="section-meta">last 10 uploaded</span>
+  </div>
+
+  <!-- Loading skeleton -->
+  <div class="thumb-grid" *ngIf="images.length === 0">
+    <div class="skeleton" *ngFor="let i of [1,2,3,4,5]"></div>
+  </div>
+
+  <!-- Real images from API -->
+  <div class="thumb-grid" *ngIf="images.length > 0">
+    <div
+      class="thumb"
+      *ngFor="let image of images"
+      (click)="onClick(image)"
+    >
+      <!-- Actual image — falls back to placeholder icon on error -->
+      <img
+        [src]="getImageUrl(image)"
+        [alt]="image.filename"
+        class="thumb-img"
+        (error)="onImgError($event)"
+      />
+      <div class="thumb-label">
+        {{ getSceneLabel(image) }} · {{ getYear(image.date_taken) }}
+      </div>
+    </div>
+  </div>
+</div>
