@@ -1,6 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { Image } from '../../models'
+import { environment } from '../../../../environments/environment'
 
 @Component({
   selector: 'app-image-card',
@@ -13,6 +14,19 @@ export class ImageCardComponent {
   @Input()  image!:      Image
   @Input()  similarity?: number
   @Output() cardClick  = new EventEmitter<Image>()
+
+  imgFailed = false
+
+  get imageUrl(): string {
+    return `${environment.apiUrl}/images/${this.image.id}/file`
+  }
+
+  onImgError(event: Event) {
+    // Hide broken img tag and show placeholder icon instead
+    const img = event.target as HTMLImageElement
+    img.style.display = 'none'
+    this.imgFailed = true
+  }
 
   onClick() {
     this.cardClick.emit(this.image)

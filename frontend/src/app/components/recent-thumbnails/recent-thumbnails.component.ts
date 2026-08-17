@@ -18,6 +18,23 @@ export class RecentThumbnailsComponent {
     this.imageClick.emit(image)
   }
 
+  getImageUrl(image: Image): string {
+    return `${environment.apiUrl}/images/${image.id}/file`
+  }
+
+  onImgError(event: Event) {
+    // If image fails to load, hide the broken img and show a fallback
+    const img = event.target as HTMLImageElement
+    img.style.display = 'none'
+    const parent = img.parentElement
+    if (parent && !parent.querySelector('.thumb-fallback')) {
+      const fallback       = document.createElement('span')
+      fallback.className   = 'thumb-fallback'
+      fallback.textContent = '🖼'
+      parent.insertBefore(fallback, img)
+    }
+  }
+
   getYear(dateTaken: string): string {
     if (!dateTaken) return '—'
     try {
@@ -30,9 +47,5 @@ export class RecentThumbnailsComponent {
   getSceneLabel(image: Image): string {
     if (!image.scene_type) return 'Unknown'
     return image.scene_type.charAt(0).toUpperCase() + image.scene_type.slice(1)
-  }
-
-  getImageUrl(image: Image): string {
-    return `${environment.apiUrl}/images/${image.id}/file`
   }
 }

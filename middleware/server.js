@@ -3,7 +3,13 @@ const express = require('express')
 const cors    = require('cors')
 const app     = express()
 
-app.use(cors())
+// Allow Angular dev server to call middleware
+// and expose Content-Disposition header for downloads
+app.use(cors({
+  origin:           process.env.CORS_ORIGIN || 'http://localhost:4200',
+  exposedHeaders:   ['Content-Disposition']
+}))
+
 app.use(express.json())
 
 // Routes

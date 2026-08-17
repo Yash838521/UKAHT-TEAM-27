@@ -16,7 +16,13 @@
       *ngFor="let image of images"
       (click)="onClick(image)"
     >
-      <span class="thumb-icon">🖼</span>
+      <!-- Actual image — falls back to placeholder icon on error -->
+      <img
+        [src]="getImageUrl(image)"
+        [alt]="image.filename"
+        class="thumb-img"
+        (error)="onImgError($event)"
+      />
       <div class="thumb-label">
         {{ getSceneLabel(image) }} · {{ getYear(image.date_taken) }}
       </div>

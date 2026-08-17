@@ -48,91 +48,78 @@ function baseSelect() {
   `
 }
 
+// ── Resolve local file path ───────────────────────────────────────────────────
+// Handles absolute paths stored with wrong base directory.
+// If LOCAL_IMAGE_BASE is set in .env, it strips the old absolute prefix
+// and rebuilds the path using LOCAL_IMAGE_BASE + the relative subfolder structure.
+function resolveLocalPath(storage_url) {
+  // Normalise to forward slashes for consistent processing
+  const normalised = storage_url.replace(/\\/g, '/')
+
+  const base = process.env.LOCAL_IMAGE_BASE
+    ? process.env.LOCAL_IMAGE_BASE.replace(/\\/g, '/')
+    : null
+
+  if (base) {
+    // If storage_url is absolute (has drive letter or starts with /)
+    // strip everything up to and including the drive + root,
+    // then try joining each suffix with LOCAL_IMAGE_BASE
+    if (/^[A-Za-z]:/.test(normalised) || normalised.startsWith('/')) {
+      // Remove drive letter and leading slash e.g. C:/foo/bar → foo/bar
+      const withoutDrive = normalised.replace(/^[A-Za-z]:\//, '')
+      const parts        = withoutDrive.split('/').filter(p => p.length > 0)
+
+      // Try progressively shorter suffixes until one exists on disk
+      for (let i = 0; i < parts.length; i++) {
+        const suffix    = parts.slice(i).join('/')
+        const candidate = path.join(base, suffix)
+        if (fs.existsSync(candidate)) {
+          return candidate
+        }
+      }
+
+      // Nothing found — return most specific attempt for a useful error message
+      return path.join(base, parts[parts.length - 1])
+    }
+
+    // Already relative — join directly with base
+    return path.join(base, normalised)
+  }
+
+  // No LOCAL_IMAGE_BASE — use storage_url as-is
+  return path.normalize(normalised)
+}
+
 // ── GET /api/images — browse with filters ────────────────────────────────────
 router.get('/', async (req, res) => {
   try {
     const {
-      scene_type,
-      people_min,
-      people_max,
-      date_from,
-      date_to,
-      quality_min,
-      best_only,
-      no_duplicates,
-      tag,
-      category,
-      sort    = 'overall_score',
-      order   = 'DESC',
-      page    = 1,
-      limit   = 24
+      scene_type, people_min, people_max, date_from, date_to,
+      quality_min, best_only, no_duplicates, tag, category,
+      sort = 'overall_score', order = 'DESC', page = 1, limit = 24
     } = req.query
 
     const conditions = []
     const params     = []
 
-    if (scene_type) {
-      conditions.push(`COALESCE(c_scene.human_value, a.scene_type) = ?`)
-      params.push(scene_type)
-    }
+    if (scene_type)               { conditions.push(`COALESCE(c_scene.human_value, a.scene_type) = ?`);         params.push(scene_type) }
+    if (people_min !== undefined) { conditions.push(`COALESCE(c_people.human_value, a.people_count) >= ?`);     params.push(Number(people_min)) }
+    if (people_max !== undefined) { conditions.push(`COALESCE(c_people.human_value, a.people_count) <= ?`);     params.push(Number(people_max)) }
+    if (date_from)                { conditions.push(`e.date_taken >= ?`);                                       params.push(date_from) }
+    if (date_to)                  { conditions.push(`e.date_taken <= ?`);                                       params.push(date_to) }
+    if (quality_min !== undefined){ conditions.push(`q.overall_score >= ?`);                                    params.push(Number(quality_min)) }
+    if (best_only === 'true')     { conditions.push(`q.is_best_in_group = TRUE`) }
+    if (no_duplicates === 'true') { conditions.push(`(dc.cluster_id IS NULL OR dc.is_representative = TRUE)`) }
+    if (tag)                      { conditions.push(`JSON_CONTAINS(a.tags, JSON_OBJECT('tag', ?))`);            params.push(tag) }
+    if (category)                 { conditions.push(`JSON_CONTAINS(a.categories, JSON_OBJECT('category', ?))`); params.push(category) }
 
-    if (people_min !== undefined) {
-      conditions.push(`COALESCE(c_people.human_value, a.people_count) >= ?`)
-      params.push(Number(people_min))
-    }
-
-    if (people_max !== undefined) {
-      conditions.push(`COALESCE(c_people.human_value, a.people_count) <= ?`)
-      params.push(Number(people_max))
-    }
-
-    if (date_from) {
-      conditions.push(`e.date_taken >= ?`)
-      params.push(date_from)
-    }
-
-    if (date_to) {
-      conditions.push(`e.date_taken <= ?`)
-      params.push(date_to)
-    }
-
-    if (quality_min !== undefined) {
-      conditions.push(`q.overall_score >= ?`)
-      params.push(Number(quality_min))
-    }
-
-    if (best_only === 'true') {
-      conditions.push(`q.is_best_in_group = TRUE`)
-    }
-
-    if (no_duplicates === 'true') {
-      conditions.push(`(dc.cluster_id IS NULL OR dc.is_representative = TRUE)`)
-    }
-
-    if (tag) {
-      conditions.push(`JSON_CONTAINS(a.tags, JSON_OBJECT('tag', ?))`)
-      params.push(tag)
-    }
-
-    if (category) {
-      conditions.push(`JSON_CONTAINS(a.categories, JSON_OBJECT('category', ?))`)
-      params.push(category)
-    }
-
-    const where  = conditions.length ? `WHERE ${conditions.join(' AND ')}` : ''
-    const offset = (Number(page) - 1) * Number(limit)
-
+    const where      = conditions.length ? `WHERE ${conditions.join(' AND ')}` : ''
+    const offset     = (Number(page) - 1) * Number(limit)
     const allowedSort = ['overall_score', 'date_taken', 'people_count', 'filename']
-    const safeSort    = allowedSort.includes(sort) ? sort : 'overall_score'
-    const safeOrder   = order === 'ASC' ? 'ASC' : 'DESC'
+    const safeSort   = allowedSort.includes(sort) ? sort : 'overall_score'
+    const safeOrder  = order === 'ASC' ? 'ASC' : 'DESC'
 
-    const sql = `
-      ${baseSelect()}
-      ${where}
-      ORDER BY ${safeSort} ${safeOrder}
-      LIMIT ? OFFSET ?
-    `
-
+    const sql = `${baseSelect()} ${where} ORDER BY ${safeSort} ${safeOrder} LIMIT ? OFFSET ?`
     const countSql = `
       SELECT COUNT(*) AS total
       FROM images i
@@ -155,14 +142,13 @@ router.get('/', async (req, res) => {
       pages:  Math.ceil(countRow[0].total / Number(limit)),
       images: rows
     })
-
   } catch (err) {
     console.error(err)
     res.status(500).json({ error: err.message })
   }
 })
 
-// ── GET /api/images/recent — recently uploaded images ────────────────────────
+// ── GET /api/images/recent ───────────────────────────────────────────────────
 router.get('/recent', async (req, res) => {
   try {
     const { limit = 10 } = req.query
@@ -178,9 +164,10 @@ router.get('/recent', async (req, res) => {
   }
 })
 
-// ── GET /api/images/:id/file — serve actual image file ───────────────────────
-// Supports both local dev (sends file) and S3 prod (redirects to signed URL)
-// ?download=true triggers browser download instead of inline preview
+// ── GET /api/images/:id/file ─────────────────────────────────────────────────
+// Serves the actual image file — handles both local dev and AWS S3
+// ?download=true → triggers Save As dialog
+// default        → inline display in browser / <img> tag
 router.get('/:id/file', async (req, res) => {
   try {
     const [rows] = await db.query(
@@ -192,37 +179,45 @@ router.get('/:id/file', async (req, res) => {
 
     const { filename, storage_url } = rows[0]
 
+    // ── AWS S3 ───────────────────────────────────────────────────────────────
     if (process.env.STORAGE_TYPE === 's3') {
-      // S3 — redirect to a pre-signed URL valid for 5 minutes
       const { S3Client, GetObjectCommand } = require('@aws-sdk/client-s3')
       const { getSignedUrl }               = require('@aws-sdk/s3-request-presigner')
       const s3  = new S3Client({ region: process.env.AWS_REGION })
       const key = storage_url.replace(`s3://${process.env.AWS_BUCKET_NAME}/`, '')
 
-      const url = await getSignedUrl(s3, new GetObjectCommand({
-        Bucket: process.env.AWS_BUCKET_NAME,
-        Key:    key
-      }), { expiresIn: 300 })
+      const command = new GetObjectCommand({
+        Bucket:                     process.env.AWS_BUCKET_NAME,
+        Key:                        key,
+        ResponseContentDisposition: req.query.download === 'true'
+          ? `attachment; filename="${filename}"`
+          : `inline; filename="${filename}"`
+      })
 
-      return res.redirect(url)
+      const signedUrl = await getSignedUrl(s3, command, { expiresIn: 300 })
+      return res.redirect(signedUrl)
     }
 
-    // Local — resolve absolute path
-    const filePath = path.isAbsolute(storage_url)
-      ? storage_url
-      : path.join(process.cwd(), storage_url)
+    // ── Local dev ────────────────────────────────────────────────────────────
+    const filePath = resolveLocalPath(storage_url)
 
     if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ error: 'File not found on disk' })
+      console.error(`File not found on disk: ${filePath}`)
+      return res.status(404).json({ error: `File not found: ${filePath}` })
     }
 
-    // ?download=true → attachment (triggers Save As dialog)
-    // default       → inline (opens in browser / image viewer)
     if (req.query.download === 'true') {
       res.setHeader('Content-Disposition', `attachment; filename="${filename}"`)
     }
 
-    res.sendFile(filePath)
+    // Use fs.createReadStream instead of res.sendFile to avoid
+    // Windows path issues with drive letters and root option
+    const stream = fs.createReadStream(filePath)
+    stream.on('error', (err) => {
+      console.error('Stream error:', err)
+      if (!res.headersSent) res.status(500).json({ error: 'Failed to serve file' })
+    })
+    stream.pipe(res)
 
   } catch (err) {
     console.error(err)
@@ -230,7 +225,7 @@ router.get('/:id/file', async (req, res) => {
   }
 })
 
-// ── GET /api/images/:id — single image detail ────────────────────────────────
+// ── GET /api/images/:id ──────────────────────────────────────────────────────
 router.get('/:id', async (req, res) => {
   try {
     const [rows] = await db.query(`
@@ -246,7 +241,7 @@ router.get('/:id', async (req, res) => {
   }
 })
 
-// ── GET /api/images/:id/similar — images in the same duplicate cluster ───────
+// ── GET /api/images/:id/similar ──────────────────────────────────────────────
 router.get('/:id/similar', async (req, res) => {
   try {
     const [[image]] = await db.query(

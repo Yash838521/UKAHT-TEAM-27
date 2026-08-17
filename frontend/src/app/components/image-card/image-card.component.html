@@ -1,9 +1,25 @@
 <div class="img-card" (click)="onClick()">
   <div class="img-thumb">
-    <span class="placeholder-icon">🖼</span>
+
+    <!-- Actual image -->
+    <img
+      [src]="imageUrl"
+      [alt]="image.filename"
+      class="img-actual"
+      (error)="onImgError($event)"
+    />
+
+    <!-- Fallback shown when image fails to load -->
+    <span class="placeholder-icon" *ngIf="imgFailed">🖼</span>
+
+    <!-- Best badge -->
     <span class="badge-best" *ngIf="image.is_representative">★ Best</span>
+
+    <!-- Similarity badge — search mode -->
     <span class="badge-similarity" *ngIf="similarity">{{ similarityLabel }}</span>
+
   </div>
+
   <div class="img-info">
     <div class="img-name" [title]="image.filename">{{ image.filename }}</div>
     <div class="img-meta">
