@@ -68,13 +68,17 @@ CREATE TABLE duplicate_clusters (
 );
 
 CREATE TABLE embeddings (
-    id              INT PRIMARY KEY AUTO_INCREMENT,
-    image_id        INT NOT NULL,
-    model_name      VARCHAR(100),
-    embedding       JSON,
-    created_at      DATETIME DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE KEY unique_image_model (image_id, model_name),
-    FOREIGN KEY (image_id) REFERENCES images(id)
+    id             INT PRIMARY KEY AUTO_INCREMENT,
+  image_id       INT          NOT NULL,
+  image_uid      VARCHAR(64)  NULL,
+  embedding_path VARCHAR(512) NULL,
+  vector_json    LONGTEXT     NULL,
+  row_index      INT          NULL,
+  model_name     VARCHAR(128) NULL,
+  file_hash      VARCHAR(128) NULL,
+  updated_at     DATETIME     NULL,
+  FOREIGN KEY (image_id) REFERENCES images(id),
+  UNIQUE KEY uq_image (image_id)
 );
 
 CREATE TABLE corrections (
