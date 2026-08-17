@@ -1,0 +1,315 @@
+.page {
+  min-height: 100vh;
+  background: #0f1117;
+  color: #e8e8e8;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+// ── Topbar ──────────────────────────────────────────
+.topbar {
+  background: #0f1117;
+  border-bottom: 1px solid #1e2130;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-icon { color: #4a9eff; font-size: 18px; }
+.nav { display: flex; gap: 2px; }
+.nav-btn {
+  font-size: 12px;
+  padding: 5px 14px;
+  border-radius: 6px;
+  color: #888;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: none;
+  transition: color 0.15s;
+  &:hover  { color: #e8e8e8; }
+  &.active { color: #fff; background: #1e2130; }
+}
+
+// ── Page layout ─────────────────────────────────────
+.page-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+// ── Page header ─────────────────────────────────────
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.page-title { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 2px; }
+.page-sub   { font-size: 12px; color: #555; }
+
+// ── Download buttons ─────────────────────────────────
+.download-group { display: flex; gap: 6px; }
+.dl-btn {
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.dl-csv {
+  background: #1a1d2e;
+  color: #3ecfa0;
+  border: 1px solid rgba(26,158,117,0.3);
+  &:hover { background: rgba(26,158,117,0.1); }
+}
+.dl-pdf {
+  background: #1a1d2e;
+  color: #e24b4a;
+  border: 1px solid rgba(226,75,74,0.3);
+  &:hover { background: rgba(226,75,74,0.1); }
+}
+
+// ── Summary cards ────────────────────────────────────
+.summary-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.stat-card {
+  background: #0d0f19;
+  border: 1px solid #1e2130;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.stat-val {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2px;
+  &.accent { color: #4a9eff; }
+  &.green  { color: #3ecfa0; }
+  &.purple { color: #9b93f7; }
+  &.amber  { color: #e09b3d; }
+}
+.stat-label { font-size: 11px; color: #555; }
+.stat-sub   { font-size: 11px; color: #444; margin-top: 4px; }
+
+// ── Grid layouts ─────────────────────────────────────
+.two-col   { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.right-col { display: flex; flex-direction: column; gap: 12px; }
+
+// ── Section container ────────────────────────────────
+.section {
+  background: #0d0f19;
+  border: 1px solid #1e2130;
+  border-radius: 12px;
+  padding: 16px;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.section-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #555;
+}
+
+// ── Bar chart ────────────────────────────────────────
+.bar-chart  { display: flex; flex-direction: column; gap: 7px; }
+.bar-row    { display: flex; align-items: center; gap: 8px; }
+.bar-label  {
+  font-size: 11px;
+  color: #aaa;
+  width: 80px;
+  flex-shrink: 0;
+  text-align: right;
+}
+.bar-label-wide { width: 100px; font-size: 10px; }
+.bar-wrap {
+  flex: 1;
+  background: #1a1d2e;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 14px;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  &.blue   { background: #4a9eff; }
+  &.purple { background: #9b93f7; }
+  &.green  { background: #3ecfa0; }
+  &.amber  { background: #e09b3d; }
+}
+.bar-val { font-size: 10px; color: #555; width: 36px; text-align: right; flex-shrink: 0; }
+
+// ── Scene donut ──────────────────────────────────────
+.split-chart { display: flex; gap: 12px; align-items: center; }
+.donut {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  svg { transform: rotate(-90deg); }
+}
+.donut-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.donut-pct { font-size: 14px; font-weight: 600; color: #fff; }
+.donut-sub { font-size: 9px; color: #555; }
+.split-legend { display: flex; flex-direction: column; gap: 6px; }
+.legend-row   { display: flex; align-items: center; gap: 6px; }
+.legend-dot   { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.legend-label { font-size: 11px; color: #aaa; }
+.legend-val   { font-size: 11px; color: #555; margin-left: auto; padding-left: 12px; }
+
+// ── Quality buckets ──────────────────────────────────
+.quality-row { display: flex; gap: 8px; }
+.quality-bucket {
+  flex: 1;
+  background: #13151f;
+  border: 1px solid #1e2130;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+.qb-val {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  &.green  { color: #3ecfa0; }
+  &.amber  { color: #e09b3d; }
+  &.red    { color: #e24b4a; }
+}
+.qb-label { font-size: 10px; color: #555; }
+.qb-sub   { font-size: 10px; color: #444; margin-top: 2px; }
+
+// ── Metadata progress ────────────────────────────────
+.prog-row { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; &:last-child { margin-bottom: 0; } }
+.prog-label { display: flex; justify-content: space-between; font-size: 11px; }
+.prog-key   { color: #aaa; }
+.prog-val   { color: #555; }
+.prog-bg    { height: 6px; background: #1a1d2e; border-radius: 3px; overflow: hidden; }
+.prog-fill  {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  &.blue   { background: #4a9eff; }
+  &.green  { background: #3ecfa0; }
+  &.purple { background: #9b93f7; }
+}
+
+// ── Camera table ─────────────────────────────────────
+.camera-table {
+  width: 100%;
+  border-collapse: collapse;
+  th {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #444;
+    text-align: left;
+    padding: 4px 0;
+    border-bottom: 1px solid #1e2130;
+  }
+  td {
+    font-size: 11px;
+    color: #aaa;
+    padding: 6px 0;
+    border-bottom: 1px solid #0f1117;
+  }
+  .align-right { text-align: right; }
+  .accent      { color: #4a9eff; }
+}
+
+// ── Accuracy section ─────────────────────────────────
+.corr-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid #0f1117;
+  &:last-child { border-bottom: none; }
+}
+.corr-label { font-size: 12px; color: #aaa; }
+.corr-val   { font-size: 12px; color: #e09b3d; font-weight: 500; }
+
+// ── Loading / error ──────────────────────────────────
+.loading-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #1e2130;
+  border-top-color: #4a9eff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.error-msg { padding: 24px; color: #e24b4a; font-size: 13px; }
+
+// ── Print styles (PDF download) ──────────────────────
+@media print {
+  .topbar, .download-group, .nav { display: none !important; }
+
+  body { background: #fff !important; color: #000 !important; }
+
+  .page      { background: #fff !important; }
+  .page-wrap { padding: 0; max-width: 100%; }
+  .page-title { color: #000; font-size: 18px; }
+  .page-sub   { color: #555; }
+
+  .stat-card, .section, .quality-bucket {
+    background: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+    break-inside: avoid;
+  }
+
+  .stat-val, .qb-val { color: #000 !important; }
+  .stat-label, .stat-sub, .section-title, .prog-key, .prog-val,
+  .bar-label, .bar-val, .legend-label, .legend-val,
+  .camera-table th, .camera-table td, .corr-label { color: #333 !important; }
+
+  .bar-wrap, .prog-bg { background: #e0e0e0 !important; }
+
+  .two-col, .three-col, .summary-row {
+    gap: 8px;
+  }
+
+  // Add UKAHT header on print
+  .page-header::before {
+    content: 'UK Antarctic Heritage Trust — Image Archive Report';
+    display: block;
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+}

@@ -80,11 +80,21 @@ export interface CategoriesResponse {
 
 // Stats
 export interface StatsResponse {
-  total_images: number
-  per_year:     { year: number; count: number }[]
-  scene_types:  { scene_type: string; count: number }[]
-  duplicates:   { total: number; in_clusters: number; total_clusters: number }
-  categories:   { category: string; count: number }[]
+  total_images:  number
+  per_year:      { year: number; count: number }[]
+  cameras:       { camera_model: string; camera_make: string; count: number }[]
+  scene_types:   { scene_type: string; count: number }[]
+  people_dist:   { people_count: number; count: number }[]
+  completeness:  {
+    total:      number
+    has_date:   number
+    has_camera: number
+    has_gps:    number
+  }
+  quality:       { high: number; medium: number; low: number }
+  duplicates:    { total: number; in_clusters: number; total_clusters: number }
+  categories:    { category: string; count: number }[]
+  verification:  { total_tagged: number; verified: number }
 }
 
 // Tags
@@ -185,4 +195,10 @@ export interface ClustersResponse {
   total:    number
   page:     number
   clusters: DuplicateCluster[]
+}
+export interface AccuracyResponse {
+  total_corrections: number
+  per_field:         { field_name: string; corrections: number }[]
+  scene_accuracy:    { predicted: string; actual: string; count: number }[]
+  people_mae:        number | null
 }
