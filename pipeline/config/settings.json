@@ -1,0 +1,15 @@
+{
+  "image_directory": "data/images",
+  "inventory_file": "data/inventory.csv",
+  "clip_model": "openai/clip-vit-base-patch32",
+  "florence_model": "microsoft/Florence-2-base",
+  "clip_batch_size": 8,
+  "florence_checkpoint_interval": 5,
+  "florence_max_new_tokens": 180,
+  "florence_num_beams": 3,
+  "inventory_columns": {
+    "image_uid": "image_uid",
+    "relative_path": "relative_path",
+    "file_name": "file_name"
+  }
+}
