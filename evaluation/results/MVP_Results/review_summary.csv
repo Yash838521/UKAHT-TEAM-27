@@ -1,0 +1,3 @@
+measure,value,scored_items
+clip_classification_accuracy,1.0,43
+caption_preference_florence,43.0,43

@@ -1,0 +1,48 @@
+<div class="grid-wrap">
+
+  <!-- Loading skeleton -->
+  <div class="loading-grid" *ngIf="loading">
+    <div class="skeleton" *ngFor="let i of [1,2,3,4,5,6]"></div>
+  </div>
+
+  <!-- Empty state -->
+  <div class="empty" *ngIf="!loading && images.length === 0">
+    <div class="empty-icon">🔍</div>
+    <div class="empty-title">No images found</div>
+    <div class="empty-msg">Try adjusting your filters or search query</div>
+  </div>
+
+  <!-- Image grid -->
+  <div class="image-grid" *ngIf="!loading && images.length > 0">
+    <app-image-card
+      *ngFor="let image of images"
+      [image]="image"
+      [similarity]="getSimilarity(image.id)"
+      (cardClick)="onImageClick($event)"
+    ></app-image-card>
+  </div>
+
+  <!-- Pagination -->
+  <div class="pagination" *ngIf="!loading && pages > 1">
+    <button
+      class="page-btn"
+      [disabled]="currentPage === 1"
+      (click)="onPageClick(currentPage - 1)"
+    >←</button>
+
+    <button
+      class="page-btn"
+      *ngFor="let p of pageNumbers"
+      [class.active]="p === currentPage"
+      [class.ellipsis]="p === '...'"
+      (click)="onPageClick(p)"
+    >{{ p }}</button>
+
+    <button
+      class="page-btn"
+      [disabled]="currentPage === pages"
+      (click)="onPageClick(currentPage + 1)"
+    >→</button>
+  </div>
+
+</div>
