@@ -342,7 +342,6 @@ def load_embeddings(cursor, conn):
 
         values = (
             image_uid,
-            s(row, "relative_path"),
             i(row, "row_index"),
             s(row, "model") or "openai/clip-vit-base-patch32",
             s(row, "file_hash"),
@@ -352,14 +351,14 @@ def load_embeddings(cursor, conn):
         if cursor.fetchone():
             cursor.execute("""
                 UPDATE embeddings SET
-                    image_uid=%s, embedding_path=%s, row_index=%s, model_name=%s, file_hash=%s
+                    image_uid=%s, row_index=%s, model_name=%s, file_hash=%s
                 WHERE image_id = %s
             """, values + (image_id,))
             updated += 1
         else:
             cursor.execute("""
-                INSERT INTO embeddings (image_id, image_uid, embedding_path, row_index, model_name, file_hash)
-                VALUES (%s, %s, %s, %s, %s, %s)
+                INSERT INTO embeddings (image_id, image_uid, row_index, model_name, file_hash)
+                VALUES (%s, %s, %s, %s, %s)
             """, (image_id,) + values)
             inserted += 1
 
