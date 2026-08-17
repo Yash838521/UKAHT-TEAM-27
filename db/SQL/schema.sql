@@ -3,30 +3,39 @@ USE ukaht;
 
 CREATE TABLE images (
     id              INT PRIMARY KEY AUTO_INCREMENT,
+    image_uid       VARCHAR(64)  NULL,
     filename        VARCHAR(255) NOT NULL,
     storage_url     VARCHAR(500) NOT NULL,
     uploaded_at     DATETIME DEFAULT CURRENT_TIMESTAMP,
     processed       BOOLEAN DEFAULT FALSE,
-    batch_id        INT
+    batch_id        INT,
+    UNIQUE KEY uq_image_uid (image_uid)
 );
 
 CREATE TABLE exif_metadata (
-    id              INT PRIMARY KEY AUTO_INCREMENT,
-    image_id        INT NOT NULL,
-    date_taken      DATETIME,
-    camera_make     VARCHAR(100),
-    camera_model    VARCHAR(100),
-    serial_number   VARCHAR(100),
-    lens_model      VARCHAR(100),
-    image_width     INT,
-    image_height    INT,
-    iso             INT,
-    flash           VARCHAR(50),
-    white_balance   VARCHAR(50),
-    orientation     VARCHAR(50),
-    software        VARCHAR(100),
-    gps_latitude    DECIMAL(10, 7),
-    gps_longitude   DECIMAL(10, 7),
+    id               INT PRIMARY KEY AUTO_INCREMENT,
+    image_id         INT NOT NULL,
+    date_taken       DATETIME,
+    date_digitised   DATETIME,
+    camera_make      VARCHAR(100),
+    camera_model     VARCHAR(100),
+    serial_number    VARCHAR(100),
+    lens_model       VARCHAR(100),
+    image_width      INT,
+    image_height     INT,
+    iso              INT,
+    exposure_time    VARCHAR(20),
+    f_number         FLOAT,
+    focal_length     FLOAT,
+    flash            VARCHAR(50),
+    white_balance    VARCHAR(50),
+    exposure_program VARCHAR(50),
+    metering_mode    VARCHAR(50),
+    orientation      VARCHAR(50),
+    software         VARCHAR(100),
+    gps_latitude     DECIMAL(10, 7),
+    gps_longitude    DECIMAL(10, 7),
+    gps_altitude     FLOAT,
     FOREIGN KEY (image_id) REFERENCES images(id)
 );
 
@@ -71,17 +80,14 @@ CREATE TABLE duplicate_clusters (
 );
 
 CREATE TABLE embeddings (
-    id             INT PRIMARY KEY AUTO_INCREMENT,
-  image_id       INT          NOT NULL,
-  image_uid      VARCHAR(64)  NULL,
-  embedding_path VARCHAR(512) NULL,
-  vector_json    LONGTEXT     NULL,
-  row_index      INT          NULL,
-  model_name     VARCHAR(128) NULL,
-  file_hash      VARCHAR(128) NULL,
-  updated_at     DATETIME     NULL,
-  FOREIGN KEY (image_id) REFERENCES images(id),
-  UNIQUE KEY uq_image (image_id)
+    id          INT PRIMARY KEY AUTO_INCREMENT,
+    image_id    INT          NOT NULL,
+    image_uid   VARCHAR(64)  NULL,
+    row_index   INT          NULL,
+    model_name  VARCHAR(128) NULL,
+    file_hash   VARCHAR(128) NULL,
+    FOREIGN KEY (image_id) REFERENCES images(id),
+    UNIQUE KEY uq_image (image_id)
 );
 
 CREATE TABLE corrections (
@@ -95,7 +101,6 @@ CREATE TABLE corrections (
     FOREIGN KEY (image_id) REFERENCES images(id)
 );
 
--- ── Upload batches ──────────────────────────────────────────────────────────
 -- upload history
 CREATE TABLE upload_batches (
     id              INT PRIMARY KEY AUTO_INCREMENT,
@@ -106,7 +111,6 @@ CREATE TABLE upload_batches (
     failed          INT DEFAULT 0
 );
 
--- Add FK from images to upload_batches now that both tables exist
 ALTER TABLE images
     ADD CONSTRAINT fk_images_batch
     FOREIGN KEY (batch_id) REFERENCES upload_batches(id);
