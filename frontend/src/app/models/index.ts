@@ -139,3 +139,50 @@ export interface QueueFile {
   progress: number
   error:    string
 }
+// ── ADD THESE INTERFACES TO THE BOTTOM OF src/app/models/index.ts ────────────
+
+// Review queue — tag review
+export interface QueueImage {
+  id:                number
+  filename:          string
+  storage_url:       string
+  scene_type:        string | null
+  scene_confidence:  number | null
+  people_count:      number | null
+  people_confidence: number | null
+  tags:              { tag: string; confidence: number }[]
+  categories:        { category: string; confidence: number; is_primary: boolean }[]
+  is_verified:       boolean
+  model_name:        string | null
+}
+
+export interface QueueResponse {
+  total:  number
+  page:   number
+  images: QueueImage[]
+}
+
+// Duplicate review — clusters
+export interface ClusterMember {
+  id:               number
+  filename:         string
+  storage_url:      string
+  scene_type:       string | null
+  people_count:     number | null
+  overall_score:    number | null
+  similarity_score: number | null
+  is_representative: boolean
+}
+
+export interface DuplicateCluster {
+  cluster_id:        number
+  member_count:      number
+  representative_id: number
+  members:           ClusterMember[]
+}
+
+export interface ClustersResponse {
+  total:    number
+  page:     number
+  clusters: DuplicateCluster[]
+}
