@@ -1,2 +1,2 @@
 sample_size,spearman,p_value,permutations,review_threshold,error_cut,flag_precision,flag_recall,random_baseline,lift,vocabulary_version
-107,0.3354,0.0003,10000,0.55,0.5,0.8929,0.3333,0.7009,1.274,1.1
+27,0.3767,0.0523,10000,0.55,0.5,1.0,0.3,0.7407,1.35,1.0

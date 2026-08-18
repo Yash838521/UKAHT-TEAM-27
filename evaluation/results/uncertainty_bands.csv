@@ -1,4 +1,4 @@
 band,range,images,mean_error,mean_uncertainty
-low,0.00 to 0.35,4,0.3274,0.2525
-moderate,0.35 to 0.55,17,0.5604,0.4423
-high,0.55 to 1.00,6,0.6799,0.6906
+low,0.00 to 0.35,28,0.4583,0.2989
+moderate,0.35 to 0.55,51,0.521,0.4511
+high,0.55 to 1.00,28,0.655,0.6357
