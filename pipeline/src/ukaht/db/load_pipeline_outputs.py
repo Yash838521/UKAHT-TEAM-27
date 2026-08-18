@@ -101,8 +101,9 @@ def load_images(cursor, conn):
         return
 
     df       = pd.read_csv(path, dtype=str).fillna("")
-    base     = os.environ.get("LOCAL_IMAGE_BASE", "")
-    inserted = skipped = 0
+    base     = os.environ.get("LOCAL_IMAGE_BASE", "").replace("\\", "/")
+    s3_bucket = os.environ.get("S3_BUCKET", "")
+    inserted = updated = skipped = 0
 
     for _, row in df.iterrows():
         file_name     = s(row, "file_name")
@@ -110,11 +111,27 @@ def load_images(cursor, conn):
         if not file_name or not relative_path:
             continue
 
-        storage_url = f"{base}/{relative_path}".replace("\\", "/") if base else relative_path
+        rel = relative_path.replace("\\", "/")
 
-        cursor.execute("SELECT id FROM images WHERE filename = %s", (file_name,))
-        if cursor.fetchone():
-            skipped += 1
+        if s3_bucket:
+            storage_url = f"s3://{s3_bucket}/{rel}"
+        elif base:
+            storage_url = f"{base}/{rel}"
+        else:
+            storage_url = rel
+
+        cursor.execute("SELECT id, storage_url FROM images WHERE filename = %s", (file_name,))
+        existing = cursor.fetchone()
+
+        if existing:
+            if existing[1] != storage_url:
+                cursor.execute(
+                    "UPDATE images SET storage_url = %s WHERE id = %s",
+                    (storage_url, existing[0])
+                )
+                updated += 1
+            else:
+                skipped += 1
             continue
 
         cursor.execute("""
@@ -124,7 +141,8 @@ def load_images(cursor, conn):
         inserted += 1
 
     conn.commit()
-    print(f"images: inserted={inserted} skipped={skipped}")
+    print(f"images: inserted={inserted} updated={updated} skipped={skipped}")
+
 
 
 def load_inventory(cursor, conn):
