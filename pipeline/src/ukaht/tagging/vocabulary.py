@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-VERSION = "1.0"
+VERSION = "1.1"
 
 
 @dataclass(frozen=True)
@@ -302,6 +302,9 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "crate",
         "detritus",
         "rope",
+        "bucket",
+        "pallet",
+        "tarpaulin",
     ),
     "living_domestic": (
         "stove",
@@ -319,6 +322,7 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "carpet",
         "furniture",
         "cabinet",
+        "guitar",
     ),
     "kitchen_provisions": (
         "food tin",
@@ -331,6 +335,9 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "tray",
         "packaging",
         "flask",
+        "knife",
+        "spoon",
+        "saucepan",
     ),
     "workshop_equipment": (
         "hand tool",
@@ -378,8 +385,17 @@ OBJECT_GROUPS: dict[str, tuple[str, ...]] = {
         "information panel",
         "label",
         "plaque",
+        "typewriter",
     ),
-    "transport": ("ship", "boat", "sledge"),
+    "transport": (
+        "ship",
+        "boat",
+        "sledge",
+        "sledge harness",
+        "skis",
+        "ski pole",
+        "snowshoes",
+    ),
     "containers": ("box", "case", "canister"),
     "photographic_reference": ("colour reference chart", "scale card"),
 }
