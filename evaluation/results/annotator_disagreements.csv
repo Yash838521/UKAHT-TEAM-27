@@ -1,0 +1,47 @@
+facet,image_uid,file_name,saisha,yash
+scene_type,158b64cf9c1d4af8ac7f72a9beb209ac,A1e9 (2).jpg,object_study,interior
+scene_type,20f8899f8e6c4e69aac46246a40fa5b1,DSC_0539.JPG,object_study,landscape
+people,8538506188b84c48a402475fa6c3e025,RRS JB unloading at Stonington.jpg,no_people,group
+shot_type,0c273363d58540809461bdf6135c5204,P7630276 (Large).JPG,medium,wide
+shot_type,20f8899f8e6c4e69aac46246a40fa5b1,DSC_0539.JPG,medium,detail
+shot_type,24109e2aa1294d86bdcfbd71e463b00d,Port Lockroy 24th April 2020 JNH (20) (Large).jpg,detail,medium
+shot_type,b0eb77e43cdb4ccc96dd9c136f47e1b8,Port Lockroy 24th April 2020 JNH (4) (Large).jpg,medium,wide
+room,7ea24f3a78604301877653deb893281b,DSC_0281.JPG,living_room,kitchen
+room,9dc363e511da4f7bbf43c20b53e77811,Port Lockroy 24th April 2020 JNH (23) (Large).jpg,radio_room,museum_display
+structure,200af01154004118ae8397eb3fe5f15e,P7630236 (Large).jpg,main_hut|outbuilding|radio_tower,main_hut|outbuilding|structure_unknown
+structure,b2e1a0ee2dcb4b2c99d43744da0dd24a,S7R08454.JPG,main_hut,outbuilding
+structure,b7348c63768f4e8cb698b20021024f88,Extension disappears.jpg,main_hut|outbuilding,main_hut
+structure,c54cac66f11e48a59c4976b25b78df6e,BitumenBoatShedDSC02535.JPG,main_hut,outbuilding
+orientation,7ea24f3a78604301877653deb893281b,DSC_0281.JPG,back_to_camera|facing_camera|side_on,back_to_camera
+orientation,e120afd83e3644e8b799b1374586c93a,Lounge scrubout.jpg,back_to_camera|side_on,facing_camera
+activity,7ea24f3a78604301877653deb893281b,DSC_0281.JPG,cooking,cooking|working
+nature,0c273363d58540809461bdf6135c5204,P7630276 (Large).JPG,coastline|mountains|open_water|overcast|sea_ice|snow,exposed_rock|open_water|snow
+nature,16cb160c6d9c46b0ad2f0100f6243986,S7R08507.JPG,clear_sky|mountains|snow,clear_sky|exposed_rock|snow
+nature,200af01154004118ae8397eb3fe5f15e,P7630236 (Large).jpg,coastline|exposed_rock|mountains|open_water|overcast|snow,coastline|exposed_rock|mountains|open_water|snow
+nature,20ec2a8d2d104c33bce489a61ee86325,Snow arrives.jpg,exposed_rock|mountains|overcast|snow,exposed_rock|mountains|snow
+nature,6981d5c60f834d68a4330ac56789fda5,CAT TOTTY Rachel P1040161.JPG,clear_sky|exposed_rock|open_water|penguin|snow,clear_sky|exposed_rock|penguin|snow
+nature,8538506188b84c48a402475fa6c3e025,RRS JB unloading at Stonington.jpg,clear_sky|mountains|open_water|sea_ice|snow,clear_sky|dog|exposed_rock|mountains|sea_ice
+nature,b0eb77e43cdb4ccc96dd9c136f47e1b8,Port Lockroy 24th April 2020 JNH (4) (Large).jpg,exposed_rock|overcast|snow,clear_sky|exposed_rock|snow
+nature,b2e1a0ee2dcb4b2c99d43744da0dd24a,S7R08454.JPG,clear_sky|exposed_rock|snow,clear_sky|exposed_rock|mountains|snow
+nature,b7348c63768f4e8cb698b20021024f88,Extension disappears.jpg,clear_sky|coastline|exposed_rock|mountains|open_water|snow,clear_sky|exposed_rock|mountains|open_water|snow
+nature,c54cac66f11e48a59c4976b25b78df6e,BitumenBoatShedDSC02535.JPG,overcast|snow,open_water|overcast|snow
+condition,0c273363d58540809461bdf6135c5204,P7630276 (Large).JPG,paint_loss|weathered_timber,paint_loss
+condition,199c993db7cb47e2b88699a14cc41697,DSC_0236.JPG,object_wear,object_wear|rust
+condition,1fd1c1530df443739bd77707e79a9677,20121121-DSC_0811 FK.jpg,sound,object_wear|rust
+condition,200af01154004118ae8397eb3fe5f15e,P7630236 (Large).jpg,weathered_timber,sound
+condition,20ec2a8d2d104c33bce489a61ee86325,Snow arrives.jpg,weathered_timber,paint_loss|rust|weathered_timber
+condition,24109e2aa1294d86bdcfbd71e463b00d,Port Lockroy 24th April 2020 JNH (20) (Large).jpg,sound,object_wear|rust
+condition,51e6507155304de387c549d532495897,DSC_7173.JPG,paint_loss|weathered_timber,paint_loss
+condition,66f184b666714f0b8dd3550fb858a630,A1c192.jpg,sound,object_wear
+condition,6981d5c60f834d68a4330ac56789fda5,CAT TOTTY Rachel P1040161.JPG,sound,paint_loss
+condition,7438818de69a4acf883439ec4448af7a,A1c250_11a.jpg,object_wear,object_wear|rust
+condition,8538506188b84c48a402475fa6c3e025,RRS JB unloading at Stonington.jpg,sound,object_wear|rust
+condition,9b1cdaedeb11482e8124a408796ce11c,A1b28a.jpg,rust,object_wear|rust
+condition,9d09ecfe0c30413a8354de71e896b332,A1c252_10.jpg,sound,object_wear
+condition,9dc363e511da4f7bbf43c20b53e77811,Port Lockroy 24th April 2020 JNH (23) (Large).jpg,object_wear,object_wear|rust
+condition,ac4167003b634643be1ea978480593bb,a Cat IMG_7551.JPG,weathered_timber,sound
+condition,b0eb77e43cdb4ccc96dd9c136f47e1b8,Port Lockroy 24th April 2020 JNH (4) (Large).jpg,paint_loss|weathered_timber,paint_loss
+condition,b2e1a0ee2dcb4b2c99d43744da0dd24a,S7R08454.JPG,weathered_timber,paint_loss|rust|weathered_timber
+condition,b7348c63768f4e8cb698b20021024f88,Extension disappears.jpg,weathered_timber,paint_loss|weathered_timber
+condition,b757e68e5cbc499594a29f2011cb3a0b,Port Lockroy 24th April 2020 JNH (27) (Large).jpg,sound,object_wear
+condition,e120afd83e3644e8b799b1374586c93a,Lounge scrubout.jpg,sound,paint_loss

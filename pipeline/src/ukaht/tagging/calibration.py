@@ -185,43 +185,66 @@ def load_embeddings(index_path: Path, embedding_path: Path) -> tuple[pd.DataFram
 
 
 def load_annotations(sheet_path: Path, manifest_path: Path, index: pd.DataFrame) -> pd.DataFrame:
-    """Join human annotation to the image index through the sample manifest."""
+    """Join human annotation to the image index.
+
+    Sheets carrying an image identifier are matched directly. Sheets that
+    identify images by position within a sample are resolved through the
+    manifest that produced them.
+    """
     with open(sheet_path, newline="", encoding="utf-8-sig") as handle:
         annotations = [row for row in csv.DictReader(handle) if any(row.values())]
 
-    with open(manifest_path, newline="", encoding="utf-8-sig") as handle:
-        manifest = {}
-        for row in csv.DictReader(handle):
-            key = str(row.get("index", "")).strip()
-            if key:
-                manifest[int(key)] = row["relative_path"].strip()
+    if not annotations:
+        return pd.DataFrame()
 
-    lookup = {}
-    for row in index.to_dict(orient="records"):
-        lookup[row["relative_path"].strip().lower()] = row["row_index"]
+    row_by_uid = {
+        row["image_uid"]: int(row["row_index"]) for row in index.to_dict(orient="records")
+    }
+
+    carries_uid = any(str(row.get("image_uid", "")).strip() for row in annotations)
 
     records = []
     unmatched = []
-    for row in annotations:
-        key = str(row.get("index", "")).strip()
-        if not key:
-            continue
-        number = int(key)
-        relative_path = manifest.get(number)
-        if relative_path is None:
-            unmatched.append(number)
-            continue
-        row_index = lookup.get(relative_path.lower())
-        if row_index is None:
-            unmatched.append(number)
-            continue
-        record = dict(row)
-        record["row_index"] = int(row_index)
-        record["relative_path"] = relative_path
-        records.append(record)
+
+    if carries_uid:
+        for row in annotations:
+            image_uid = str(row.get("image_uid", "")).strip()
+            position = row_by_uid.get(image_uid)
+            if position is None:
+                unmatched.append(image_uid[:8])
+                continue
+            record = dict(row)
+            record["row_index"] = position
+            records.append(record)
+    else:
+        lookup = {}
+        for row in index.to_dict(orient="records"):
+            lookup[row["relative_path"].strip().lower()] = int(row["row_index"])
+
+        manifest = {}
+        if manifest_path is not None and Path(manifest_path).exists():
+            with open(manifest_path, newline="", encoding="utf-8-sig") as handle:
+                for row in csv.DictReader(handle):
+                    key = str(row.get("index", "")).strip()
+                    if key:
+                        manifest[int(key)] = row["relative_path"].strip()
+
+        for row in annotations:
+            key = str(row.get("index", "")).strip()
+            if not key.isdigit():
+                continue
+            relative_path = manifest.get(int(key))
+            position = lookup.get(relative_path.lower()) if relative_path else None
+            if position is None:
+                unmatched.append(key)
+                continue
+            record = dict(row)
+            record["row_index"] = position
+            record["relative_path"] = relative_path
+            records.append(record)
 
     if unmatched:
-        print(f"Annotations without a matching embedding: {sorted(unmatched)}")
+        print(f"Annotations without a matching embedding: {len(unmatched)}")
 
     return pd.DataFrame(records)
 
