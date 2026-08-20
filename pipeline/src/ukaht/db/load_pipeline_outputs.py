@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 import mysql.connector
+import numpy as np
 import pandas as pd
 
 
@@ -21,6 +22,8 @@ CSV_PATHS = {
     "quality":    OUTPUT_DIR / "quality_scores.csv",
     "clusters":   OUTPUT_DIR / "clusters.csv",
 }
+
+EMBEDDINGS_NPY = OUTPUT_DIR / "clip_embeddings.npy"
 
 SCENE_FACET       = "scene_type"
 PEOPLE_FACET      = "people"
@@ -142,7 +145,6 @@ def load_images(cursor, conn):
 
     conn.commit()
     print(f"images: inserted={inserted} updated={updated} skipped={skipped}")
-
 
 
 def load_inventory(cursor, conn):
@@ -347,8 +349,13 @@ def load_embeddings(cursor, conn):
         print(f"clip_index.csv not found at {path}")
         return
 
-    df   = pd.read_csv(path, dtype=str).fillna("")
-    umap = uid_map(cursor)
+    if not EMBEDDINGS_NPY.exists():
+        print(f"clip_embeddings.npy not found at {EMBEDDINGS_NPY}")
+        return
+
+    df         = pd.read_csv(path, dtype=str).fillna("")
+    umap       = uid_map(cursor)
+    embeddings = np.load(EMBEDDINGS_NPY).astype("float32")
     inserted = updated = missing = 0
 
     for _, row in df.iterrows():
@@ -358,25 +365,29 @@ def load_embeddings(cursor, conn):
             missing += 1
             continue
 
+        row_idx     = i(row, "row_index")
+        vector_json = json.dumps(embeddings[row_idx].tolist()) if row_idx is not None else None
+
         values = (
             image_uid,
-            i(row, "row_index"),
+            row_idx,
             s(row, "model") or "openai/clip-vit-base-patch32",
             s(row, "file_hash"),
+            vector_json,
         )
 
         cursor.execute("SELECT id FROM embeddings WHERE image_id = %s", (image_id,))
         if cursor.fetchone():
             cursor.execute("""
                 UPDATE embeddings SET
-                    image_uid=%s, row_index=%s, model_name=%s, file_hash=%s
+                    image_uid=%s, row_index=%s, model_name=%s, file_hash=%s, vector_json=%s
                 WHERE image_id = %s
             """, values + (image_id,))
             updated += 1
         else:
             cursor.execute("""
-                INSERT INTO embeddings (image_id, image_uid, row_index, model_name, file_hash)
-                VALUES (%s, %s, %s, %s, %s)
+                INSERT INTO embeddings (image_id, image_uid, row_index, model_name, file_hash, vector_json)
+                VALUES (%s, %s, %s, %s, %s, %s)
             """, (image_id,) + values)
             inserted += 1
 
