@@ -86,6 +86,7 @@ CREATE TABLE embeddings (
     row_index   INT          NULL,
     model_name  VARCHAR(128) NULL,
     file_hash   VARCHAR(128) NULL,
+    vector_json LONGTEXT     NULL,
     FOREIGN KEY (image_id) REFERENCES images(id),
     UNIQUE KEY uq_image (image_id)
 );
