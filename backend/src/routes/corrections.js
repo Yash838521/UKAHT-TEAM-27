@@ -2,29 +2,25 @@ const express = require('express')
 const router  = express.Router()
 const db      = require('../db')
 
-// ── GET /api/corrections/queue — low confidence images for review ─────────────
+// GET /api/corrections/queue — uncertainty-ordered review queue
 router.get('/queue', async (req, res) => {
   try {
     const { limit = 20, page = 1 } = req.query
     const offset = (Number(page) - 1) * Number(limit)
 
-    // Return images where AI confidence is low or not yet verified
     const [rows] = await db.query(`
       SELECT
         i.id, i.filename, i.storage_url,
         a.scene_type, a.scene_confidence,
         a.people_count, a.people_confidence,
         a.tags, a.categories, a.is_verified,
-        a.model_name
+        a.model_name,
+        a.uncertainty_score, a.uncertainty_reason, a.review_recommended
       FROM images i
       JOIN ai_tags a ON a.image_id = i.id
       WHERE a.is_verified = FALSE
-        AND a.scene_type IS NOT NULL
-        AND (
-          a.scene_confidence  < 0.70 OR
-          a.people_confidence < 0.65
-        )
-      ORDER BY a.scene_confidence ASC
+        AND a.review_recommended = TRUE
+      ORDER BY a.uncertainty_score DESC
       LIMIT ? OFFSET ?
     `, [Number(limit), offset])
 
@@ -32,8 +28,7 @@ router.get('/queue', async (req, res) => {
       SELECT COUNT(*) AS total
       FROM ai_tags
       WHERE is_verified = FALSE
-        AND scene_type IS NOT NULL
-        AND (scene_confidence < 0.70 OR people_confidence < 0.65)
+        AND review_recommended = TRUE
     `)
 
     res.json({ total, page: Number(page), images: rows })
@@ -44,7 +39,7 @@ router.get('/queue', async (req, res) => {
   }
 })
 
-// ── GET /api/corrections/:imageId — get all corrections for one image ─────────
+// GET /api/corrections/:imageId
 router.get('/:imageId', async (req, res) => {
   try {
     const [rows] = await db.query(
@@ -58,7 +53,7 @@ router.get('/:imageId', async (req, res) => {
   }
 })
 
-// ── POST /api/corrections — submit a correction ───────────────────────────────
+// POST /api/corrections
 router.post('/', async (req, res) => {
   try {
     const { image_id, field_name, ai_value, human_value, reviewer } = req.body
@@ -67,14 +62,12 @@ router.post('/', async (req, res) => {
       return res.status(400).json({ error: 'image_id, field_name and human_value are required' })
     }
 
-    // Insert correction record
     await db.query(
       `INSERT INTO corrections (image_id, field_name, ai_value, human_value, reviewer)
        VALUES (?, ?, ?, ?, ?)`,
       [image_id, field_name, ai_value, human_value, reviewer || 'unknown']
     )
 
-    // Mark image as verified in ai_tags
     await db.query(
       `UPDATE ai_tags SET is_verified = TRUE WHERE image_id = ?`,
       [image_id]
@@ -88,7 +81,7 @@ router.post('/', async (req, res) => {
   }
 })
 
-// ── POST /api/corrections/confirm — confirm AI tag without changing it ────────
+// POST /api/corrections/confirm
 router.post('/confirm', async (req, res) => {
   try {
     const { image_id, reviewer } = req.body

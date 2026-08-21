@@ -20,7 +20,9 @@ CSV_PATHS = {
     "vocabulary": OUTPUT_DIR / "clip_vocabulary_tags.csv",
     "clip_index": OUTPUT_DIR / "clip_index.csv",
     "quality":    OUTPUT_DIR / "quality_scores.csv",
-    "clusters":   OUTPUT_DIR / "clusters.csv",
+    "clusters":      OUTPUT_DIR / "clusters.csv",
+    "clip_clusters": OUTPUT_DIR / "clip_clusters.csv",
+    "uncertainty":   OUTPUT_DIR / "uncertainty_scores.csv",
 }
 
 EMBEDDINGS_NPY = OUTPUT_DIR / "clip_embeddings.npy"
@@ -49,8 +51,8 @@ def parse_args():
     parser.add_argument(
         "--steps",
         nargs="+",
-        default=["images", "inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
-        choices=["images", "inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters"],
+        default=["images", "inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters", "clip_clusters", "uncertainty"],
+        choices=["images", "inventory", "exif", "florence", "vocabulary", "embeddings", "quality", "clusters", "clip_clusters", "uncertainty"],
     )
     return parser.parse_args()
 
@@ -103,8 +105,8 @@ def load_images(cursor, conn):
         print(f"inventory.csv not found at {path}")
         return
 
-    df       = pd.read_csv(path, dtype=str).fillna("")
-    base     = os.environ.get("LOCAL_IMAGE_BASE", "").replace("\\", "/")
+    df        = pd.read_csv(path, dtype=str).fillna("")
+    base      = os.environ.get("LOCAL_IMAGE_BASE", "").replace("\\", "/")
     s3_bucket = os.environ.get("S3_BUCKET", "")
     inserted = updated = skipped = 0
 
@@ -449,34 +451,94 @@ def load_clusters(cursor, conn):
     inserted = updated = missing = 0
 
     for _, row in df.iterrows():
-        image_id = umap.get(s(row, "image_uid"))
+        image_id     = umap.get(s(row, "image_uid"))
         if not image_id:
             missing += 1
             continue
 
+        cluster_type = s(row, "cluster_type") or "phashing"
         values = (
             i(row, "cluster_id"),
+            cluster_type,
             f(row, "similarity_score"),
             s(row, "is_representative") in ("True","true","1","yes"),
         )
 
-        cursor.execute("SELECT id FROM duplicate_clusters WHERE image_id = %s", (image_id,))
+        cursor.execute(
+            "SELECT id FROM duplicate_clusters WHERE image_id = %s AND cluster_type = %s",
+            (image_id, cluster_type)
+        )
         if cursor.fetchone():
             cursor.execute("""
                 UPDATE duplicate_clusters SET
-                    cluster_id=%s, similarity_score=%s, is_representative=%s
-                WHERE image_id = %s
-            """, values + (image_id,))
+                    cluster_id=%s, cluster_type=%s, similarity_score=%s, is_representative=%s
+                WHERE image_id = %s AND cluster_type = %s
+            """, values + (image_id, cluster_type))
             updated += 1
         else:
             cursor.execute("""
-                INSERT INTO duplicate_clusters (image_id, cluster_id, similarity_score, is_representative)
-                VALUES (%s, %s, %s, %s)
+                INSERT INTO duplicate_clusters (image_id, cluster_id, cluster_type, similarity_score, is_representative)
+                VALUES (%s, %s, %s, %s, %s)
             """, (image_id,) + values)
             inserted += 1
 
     conn.commit()
     print(f"clusters: inserted={inserted} updated={updated} missing={missing}")
+
+
+def load_clip_clusters(cursor, conn):
+    path = CSV_PATHS["clip_clusters"]
+    if not path.exists():
+        print(f"clip_clusters.csv not found at {path}")
+        return
+
+    df   = pd.read_csv(path, dtype=str).fillna("")
+    umap = uid_map(cursor)
+    inserted = updated = missing = 0
+
+    for _, row in df.iterrows():
+        image_id = umap.get(s(row, "image_uid"))
+        if not image_id:
+            missing += 1
+            continue
+
+        cluster_id_val    = i(row, "cluster_id")
+        similarity        = f(row, "similarity_score")
+        is_representative = s(row, "is_representative") in ("True","true","1","yes")
+        cluster_type      = s(row, "cluster_type") or "clip_embedding"
+
+        # Check if a clip_embedding cluster record already exists for this image
+        cursor.execute(
+            "SELECT id FROM duplicate_clusters WHERE image_id = %s AND cluster_type = %s",
+            (image_id, cluster_type)
+        )
+        if cursor.fetchone():
+            cursor.execute("""
+                UPDATE duplicate_clusters SET
+                    cluster_id=%s, similarity_score=%s, is_representative=%s
+                WHERE image_id = %s AND cluster_type = %s
+            """, (cluster_id_val, similarity, is_representative, image_id, cluster_type))
+            updated += 1
+        else:
+            cursor.execute("""
+                INSERT INTO duplicate_clusters (image_id, cluster_id, cluster_type, similarity_score, is_representative)
+                VALUES (%s, %s, %s, %s, %s)
+            """, (image_id, cluster_id_val, cluster_type, similarity, is_representative))
+            inserted += 1
+
+    conn.commit()
+    print(f"clip_clusters: inserted={inserted} updated={updated} missing={missing}")
+
+
+def load_uncertainty_scores(cursor, conn):
+    path = CSV_PATHS["uncertainty"]
+    if not path.exists():
+        print(f"uncertainty_scores.csv not found at {path}")
+        print(f"  copy from pipeline/evaluation/results/uncertainty_scores.csv")
+        return
+
+    from ukaht.db.load_uncertainty import load_uncertainty
+    load_uncertainty(cursor, conn, path)
 
 
 def main() -> int:
@@ -494,7 +556,9 @@ def main() -> int:
         if "florence"   in args.steps or "vocabulary" in args.steps: load_ai_tags(cursor, conn)
         if "embeddings" in args.steps: load_embeddings(cursor, conn)
         if "quality"    in args.steps: load_quality(cursor, conn)
-        if "clusters"   in args.steps: load_clusters(cursor, conn)
+        if "clusters"      in args.steps: load_clusters(cursor, conn)
+        if "clip_clusters" in args.steps: load_clip_clusters(cursor, conn)
+        if "uncertainty"   in args.steps: load_uncertainty_scores(cursor, conn)
     except Exception as err:
         print(f"error: {err}")
         conn.rollback()
