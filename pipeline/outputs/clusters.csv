@@ -1,87 +1,87 @@
 image_uid,file_name,relative_path,cluster_id,cluster_type,similarity_score,is_representative,clustered_at
-449c0ed1bf33459a83321a745ab8a75d,A_1_h_16(1).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(1).jpg,1,phashing,100.0,True,2026-08-20T14:17:14+00:00
-3611223c8f9144a8b28bc45536b62744,HY9A2343.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2343.jpg,1,phashing,100.0,False,2026-08-20T14:17:14+00:00
-f1595166f7b442a39748c269d328430f,A_1_h_16(10).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(10).JPG,2,phashing,100.0,True,2026-08-20T14:17:14+00:00
-e201a304e1e042cd8fbfbe8103b58972,PC130169.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130169.JPG,2,phashing,100.0,False,2026-08-20T14:17:14+00:00
-9fe26a7dd86d400d9808d64cfada7bd4,A_1_h_16(11).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(11).JPG,3,phashing,100.0,True,2026-08-20T14:17:14+00:00
-1790cc44fc5e4970a77000c49d9ce0a1,PC130170.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130170.JPG,3,phashing,100.0,False,2026-08-20T14:17:14+00:00
-0673e85e756b433499c3f89643ff1cbe,A_1_h_16(12).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(12).JPG,4,phashing,100.0,True,2026-08-20T14:17:14+00:00
-b628dae5c8da4f2399bb1d561cb0046e,PC130171.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130171.JPG,4,phashing,100.0,False,2026-08-20T14:17:14+00:00
-aef04dc327634806a92dbf780de21e2b,A_1_h_16(13).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(13).JPG,5,phashing,100.0,True,2026-08-20T14:17:14+00:00
-adba8a12685e440288ffb80cf2d297e7,PC130172.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130172.JPG,5,phashing,100.0,False,2026-08-20T14:17:14+00:00
-913b89dbd9a54249b224a8cc3da23948,A_1_h_16(14).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(14).JPG,6,phashing,100.0,True,2026-08-20T14:17:14+00:00
-cb807d8ecc4d40f6962f2491ad5e8246,PC130173.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130173.JPG,6,phashing,100.0,False,2026-08-20T14:17:14+00:00
-c6e58099da0847fea6d5c9c8b29c85db,A_1_h_16(2).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(2).jpg,7,phashing,100.0,True,2026-08-20T14:17:14+00:00
-bd84f2eef6fb49148a6fabf118323d26,HY9A2344.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2344.jpg,7,phashing,100.0,False,2026-08-20T14:17:14+00:00
-a57a61b9c705439fa05da29a8f31e61d,A_1_h_16(3).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(3).jpg,8,phashing,100.0,True,2026-08-20T14:17:14+00:00
-80d83b55721d418b9d1212edd0ac7b3b,HY9A2345.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2345.jpg,8,phashing,100.0,False,2026-08-20T14:17:14+00:00
-188c76cd8f0040048bb358986c04dafe,A_1_h_16(4).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(4).jpg,9,phashing,100.0,True,2026-08-20T14:17:14+00:00
-c632f96bfad84937a8eeda6ceb085c90,HY9A2346.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2346.jpg,9,phashing,100.0,False,2026-08-20T14:17:14+00:00
-9a6ffb2f931b4e489d4c72ee3023a7fa,A_1_h_16(5).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(5).JPG,10,phashing,100.0,True,2026-08-20T14:17:14+00:00
-b0a70942070143989b2c873f9f4d9b9f,P1010138.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010138.JPG,10,phashing,100.0,False,2026-08-20T14:17:14+00:00
-62568840ce8344cd8bcf52976258fd99,A_1_h_16(6).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(6).JPG,11,phashing,100.0,True,2026-08-20T14:17:14+00:00
-b59f33f113da41c18ba4e89bd8d1d81a,P1010139.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010139.JPG,11,phashing,100.0,False,2026-08-20T14:17:14+00:00
-ad2161dc4cd64c06aee5593d1cf20afe,A_1_h_16(7).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(7).JPG,12,phashing,100.0,True,2026-08-20T14:17:14+00:00
-d4d6b674f4d744d1b50b828fd4134ad3,P1010140.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010140.JPG,12,phashing,100.0,False,2026-08-20T14:17:14+00:00
-3ab2b7357ce149bc96cf0f71c94dfdd2,A_1_h_16(8).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(8).JPG,13,phashing,100.0,True,2026-08-20T14:17:14+00:00
-3dd45cd3369d41b18c46da2fcaa91d89,P1010141.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010141.JPG,13,phashing,100.0,False,2026-08-20T14:17:14+00:00
-c0bc6645b47d4aa2a91b44274902a600,A_1_h_16(9).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(9).JPG,14,phashing,100.0,True,2026-08-20T14:17:14+00:00
-f8abb887d3b14306a24d008001895400,P1010143.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010143.JPG,14,phashing,100.0,False,2026-08-20T14:17:14+00:00
-e5ca79a8411644dd8201c6d9f7925b46,A1c251_11.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11.jpg,15,phashing,100.0,True,2026-08-20T14:17:14+00:00
-fa2948c0b1734fd7ae0fc0a840ea39ae,A1c251_11b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11b.jpg,15,phashing,100.0,False,2026-08-20T14:17:14+00:00
-c99e1c05fecf46a5a790fddfe2740b9d,A1c251_12.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_12.jpg,16,phashing,100.0,True,2026-08-20T14:17:14+00:00
-59f392936b5f442b98d0a4683349da7b,A1c251_13a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_13a.jpg,16,phashing,100.0,False,2026-08-20T14:17:14+00:00
-0d9b4042410445dca781cea05c7cdf07,2.JPG,UK Antarctic Heritage Trust Data/Various_A/2.JPG,17,phashing,100.0,True,2026-08-20T14:17:14+00:00
-5a5d4e1c45b24eeb86f7148f00bec715,DSC_0072 TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0072 TJOM.JPG,17,phashing,100.0,False,2026-08-20T14:17:14+00:00
-c3dc9084a7514358bb3a23cd5f076823,3.JPG,UK Antarctic Heritage Trust Data/Various_A/3.JPG,18,phashing,100.0,True,2026-08-20T14:17:14+00:00
-4e600aa8e49a40be84cb8955791d060f,DSC_0068 - TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0068 - TJOM.JPG,18,phashing,100.0,False,2026-08-20T14:17:14+00:00
-398fb094f24146bb876878d9129f7ef0,4.JPG,UK Antarctic Heritage Trust Data/Various_A/4.JPG,19,phashing,100.0,True,2026-08-20T14:17:14+00:00
-cdee63d2e1c845b68a69e226a735ceba,DSC_0107 TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0107 TJOM.JPG,19,phashing,100.0,False,2026-08-20T14:17:14+00:00
-3c6658dbdef74f44ad756853d969f616,a Calire IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/a Calire IMG_1633.JPG,20,phashing,100.0,True,2026-08-20T14:17:14+00:00
-105abf9e4ec94535b0305223fb6ee80b,Claire IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/Claire IMG_1633.JPG,20,phashing,100.0,False,2026-08-20T14:17:14+00:00
-467b16579622462cb93dd20ecbc170ec,IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/IMG_1633.JPG,20,phashing,100.0,False,2026-08-20T14:17:14+00:00
-0dcc113bb9894cafa41d29126f2cb237,a Cat IMG_5781 50_.jpg,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_5781 50_.jpg,21,phashing,100.0,True,2026-08-20T14:17:14+00:00
-0c31f599c87641e1a962325b5f153779,a Cat IMG_5781 50_1.jpg,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_5781 50_1.jpg,21,phashing,100.0,False,2026-08-20T14:17:14+00:00
-6a17700cbe6e45a999b714feaf2cd23d,a Cat IMG_7551-Optimized.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551-Optimized.JPG,22,phashing,100.0,True,2026-08-20T14:17:14+00:00
-2b3343b1c3dd44cc82441c9ce4cba9a8,a Cat IMG_7551-Optimized1.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551-Optimized1.JPG,22,phashing,100.0,False,2026-08-20T14:17:14+00:00
-f9a1edbad1e543b2ab909263ca139272,a Cat IMG_7551.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551.JPG,22,phashing,93.75,False,2026-08-20T14:17:14+00:00
-ebad67c27d0949dbabd75533424dcd8d,aa Cat IMG_7551.JPG,UK Antarctic Heritage Trust Data/Various_A/aa Cat IMG_7551.JPG,22,phashing,93.75,False,2026-08-20T14:17:14+00:00
-6d1a3d12ed354dd4b3fc300eb274e006,a Cat IMG_9332.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_9332.JPG,23,phashing,100.0,True,2026-08-20T14:17:14+00:00
-ac59967393f14b44b0e7762d9dc0b5bd,a Cat IMG_93321.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_93321.JPG,23,phashing,100.0,False,2026-08-20T14:17:14+00:00
-2011f41035bf469b8b8bf897772855f3,a Cat IMG_9758.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_9758.JPG,24,phashing,100.0,True,2026-08-20T14:17:14+00:00
-64f974fec5bf4d6ea0d90cdc510bebd8,a Cat IMG_97581.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_97581.JPG,24,phashing,100.0,False,2026-08-20T14:17:14+00:00
-68980e4bef1f4fa59ade9beaa8df12e6,a Claire DSC07803.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire DSC07803.JPG,25,phashing,100.0,True,2026-08-20T14:17:14+00:00
-dc0263dbabf84d39a2327cedea5f1649,a Claire DSC078031.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire DSC078031.JPG,25,phashing,100.0,False,2026-08-20T14:17:14+00:00
-422413b8635b4d308048710323097fe7,a Claire IMG_1985.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_1985.JPG,26,phashing,100.0,True,2026-08-20T14:17:14+00:00
-c8b1cb903d0c472ba95480b92b577a03,a Claire IMG_19851.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_19851.JPG,26,phashing,100.0,False,2026-08-20T14:17:14+00:00
-e42817e49bfe4ffcb55c193ecf12a0d6,a Claire IMG_6407.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_6407.JPG,27,phashing,100.0,True,2026-08-20T14:17:14+00:00
-04cdaa9b68f3485099e4e7deb3558f2a,a Claire IMG_64071.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_64071.JPG,27,phashing,100.0,False,2026-08-20T14:17:14+00:00
-e7ee8dbf72f34f60a037f78fdbd32620,a Michael DSC_1154.JPG,UK Antarctic Heritage Trust Data/Various_A/a Michael DSC_1154.JPG,28,phashing,100.0,True,2026-08-20T14:17:14+00:00
-cdc6394fec224630b2b0226c36f0d1ba,a Michael DSC_11541.JPG,UK Antarctic Heritage Trust Data/Various_A/a Michael DSC_11541.JPG,28,phashing,100.0,False,2026-08-20T14:17:14+00:00
-be8df24a5da7419a844d898ea3a81e42,a RACHEL MORGAN - Ylva P1010042.JPG,UK Antarctic Heritage Trust Data/Various_A/a RACHEL MORGAN - Ylva P1010042.JPG,29,phashing,100.0,True,2026-08-20T14:17:14+00:00
-b153ce4940594799ad366fa4fa0185e1,a RACHEL MORGAN - Ylva P10100421.JPG,UK Antarctic Heritage Trust Data/Various_A/a RACHEL MORGAN - Ylva P10100421.JPG,29,phashing,100.0,False,2026-08-20T14:17:14+00:00
-9eacbf82a69f45429ebcd780f1f7fe14,a Ylva P1000662.jpg,UK Antarctic Heritage Trust Data/Various_A/a Ylva P1000662.jpg,30,phashing,100.0,True,2026-08-20T14:17:14+00:00
-56c5c8b73fc94515b90379c2450d872b,Bransfield House 2011 Ylva Grams P1000662.jpg,UK Antarctic Heritage Trust Data/Various_A/Bransfield House 2011 Ylva Grams P1000662.jpg,30,phashing,100.0,False,2026-08-20T14:17:14+00:00
-35c936cdcf964e769ca2aaa9a12d59c3,a Ylva P10006621.jpg,UK Antarctic Heritage Trust Data/Various_A/a Ylva P10006621.jpg,30,phashing,100.0,False,2026-08-20T14:17:14+00:00
-2a79e9471bbd4373b02b1c9285fe2fca,BRANSFIELD HOUSE Ylva P1010793.JPG,UK Antarctic Heritage Trust Data/Various_A/BRANSFIELD HOUSE Ylva P1010793.JPG,31,phashing,100.0,True,2026-08-20T14:17:14+00:00
-a1828b58133b4e708ffd98a2bd21c05b,BRANSFIELD HOUSE Ylva P10107931.JPG,UK Antarctic Heritage Trust Data/Various_A/BRANSFIELD HOUSE Ylva P10107931.JPG,31,phashing,100.0,False,2026-08-20T14:17:14+00:00
-3ab27e7db58b40e1a3931ce956b49763,DSC_0061.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0061.JPG,32,phashing,100.0,True,2026-08-20T14:17:14+00:00
-dc919019afd5465a928d317433bed109,DSC_00611.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_00611.JPG,32,phashing,100.0,False,2026-08-20T14:17:14+00:00
-2aaa6f2d3f544073aa1656b5b5dfd1b6,DSC_00691.jpg,UK Antarctic Heritage Trust Data/Various_A/DSC_00691.jpg,33,phashing,100.0,True,2026-08-20T14:17:14+00:00
-e8dd40e5d8a743a896bbb556b24de9e7,DSC_0069.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0069.JPG,33,phashing,100.0,False,2026-08-20T14:17:14+00:00
-4b09be349dbb4f3187f8471939441c15,DSC_0195.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0195.JPG,34,phashing,100.0,True,2026-08-20T14:17:14+00:00
-5c3f5a96bcff41a98be867c687d3e8cc,DSC_01951.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_01951.JPG,34,phashing,100.0,False,2026-08-20T14:17:14+00:00
-fc73a5d7dc154390adf112383d1140a6,DSC_0201.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0201.JPG,35,phashing,100.0,True,2026-08-20T14:17:14+00:00
-70a313eb98fa4b7cb1a87182d1eabd2a,DSC_02011.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02011.JPG,35,phashing,100.0,False,2026-08-20T14:17:14+00:00
-ffbd097048ad4e0d973bbd5679a8a4f1,DSC_0216.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0216.JPG,36,phashing,100.0,True,2026-08-20T14:17:14+00:00
-76fa910f747347eebe1028a4237fc134,DSC_02161.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02161.JPG,36,phashing,100.0,False,2026-08-20T14:17:14+00:00
-9c5e196a3ea4490982831e2fac01af4f,DSC_0230.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0230.JPG,37,phashing,100.0,True,2026-08-20T14:17:14+00:00
-d1b0a83e9eb14cc784afaeed21e07f13,DSC_02301.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02301.JPG,37,phashing,100.0,False,2026-08-20T14:17:14+00:00
-5e31922e757f41ea90690ba641cf4a46,DSC_0231.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0231.JPG,38,phashing,100.0,True,2026-08-20T14:17:14+00:00
-5fa88dd0dc1b4c3d8562cebe98198a1b,DSC_02311.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02311.JPG,38,phashing,100.0,False,2026-08-20T14:17:14+00:00
-94c4973e3e574e17b4972dfe5a368ef1,DSC_0238.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0238.JPG,39,phashing,100.0,True,2026-08-20T14:17:14+00:00
-93bd5e2b7d524acebedd9e1bc8ba69f8,DSC_02381.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02381.JPG,39,phashing,100.0,False,2026-08-20T14:17:14+00:00
-51709d0b549940239f79cddbbfb393b5,DSC_0239.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0239.JPG,40,phashing,100.0,True,2026-08-20T14:17:14+00:00
-a97c8b0b759e45abb37cb7437c61dc9d,DSC_02391.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02391.JPG,40,phashing,100.0,False,2026-08-20T14:17:14+00:00
-508c858e822e4db7b3b2bf252fc508f5,DSC_0247.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0247.JPG,41,phashing,100.0,True,2026-08-20T14:17:14+00:00
-a8601a517bea44658c16a47721c46c27,DSC_02471.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02471.JPG,41,phashing,100.0,False,2026-08-20T14:17:14+00:00
+449c0ed1bf33459a83321a745ab8a75d,A_1_h_16(1).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(1).jpg,1,phashing,100.0,True,2026-08-21T16:57:19+00:00
+3611223c8f9144a8b28bc45536b62744,HY9A2343.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2343.jpg,1,phashing,100.0,False,2026-08-21T16:57:19+00:00
+f1595166f7b442a39748c269d328430f,A_1_h_16(10).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(10).JPG,2,phashing,100.0,True,2026-08-21T16:57:19+00:00
+e201a304e1e042cd8fbfbe8103b58972,PC130169.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130169.JPG,2,phashing,100.0,False,2026-08-21T16:57:19+00:00
+9fe26a7dd86d400d9808d64cfada7bd4,A_1_h_16(11).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(11).JPG,3,phashing,100.0,True,2026-08-21T16:57:19+00:00
+1790cc44fc5e4970a77000c49d9ce0a1,PC130170.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130170.JPG,3,phashing,100.0,False,2026-08-21T16:57:19+00:00
+0673e85e756b433499c3f89643ff1cbe,A_1_h_16(12).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(12).JPG,4,phashing,100.0,True,2026-08-21T16:57:19+00:00
+b628dae5c8da4f2399bb1d561cb0046e,PC130171.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130171.JPG,4,phashing,100.0,False,2026-08-21T16:57:19+00:00
+aef04dc327634806a92dbf780de21e2b,A_1_h_16(13).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(13).JPG,5,phashing,100.0,True,2026-08-21T16:57:19+00:00
+adba8a12685e440288ffb80cf2d297e7,PC130172.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130172.JPG,5,phashing,100.0,False,2026-08-21T16:57:19+00:00
+913b89dbd9a54249b224a8cc3da23948,A_1_h_16(14).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(14).JPG,6,phashing,100.0,True,2026-08-21T16:57:19+00:00
+cb807d8ecc4d40f6962f2491ad5e8246,PC130173.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130173.JPG,6,phashing,100.0,False,2026-08-21T16:57:19+00:00
+c6e58099da0847fea6d5c9c8b29c85db,A_1_h_16(2).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(2).jpg,7,phashing,100.0,True,2026-08-21T16:57:19+00:00
+bd84f2eef6fb49148a6fabf118323d26,HY9A2344.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2344.jpg,7,phashing,100.0,False,2026-08-21T16:57:19+00:00
+a57a61b9c705439fa05da29a8f31e61d,A_1_h_16(3).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(3).jpg,8,phashing,100.0,True,2026-08-21T16:57:19+00:00
+80d83b55721d418b9d1212edd0ac7b3b,HY9A2345.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2345.jpg,8,phashing,100.0,False,2026-08-21T16:57:19+00:00
+188c76cd8f0040048bb358986c04dafe,A_1_h_16(4).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(4).jpg,9,phashing,100.0,True,2026-08-21T16:57:19+00:00
+c632f96bfad84937a8eeda6ceb085c90,HY9A2346.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2346.jpg,9,phashing,100.0,False,2026-08-21T16:57:19+00:00
+9a6ffb2f931b4e489d4c72ee3023a7fa,A_1_h_16(5).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(5).JPG,10,phashing,100.0,True,2026-08-21T16:57:19+00:00
+b0a70942070143989b2c873f9f4d9b9f,P1010138.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010138.JPG,10,phashing,100.0,False,2026-08-21T16:57:19+00:00
+62568840ce8344cd8bcf52976258fd99,A_1_h_16(6).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(6).JPG,11,phashing,100.0,True,2026-08-21T16:57:19+00:00
+b59f33f113da41c18ba4e89bd8d1d81a,P1010139.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010139.JPG,11,phashing,100.0,False,2026-08-21T16:57:19+00:00
+ad2161dc4cd64c06aee5593d1cf20afe,A_1_h_16(7).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(7).JPG,12,phashing,100.0,True,2026-08-21T16:57:19+00:00
+d4d6b674f4d744d1b50b828fd4134ad3,P1010140.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010140.JPG,12,phashing,100.0,False,2026-08-21T16:57:19+00:00
+3ab2b7357ce149bc96cf0f71c94dfdd2,A_1_h_16(8).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(8).JPG,13,phashing,100.0,True,2026-08-21T16:57:19+00:00
+3dd45cd3369d41b18c46da2fcaa91d89,P1010141.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010141.JPG,13,phashing,100.0,False,2026-08-21T16:57:19+00:00
+c0bc6645b47d4aa2a91b44274902a600,A_1_h_16(9).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(9).JPG,14,phashing,100.0,True,2026-08-21T16:57:19+00:00
+f8abb887d3b14306a24d008001895400,P1010143.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010143.JPG,14,phashing,100.0,False,2026-08-21T16:57:19+00:00
+e5ca79a8411644dd8201c6d9f7925b46,A1c251_11.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11.jpg,15,phashing,100.0,True,2026-08-21T16:57:19+00:00
+fa2948c0b1734fd7ae0fc0a840ea39ae,A1c251_11b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11b.jpg,15,phashing,100.0,False,2026-08-21T16:57:19+00:00
+c99e1c05fecf46a5a790fddfe2740b9d,A1c251_12.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_12.jpg,16,phashing,100.0,True,2026-08-21T16:57:19+00:00
+59f392936b5f442b98d0a4683349da7b,A1c251_13a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_13a.jpg,16,phashing,100.0,False,2026-08-21T16:57:19+00:00
+0d9b4042410445dca781cea05c7cdf07,2.JPG,UK Antarctic Heritage Trust Data/Various_A/2.JPG,17,phashing,100.0,True,2026-08-21T16:57:19+00:00
+5a5d4e1c45b24eeb86f7148f00bec715,DSC_0072 TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0072 TJOM.JPG,17,phashing,100.0,False,2026-08-21T16:57:19+00:00
+c3dc9084a7514358bb3a23cd5f076823,3.JPG,UK Antarctic Heritage Trust Data/Various_A/3.JPG,18,phashing,100.0,True,2026-08-21T16:57:19+00:00
+4e600aa8e49a40be84cb8955791d060f,DSC_0068 - TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0068 - TJOM.JPG,18,phashing,100.0,False,2026-08-21T16:57:19+00:00
+398fb094f24146bb876878d9129f7ef0,4.JPG,UK Antarctic Heritage Trust Data/Various_A/4.JPG,19,phashing,100.0,True,2026-08-21T16:57:19+00:00
+cdee63d2e1c845b68a69e226a735ceba,DSC_0107 TJOM.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0107 TJOM.JPG,19,phashing,100.0,False,2026-08-21T16:57:19+00:00
+3c6658dbdef74f44ad756853d969f616,a Calire IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/a Calire IMG_1633.JPG,20,phashing,100.0,True,2026-08-21T16:57:19+00:00
+105abf9e4ec94535b0305223fb6ee80b,Claire IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/Claire IMG_1633.JPG,20,phashing,100.0,False,2026-08-21T16:57:19+00:00
+467b16579622462cb93dd20ecbc170ec,IMG_1633.JPG,UK Antarctic Heritage Trust Data/Various_A/IMG_1633.JPG,20,phashing,100.0,False,2026-08-21T16:57:19+00:00
+0dcc113bb9894cafa41d29126f2cb237,a Cat IMG_5781 50_.jpg,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_5781 50_.jpg,21,phashing,100.0,True,2026-08-21T16:57:19+00:00
+0c31f599c87641e1a962325b5f153779,a Cat IMG_5781 50_1.jpg,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_5781 50_1.jpg,21,phashing,100.0,False,2026-08-21T16:57:19+00:00
+6a17700cbe6e45a999b714feaf2cd23d,a Cat IMG_7551-Optimized.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551-Optimized.JPG,22,phashing,100.0,True,2026-08-21T16:57:19+00:00
+2b3343b1c3dd44cc82441c9ce4cba9a8,a Cat IMG_7551-Optimized1.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551-Optimized1.JPG,22,phashing,100.0,False,2026-08-21T16:57:19+00:00
+f9a1edbad1e543b2ab909263ca139272,a Cat IMG_7551.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_7551.JPG,22,phashing,93.75,False,2026-08-21T16:57:19+00:00
+ebad67c27d0949dbabd75533424dcd8d,aa Cat IMG_7551.JPG,UK Antarctic Heritage Trust Data/Various_A/aa Cat IMG_7551.JPG,22,phashing,93.75,False,2026-08-21T16:57:19+00:00
+6d1a3d12ed354dd4b3fc300eb274e006,a Cat IMG_9332.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_9332.JPG,23,phashing,100.0,True,2026-08-21T16:57:19+00:00
+ac59967393f14b44b0e7762d9dc0b5bd,a Cat IMG_93321.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_93321.JPG,23,phashing,100.0,False,2026-08-21T16:57:19+00:00
+2011f41035bf469b8b8bf897772855f3,a Cat IMG_9758.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_9758.JPG,24,phashing,100.0,True,2026-08-21T16:57:19+00:00
+64f974fec5bf4d6ea0d90cdc510bebd8,a Cat IMG_97581.JPG,UK Antarctic Heritage Trust Data/Various_A/a Cat IMG_97581.JPG,24,phashing,100.0,False,2026-08-21T16:57:19+00:00
+68980e4bef1f4fa59ade9beaa8df12e6,a Claire DSC07803.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire DSC07803.JPG,25,phashing,100.0,True,2026-08-21T16:57:19+00:00
+dc0263dbabf84d39a2327cedea5f1649,a Claire DSC078031.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire DSC078031.JPG,25,phashing,100.0,False,2026-08-21T16:57:19+00:00
+422413b8635b4d308048710323097fe7,a Claire IMG_1985.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_1985.JPG,26,phashing,100.0,True,2026-08-21T16:57:19+00:00
+c8b1cb903d0c472ba95480b92b577a03,a Claire IMG_19851.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_19851.JPG,26,phashing,100.0,False,2026-08-21T16:57:19+00:00
+e42817e49bfe4ffcb55c193ecf12a0d6,a Claire IMG_6407.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_6407.JPG,27,phashing,100.0,True,2026-08-21T16:57:19+00:00
+04cdaa9b68f3485099e4e7deb3558f2a,a Claire IMG_64071.JPG,UK Antarctic Heritage Trust Data/Various_A/a Claire IMG_64071.JPG,27,phashing,100.0,False,2026-08-21T16:57:19+00:00
+e7ee8dbf72f34f60a037f78fdbd32620,a Michael DSC_1154.JPG,UK Antarctic Heritage Trust Data/Various_A/a Michael DSC_1154.JPG,28,phashing,100.0,True,2026-08-21T16:57:19+00:00
+cdc6394fec224630b2b0226c36f0d1ba,a Michael DSC_11541.JPG,UK Antarctic Heritage Trust Data/Various_A/a Michael DSC_11541.JPG,28,phashing,100.0,False,2026-08-21T16:57:19+00:00
+be8df24a5da7419a844d898ea3a81e42,a RACHEL MORGAN - Ylva P1010042.JPG,UK Antarctic Heritage Trust Data/Various_A/a RACHEL MORGAN - Ylva P1010042.JPG,29,phashing,100.0,True,2026-08-21T16:57:19+00:00
+b153ce4940594799ad366fa4fa0185e1,a RACHEL MORGAN - Ylva P10100421.JPG,UK Antarctic Heritage Trust Data/Various_A/a RACHEL MORGAN - Ylva P10100421.JPG,29,phashing,100.0,False,2026-08-21T16:57:19+00:00
+9eacbf82a69f45429ebcd780f1f7fe14,a Ylva P1000662.jpg,UK Antarctic Heritage Trust Data/Various_A/a Ylva P1000662.jpg,30,phashing,100.0,True,2026-08-21T16:57:19+00:00
+56c5c8b73fc94515b90379c2450d872b,Bransfield House 2011 Ylva Grams P1000662.jpg,UK Antarctic Heritage Trust Data/Various_A/Bransfield House 2011 Ylva Grams P1000662.jpg,30,phashing,100.0,False,2026-08-21T16:57:19+00:00
+35c936cdcf964e769ca2aaa9a12d59c3,a Ylva P10006621.jpg,UK Antarctic Heritage Trust Data/Various_A/a Ylva P10006621.jpg,30,phashing,100.0,False,2026-08-21T16:57:19+00:00
+2a79e9471bbd4373b02b1c9285fe2fca,BRANSFIELD HOUSE Ylva P1010793.JPG,UK Antarctic Heritage Trust Data/Various_A/BRANSFIELD HOUSE Ylva P1010793.JPG,31,phashing,100.0,True,2026-08-21T16:57:19+00:00
+a1828b58133b4e708ffd98a2bd21c05b,BRANSFIELD HOUSE Ylva P10107931.JPG,UK Antarctic Heritage Trust Data/Various_A/BRANSFIELD HOUSE Ylva P10107931.JPG,31,phashing,100.0,False,2026-08-21T16:57:19+00:00
+3ab27e7db58b40e1a3931ce956b49763,DSC_0061.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0061.JPG,32,phashing,100.0,True,2026-08-21T16:57:19+00:00
+dc919019afd5465a928d317433bed109,DSC_00611.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_00611.JPG,32,phashing,100.0,False,2026-08-21T16:57:19+00:00
+2aaa6f2d3f544073aa1656b5b5dfd1b6,DSC_00691.jpg,UK Antarctic Heritage Trust Data/Various_A/DSC_00691.jpg,33,phashing,100.0,True,2026-08-21T16:57:19+00:00
+e8dd40e5d8a743a896bbb556b24de9e7,DSC_0069.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0069.JPG,33,phashing,100.0,False,2026-08-21T16:57:19+00:00
+4b09be349dbb4f3187f8471939441c15,DSC_0195.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0195.JPG,34,phashing,100.0,True,2026-08-21T16:57:19+00:00
+5c3f5a96bcff41a98be867c687d3e8cc,DSC_01951.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_01951.JPG,34,phashing,100.0,False,2026-08-21T16:57:19+00:00
+fc73a5d7dc154390adf112383d1140a6,DSC_0201.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0201.JPG,35,phashing,100.0,True,2026-08-21T16:57:19+00:00
+70a313eb98fa4b7cb1a87182d1eabd2a,DSC_02011.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02011.JPG,35,phashing,100.0,False,2026-08-21T16:57:19+00:00
+ffbd097048ad4e0d973bbd5679a8a4f1,DSC_0216.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0216.JPG,36,phashing,100.0,True,2026-08-21T16:57:19+00:00
+76fa910f747347eebe1028a4237fc134,DSC_02161.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02161.JPG,36,phashing,100.0,False,2026-08-21T16:57:19+00:00
+9c5e196a3ea4490982831e2fac01af4f,DSC_0230.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0230.JPG,37,phashing,100.0,True,2026-08-21T16:57:19+00:00
+d1b0a83e9eb14cc784afaeed21e07f13,DSC_02301.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02301.JPG,37,phashing,100.0,False,2026-08-21T16:57:19+00:00
+5e31922e757f41ea90690ba641cf4a46,DSC_0231.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0231.JPG,38,phashing,100.0,True,2026-08-21T16:57:19+00:00
+5fa88dd0dc1b4c3d8562cebe98198a1b,DSC_02311.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02311.JPG,38,phashing,100.0,False,2026-08-21T16:57:19+00:00
+94c4973e3e574e17b4972dfe5a368ef1,DSC_0238.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0238.JPG,39,phashing,100.0,True,2026-08-21T16:57:19+00:00
+93bd5e2b7d524acebedd9e1bc8ba69f8,DSC_02381.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02381.JPG,39,phashing,100.0,False,2026-08-21T16:57:19+00:00
+51709d0b549940239f79cddbbfb393b5,DSC_0239.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0239.JPG,40,phashing,100.0,True,2026-08-21T16:57:19+00:00
+a97c8b0b759e45abb37cb7437c61dc9d,DSC_02391.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02391.JPG,40,phashing,100.0,False,2026-08-21T16:57:19+00:00
+508c858e822e4db7b3b2bf252fc508f5,DSC_0247.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_0247.JPG,41,phashing,100.0,True,2026-08-21T16:57:19+00:00
+a8601a517bea44658c16a47721c46c27,DSC_02471.JPG,UK Antarctic Heritage Trust Data/Various_A/DSC_02471.JPG,41,phashing,100.0,False,2026-08-21T16:57:19+00:00
