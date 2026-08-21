@@ -9,9 +9,11 @@ from tqdm import tqdm
 from ukaht.config import OUTPUT_DIR, load_config
 from ukaht.io_utils import (ImageRecord,atomic_write_csv,load_errors,load_inventory,record_error,save_errors,utc_now)
 
+
 OUTPUT_PATH = OUTPUT_DIR/"clusters.csv"
 
 CLUSTER_COLUMNS = ["image_uid","file_name","relative_path","cluster_id","cluster_type","similarity_score","is_representative","clustered_at"]
+
 
 def compute_phash(grey_img):
     small_img = cv2.resize(grey_img,(32,32))
@@ -64,7 +66,7 @@ class UnionFind:
         if leader_a!=leader_b:
             self.parent[leader_a] = leader_b
 
-def run_clustering(records: list[ImageRecord],max_dist: int=10,sharpness_ref: float=500.0) -> None:
+def run_clustering(records: list[ImageRecord],max_dist: int=5,sharpness_ref: float=500.0) -> None:
     errors = load_errors()
     valid_records = []
     hashes = []
@@ -96,13 +98,14 @@ def run_clustering(records: list[ImageRecord],max_dist: int=10,sharpness_ref: fl
 
     cluster_id_for_leader = {}
     next_cluster_id = 1
-    for i in range(num_of_imgs):
-        leader = groups.find_group_leader(i)
-        if leader not in cluster_id_for_leader:
+    for leader,member_indexes in imgs_in_group.items():
+        if len(member_indexes) > 1: 
             cluster_id_for_leader[leader] = next_cluster_id
             next_cluster_id += 1
     all_rows = []
     for leader,member_indexes in imgs_in_group.items():
+        if len(member_indexes) == 1:
+            continue
         cluster_id = cluster_id_for_leader[leader]
         representative_index = max(member_indexes,key=lambda i: quality_scores[i])
         for i in member_indexes:
@@ -118,12 +121,12 @@ def run_clustering(records: list[ImageRecord],max_dist: int=10,sharpness_ref: fl
     atomic_write_csv(pd.DataFrame(all_rows,columns=CLUSTER_COLUMNS),OUTPUT_PATH)
     save_errors(errors)
     num_with_duplicates = sum(1 for members in imgs_in_group.values() if len(members)>1)
-    print(f"{num_of_imgs} images : {len(imgs_in_group)} groups ({num_with_duplicates} contain duplicates)")
+    print(f"{num_of_imgs} images : {num_with_duplicates} duplicate groups")
     print(f"output: {OUTPUT_PATH}")
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Grouping duplicate imgs together")
-    parser.add_argument("--max-dist",type=int,default=10)
+    parser.add_argument("--max-dist",type=int,default=5)
     parser.add_argument("--sharpness-ref",type=float,default=500.0)
     args = parser.parse_args()
     config = load_config()
