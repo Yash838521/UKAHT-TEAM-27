@@ -33,9 +33,9 @@ CREATE TABLE exif_metadata (
     metering_mode    VARCHAR(50),
     orientation      VARCHAR(50),
     software         VARCHAR(100),
-    gps_latitude     DECIMAL(10, 7),
-    gps_longitude    DECIMAL(10, 7),
-    gps_altitude     FLOAT,
+    gps_latitude     DOUBLE NULL,
+    gps_longitude    DOUBLE NULL,
+    gps_altitude     DOUBLE NULL,
     FOREIGN KEY (image_id) REFERENCES images(id)
 );
 
@@ -86,6 +86,7 @@ CREATE TABLE embeddings (
     row_index   INT          NULL,
     model_name  VARCHAR(128) NULL,
     file_hash   VARCHAR(128) NULL,
+    vector_json LONGTEXT     NULL,
     FOREIGN KEY (image_id) REFERENCES images(id),
     UNIQUE KEY uq_image (image_id)
 );

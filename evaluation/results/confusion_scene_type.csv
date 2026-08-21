@@ -1,0 +1,5 @@
+,exterior,interior,landscape,object_study
+exterior,10,0,0,0
+interior,0,10,0,0
+landscape,0,0,3,0
+object_study,0,1,1,5

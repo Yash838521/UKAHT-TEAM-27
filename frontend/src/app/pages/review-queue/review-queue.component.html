@@ -1,6 +1,5 @@
 <div class="page">
 
-  <!-- Topbar -->
   <nav class="topbar">
     <div class="logo"><span class="logo-icon">❄</span>UKAHT Image Archive</div>
     <div class="nav">
@@ -11,7 +10,6 @@
     </div>
   </nav>
 
-  <!-- Tab bar -->
   <div class="tab-bar">
     <div class="tab" [class.active]="activeTab === 'tags'" (click)="setTab('tags')">
       Tag review
@@ -23,29 +21,22 @@
     </div>
   </div>
 
-  <!-- ══ TAG REVIEW TAB ════════════════════════════════════════════ -->
+  <!-- ── TAG REVIEW ─────────────────────────────────────── -->
   <div class="layout" *ngIf="activeTab === 'tags'">
 
-    <!-- Queue list -->
     <div class="queue-panel">
       <div class="queue-head">
         <span class="queue-title">Pending review</span>
         <span class="queue-count">{{ queueTotal }}</span>
       </div>
 
-      <!-- Loading -->
-      <div class="queue-loading" *ngIf="queueLoading">
-        <div class="spinner"></div>
-      </div>
-
-      <!-- Empty -->
+      <div class="queue-loading" *ngIf="queueLoading"><div class="spinner"></div></div>
       <div class="queue-empty" *ngIf="!queueLoading && queueImages.length === 0">
         <div class="empty-icon">✓</div>
         <div class="empty-msg">All images reviewed</div>
       </div>
 
-      <!-- List -->
-      <!-- Queue pagination — top -->
+      <!-- Pagination -->
       <div class="queue-pagination" *ngIf="!queueLoading && queuePages > 1">
         <button class="q-page-btn" [disabled]="queuePage === 1" (click)="queuePrevPage()">←</button>
         <span class="q-page-info">{{ queuePage }} / {{ queuePages }}</span>
@@ -60,35 +51,26 @@
           (click)="selectImage(i)"
         >
           <div class="qi-thumb">
-            <img
-              [src]="getImageUrl(img)"
-              [alt]="img.filename"
-              class="qi-img"
-              (error)="onImgError($event)"
-            />
+            <img [src]="getImageUrl(img)" [alt]="img.filename" class="qi-img" (error)="onImgError($event)"/>
           </div>
           <div class="qi-info">
             <div class="qi-name" [title]="img.filename">{{ img.filename }}</div>
             <div class="qi-flags">
               <span
                 class="flag"
-                *ngIf="img.scene_confidence !== null"
-                [class.flag-low]="isLowConfidence(img.scene_confidence)"
-                [class.flag-med]="isMedConfidence(img.scene_confidence)"
-              >Scene {{ img.scene_confidence?.toFixed(2) }}</span>
-              <span
-                class="flag"
-                *ngIf="img.people_confidence !== null"
-                [class.flag-low]="isLowConfidence(img.people_confidence)"
-                [class.flag-med]="isMedConfidence(img.people_confidence)"
-              >People {{ img.people_confidence?.toFixed(2) }}</span>
+                *ngIf="img.uncertainty_score"
+                [class.flag-low]="uncertaintyClass(img) === 'flag-low'"
+                [class.flag-med]="uncertaintyClass(img) === 'flag-med'"
+              >{{ uncertaintyLabel(img) }}</span>
             </div>
+            <!-- <div class="qi-reason" *ngIf="img.uncertainty_reason">
+              {{ img.uncertainty_reason }}
+            </div> -->
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Review panel -->
     <div class="review-panel" *ngIf="currentImage">
       <div class="review-head">
         <div>
@@ -98,33 +80,30 @@
         <div class="progress-info">{{ currentIndex + 1 }} of {{ queueImages.length }}</div>
       </div>
 
-      <div class="review-body">
+      <!-- Uncertainty banner -->
+      <!-- <div class="uncertainty-banner" *ngIf="currentImage.uncertainty_reason">
+        ⚠ {{ currentImage.uncertainty_reason }}
+      </div> -->
 
-        <!-- Image -->
+      <div class="review-body">
         <div class="img-preview">
-          <img
-            [src]="getImageUrl(currentImage)"
-            [alt]="currentImage.filename"
-            class="preview-img"
-            (error)="onImgError($event)"
-          />
-          <div class="conf-badge">⚠ Low confidence</div>
+          <img [src]="getImageUrl(currentImage)" [alt]="currentImage.filename" class="preview-img" (error)="onImgError($event)"/>
+          <div class="conf-badge" *ngIf="currentImage.uncertainty_score">
+            Uncertainty {{ currentImage.uncertainty_score?.toFixed(2) }}
+          </div>
         </div>
 
-        <!-- Form -->
         <div class="form-panel">
           <div class="form-section">
             <div class="form-label">AI Tags</div>
 
-            <!-- Scene type -->
             <div class="field-row">
               <div class="field-label">Scene type</div>
               <div class="field-ai">
                 AI: <span class="ai-val">{{ currentImage.scene_type | titlecase }}</span>
-                <span
-                  class="ai-conf"
-                  [class.conf-low]="isLowConfidence(currentImage.scene_confidence)"
-                  [class.conf-med]="isMedConfidence(currentImage.scene_confidence)"
+                <span class="ai-conf"
+                  [class.conf-low]="(currentImage.scene_confidence ?? 0) < 0.55"
+                  [class.conf-med]="(currentImage.scene_confidence ?? 0) >= 0.55 && (currentImage.scene_confidence ?? 0) < 0.70"
                 >{{ currentImage.scene_confidence?.toFixed(2) }}</span>
               </div>
               <select class="field-select" [(ngModel)]="editScene">
@@ -133,26 +112,18 @@
               </select>
             </div>
 
-            <!-- People count -->
             <div class="field-row">
               <div class="field-label">People count</div>
               <div class="field-ai">
                 AI: <span class="ai-val">{{ currentImage.people_count }}</span>
-                <span
-                  class="ai-conf"
-                  [class.conf-low]="isLowConfidence(currentImage.people_confidence)"
-                  [class.conf-med]="isMedConfidence(currentImage.people_confidence)"
+                <span class="ai-conf"
+                  [class.conf-low]="(currentImage.people_confidence ?? 0) < 0.55"
+                  [class.conf-med]="(currentImage.people_confidence ?? 0) >= 0.55 && (currentImage.people_confidence ?? 0) < 0.70"
                 >{{ currentImage.people_confidence?.toFixed(2) }}</span>
               </div>
-              <input
-                type="number"
-                class="field-input"
-                [(ngModel)]="editPeople"
-                min="0"
-              />
+              <input type="number" class="field-input" [(ngModel)]="editPeople" min="0"/>
             </div>
 
-            <!-- Tags -->
             <div class="field-row">
               <div class="field-label">Tags</div>
               <div class="tags-wrap">
@@ -163,23 +134,14 @@
                 <span class="no-tags" *ngIf="editTags.length === 0">No tags</span>
               </div>
               <div class="tag-add-row">
-                <input
-                  type="text"
-                  class="tag-add-input"
-                  [(ngModel)]="newTagInput"
-                  (keydown)="onTagInputKeydown($event)"
-                  placeholder="Add a tag…"
-                />
+                <input type="text" class="tag-add-input" [(ngModel)]="newTagInput"
+                  (keydown)="onTagInputKeydown($event)" placeholder="Add a tag…"/>
                 <button class="tag-add-btn" (click)="addTag()">+ Add</button>
               </div>
             </div>
-
           </div>
 
-          <!-- Actions -->
-          <button class="confirm-btn" (click)="confirmTags()">
-            ✓ Confirm — AI tags are correct
-          </button>
+          <button class="confirm-btn" (click)="confirmTags()">✓ Confirm — AI tags are correct</button>
           <div class="action-row">
             <button class="correct-btn" (click)="saveCorrections()">Save corrections</button>
             <button class="skip-btn" (click)="skip()">Skip</button>
@@ -187,8 +149,8 @@
         </div>
       </div>
 
-      <!-- Navigation -->
       <div class="nav-row">
+        <span class="nav-count">{{ queueTotal }} images pending</span>
         <div class="nav-btns">
           <button class="nav-arrow" [disabled]="currentIndex === 0" (click)="prev()">← Prev</button>
           <button class="nav-arrow" [disabled]="currentIndex === queueImages.length - 1" (click)="next()">Next →</button>
@@ -196,7 +158,6 @@
       </div>
     </div>
 
-    <!-- No image selected -->
     <div class="review-empty" *ngIf="!currentImage && !queueLoading">
       <div class="empty-icon">✓</div>
       <div class="empty-msg">Queue is empty</div>
@@ -205,34 +166,25 @@
 
   </div>
 
-  <!-- ══ DUPLICATE REVIEW TAB ══════════════════════════════════════ -->
+  <!-- ── DUPLICATE REVIEW ───────────────────────────────── -->
   <div class="dup-wrap" *ngIf="activeTab === 'duplicates'">
 
-    <!-- Loading -->
-    <div class="loading-wrap" *ngIf="clustersLoading">
-      <div class="spinner"></div>
-    </div>
+    <div class="loading-wrap" *ngIf="clustersLoading"><div class="spinner"></div></div>
 
-    <!-- Empty -->
     <div class="review-empty" *ngIf="!clustersLoading && clusters.length === 0">
       <div class="empty-icon">✓</div>
       <div class="empty-msg">No duplicate clusters</div>
       <div class="empty-sub">All clusters have been reviewed</div>
     </div>
 
-    <!-- Cluster list -->
     <ng-container *ngIf="!clustersLoading && clusters.length > 0">
       <div class="dup-head">
-        <div class="dup-title">
-          <span>{{ clustersTotal }}</span> duplicate clusters to review
-        </div>
+        <div class="dup-title"><span>{{ clustersTotal }}</span> duplicate clusters to review</div>
       </div>
 
       <div class="cluster" *ngFor="let cluster of clusters">
         <div class="cluster-head">
-          <div class="cluster-id">
-            Cluster #{{ cluster.cluster_id }} · {{ cluster.member_count }} images
-          </div>
+          <div class="cluster-id">Cluster #{{ cluster.cluster_id }} · {{ cluster.member_count }} images</div>
           <div class="cluster-meta">pHash grouping</div>
         </div>
 
@@ -243,40 +195,22 @@
             [class.representative]="member.is_representative"
           >
             <div class="ci-thumb">
-              <img
-                [src]="getClusterImageUrl(member)"
-                [alt]="member.filename"
-                class="ci-img"
-                (error)="onImgError($event)"
-              />
+              <img [src]="getClusterImageUrl(member)" [alt]="member.filename" class="ci-img" (error)="onImgError($event)"/>
             </div>
             <div class="ci-info">
               <span class="ci-name" [title]="member.filename">{{ member.filename }}</span>
               <span class="ci-score">{{ member.overall_score?.toFixed(2) ?? '—' }}</span>
             </div>
-
-            <!-- Best badge -->
             <span class="rep-badge" *ngIf="member.is_representative">★ Best</span>
-
-            <!-- Hover overlay -->
             <div class="ci-overlay">
-              <button
-                class="ci-action-btn set-rep"
-                *ngIf="!member.is_representative"
-                (click)="setRepresentative(cluster, member)"
-              >★ Set as best</button>
-              <button
-                class="ci-action-btn remove-img"
-                (click)="removeFromCluster(cluster, member)"
-              >✕ Remove from cluster</button>
+              <button class="ci-action-btn set-rep" *ngIf="!member.is_representative" (click)="setRepresentative(cluster, member)">★ Set as best</button>
+              <button class="ci-action-btn remove-img" (click)="removeFromCluster(cluster, member)">✕ Remove from cluster</button>
             </div>
           </div>
         </div>
 
         <div class="cluster-actions">
-          <button class="dismiss-btn" (click)="dissolveCluster(cluster)">
-            ✕ Not duplicates — dissolve cluster
-          </button>
+          <button class="dismiss-btn" (click)="dissolveCluster(cluster)">✕ Not duplicates — dissolve cluster</button>
         </div>
       </div>
     </ng-container>

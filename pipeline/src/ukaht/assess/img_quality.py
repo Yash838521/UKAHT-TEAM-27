@@ -46,37 +46,31 @@ def get_exposure_score(dark_clipped_pcnt,bright_clipped_pcnt,avg_brightness):
 
 # duplicate cluster
 def load_best_in_group_info(cluster_csv_path):
+    if not Path(cluster_csv_path).exists():
+        raise FileNotFoundError(f"Cluster CSV not found: {cluster_csv_path} - run the clustering step first")
     best_in_group_lookup = {}
-    with open(cluster_csv_path,newline="") as csv_file:
+    with open(cluster_csv_path, newline="") as csv_file:
         reader = csv.DictReader(csv_file)
-        if "image_name" not in reader.fieldnames or "is_representative" not in reader.fieldnames:
-            print("Cluster CSV doesn't have the columns expected")
-            return {}
+        missing = {"image_uid", "is_representative"} - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"{cluster_csv_path} missing columns: {sorted(missing)}")
         for row in reader:
-            image_name = row["image_name"]
-            is_representative_text = row["is_representative"].strip().lower()
-            best_in_group_lookup[image_name] = is_representative_text in ("true","1","yes")
+            is_representative_text = (row.get("is_representative") or "").strip().lower()
+            best_in_group_lookup[row["image_uid"]] = is_representative_text in ("true", "1", "yes")
     return best_in_group_lookup
-
 
 def run_quality(records: list[ImageRecord],sharpness_ref: float=500.0,cluster_csv: str=None) -> None:
     errors = load_errors()
-    existing: dict[str,dict] = {}
-    if OUTPUT_PATH.exists():
-        existing = {
-            row["image_uid"]: row
-            for row in pd.read_csv(OUTPUT_PATH,dtype=str).to_dict(orient="records")
-            if row.get("image_uid")}
     best_in_group_lookup = {}
     if cluster_csv:
         best_in_group_lookup = load_best_in_group_info(cluster_csv)
+        hits = sum(1 for r in records if r.image_uid in best_in_group_lookup)
+        print(f"cluster lookup matched {hits}/{len(records)} records")
+        if hits == 0:
+            raise ValueError("Cluster CSV matched no records - key mismatch")
     rows = []
-    processed = skipped = failed = 0
+    processed = failed = 0
     for record in tqdm(records,desc="Quality scoring"):
-        if record.image_uid in existing:
-            rows.append(existing[record.image_uid])
-            skipped += 1
-            continue
         try:
             img = cv2.imread(str(record.path))
             if img is None:
@@ -87,23 +81,23 @@ def run_quality(records: list[ImageRecord],sharpness_ref: float=500.0,cluster_cs
             dark_pct,bright_pct,avg_brightness,brightness_spread = get_exposure_info(grey_img)
             exposure_score = get_exposure_score(dark_pct,bright_pct,avg_brightness)
             overall_score = round((sharpness_score+exposure_score)/2,4)
-            is_best_in_group = best_in_group_lookup.get(record.relative_path,False)
+            is_best_in_group = best_in_group_lookup.get(record.image_uid, False)
             rows.append({"image_uid":record.image_uid,"file_name":record.file_name,"relative_path":record.relative_path,"sharpness_score":sharpness_score,"exposure_score":exposure_score,"overall_score":overall_score,"is_best_in_group":is_best_in_group,"scored_at":utc_now()})
             processed += 1
         except Exception as error:
             record_error(errors,record,"quality",error)
-            rows.append({"image_uid":record.image_uid,"file_name":record.file_name,"relative_path":record.relative_path,"sharpness_score":None,"exposure_score":None,"overall_score":None,"is_best_in_group":False,"scored_at":utc_now()})
+            rows.append({"image_uid":record.image_uid,"file_name":record.file_name,"relative_path":record.relative_path,"sharpness_score":None,"exposure_score":None,"overall_score":None,"is_best_in_group":best_in_group_lookup.get(record.image_uid,False),"scored_at":utc_now()})
             failed += 1
     atomic_write_csv(pd.DataFrame(rows,columns=QUALITY_COLUMNS),OUTPUT_PATH)
     save_errors(errors)
-    print(f"processed={processed} skipped={skipped} failed={failed}")
+    print(f"processed={processed} failed={failed}")
     print(f"output: {OUTPUT_PATH}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Image quality scoring - sharpness and exposure")
     parser.add_argument("--sharpness-ref",type=float,default=500.0)
-    parser.add_argument("--cluster-csv",default=None)
+    parser.add_argument("--cluster-csv", default=str(OUTPUT_DIR/"clip_clusters.csv"))
     args = parser.parse_args()
     config = load_config()
     records = load_inventory(config)

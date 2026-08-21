@@ -19,17 +19,13 @@ import {
 })
 export class ReviewQueueComponent implements OnInit {
 
-  // ── Tab ──────────────────────────────────────────
   activeTab: 'tags' | 'duplicates' = 'tags'
 
-  // ── Tag review state ─────────────────────────────
   queueImages:     QueueImage[] = []
   queueTotal:      number       = 0
   queueLoading:    boolean      = true
   currentIndex:    number       = 0
   reviewer:        string       = 'staff'
-
-  // Queue pagination
   queuePage:       number       = 1
   queueLimit:      number       = 10
   queuePages:      number       = 0
@@ -39,7 +35,6 @@ export class ReviewQueueComponent implements OnInit {
   editTags:        string[]     = []
   newTagInput:     string       = ''
 
-  // ── Duplicate review state ───────────────────────
   clusters:        DuplicateCluster[] = []
   clustersTotal:   number             = 0
   clustersLoading: boolean            = true
@@ -52,20 +47,14 @@ export class ReviewQueueComponent implements OnInit {
     this.loadClusters()
   }
 
-  // ── Tab ───────────────────────────────────────────
-
   setTab(tab: 'tags' | 'duplicates') {
     this.activeTab = tab
   }
 
-  // ── Shared image error handler ────────────────────
-  // Used in template instead of inline $event.target.style — avoids TS strict error
   onImgError(event: Event) {
     const img = event.target as HTMLImageElement
     img.style.display = 'none'
   }
-
-  // ── Tag review ────────────────────────────────────
 
   loadQueue() {
     this.queueLoading = true
@@ -75,26 +64,18 @@ export class ReviewQueueComponent implements OnInit {
         this.queueTotal   = res.total
         this.queuePages   = Math.ceil(res.total / this.queueLimit)
         this.queueLoading = false
-        if (res.images.length > 0) {
-          this.selectImage(0)
-        }
+        if (res.images.length > 0) this.selectImage(0)
       },
       error: () => { this.queueLoading = false }
     })
   }
 
   queuePrevPage() {
-    if (this.queuePage > 1) {
-      this.queuePage--
-      this.loadQueue()
-    }
+    if (this.queuePage > 1) { this.queuePage--; this.loadQueue() }
   }
 
   queueNextPage() {
-    if (this.queuePage < this.queuePages) {
-      this.queuePage++
-      this.loadQueue()
-    }
+    if (this.queuePage < this.queuePages) { this.queuePage++; this.loadQueue() }
   }
 
   get currentImage(): QueueImage | null {
@@ -115,12 +96,18 @@ export class ReviewQueueComponent implements OnInit {
     return `${environment.apiUrl}/images/${image.id}/file`
   }
 
-  isLowConfidence(conf: number | null): boolean {
-    return conf !== null && conf < 0.55
+  uncertaintyClass(img: QueueImage): string {
+    if (!img.uncertainty_score) return ''
+    if (img.uncertainty_score > 0.70) return 'flag-low'
+    if (img.uncertainty_score > 0.50) return 'flag-med'
+    return ''
   }
 
-  isMedConfidence(conf: number | null): boolean {
-    return conf !== null && conf >= 0.55 && conf < 0.70
+  uncertaintyLabel(img: QueueImage): string {
+    if (!img.uncertainty_score) return ''
+    if (img.uncertainty_score > 0.70) return 'High uncertainty'
+    if (img.uncertainty_score > 0.50) return 'Medium uncertainty'
+    return 'Low uncertainty'
   }
 
   removeTag(tag: string) {
@@ -136,9 +123,7 @@ export class ReviewQueueComponent implements OnInit {
   }
 
   onTagInputKeydown(event: KeyboardEvent) {
-    if (event.key === 'Enter') {
-      this.addTag()
-    }
+    if (event.key === 'Enter') this.addTag()
   }
 
   confirmTags() {
@@ -156,50 +141,37 @@ export class ReviewQueueComponent implements OnInit {
     if (this.editScene !== img.scene_type) {
       saves.push(this.reviewService.saveCorrection(
         img.id, 'scene_type',
-        img.scene_type ?? '', this.editScene,
-        this.reviewer
+        img.scene_type ?? '', this.editScene, this.reviewer
       ))
     }
-
     if (this.editPeople !== img.people_count) {
       saves.push(this.reviewService.saveCorrection(
         img.id, 'people_count',
-        String(img.people_count ?? ''), String(this.editPeople),
-        this.reviewer
+        String(img.people_count ?? ''), String(this.editPeople), this.reviewer
       ))
     }
-
     const originalTags = img.tags ? img.tags.map(t => t.tag).sort().join(',') : ''
     const editedTags   = [...this.editTags].sort().join(',')
     if (editedTags !== originalTags) {
       saves.push(this.reviewService.saveCorrection(
-        img.id, 'tags',
-        originalTags, editedTags,
-        this.reviewer
+        img.id, 'tags', originalTags, editedTags, this.reviewer
       ))
     }
 
-    if (saves.length === 0) {
-      this.confirmTags()
-      return
-    }
+    if (saves.length === 0) { this.confirmTags(); return }
 
     let completed = 0
     saves.forEach(obs => {
       obs.subscribe({
         next: () => {
           completed++
-          if (completed === saves.length) {
-            this.removeCurrentAndAdvance()
-          }
+          if (completed === saves.length) this.removeCurrentAndAdvance()
         }
       })
     })
   }
 
-  skip() {
-    this.advance()
-  }
+  skip() { this.advance() }
 
   private removeCurrentAndAdvance() {
     this.queueImages.splice(this.currentIndex, 1)
@@ -207,9 +179,7 @@ export class ReviewQueueComponent implements OnInit {
     if (this.currentIndex >= this.queueImages.length) {
       this.currentIndex = Math.max(0, this.queueImages.length - 1)
     }
-    if (this.queueImages.length > 0) {
-      this.selectImage(this.currentIndex)
-    }
+    if (this.queueImages.length > 0) this.selectImage(this.currentIndex)
   }
 
   private advance() {
@@ -218,19 +188,8 @@ export class ReviewQueueComponent implements OnInit {
     }
   }
 
-  prev() {
-    if (this.currentIndex > 0) {
-      this.selectImage(this.currentIndex - 1)
-    }
-  }
-
-  next() {
-    if (this.currentIndex < this.queueImages.length - 1) {
-      this.selectImage(this.currentIndex + 1)
-    }
-  }
-
-  // ── Duplicate review ──────────────────────────────
+  prev() { if (this.currentIndex > 0) this.selectImage(this.currentIndex - 1) }
+  next() { if (this.currentIndex < this.queueImages.length - 1) this.selectImage(this.currentIndex + 1) }
 
   loadClusters() {
     this.clustersLoading = true
@@ -256,9 +215,7 @@ export class ReviewQueueComponent implements OnInit {
 
   removeFromCluster(cluster: DuplicateCluster, member: ClusterMember) {
     this.reviewService.removeFromCluster(
-      cluster.cluster_id,
-      member.id,
-      member.is_representative
+      cluster.cluster_id, member.id, member.is_representative
     ).subscribe({
       next: (res) => {
         if (res.dissolved) {

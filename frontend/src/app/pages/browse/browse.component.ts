@@ -93,7 +93,7 @@ export class BrowseComponent implements OnInit, OnDestroy {
           if (this.filters.quality_min)         searchFilters['quality_min'] = this.filters.quality_min
 
           return this.imagesService.search(this.searchQuery, searchFilters).pipe(
-            catchError(() => of({ results: [] }))
+            catchError(() => of({ images: [], total: 0 }))
           )
         }
 
@@ -120,12 +120,12 @@ export class BrowseComponent implements OnInit, OnDestroy {
       takeUntil(this.destroy$)
     ).subscribe((res: any) => {
       if (this.searchMode) {
-        this.images       = res.results ?? []
-        this.total        = this.images.length
+        this.images       = res.images ?? []
+        this.total        = res.total  ?? this.images.length
         this.pages        = 1
         this.similarities = {}
         this.images.forEach((img: any) => {
-          if (img.similarity) this.similarities[img.id] = img.similarity
+          if (img.similarity_score) this.similarities[img.id] = img.similarity_score
         })
       } else {
         this.images = res.images ?? []
@@ -158,15 +158,11 @@ export class BrowseComponent implements OnInit, OnDestroy {
       this.tags         = tags ?? FALLBACK_TAGS
       this.sidebarReady = true
 
-      // Read query params after sidebar data is ready
       this.route.queryParams.subscribe(params => {
-
-        // Category card clicked on home page
         if (params['category']) {
           this.filters = { ...DEFAULT_FILTERS, category: params['category'] }
         }
 
-        // Search from home page search bar
         if (params['mode'] === 'search' && params['q']) {
           this.searchMode  = true
           this.searchQuery = params['q']
@@ -183,7 +179,6 @@ export class BrowseComponent implements OnInit, OnDestroy {
   }
 
   onApplyFilters(filters: FilterState) {
-    // Sidebar apply clears category — sidebar doesn't know about category
     this.filters = { ...DEFAULT_FILTERS, ...filters, category: '', page: 1 }
     this.loadImages()
   }

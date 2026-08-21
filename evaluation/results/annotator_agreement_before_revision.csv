@@ -1,0 +1,10 @@
+facet,measure,compared,agreed,statistic,observed_agreement,expected_agreement,interpretation,vocabulary_version
+scene_type,kappa,30,28,0.9067,0.9333,0.2856,almost perfect,1.1
+people,kappa,30,29,0.92,0.9667,0.5833,almost perfect,1.1
+shot_type,kappa,30,26,0.7917,0.8667,0.36,substantial,1.1
+room,kappa,10,8,0.7531,0.8,0.19,substantial,1.1
+structure,jaccard,10,6,0.7,0.6,,substantial,1.1
+orientation,jaccard,7,5,0.7619,0.7143,,substantial,1.1
+activity,jaccard,7,6,0.9286,0.8571,,almost perfect,1.1
+nature,jaccard,30,20,0.8783,0.6667,,almost perfect,1.1
+condition,jaccard,30,10,0.4889,0.3333,,moderate,1.1
