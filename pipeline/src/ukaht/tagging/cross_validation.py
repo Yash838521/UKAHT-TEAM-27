@@ -1,16 +1,4 @@
-"""Cross-validated estimation of vocabulary assignment thresholds.
 
-Selecting a threshold on the same images used to measure it produces an
-optimistic result, because the chosen value partly reflects the particular
-sample rather than the underlying behaviour of the model. Leave-one-out
-cross-validation separates the two: for each image the threshold is chosen
-from the remaining images and applied to the held-out one, so every
-measurement comes from data that took no part in the selection.
-
-The gap between the resampled estimate and the value obtained by selecting and
-measuring on the same images quantifies how much of the apparent gain is
-attributable to fitting.
-"""
 
 from __future__ import annotations
 
@@ -120,13 +108,22 @@ def count_single_label(
 
 
 def best_threshold(
-    truth: list, keys: list[str], scores: np.ndarray, positions: list[int], counter
+    truth: list,
+    keys: list[str],
+    scores: np.ndarray,
+    positions: list[int],
+    counter,
+    candidates: np.ndarray | None = None,
 ) -> float:
     """Return the threshold maximising F1 over the given rows."""
-    best_value = SWEEP_START
+    values = threshold_grid() if candidates is None else candidates
+    if len(values) == 0:
+        raise ValueError("Threshold candidate list is empty")
+
+    best_value = float(values[0])
     best_score = -1.0
 
-    for value in threshold_grid():
+    for value in values:
         total = Counts()
         for position in positions:
             total = total + counter(truth[position], keys, scores[position], float(value))
@@ -153,6 +150,7 @@ def cross_validate_facet(
     facet_key: str,
     prompts: dict[str, tuple[list[str], np.ndarray]],
     uniform: float,
+    candidates: np.ndarray | None = None,
 ) -> CrossValidationResult | None:
     """Estimate facet performance with each image held out in turn."""
     applicable = [row for row in annotations.to_dict(orient="records") if _applicable(row, facet_key)]
@@ -182,13 +180,17 @@ def cross_validate_facet(
 
     for index in keep:
         training = [position for position in keep if position != index]
-        threshold = best_threshold(truth, keys, scores, training, counter)
+        threshold = best_threshold(
+            truth, keys, scores, training, counter, candidates
+        )
         chosen.append(threshold)
         held_out_total = held_out_total + counter(
             truth[index], keys, scores[index], threshold
         )
 
-    resubstitution = best_threshold(truth, keys, scores, keep, counter)
+    resubstitution = best_threshold(
+        truth, keys, scores, keep, counter, candidates
+    )
     resubstitution_f1 = evaluate_at(truth, keys, scores, keep, counter, resubstitution).f1
     uniform_f1 = evaluate_at(truth, keys, scores, keep, counter, uniform).f1
 
@@ -242,7 +244,7 @@ def format_results(results: list[CrossValidationResult], uniform: float) -> str:
 
 
 def stability_table(results: list[CrossValidationResult]) -> str:
-    """Return a reading of how consistently each threshold was selected."""
+    """Return a table showing how consistently each threshold are selected."""
     lines = ["Threshold stability across folds", ""]
 
     for result in results:

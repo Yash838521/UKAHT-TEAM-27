@@ -19,6 +19,9 @@ if str(PIPELINE_SRC_DIR) not in sys.path:
 from ukaht.tagging import vocabulary as vocab
 from ukaht.tagging.calibration import (
     MULTI_LABEL_FACETS,
+    SWEEP_START,
+    SWEEP_STEP,
+    SWEEP_STOP,
     evaluate_argmax,
     load_annotations,
     score_facet,
@@ -32,6 +35,9 @@ from config import MODEL_NAMES, OUTPUT_DIR, SUPPORTED_IMAGE_TYPES
 
 
 ARGMAX_FACETS = ("scene_type", "shot_type")
+SIGLIP_SWEEP_START = -1.0
+SIGLIP_SWEEP_STOP = 1.0
+SIGLIP_SWEEP_STEP = 0.005
 REFERENCE_FILE = REPO_DIR / "data" / "ground_truth" / "reference.csv"
 THRESHOLD_FILE = REPO_DIR / "pipeline" / "config" / "vocabulary_thresholds.json"
 
@@ -228,6 +234,21 @@ def evaluate_threshold_facets(
     metric_rows = []
     facets = SINGLE_LABEL_FACETS + MULTI_LABEL_FACETS
 
+    if model_name == "SIGLIP":
+        sweep_start = SIGLIP_SWEEP_START
+        sweep_stop = SIGLIP_SWEEP_STOP
+        sweep_step = SIGLIP_SWEEP_STEP
+        candidates = np.arange(
+            sweep_start,
+            sweep_stop + sweep_step,
+            sweep_step,
+        )
+    else:
+        sweep_start = SWEEP_START
+        sweep_stop = SWEEP_STOP
+        sweep_step = SWEEP_STEP
+        candidates = None
+
     for facet_key in facets:
         if facet_key not in prompts:
             continue
@@ -238,6 +259,7 @@ def evaluate_threshold_facets(
             facet_key,
             prompts,
             project_threshold,
+            candidates,
         )
         if result is None:
             continue
@@ -250,6 +272,9 @@ def evaluate_threshold_facets(
                 "support": result.support,
                 "threshold": round(result.mean_threshold, 4),
                 "threshold_sd": round(result.threshold_spread, 4),
+                "sweep_start": sweep_start,
+                "sweep_stop": sweep_stop,
+                "sweep_step": sweep_step,
                 "project_threshold": project_threshold,
                 "precision": round(result.precision, 4),
                 "recall": round(result.recall, 4),
