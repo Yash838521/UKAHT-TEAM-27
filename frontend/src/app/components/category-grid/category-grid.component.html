@@ -1,0 +1,23 @@
+<div class="section">
+  <div class="section-head">
+    <span class="section-title">Browse by category</span>
+    <span class="section-meta">tag-based filtering</span>
+  </div>
+
+  <!-- Loading skeleton -->
+  <div class="cat-grid" *ngIf="enrichedCategories.length === 0">
+    <div class="skeleton" *ngFor="let i of [1,2,3,4,5,6,7,8]"></div>
+  </div>
+
+  <!-- Populated grid from API -->
+  <div class="cat-grid" *ngIf="enrichedCategories.length > 0">
+    <app-category-card
+      *ngFor="let cat of enrichedCategories"
+      [name]="cat.name"
+      [count]="cat.count"
+      [icon]="cat.icon"
+      [color]="cat.color"
+      (categoryClick)="onCategoryClick($event)"
+    ></app-category-card>
+  </div>
+</div>

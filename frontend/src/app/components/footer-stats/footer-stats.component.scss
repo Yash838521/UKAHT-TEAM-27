@@ -1,0 +1,19 @@
+.footer-bar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 24px;
+  background: #0d0f19;
+  border-top: 1px solid #1e2130;
+}
+
+.stat {
+  font-size: 12px;
+  color: #444;
+}
+
+.stat-value {
+  color: #888;
+  font-weight: 500;
+  margin-right: 4px;
+}

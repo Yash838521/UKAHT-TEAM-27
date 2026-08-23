@@ -33,3 +33,7 @@ build/
 
 .DS_Store
 .vscode/
+
+**/data/images/
+**/data/sample_images/
+**/model_evaluation_mvp/data/

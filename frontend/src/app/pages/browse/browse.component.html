@@ -1,0 +1,75 @@
+<div class="page">
+
+  <nav class="topbar">
+    <div class="logo">
+      <span class="logo-icon">❄</span>
+      UKAHT Image Archive
+    </div>
+    <div class="nav">
+      <a class="nav-btn active" routerLink="/">Browse</a>
+      <a class="nav-btn" routerLink="/upload">Upload</a>
+      <a class="nav-btn" routerLink="/admin/corrections">Review queue</a>
+      <a class="nav-btn" routerLink="/analytics/stats">Stats</a>
+    </div>
+  </nav>
+
+  <div class="layout">
+
+    <div class="sidebar-skeleton" *ngIf="!sidebarReady">
+      <div class="skel-line short"></div>
+      <div class="skel-block"></div>
+      <div class="skel-block"></div>
+      <div class="skel-block"></div>
+    </div>
+
+    <app-sidebar-filters
+      *ngIf="sidebarReady && showSidebar"
+      [tags]="tags"
+      [minYear]="minYear"
+      [maxYear]="maxYear"
+      (apply)="onApplyFilters($event)"
+      (clear)="onClearFilters()"
+    ></app-sidebar-filters>
+
+    <div class="main">
+
+      <div class="main-head">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input
+            type="text"
+            [(ngModel)]="searchQuery"
+            (keydown.enter)="onSearch(searchQuery)"
+            placeholder="Search by natural language or keyword…"
+          />
+        </div>
+        <button class="search-btn" (click)="onSearch(searchQuery)">Search</button>
+      </div>
+
+      <app-active-chips
+        [filters]="filters"
+        (removeFilter)="onRemoveFilter($event)"
+        (clearAll)="onClearFilters()"
+      ></app-active-chips>
+
+      <app-sort-bar
+        [total]="total"
+        [sort]="filters.sort"
+        [searchMode]="searchMode"
+        (sortChange)="onSortChange($event)"
+      ></app-sort-bar>
+
+      <app-image-grid
+        [images]="images"
+        [similarities]="similarities"
+        [loading]="gridLoading"
+        [total]="total"
+        [pages]="pages"
+        [currentPage]="filters.page"
+        (imageClick)="onImageClick($event)"
+        (pageChange)="onPageChange($event)"
+      ></app-image-grid>
+
+    </div>
+  </div>
+</div>
