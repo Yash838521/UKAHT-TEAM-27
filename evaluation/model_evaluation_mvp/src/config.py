@@ -15,6 +15,7 @@ MODEL_NAMES = {
     "clip": "openai/clip-vit-base-patch32",
     "blip": "Salesforce/blip-image-captioning-base",
     "florence": "microsoft/Florence-2-base",
+    "siglip": "google/siglip-base-patch16-224",
 }
 
 SUPPORTED_IMAGE_TYPES = {
@@ -36,4 +37,3 @@ def read_list(path: Path) -> list[str]:
         for line in path.read_text(encoding="utf-8").splitlines()
         if line.strip() and not line.lstrip().startswith("#")
     ]
-

@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 outputs/*
 !outputs/.gitkeep
+config/evaluation_vocabulary.json
+data/evaluation_ground_truth.csv

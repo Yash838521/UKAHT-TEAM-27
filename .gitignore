@@ -33,7 +33,3 @@ build/
 
 .DS_Store
 .vscode/
-
-!evaluation/model_evaluation_mvp/data/
-!evaluation/model_evaluation_mvp/data/sample_images/
-!evaluation/model_evaluation_mvp/data/sample_images/**
