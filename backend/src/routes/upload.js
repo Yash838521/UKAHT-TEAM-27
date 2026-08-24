@@ -6,11 +6,11 @@ const path     = require('path')
 const fs       = require('fs')
 const crypto   = require('crypto')
 
-const STORAGE_TYPE = process.env.STORAGE_TYPE   || 'local'
-const PIPELINE_DIR = process.env.PIPELINE_DIR   || path.join(__dirname, '../../../pipeline')
-const PYTHON       = process.env.PYTHON_PATH    || 'python3'
-const SQS_QUEUE    = process.env.SQS_QUEUE_URL  || ''
-const AWS_REGION   = process.env.AWS_REGION     || 'eu-west-2'
+const STORAGE_TYPE = process.env.STORAGE_TYPE    || 'local'
+const PIPELINE_DIR = process.env.PIPELINE_DIR    || path.join(__dirname, '../../../pipeline')
+const PYTHON       = process.env.PYTHON_PATH     || 'python3'
+const SQS_QUEUE    = process.env.SQS_QUEUE_URL   || ''
+const AWS_REGION   = process.env.AWS_REGION      || 'eu-west-2'
 const S3_BUCKET    = process.env.AWS_BUCKET_NAME || ''
 
 function generateImageUid() {
@@ -49,9 +49,10 @@ function encodeLocal(imagePath, imageUid) {
   proc.unref()
 }
 
+// Accept file via multer regardless of mode — in S3 mode we use it temporarily then delete
 const localStorage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadDir = path.join(process.env.LOCAL_IMAGE_BASE || './uploads', 'uploads')
+    const uploadDir = path.join(process.env.LOCAL_IMAGE_BASE || '/tmp', 'uploads')
     fs.mkdirSync(uploadDir, { recursive: true })
     cb(null, uploadDir)
   },
@@ -126,50 +127,51 @@ router.get('/batches/:id', async (req, res) => {
   }
 })
 
-// Returns pre-signed S3 URL for direct browser upload (AWS mode only)
-router.get('/presigned-url', async (req, res) => {
-  if (STORAGE_TYPE !== 's3') {
-    return res.status(400).json({ error: 'Pre-signed URLs only available in S3 mode' })
-  }
-  try {
-    const { filename, contentType } = req.query
-    if (!filename) return res.status(400).json({ error: 'filename is required' })
-
-    const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3')
-    const { getSignedUrl }               = require('@aws-sdk/s3-request-presigner')
-    const s3  = new S3Client({ region: AWS_REGION })
-    const key = `uploads/${Date.now()}-${filename}`
-
-    const command   = new PutObjectCommand({
-      Bucket:      S3_BUCKET,
-      Key:         key,
-      ContentType: contentType || 'image/jpeg'
-    })
-    const signedUrl = await getSignedUrl(s3, command, { expiresIn: 300 })
-    res.json({ upload_url: signedUrl, storage_url: `s3://${S3_BUCKET}/${key}`, key })
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: err.message })
-  }
-})
-
-// Local file upload — file saved to disk, CLIP encoded inline
+// Main upload endpoint — handles both local and S3 modes
 router.post('/', upload.single('image'), async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ error: 'No file uploaded' })
 
-    const batchId    = req.body.batch_id ? Number(req.body.batch_id) : null
-    const imageUid   = generateImageUid()
-    const storageUrl = req.file.path.replace(/\\/g, '/')
+    const batchId  = req.body.batch_id ? Number(req.body.batch_id) : null
+    const imageUid = generateImageUid()
 
-    const [result] = await db.query(
+    // AWS S3 mode — generate presigned URL and return to Angular
+    // Angular will PUT directly to S3 then call /confirm-s3
+    if (STORAGE_TYPE === 's3') {
+      const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3')
+      const { getSignedUrl }               = require('@aws-sdk/s3-request-presigner')
+      const s3  = new S3Client({ region: AWS_REGION })
+      const key = `uploads/${Date.now()}-${req.file.originalname}`
+
+      const command = new PutObjectCommand({
+        Bucket:      S3_BUCKET,
+        Key:         key,
+        ContentType: req.file.mimetype
+      })
+      const signedUrl   = await getSignedUrl(s3, command, { expiresIn: 300 })
+      const storage_url = `s3://${S3_BUCKET}/${key}`
+
+      // Delete the temp file — we don't need it in S3 mode
+      try { fs.unlinkSync(req.file.path) } catch {}
+
+      return res.json({
+        mode:        's3',
+        upload_url:  signedUrl,
+        storage_url: storage_url,
+        image_uid:   imageUid,
+        batch_id:    batchId,
+        filename:    req.file.originalname
+      })
+    }
+
+    // Local mode — file saved to disk, encode CLIP directly
+    const storageUrl = req.file.path.replace(/\\/g, '/')
+    const [result]   = await db.query(
       `INSERT INTO images (image_uid, filename, storage_url, processed, batch_id) VALUES (?, ?, ?, FALSE, ?)`,
       [imageUid, req.file.originalname, storageUrl, batchId]
     )
     const imageId = result.insertId
-
     await db.query(`INSERT INTO embeddings (image_id, image_uid) VALUES (?, ?)`, [imageId, imageUid])
-
     encodeLocal(storageUrl, imageUid)
 
     res.status(201).json({
@@ -180,29 +182,29 @@ router.post('/', upload.single('image'), async (req, res) => {
       storage_url: storageUrl,
       batch_id:    batchId
     })
+
   } catch (err) {
     console.error(err)
     res.status(500).json({ error: err.message })
   }
 })
 
-// Called after browser uploads directly to S3 — registers image and triggers pipeline
+// Called by Angular after successful S3 upload — registers image in DB and triggers pipeline
 router.post('/confirm-s3', async (req, res) => {
   try {
-    const { filename, storage_url, batch_id } = req.body
+    const { filename, storage_url, batch_id, image_uid } = req.body
     if (!filename || !storage_url) {
       return res.status(400).json({ error: 'filename and storage_url are required' })
     }
 
-    const batchId  = batch_id ? Number(batch_id) : null
-    const imageUid = generateImageUid()
+    const batchId  = batch_id  ? Number(batch_id) : null
+    const imageUid = image_uid || generateImageUid()
 
     const [result] = await db.query(
       `INSERT INTO images (image_uid, filename, storage_url, processed, batch_id) VALUES (?, ?, ?, FALSE, ?)`,
       [imageUid, filename, storage_url, batchId]
     )
     const imageId = result.insertId
-
     await db.query(`INSERT INTO embeddings (image_id, image_uid) VALUES (?, ?)`, [imageId, imageUid])
 
     await notifyPipeline(imageUid, storage_url)
@@ -213,6 +215,7 @@ router.post('/confirm-s3', async (req, res) => {
       image_uid: imageUid,
       batch_id:  batchId
     })
+
   } catch (err) {
     console.error(err)
     res.status(500).json({ error: err.message })
