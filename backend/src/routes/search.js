@@ -72,7 +72,7 @@ router.get('/', async (req, res) => {
       LEFT JOIN exif_metadata      e        ON e.image_id   = i.id
       LEFT JOIN ai_tags            a        ON a.image_id   = i.id
       LEFT JOIN quality_scores     q        ON q.image_id   = i.id
-      LEFT JOIN duplicate_clusters dc       ON dc.image_id  = i.id
+      LEFT JOIN duplicate_clusters dc ON dc.image_id = i.id AND dc.cluster_type = 'phashing'
       LEFT JOIN corrections        c_scene  ON c_scene.image_id  = i.id AND c_scene.field_name  = 'scene_type'
       LEFT JOIN corrections        c_people ON c_people.image_id = i.id AND c_people.field_name = 'people_count'
       WHERE ${conditions.join(' AND ')}

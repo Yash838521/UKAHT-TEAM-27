@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://your-ec2-domain.com/api'
+  apiUrl: 'http://PLACEHOLDER:3000/api'
 }
