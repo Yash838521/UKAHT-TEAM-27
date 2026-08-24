@@ -1,17 +1,7 @@
-"""
-quality_single.py
-─────────────────
-Scores quality for a single image and stores it in the DB.
-Called by the SQS worker after upload.
-
-Usage:
-    python -m ukaht.assess.quality_single \
-        --image-path "path/to/image.jpg" \
-        --image-uid  "abc123def456..."
-"""
 import argparse
 import os
 import sys
+import tempfile
 from pathlib import Path
 
 import cv2
@@ -19,23 +9,24 @@ import mysql.connector
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "src"))
 
-from ukaht.config import load_config
-
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--image-path", required=True)
-    parser.add_argument("--image-uid",  required=True)
+    parser.add_argument("--image-path",    required=True)
+    parser.add_argument("--image-uid",     required=True)
     parser.add_argument("--sharpness-ref", type=float, default=500.0)
     return parser.parse_args()
 
 
-def download_from_s3(s3_path: str, local_path: str):
+def download_from_s3(s3_path: str) -> str:
     import boto3
     s3     = boto3.client("s3", region_name=os.environ.get("AWS_REGION", "eu-west-2"))
     bucket = s3_path.replace("s3://", "").split("/")[0]
     key    = "/".join(s3_path.replace("s3://", "").split("/")[1:])
-    s3.download_file(bucket, key, local_path)
+    suffix = Path(key).suffix or ".jpg"
+    tmp    = tempfile.NamedTemporaryFile(suffix=suffix, delete=False)
+    s3.download_file(bucket, key, tmp.name)
+    return tmp.name
 
 
 def get_sharpness_score(grey_img,ref_max=500.0):
@@ -61,58 +52,62 @@ def main() -> int:
     args = parse_args()
 
     image_path = args.image_path
+    tmp_path   = None
 
     # Download from S3 if needed
     if image_path.startswith("s3://"):
-        import tempfile
-        tmp = tempfile.NamedTemporaryFile(suffix=".jpg", delete=False)
-        download_from_s3(image_path, tmp.name)
-        image_path = tmp.name
+        tmp_path   = download_from_s3(image_path)
+        image_path = tmp_path
 
-    img = cv2.imread(image_path)
-    if img is None:
-        print(f"cv2 could not read {image_path}")
-        return 1
+    try:
+        img = cv2.imread(image_path)
+        if img is None:
+            print(f"cv2 could not read {image_path}")
+            return 1
 
-    grey_img        = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    sharpness_score = get_sharpness_score(grey_img,args.sharpness_ref)
-    exposure_score  = get_exposure_score(grey_img)
-    overall_score   = round((sharpness_score+exposure_score)/2,4)
+        grey_img        = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+        sharpness_score = get_sharpness_score(grey_img,args.sharpness_ref)
+        exposure_score  = get_exposure_score(grey_img)
+        overall_score   = round((sharpness_score+exposure_score)/2,4)
 
-    conn   = mysql.connector.connect(
-        host     = os.environ.get("DB_HOST",     "localhost"),
-        port     = int(os.environ.get("DB_PORT",  3306)),
-        user     = os.environ.get("DB_USER",     "root"),
-        password = os.environ.get("DB_PASSWORD", ""),
-        database = os.environ.get("DB_NAME",     "ukaht"),
-    )
-    cursor = conn.cursor()
-    cursor.execute("SELECT id FROM images WHERE image_uid = %s", (args.image_uid,))
-    row = cursor.fetchone()
-    if not row:
-        print(f"image_uid not found: {args.image_uid}")
-        return 1
+        conn   = mysql.connector.connect(
+            host     = os.environ.get("DB_HOST",     "localhost"),
+            port     = int(os.environ.get("DB_PORT",  3306)),
+            user     = os.environ.get("DB_USER",     "root"),
+            password = os.environ.get("DB_PASSWORD", ""),
+            database = os.environ.get("DB_NAME",     "ukaht"),
+        )
+        cursor = conn.cursor()
+        cursor.execute("SELECT id FROM images WHERE image_uid = %s", (args.image_uid,))
+        row = cursor.fetchone()
+        if not row:
+            print(f"image_uid not found: {args.image_uid}")
+            return 1
 
-    image_id = row[0]
-    cursor.execute("SELECT id FROM quality_scores WHERE image_id = %s", (image_id,))
-    if cursor.fetchone():
-        cursor.execute("""
-            UPDATE quality_scores SET
-                sharpness_score=%s, exposure_score=%s, overall_score=%s
-            WHERE image_id = %s
-        """, (sharpness_score, exposure_score, overall_score, image_id))
-    else:
-        cursor.execute("""
-            INSERT INTO quality_scores (image_id, sharpness_score, exposure_score, overall_score)
-            VALUES (%s, %s, %s, %s)
-        """, (image_id, sharpness_score, exposure_score, overall_score))
+        image_id = row[0]
+        cursor.execute("SELECT id FROM quality_scores WHERE image_id = %s", (image_id,))
+        if cursor.fetchone():
+            cursor.execute("""
+                UPDATE quality_scores SET
+                    sharpness_score=%s, exposure_score=%s, overall_score=%s
+                WHERE image_id = %s
+            """, (sharpness_score, exposure_score, overall_score, image_id))
+        else:
+            cursor.execute("""
+                INSERT INTO quality_scores (image_id, sharpness_score, exposure_score, overall_score)
+                VALUES (%s, %s, %s, %s)
+            """, (image_id, sharpness_score, exposure_score, overall_score))
 
-    conn.commit()
-    cursor.close()
-    conn.close()
+        conn.commit()
+        cursor.close()
+        conn.close()
+        print(f"quality: {args.image_uid} — sharpness={sharpness_score} exposure={exposure_score} overall={overall_score}")
+        return 0
 
-    print(f"quality: {args.image_uid} — sharpness={sharpness_score} exposure={exposure_score} overall={overall_score}")
-    return 0
+    finally:
+        if tmp_path:
+            try: os.unlink(tmp_path)
+            except: pass
 
 
 if __name__ == "__main__":
