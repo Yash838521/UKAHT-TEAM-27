@@ -14,7 +14,7 @@ from transformers import CLIPModel, CLIPProcessor
 sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "src"))
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
-from ukaht.config import MODEL_CACHE_DIR, DATA_DIR, load_config
+from ukaht.config import MODEL_CACHE_DIR, PROJECT_DIR, load_config
 
 PEOPLE_COUNT_MAP = {
     "no_people":    0,
@@ -56,19 +56,18 @@ def main() -> int:
     image_path = args.image_path
     tmp_path   = None
 
-    # Download from S3 if needed
     if image_path.startswith("s3://"):
         tmp_path   = download_from_s3(image_path)
         image_path = tmp_path
 
     try:
-        # Load stored prompt vectors — same source as classify_vocabulary.py
-        prompt_vectors_path = DATA_DIR / "interim" / "prompt_vectors.npz"
+        prompt_vectors_path = PROJECT_DIR / "data" / "interim" / "prompt_vectors.npz"
         if not prompt_vectors_path.exists():
             print(f"prompt_vectors.npz not found at {prompt_vectors_path}")
             return 1
 
         prompt_data = np.load(prompt_vectors_path, allow_pickle=True)
+        facets      = prompt_data["facets"].tolist()
 
         processor = CLIPProcessor.from_pretrained(config.clip_model, cache_dir=MODEL_CACHE_DIR)
         model     = CLIPModel.from_pretrained(config.clip_model, cache_dir=MODEL_CACHE_DIR).to(device)
@@ -89,10 +88,9 @@ def main() -> int:
             "tags": [], "categories": [],
         }
 
-        for facet in prompt_data.files:
-            facet_data = prompt_data[facet].item()
-            term_keys  = facet_data["keys"]
-            vectors    = facet_data["vectors"].astype("float32")
+        for facet in facets:
+            term_keys = prompt_data[f"{facet}__keys"].tolist()
+            vectors   = prompt_data[f"{facet}__vectors"].astype("float32")
 
             scores     = vectors @ image_vec
             best_idx   = int(scores.argmax())
@@ -100,8 +98,8 @@ def main() -> int:
             best_score = float(scores[best_idx])
 
             threshold = None
-            if hasattr(config, "thresholds") and facet in config.thresholds:
-                threshold = config.thresholds[facet]
+            if hasattr(config, "thresholds") and isinstance(config.thresholds, dict):
+                threshold = config.thresholds.get(facet)
 
             if facet == SCENE_FACET:
                 ai_data["scene_type"]       = best_key
@@ -112,17 +110,15 @@ def main() -> int:
                 ai_data["people_confidence"] = best_score
 
             elif facet == SITE_FACET:
-                label = facet_data.get("labels", {}).get(best_key, best_key)
                 ai_data["categories"].append({
-                    "category": label, "facet": facet,
+                    "category": best_key, "facet": facet,
                     "term_key": best_key, "confidence": best_score, "is_primary": True,
                 })
 
             elif facet not in STRUCTURED_FACETS:
                 if threshold is None or best_score >= threshold:
-                    label = facet_data.get("labels", {}).get(best_key, best_key)
                     ai_data["tags"].append({
-                        "tag": label, "facet": facet,
+                        "tag": best_key, "facet": facet,
                         "term_key": best_key, "confidence": best_score, "source": "clip",
                     })
 
