@@ -14,7 +14,7 @@ from transformers import CLIPModel, CLIPProcessor
 sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "src"))
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
-from ukaht.config import MODEL_CACHE_DIR, PROJECT_DIR, load_config
+from ukaht.config import MODEL_CACHE_DIR, DATA_DIR, load_config
 
 PEOPLE_COUNT_MAP = {
     "no_people":    0,
@@ -63,7 +63,7 @@ def main() -> int:
 
     try:
         # Load stored prompt vectors — same source as classify_vocabulary.py
-        prompt_vectors_path = PROJECT_DIR / "data" / "interim" / "prompt_vectors.npz"
+        prompt_vectors_path = DATA_DIR / "interim" / "prompt_vectors.npz"
         if not prompt_vectors_path.exists():
             print(f"prompt_vectors.npz not found at {prompt_vectors_path}")
             return 1
