@@ -1,196 +1,26 @@
 const express = require('express')
-const router = express.Router()
-const db = require('../db')
+const router  = express.Router()
+const db      = require('../db')
 
-// ── GET /api/stats/dataset — full dataset statistical report ──────────────────
-router.get('/dataset', async (req, res) => {
-  try {
-
-    // Total images
-    const [[{ total_images }]] = await db.query(
-      `SELECT COUNT(*) AS total_images FROM images`
-    )
-
-    // Images per year
-    const [per_year] = await db.query(`
-      SELECT YEAR(date_taken) AS year, COUNT(*) AS count
-      FROM exif_metadata
-      WHERE date_taken IS NOT NULL
-      GROUP BY YEAR(date_taken)
-      ORDER BY year
-    `)
-
-    // Camera model breakdown
-    const [cameras] = await db.query(`
-      SELECT camera_model, camera_make, COUNT(*) AS count
-      FROM exif_metadata
-      WHERE camera_model IS NOT NULL
-      GROUP BY camera_model, camera_make
-      ORDER BY count DESC
-    `)
-
-    // Scene type split
-    const [scene_types] = await db.query(`
-      SELECT
-        COALESCE(c.human_value, a.scene_type) AS scene_type,
-        COUNT(*) AS count
-      FROM ai_tags a
-      LEFT JOIN corrections c 
-        ON c.image_id = a.image_id 
-        AND c.field_name = 'scene_type'
-      WHERE a.scene_type IS NOT NULL
-      GROUP BY COALESCE(c.human_value, a.scene_type)
-      ORDER BY count DESC
-`)
-
-    // People count distribution
-    const [people_dist] = await db.query(`
-      SELECT
-        COALESCE(c.human_value, a.people_count) AS people_count,
-        COUNT(*) AS count
-      FROM ai_tags a
-      LEFT JOIN corrections c 
-        ON c.image_id = a.image_id 
-        AND c.field_name = 'people_count'
-      WHERE a.people_count IS NOT NULL
-      GROUP BY COALESCE(c.human_value, a.people_count)
-      ORDER BY people_count
-`)
-
-    // Metadata completeness
-    const [[completeness]] = await db.query(`
-      SELECT
-        COUNT(*)                                                    AS total,
-        SUM(CASE WHEN date_taken    IS NOT NULL THEN 1 ELSE 0 END) AS has_date,
-        SUM(CASE WHEN camera_model  IS NOT NULL THEN 1 ELSE 0 END) AS has_camera,
-        SUM(CASE WHEN gps_latitude  IS NOT NULL THEN 1 ELSE 0 END) AS has_gps
-      FROM exif_metadata
-    `)
-
-    // Quality distribution
-    const [[quality]] = await db.query(`
-      SELECT
-        SUM(CASE WHEN overall_score >= 0.7                        THEN 1 ELSE 0 END) AS high,
-        SUM(CASE WHEN overall_score >= 0.4 AND overall_score < 0.7 THEN 1 ELSE 0 END) AS medium,
-        SUM(CASE WHEN overall_score <  0.4                        THEN 1 ELSE 0 END) AS low
-      FROM quality_scores
-      WHERE overall_score IS NOT NULL
-    `)
-
-    // Duplicate rate
-    const [[duplicates]] = await db.query(`
-      SELECT
-        COUNT(*)                                                         AS total,
-        SUM(CASE WHEN cluster_id IS NOT NULL THEN 1 ELSE 0 END)        AS in_clusters,
-        COUNT(DISTINCT cluster_id)                                       AS total_clusters
-      FROM duplicate_clusters
-    `)
-
-    // Category breakdown
-    const [categories] = await db.query(`
-      SELECT
-        JSON_UNQUOTE(JSON_EXTRACT(cat.value, '$.category')) AS category,
-        COUNT(*) AS count
-      FROM ai_tags,
-      JSON_TABLE(categories, '$[*]' COLUMNS (
-        value JSON PATH '$'
-      )) AS cat
-      WHERE JSON_EXTRACT(cat.value, '$.is_primary') = true
-        AND categories IS NOT NULL
-      GROUP BY category
-      ORDER BY count DESC
-    `)
-
-    // AI verification rate
-    const [[verification]] = await db.query(`
-      SELECT
-        COUNT(*)                                              AS total_tagged,
-        SUM(CASE WHEN is_verified = TRUE THEN 1 ELSE 0 END) AS verified
-      FROM ai_tags
-      WHERE scene_type IS NOT NULL
-    `)
-
-    res.json({
-      total_images,
-      per_year,
-      cameras,
-      scene_types,
-      people_dist,
-      completeness,
-      quality,
-      duplicates,
-      categories,
-      verification
-    })
-
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: err.message })
-  }
-})
-
-// ── GET /api/stats/accuracy — AI tag accuracy vs human corrections ────────────
-router.get('/accuracy', async (req, res) => {
-  try {
-    // Overall correction count
-    const [[overall]] = await db.query(`
-      SELECT COUNT(*) AS total_corrections FROM corrections
-    `)
-
-    // Corrections per field
-    const [per_field] = await db.query(`
-      SELECT field_name, COUNT(*) AS corrections
-      FROM corrections
-      GROUP BY field_name
-    `)
-
-    // Scene type accuracy (where corrected)
-    const [scene_accuracy] = await db.query(`
-      SELECT
-        c.ai_value    AS predicted,
-        c.human_value AS actual,
-        COUNT(*)      AS count
-      FROM corrections c
-      WHERE c.field_name = 'scene_type'
-      GROUP BY c.ai_value, c.human_value
-    `)
-
-    // People count mean absolute error
-    const [[people_mae]] = await db.query(`
-      SELECT AVG(ABS(CAST(c.ai_value AS SIGNED) - CAST(c.human_value AS SIGNED))) AS mae
-      FROM corrections c
-      WHERE c.field_name = 'people_count'
-    `)
-
-    res.json({
-      total_corrections: overall.total_corrections,
-      per_field,
-      scene_accuracy,
-      people_mae: people_mae.mae
-    })
-
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: err.message })
-  }
-})
-
-// ── GET /api/stats/tags — distinct object tags with counts ────────────────────
+// GET /api/stats/tags — tag counts grouped by facet
 router.get('/tags', async (req, res) => {
   try {
     const [rows] = await db.query(`
       SELECT
-        JSON_UNQUOTE(JSON_EXTRACT(t.value, '$.tag')) AS tag,
+        jt.tag,
+        jt.facet,
         COUNT(*) AS count
-      FROM ai_tags,
-      JSON_TABLE(
-        tags, '$[*]'
-        COLUMNS (value JSON PATH '$')
-      ) AS t
-      WHERE tags IS NOT NULL
-      GROUP BY tag
-      ORDER BY count DESC
-      LIMIT 30
+      FROM ai_tags a
+      JOIN JSON_TABLE(
+        a.tags,
+        '$[*]' COLUMNS (
+          tag   VARCHAR(100) PATH '$.tag',
+          facet VARCHAR(50)  PATH '$.facet'
+        )
+      ) AS jt
+      WHERE jt.tag IS NOT NULL
+      GROUP BY jt.facet, jt.tag
+      ORDER BY jt.facet, count DESC
     `)
     res.json(rows)
   } catch (err) {
@@ -198,4 +28,75 @@ router.get('/tags', async (req, res) => {
     res.status(500).json({ error: err.message })
   }
 })
+
+// GET /api/stats/dataset
+router.get('/dataset', async (req, res) => {
+  try {
+    const [[counts]] = await db.query(`
+      SELECT
+        COUNT(*)                                          AS total_images,
+        SUM(a.is_verified)                               AS verified,
+        AVG(q.overall_score)                             AS avg_quality,
+        SUM(CASE WHEN e.gps_latitude IS NOT NULL THEN 1 ELSE 0 END) AS with_gps
+      FROM images i
+      LEFT JOIN ai_tags       a ON a.image_id = i.id
+      LEFT JOIN quality_scores q ON q.image_id = i.id
+      LEFT JOIN exif_metadata  e ON e.image_id = i.id
+    `)
+
+    const [perYear] = await db.query(`
+      SELECT
+        YEAR(e.date_taken) AS year,
+        COUNT(*)           AS count
+      FROM exif_metadata e
+      WHERE e.date_taken IS NOT NULL
+      GROUP BY YEAR(e.date_taken)
+      ORDER BY year
+    `)
+
+    const [perSite] = await db.query(`
+      SELECT
+        COALESCE(
+          JSON_UNQUOTE(JSON_EXTRACT(a.categories, '$[0].category')),
+          'Unknown'
+        ) AS site,
+        COUNT(*) AS count
+      FROM ai_tags a
+      GROUP BY site
+      ORDER BY count DESC
+    `)
+
+    res.json({
+      total_images: counts.total_images,
+      verified:     counts.verified,
+      avg_quality:  counts.avg_quality,
+      with_gps:     counts.with_gps,
+      per_year:     perYear,
+      per_site:     perSite
+    })
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
+  }
+})
+
+// GET /api/stats/accuracy
+router.get('/accuracy', async (req, res) => {
+  try {
+    const [[row]] = await db.query(`
+      SELECT
+        COUNT(*)                                          AS total_reviewed,
+        SUM(CASE WHEN c.id IS NOT NULL THEN 1 ELSE 0 END) AS corrected,
+        AVG(a.scene_confidence)                           AS avg_confidence
+      FROM ai_tags a
+      LEFT JOIN corrections c ON c.image_id = a.image_id
+      WHERE a.is_verified = TRUE
+    `)
+    res.json(row)
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
+  }
+})
+
 module.exports = router

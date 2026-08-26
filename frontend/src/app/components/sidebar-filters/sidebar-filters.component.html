@@ -10,12 +10,8 @@
       [class.selected]="sceneType === opt.value"
       (click)="setScene(opt.value)"
     >
-      <input
-        type="radio"
-        name="scene"
-        [checked]="sceneType === opt.value"
-        (click)="setScene(opt.value); $event.stopPropagation()"
-      />
+      <input type="radio" name="scene" [checked]="sceneType === opt.value"
+        (click)="setScene(opt.value); $event.stopPropagation()"/>
       <span>{{ opt.label }}</span>
     </div>
   </div>
@@ -29,12 +25,8 @@
       [class.selected]="peopleMin === opt.value"
       (click)="setPeople(opt.value)"
     >
-      <input
-        type="radio"
-        name="people"
-        [checked]="peopleMin === opt.value"
-        (click)="setPeople(opt.value); $event.stopPropagation()"
-      />
+      <input type="radio" name="people" [checked]="peopleMin === opt.value"
+        (click)="setPeople(opt.value); $event.stopPropagation()"/>
       <span>{{ opt.label }}</span>
     </div>
   </div>
@@ -42,14 +34,8 @@
   <!-- Quality score -->
   <div class="filter-section">
     <div class="filter-label">Min quality score</div>
-    <input
-      type="range"
-      class="filter-range"
-      min="0"
-      max="100"
-      [value]="qualityMin * 100"
-      (input)="onQualityChange($event)"
-    />
+    <input type="range" class="filter-range" min="0" max="100"
+      [value]="qualityMin * 100" (input)="onQualityChange($event)"/>
     <div class="filter-val">{{ qualityMin.toFixed(2) }} and above</div>
   </div>
 
@@ -62,12 +48,8 @@
       [class.selected]="isDateActive(opt.from, opt.to)"
       (click)="setDate(opt.from, opt.to)"
     >
-      <input
-        type="radio"
-        name="date"
-        [checked]="isDateActive(opt.from, opt.to)"
-        (click)="setDate(opt.from, opt.to); $event.stopPropagation()"
-      />
+      <input type="radio" name="date" [checked]="isDateActive(opt.from, opt.to)"
+        (click)="setDate(opt.from, opt.to); $event.stopPropagation()"/>
       <span>{{ opt.label }}</span>
     </div>
   </div>
@@ -75,63 +57,44 @@
   <!-- Duplicates -->
   <div class="filter-section">
     <div class="filter-label">Duplicates</div>
-    <div
-      class="filter-option"
-      [class.selected]="!noDuplicates"
-      (click)="setDuplicates(false)"
-    >
-      <input
-        type="radio"
-        name="dup"
-        [checked]="!noDuplicates"
-        (click)="setDuplicates(false); $event.stopPropagation()"
-      />
+    <div class="filter-option" [class.selected]="!noDuplicates" (click)="setDuplicates(false)">
+      <input type="radio" name="dup" [checked]="!noDuplicates"
+        (click)="setDuplicates(false); $event.stopPropagation()"/>
       <span>Show all</span>
     </div>
-    <div
-      class="filter-option"
-      [class.selected]="noDuplicates"
-      (click)="setDuplicates(true)"
-    >
-      <input
-        type="radio"
-        name="dup"
-        [checked]="noDuplicates"
-        (click)="setDuplicates(true); $event.stopPropagation()"
-      />
+    <div class="filter-option" [class.selected]="noDuplicates" (click)="setDuplicates(true)">
+      <input type="radio" name="dup" [checked]="noDuplicates"
+        (click)="setDuplicates(true); $event.stopPropagation()"/>
       <span>Unique only</span>
     </div>
   </div>
 
-  <!-- Object tags -->
+  <!-- Tags grouped by facet -->
   <div class="filter-section">
-    <div class="filter-label">Object tags</div>
-    <input
-      type="text"
-      class="tag-search"
-      placeholder="Search tags…"
-      [(ngModel)]="tagSearch"
-    />
-    <div class="tag-list">
-      <div
-        class="tag-item"
-        *ngFor="let t of filteredTags"
-        [class.selected]="isTagSelected(t.tag)"
-        (click)="toggleTag(t.tag)"
-      >
-        <div class="tag-item-left">
-          <input
-            type="checkbox"
-            [checked]="isTagSelected(t.tag)"
-            (click)="toggleTag(t.tag); $event.stopPropagation()"
-          />
-          <span>{{ t.tag }}</span>
+    <div class="filter-label">Tags</div>
+    <input type="text" class="tag-search" placeholder="Search tags…" [(ngModel)]="tagSearch"/>
+
+    <ng-container *ngFor="let group of filteredFacetGroups()">
+      <div class="facet-group">
+        <div class="facet-label">{{ group.label }}</div>
+        <div
+          class="tag-item"
+          *ngFor="let t of group.tags"
+          [class.selected]="isTagSelected(t.tag)"
+          (click)="toggleTag(t.tag)"
+        >
+          <div class="tag-item-left">
+            <input type="checkbox" [checked]="isTagSelected(t.tag)"
+              (click)="toggleTag(t.tag); $event.stopPropagation()"/>
+            <span>{{ t.tag }}</span>
+          </div>
+          <span class="tag-count">{{ t.count }}</span>
         </div>
-        <span class="tag-count">{{ t.count }}</span>
       </div>
-      <div class="empty-tags" *ngIf="filteredTags.length === 0">
-        No tags match "{{ tagSearch }}"
-      </div>
+    </ng-container>
+
+    <div class="empty-tags" *ngIf="filteredFacetGroups().length === 0">
+      No tags match "{{ tagSearch }}"
     </div>
   </div>
 

@@ -156,3 +156,13 @@
     border-color: #333;
   }
 }
+
+.facet-group { margin-bottom: 8px; }
+.facet-label {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  padding: 6px 0 3px;
+}
