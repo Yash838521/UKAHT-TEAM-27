@@ -157,7 +157,11 @@
   }
 }
 
-.facet-group { margin-bottom: 8px; }
+.facet-group {
+  margin-bottom: 8px;
+  max-height: 240px;
+  overflow-y: auto;
+}
 .facet-label {
   font-size: 10px;
   font-weight: 500;

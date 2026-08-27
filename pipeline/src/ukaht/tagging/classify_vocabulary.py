@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -24,11 +25,11 @@ OUTPUT_COLUMNS = [
 ]
 
 SITE_MARKERS = {
-    "_A_": "base_a",
-    "_W_": "base_w",
-    "_E_": "base_e",
-    "_F_": "base_f",
-    "_Y_": "base_y",
+    "A": "base_a",
+    "W": "base_w",
+    "E": "base_e",
+    "F": "base_f",
+    "Y": "base_y",
 }
 
 STRUCTURE_TERMS = {"main_hut", "outbuilding"}
@@ -77,9 +78,9 @@ def text_vectors(
 
 
 def site_from_path(relative_path: str) -> str:
-    upper_path = relative_path.upper()
-    for marker, term_key in SITE_MARKERS.items():
-        if marker in upper_path:
+    normalized = relative_path.upper().replace("\\", "/")
+    for letter, term_key in SITE_MARKERS.items():
+        if re.search(rf'_{letter}(?:_|/|$)', normalized):
             return term_key
     return "site_unknown"
 
