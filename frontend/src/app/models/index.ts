@@ -164,6 +164,9 @@ export interface QueueImage {
   categories:        { category: string; confidence: number; is_primary: boolean }[]
   is_verified:       boolean
   model_name:        string | null
+  uncertainty_score:   number | null
+  uncertainty_reason:  string | null
+  review_recommended:  boolean
 }
 
 export interface QueueResponse {

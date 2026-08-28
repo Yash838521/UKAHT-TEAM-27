@@ -1,0 +1,56 @@
+index,block,annotator,file_name,scene_type,room,structure,people,orientation,activity,nature,condition,shot_type,object_tags,missing_terms,hesitation,notes,image_uid
+1,shared,saisha,P7630236 (Large).jpg,exterior,,main_hut|outbuilding|radio_tower,no_people,,,snow|open_water|exposed_rock|mountains|coastline|overcast,weathered_timber,wide,roof|wall|window|door,,,,62931cac9c104adc9de294f5d89a3c9f
+2,shared,saisha,20121121-DSC_0811 FK.jpg,interior,workshop,,no_people,,,,sound,medium,wall|hand tool|hammer|saw|workbench|crate,,,,691780a248134d1b916a61fae09854d4
+3,shared,saisha,A1e9 (2).jpg,object_study,,,no_people,,,,rust|object_wear,detail,mechanical component,,rust and object_wear both present; recorded both,,53d0dfc867114fb497adf3efad46de92
+4,shared,saisha,a Cat IMG_7551.JPG,exterior,,main_hut,no_people,,,penguin|snow|open_water|overcast,weathered_timber,wide,roof|wall|window|door|timber cladding,,,,f9a1edbad1e543b2ab909263ca139272
+5,shared,saisha,Extension disappears.jpg,exterior,,main_hut|outbuilding,no_people,,,snow|open_water|exposed_rock|mountains|coastline|clear_sky,weathered_timber,wide,roof|wall|window|timber cladding|crate,,,,286fe4c5b15745efbcacc7987baf531b
+6,shared,saisha,Snow arrives.jpg,exterior,,main_hut|outbuilding,no_people,,,snow|exposed_rock|mountains|overcast,weathered_timber,wide,roof|wall|window,,,,3f81ebc8e4bf4a15b02557bb5ebade9c
+7,shared,saisha,A1c252_10.jpg,object_study,,,no_people,,,,sound,detail,,no term for spoon,,,65443e960c56416a99558308aa2a0972
+8,shared,saisha,Building the new bar.jpg,interior,workshop,,two_people,side_on,working,,sound,wide,hand tool|hammer|saw|workbench|machinery,,,,ce69df0e7b4e447687adc15c0a9adf85
+9,shared,saisha,A1b8_1.jpg,object_study,,,no_people,,,,rust|object_wear,detail,mechanical component,,rust and object_wear both present; recorded both,,0b484942c29a4439a629faf9f6cd9378
+10,shared,saisha,Port Lockroy 24th April 2020 JNH (4) (Large).jpg,exterior,,main_hut,no_people,,,snow|exposed_rock|overcast,weathered_timber|paint_loss,medium,roof|wall|window|door|doorway|steps|walkway,,weathered_timber and paint_loss both present; recorded both,,f32fd60df35442858619a3a14a114216
+11,shared,saisha,BitumenBoatShedDSC02535.JPG,exterior,,main_hut,group,facing_camera|back_to_camera,working,snow|overcast,weathered_timber|paint_loss,medium,roof|wall|window|door|ladder|paint tin|clothing|glove|hat,,weathered_timber and paint_loss both present; recorded both,,a92c0ab3fff64a8483328326e794f717
+12,shared,saisha,S7R08546.JPG,landscape,,,no_people,,,snow|exposed_rock|clear_sky,weathered_timber,medium,,no term for pallet,,,c78332a078d34c3f903b40f148263850
+13,shared,saisha,Lounge scrubout.jpg,interior,living_room,,two_people,back_to_camera|side_on,working,,sound,medium,wall|window|chair|table|furniture,no term for bucket,,,5e5e412d3500410395758daecc271570
+14,shared,saisha,DSC_0539.JPG,object_study,,,no_people,,,penguin,sound,medium,,,,,4a6316fe0027477484ca4c650c92d480
+15,shared,saisha,Writing survey report.jpg,interior,room_unknown,,person_alone,side_on,reading_writing,,sound,medium,book|paper record|document|table|furniture,,,,ba8bc24af8c14d97afeb7893ac92c0b9
+16,shared,saisha,Port Lockroy 24th April 2020 JNH (27) (Large).jpg,interior,museum_display,,no_people,,,,sound,medium,clothing|blanket|information panel|label|plaque,,,,4b0610c2429a4253a36e1257ac585fb3
+17,shared,saisha,DSC_7173.JPG,exterior,,main_hut,no_people,,,exposed_rock|clear_sky,weathered_timber|paint_loss,medium,roof|wall|window|door|doorway|steps|walkway|post|timber cladding,,weathered_timber and paint_loss both present; recorded both,,37111a0c6be94ef4ad2296127896e8fa
+18,shared,saisha,DSC_0281.JPG,interior,living_room,,group,facing_camera|back_to_camera|side_on,cooking,,sound,wide,stove|table|chair|seat|cup|enamel bowl|jar|bottle|food packet|packaging|blanket|carpet|clothing,,,,997714dd907449738f305f5597332a2a
+19,shared,saisha,repairs for sledging season.jpg,interior,workshop,,person_alone,side_on,working,,object_wear,medium,machinery|chair|table|furniture,,minor deterioration on an artefact; object_wear rather than sound,,6dacab72549a440887e829bf06b29acd
+20,shared,saisha,RRS JB unloading at Stonington.jpg,landscape,,,no_people,,,snow|sea_ice|open_water|mountains|clear_sky,sound,wide,ship,,,,8c4d6cd5a04b45f5a0e1385298b0a505
+21,shared,saisha,S7R08507.JPG,landscape,,,no_people,,,snow|mountains|clear_sky,sound,wide,,,,,a3e842a061df4e1cad523f076552c3f6
+22,shared,saisha,S7R08454.JPG,exterior,,main_hut,no_people,,,snow|exposed_rock|clear_sky,weathered_timber,medium,roof|wall|window|door,,,,83ac0dacaabf49ddb0430afdbeae99e8
+23,shared,saisha,A1c192.jpg,object_study,,,no_people,,,,sound,detail,cup,,,,de81eab5eded4d398905bb186f20199c
+24,shared,saisha,A1b28a.jpg,object_study,,,no_people,,,,rust,detail,mechanical component,,visible metal corrosion; recorded rust rather than sound,,9066b1aaf0a0409a91bc2f32cfa3682f
+25,shared,saisha,CAT TOTTY Rachel P1040161.JPG,exterior,,main_hut,person_alone,side_on,working,penguin|snow|exposed_rock|open_water|clear_sky,sound,medium,wall|window|walkway|paint tin|boots|clothing,,,,a3875068447a49a4a9a3d22b3a60726f
+26,shared,saisha,Port Lockroy 24th April 2020 JNH (23) (Large).jpg,interior,radio_room,,no_people,,,,object_wear,medium,radio set|gauge|dial|electrical component|wiring|paper record,,visible artefact wear; recorded object_wear rather than sound,,1b523b788e314b7991f2574625372b62
+27,shared,saisha,Port Lockroy 24th April 2020 JNH (20) (Large).jpg,interior,storage,,no_people,,,,sound,detail,food tin|food packet|jar|bottle|packaging|paper record,,,,bc084c6fb71744c1a257a4f8b2cc02ca
+28,shared,saisha,A1c250_11a.jpg,object_study,,,no_people,,,,object_wear,detail,knife,no term for knife,visible artefact wear; recorded object_wear rather than sound,,dedcda548f10407499e649474ac063d1
+29,shared,saisha,P7630276 (Large).JPG,exterior,,outbuilding,no_people,,,snow|sea_ice|open_water|coastline|mountains|overcast,weathered_timber|paint_loss,medium,roof|wall|window|door|steps|walkway|hand tool,,weathered_timber and paint_loss both present; recorded both,,05476fd8e66c492eaf9abc1289f3e641
+30,shared,saisha,DSC_0236.JPG,interior,museum_display,,no_people,,,,object_wear,medium,radio set|information panel|document|electrical component|wiring|gauge|dial,,visible deterioration on equipment; recorded object_wear rather than sound,,b0942d5de55a4e4296901016438dfda0
+31,exclusive,saisha,Port Lockroy 24th April 2020 JNH (18) (Large).jpg,interior,storage,,no_people,,,,sound,detail,food tin|food packet|jar|bottle|packaging,,,,f2f000a983d54d0f8e22471b9c7e868f
+33,exclusive,saisha,"Bransfield House, Kristine Hannon (1).jpg",exterior,,main_hut,group,facing_camera|back_to_camera|side_on,walking|posing,penguin|snow|open_water|exposed_rock|mountains|overcast,weathered_timber|paint_loss,wide,roof|wall|window|door|steps|walkway|post|timber cladding,,,,0e88c26acfa94f5cb5d25f87a7ce589b
+35,exclusive,saisha,DSC_0247.JPG,object_study,,,no_people,,,,sound,detail,bottle|cup|packaging,,,,508c858e822e4db7b3b2bf252fc508f5
+37,exclusive,saisha,Port Lockroy 24th April 2020 JNH (43) (Large).jpg,object_study,,,no_people,,,,rust|object_wear,detail,stove,,,,29df1e70e10a4ca4b8dfaf7365ebe163
+39,exclusive,saisha,DSC_7165.JPG,exterior,,main_hut,no_people,,,exposed_rock|clear_sky,weathered_timber|paint_loss,medium,wall|window|door|doorway|steps|walkway|post|timber cladding,,,,212f9b0d3f2d4c09b1550e582d1b2eb6
+41,exclusive,saisha,S7R08542.JPG,landscape,,,no_people,,,snow|sea_ice|iceberg|exposed_rock|mountains|open_water|coastline|clear_sky,sound,wide,,,,,61e17290c8884c3793921d671f843381
+43,exclusive,saisha,DSC_0115.JPG,landscape,,,no_people,,,penguin|seal|snow|exposed_rock|mountains|open_water|clear_sky,sound,wide,,,,,371df8d62f7c4e47aede0e43e8cfac62
+45,exclusive,saisha,Medium size female husky.jpg,landscape,,,person_alone,side_on,posing,dog|exposed_rock|mountains|clear_sky,sound,medium,clothing|boots,,,,d36d343e4c094c76bf1dba3919c1f971
+47,exclusive,saisha,Port Lockroy 24th April 2020 JNH (30) (Large).jpg,interior,bunkroom,,no_people,,,,object_wear,detail,bed|blanket|book|photograph|clothing,,,,62736b3b4cc24b3fb866ae076ec270b7
+49,exclusive,saisha,DSC_7159.JPG,object_study,,,no_people,,,,object_wear,detail,,no term for typewriter,,,d4e833547bb94100850eac2cb0192acf
+51,exclusive,saisha,DSC_0072.JPG,landscape,,,no_people,,,snow|open_water|mountains|coastline|overcast,weathered_timber|paint_loss,wide,,,,,0efea88b714642f9a808dd0cba7c6ee9
+53,exclusive,saisha,A1c16.jpg,interior,kitchen,,no_people,,,,rust|object_wear,medium,window|wall|curtain|tray|plate|enamel bowl,,,,64f072a976f042ba87f807dedb28a53f
+55,exclusive,saisha,Port Lockroy 24th April 2020 JNH (22) (Large).jpg,interior,museum_display,,no_people,,,,object_wear,medium,radio set|headphones|wiring|electrical component|information panel|document|paper record,,,,10245befc7a44d5083fc7e74d348b2a8
+57,exclusive,saisha,A1b74a.jpg,object_study,,,no_people,,,,object_wear,detail,gauge|dial|instrument|electrical component|wiring,,,,3e025d4006cd4d859cd8a68a1c941dee
+59,exclusive,saisha,A1c166a.jpg,object_study,,,no_people,,,,object_wear,detail,food packet,,,,1ee16ac79688475ba07818a53e1ceb10
+61,exclusive,saisha,A1a10b.jpg,interior,room_unknown,,no_people,,,,rust,detail,window|curtain|wall,,,,e0c2f8c99ca64f8f8903f1866dd650ae
+63,exclusive,saisha,A1c57.jpg,object_study,,,no_people,,,,rust|object_wear,detail,hand tool,,,,f5fd3cafb3434b87b15d4b28177e1b93
+65,exclusive,saisha,Port Lockroy 24th April 2020 JNH (25) (Large).jpg,interior,museum_display,,no_people,,,,object_wear,medium,clothing|information panel|label|chair|furniture,,,,b625b72161154159b53597b35d600515
+67,exclusive,saisha,A1b71u.jpg,object_study,,,no_people,,,,object_wear,detail,,no term for typewriter,,,f04fa30cc9c842258089044a9a14f2fe
+69,exclusive,saisha,CAT TOTTY - Rachel P1040162.jpg,exterior,,main_hut,person_alone,side_on,working,snow|exposed_rock,sound,medium,wall|window|walkway|paint tin|clothing,,,,51440607350e468a9763f5fac3ed05c8
+71,exclusive,saisha,Port Lockroy 24th April 2020 JNH (56) (Large).jpg,exterior,,outbuilding,no_people,,,snow|sea_ice|open_water,rust,medium,roof|wall|window|metal cladding|post|fuel drum,,,,118e17f9eb0e4784b3dc8c2cfadf8f67
+73,exclusive,saisha,Port Lockroy 24th April 2020 JNH (39) (Large).jpg,object_study,,,no_people,,,,sound,detail,instrument,,,,c3f4a53affb843e2b08ae88aa6f87deb
+75,exclusive,saisha,DSC_7143.JPG,exterior,,outbuilding,no_people,,,exposed_rock,paint_loss,detail,wall|window|information panel,,,,76344d673b2642dc8464310ec66cb841
+77,exclusive,saisha,A1c186.jpg,object_study,,,no_people,,,,rust|object_wear,detail,food tin,,,,981db59442c844ec8bde9fd78a72aaa3
+79,exclusive,saisha,S7R08553.JPG,landscape,,,no_people,,,snow|exposed_rock|clear_sky,rust,wide,,,,,8e55bde9fcff40a78745cc22353ebdad

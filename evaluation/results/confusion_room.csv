@@ -1,0 +1,8 @@
+,kitchen,living_room,museum_display,radio_room,room_unknown,storage,workshop
+kitchen,0,0,0,0,0,0,0
+living_room,1,1,0,0,0,0,0
+museum_display,0,0,2,0,0,0,0
+radio_room,0,0,1,0,0,0,0
+room_unknown,0,0,0,0,1,0,0
+storage,0,0,0,0,0,1,0
+workshop,0,0,0,0,0,0,3

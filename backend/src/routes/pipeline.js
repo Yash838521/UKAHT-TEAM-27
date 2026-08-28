@@ -27,7 +27,7 @@ router.get('/status', async (req, res) => {
     `)
 
     const [[embedded]] = await db.query(`
-      SELECT COUNT(*) AS count FROM embeddings WHERE embedding IS NOT NULL
+      SELECT COUNT(*) AS count FROM embeddings WHERE vector_json IS NOT NULL
     `)
 
     res.json({

@@ -1,0 +1,353 @@
+image_uid,file_name,relative_path,cluster_id,cluster_type,similarity_score,is_representative,clustered_at
+449c0ed1bf33459a83321a745ab8a75d,A_1_h_16(1).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(1).jpg,1,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+3611223c8f9144a8b28bc45536b62744,HY9A2343.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2343.jpg,1,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+f1595166f7b442a39748c269d328430f,A_1_h_16(10).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(10).JPG,2,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e201a304e1e042cd8fbfbe8103b58972,PC130169.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130169.JPG,2,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+9fe26a7dd86d400d9808d64cfada7bd4,A_1_h_16(11).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(11).JPG,3,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+1790cc44fc5e4970a77000c49d9ce0a1,PC130170.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130170.JPG,3,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+0673e85e756b433499c3f89643ff1cbe,A_1_h_16(12).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(12).JPG,4,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+b628dae5c8da4f2399bb1d561cb0046e,PC130171.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130171.JPG,4,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+aef04dc327634806a92dbf780de21e2b,A_1_h_16(13).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(13).JPG,5,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+adba8a12685e440288ffb80cf2d297e7,PC130172.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130172.JPG,5,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+913b89dbd9a54249b224a8cc3da23948,A_1_h_16(14).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(14).JPG,6,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+cb807d8ecc4d40f6962f2491ad5e8246,PC130173.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/PC130173.JPG,6,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+c6e58099da0847fea6d5c9c8b29c85db,A_1_h_16(2).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(2).jpg,7,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+bd84f2eef6fb49148a6fabf118323d26,HY9A2344.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2344.jpg,7,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+a57a61b9c705439fa05da29a8f31e61d,A_1_h_16(3).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(3).jpg,8,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+80d83b55721d418b9d1212edd0ac7b3b,HY9A2345.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2345.jpg,8,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+188c76cd8f0040048bb358986c04dafe,A_1_h_16(4).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(4).jpg,9,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+c632f96bfad84937a8eeda6ceb085c90,HY9A2346.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/HY9A2346.jpg,9,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+9a6ffb2f931b4e489d4c72ee3023a7fa,A_1_h_16(5).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(5).JPG,10,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+b0a70942070143989b2c873f9f4d9b9f,P1010138.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010138.JPG,10,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+62568840ce8344cd8bcf52976258fd99,A_1_h_16(6).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(6).JPG,11,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+b59f33f113da41c18ba4e89bd8d1d81a,P1010139.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010139.JPG,11,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+ad2161dc4cd64c06aee5593d1cf20afe,A_1_h_16(7).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(7).JPG,12,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+3ab2b7357ce149bc96cf0f71c94dfdd2,A_1_h_16(8).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(8).JPG,12,clip_embedding,95.1,False,2026-08-28T10:14:02+00:00
+d4d6b674f4d744d1b50b828fd4134ad3,P1010140.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010140.JPG,12,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+3dd45cd3369d41b18c46da2fcaa91d89,P1010141.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010141.JPG,12,clip_embedding,95.1,False,2026-08-28T10:14:02+00:00
+c0bc6645b47d4aa2a91b44274902a600,A_1_h_16(9).JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/A_1_h_16(9).JPG,13,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+f8abb887d3b14306a24d008001895400,P1010143.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_1_h_16_Ionospherics/A_1_h_16/P1010143.JPG,13,clip_embedding,100.0,False,2026-08-28T10:14:02+00:00
+597af92a29844e84892f50f7b4038adf,A1a60a.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a60a.JPG,14,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+abed11d50a1844f38c7397330992fad0,A1a60b.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a60b.JPG,14,clip_embedding,90.64,False,2026-08-28T10:14:02+00:00
+27bf0f8e59a94ecd99545e0d456ab320,A1a60c.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a60c.JPG,14,clip_embedding,93.62,False,2026-08-28T10:14:02+00:00
+3606e455a1b94400b5d60c5994ccc6f9,A1a61a.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a61a.JPG,14,clip_embedding,90.19,False,2026-08-28T10:14:02+00:00
+f990c5aa2a144280934661f2f7364da3,A1a61b.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a61b.JPG,14,clip_embedding,89.64,False,2026-08-28T10:14:02+00:00
+88b509a8c16247038b8da10d12df70a0,A1a61c.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1a61c.JPG,15,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+f09f407483774055966441124cc2bd5f,DSC03217.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03217.JPG,15,clip_embedding,96.61,False,2026-08-28T10:14:02+00:00
+6d6a6f628752480f96b68ceb031f1410,A1h164b.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1h164b.JPG,16,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+98233d7dc0284d499a637706d41a09ce,A1h164d.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1h164d.JPG,16,clip_embedding,92.22,False,2026-08-28T10:14:02+00:00
+eb445130959a4e3b9cd641f9ad048a87,A1h165.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1h165.JPG,17,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+7529ea5197774480840b2b6ad71d63f6,DSC03193.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03193.JPG,17,clip_embedding,94.57,False,2026-08-28T10:14:02+00:00
+0c1f835ffec347e6891e95317b953a44,DSC03194.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03194.JPG,17,clip_embedding,94.21,False,2026-08-28T10:14:02+00:00
+15398aea0ddc47c5b9b47ebded32ecc9,A1h165a.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1h165a.JPG,18,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e0aaf90527a148fcaf7363501503c1e9,DSC03198.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03198.JPG,18,clip_embedding,92.16,False,2026-08-28T10:14:02+00:00
+dd3041edfcab48cba8868ff77e685582,A1h167.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/A1h167.JPG,19,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+991988eb789f4270a61c1c2513fed281,DSC03204.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03204.JPG,19,clip_embedding,94.63,False,2026-08-28T10:14:02+00:00
+58f9f51f82a6473d932fe5afe946367b,DSC03205.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03205.JPG,20,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e61a2174440b41d59635e8f064b33096,DSC03206.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03206.JPG,20,clip_embedding,96.4,False,2026-08-28T10:14:02+00:00
+82ac355a682e4af281fd16c31dffae7b,DSC03221.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/DSC03221.JPG,21,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+db65b72044d348be9804a02dae6e764e,F2011-1a.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/F2011-1a.JPG,21,clip_embedding,98.39,False,2026-08-28T10:14:02+00:00
+2e2632e91259405eb7ef6b2ac458b0d9,F2011-2a.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/F2011-2a.JPG,22,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+6439ef2bb0f04b33ab08e21201adea1b,F2011-2c.JPG,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_1112NewAcquisitions/1112 new acquisitions/F2011-2c.JPG,22,clip_embedding,92.29,False,2026-08-28T10:14:02+00:00
+7121f3d86d7a40cabf63d45f76fa5b8e,(2).jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/(2).jpg,23,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+0f0688c56e2944c4a9436bcd3eeef847,A1e1a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e1a.jpg,23,clip_embedding,94.04,False,2026-08-28T10:14:02+00:00
+c8761672553944e38de4a1c39936569e,A1b10a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b10a.jpg,24,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+3e47391a67064c6380eda969fe660f92,A1b14a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b14a.jpg,24,clip_embedding,92.06,False,2026-08-28T10:14:02+00:00
+245d9cac93fa4f72b21322357373a681,A1b14b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b14b.jpg,24,clip_embedding,91.28,False,2026-08-28T10:14:02+00:00
+9066b1aaf0a0409a91bc2f32cfa3682f,A1b28a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b28a.jpg,24,clip_embedding,92.13,False,2026-08-28T10:14:02+00:00
+0b484942c29a4439a629faf9f6cd9378,A1b8_1.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b8_1.jpg,24,clip_embedding,92.42,False,2026-08-28T10:14:02+00:00
+5053598cf60041bfa5787885e2b51387,A1b34.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b34.jpg,25,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+f46e2ff9bcd540bbafb6b952bff15c52,A1b34a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b34a.jpg,25,clip_embedding,93.79,False,2026-08-28T10:14:02+00:00
+aadd104d310b4e0098d9d990eb7d9662,A1b59a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b59a.jpg,26,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+42e5dbb6f64745de910dd5a08ea2113f,A1b59b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b59b.jpg,26,clip_embedding,93.57,False,2026-08-28T10:14:02+00:00
+09daf5211d414e2fa7dbe55c891d8499,A1b59c.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b59c.jpg,26,clip_embedding,89.22,False,2026-08-28T10:14:02+00:00
+9375e6266f5e4e4eae84574a97da993e,A1b61.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b61.jpg,27,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+b3ac8f4bd8a44558af43331859218e20,A1b61a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b61a.jpg,27,clip_embedding,93.25,False,2026-08-28T10:14:02+00:00
+1575b72812294464b723f8e13c18e390,A1b69.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b69.jpg,28,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+48ce168b288e4db581c1429b288fa147,A1b76.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b76.jpg,28,clip_embedding,94.12,False,2026-08-28T10:14:02+00:00
+3e88979829104e7c97f5389c2706a382,A1b76a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b76a.jpg,28,clip_embedding,94.17,False,2026-08-28T10:14:02+00:00
+99add43ac5314899acf31d7f4ebd0330,A1b71a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71a.jpg,29,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e63959525f0e4dc088dcdcf8c2568777,A1b71b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71b.jpg,29,clip_embedding,95.32,False,2026-08-28T10:14:02+00:00
+d480a919596f4a74a377b45591803e04,A1b71c.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71c.jpg,29,clip_embedding,97.42,False,2026-08-28T10:14:02+00:00
+4a6d35441ead4276a7e43ef6411a47c4,A1b71e.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71e.jpg,29,clip_embedding,92.13,False,2026-08-28T10:14:02+00:00
+204702f67d1e4d5c92f6700473cf85aa,A1b71p.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71p.jpg,29,clip_embedding,90.13,False,2026-08-28T10:14:02+00:00
+0544f318ec2a474a9a6bcf01c279103b,A1b71q.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71q.jpg,29,clip_embedding,87.96,False,2026-08-28T10:14:02+00:00
+dd741805f42546b2917dc23ecb6d1f82,A1b71s.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71s.jpg,29,clip_embedding,95.62,False,2026-08-28T10:14:02+00:00
+d53539b9f018410e9b243d452022dce7,A1b71w.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71w.jpg,29,clip_embedding,95.95,False,2026-08-28T10:14:02+00:00
+37a8f0ba398543b2bddca9545bbff7b9,A1b71x.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71x.jpg,29,clip_embedding,94.36,False,2026-08-28T10:14:02+00:00
+aad1a421204943e2a482c867c3b4ac1c,A1b71y.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71y.jpg,29,clip_embedding,96.14,False,2026-08-28T10:14:02+00:00
+ae80cacd8a6743c4997d4dda5e80c7c4,A1b71z.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b71z.jpg,29,clip_embedding,95.09,False,2026-08-28T10:14:02+00:00
+87ffe83bb0544b068d650c1bcc090881,A1b74.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b74.jpg,30,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+3e025d4006cd4d859cd8a68a1c941dee,A1b74a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b74a.jpg,30,clip_embedding,94.85,False,2026-08-28T10:14:02+00:00
+6d77afb95de741acae4e26ec3c0b963f,A1b74b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1b74b.jpg,30,clip_embedding,93.01,False,2026-08-28T10:14:02+00:00
+0da1c7e4827340e392c0c196ea8e4f22,A1c1.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c1.jpg,31,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+130498f29d6741b69bfa1b47e9b36e01,A1c1y.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c1y.jpg,31,clip_embedding,96.68,False,2026-08-28T10:14:02+00:00
+e5f211b982b64b7291a2cc145e711ba6,A1c146.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c146.jpg,32,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e7d2042ab58748f99a4efdbe750e2e11,A1c147.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c147.jpg,32,clip_embedding,88.51,False,2026-08-28T10:14:02+00:00
+c35848c5dce74a94a40533821594d124,A1c148.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c148.jpg,32,clip_embedding,86.65,False,2026-08-28T10:14:02+00:00
+1466851d29a54fe596784d04bc3fb2e5,A1c149.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c149.jpg,32,clip_embedding,90.99,False,2026-08-28T10:14:02+00:00
+15c0758628cf41ac99276e6e1cea6ef9,A1c20.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c20.jpg,32,clip_embedding,95.73,False,2026-08-28T10:14:02+00:00
+5168d805011b432b82a744a3c36effb7,A1c150.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c150.jpg,33,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+4bf6c51b31cf4cd8a119220778b82534,A1c97.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c97.jpg,33,clip_embedding,93.0,False,2026-08-28T10:14:02+00:00
+7fa30f5b14d544efb03b6da240acf8a9,A1c19a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c19a.jpg,34,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e6b80ec1e697466faa5b69c538cb5a53,A1c19c.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c19c.jpg,34,clip_embedding,93.15,False,2026-08-28T10:14:02+00:00
+1a0b4be65f214f17844610ea93818edb,A1c1p.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c1p.jpg,35,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+a56a3e3827794177865e559961d70014,A1c77.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c77.jpg,35,clip_embedding,92.84,False,2026-08-28T10:14:02+00:00
+ad3ee57be2cf4fb8bd1d12875cadbcd3,A1c1r.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c1r.jpg,36,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+560a147d6141434c8f55540bf82622c2,A1e41s.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e41s.jpg,36,clip_embedding,92.67,False,2026-08-28T10:14:02+00:00
+c61bba0004324de69a75319c08c38b70,A1c220b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c220b.jpg,37,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+5ae89176abdf43599a209587fc2f3d49,A1c220e.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c220e.jpg,37,clip_embedding,93.51,False,2026-08-28T10:14:02+00:00
+3672f5d8a5c54b1ab0e75fe373198fb6,A1c250_1.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c250_1.jpg,38,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+65ea7ede8072469abfc5fffd97417e8c,A1c250_6.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c250_6.jpg,38,clip_embedding,93.65,False,2026-08-28T10:14:02+00:00
+59f6d39e7a1b4ddca59ccc04c057dc3d,A1c251_10.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_10.jpg,39,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+61b6ee94ae5a4f7e9147448a967160f8,A1c251_6a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_6a.jpg,39,clip_embedding,92.14,False,2026-08-28T10:14:02+00:00
+18212ff4fdad4a86a0802680b24e28fe,A1c251_10a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_10a.jpg,40,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+e5ca79a8411644dd8201c6d9f7925b46,A1c251_11.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11.jpg,40,clip_embedding,93.73,False,2026-08-28T10:14:02+00:00
+fa2948c0b1734fd7ae0fc0a840ea39ae,A1c251_11b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_11b.jpg,40,clip_embedding,93.73,False,2026-08-28T10:14:02+00:00
+c99e1c05fecf46a5a790fddfe2740b9d,A1c251_12.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_12.jpg,40,clip_embedding,93.05,False,2026-08-28T10:14:02+00:00
+59f392936b5f442b98d0a4683349da7b,A1c251_13a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_13a.jpg,40,clip_embedding,93.05,False,2026-08-28T10:14:02+00:00
+5017a3988fa54bd9be6666fb07086f5b,A1c251_6b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_6b.jpg,40,clip_embedding,92.61,False,2026-08-28T10:14:02+00:00
+16e6b0f471944563899d284bc988ad1d,A1c251_8.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_8.jpg,40,clip_embedding,90.38,False,2026-08-28T10:14:02+00:00
+c9cbaf070e654dcfab4eeff2cb328b6b,A1c252_1.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_1.jpg,40,clip_embedding,86.74,False,2026-08-28T10:14:02+00:00
+da6d502712644598a7ce1020a2247906,A1c252_11.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_11.jpg,40,clip_embedding,90.51,False,2026-08-28T10:14:02+00:00
+a8a0b2b51fac47ff9814448c5614e840,A1c252_13.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_13.jpg,40,clip_embedding,90.71,False,2026-08-28T10:14:02+00:00
+ba15fa5f928149ca96d2e8121efd95b2,A1c252_7.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_7.jpg,40,clip_embedding,90.97,False,2026-08-28T10:14:02+00:00
+bb11d82271a24b028c55d9e8e604925b,A1c251_12&13.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_12&13.jpg,41,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+72b830d2cfe54757a242f6274cacfbf1,A1c251_3.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_3.jpg,41,clip_embedding,94.05,False,2026-08-28T10:14:02+00:00
+b7777bfa315f4b818fc3dfbb3e3920b3,A1c251_6c.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_6c.jpg,41,clip_embedding,96.83,False,2026-08-28T10:14:02+00:00
+9b7dec60840d4e0499077e50e571d6b1,A1c251_7.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c251_7.jpg,41,clip_embedding,93.53,False,2026-08-28T10:14:02+00:00
+65443e960c56416a99558308aa2a0972,A1c252_10.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_10.jpg,41,clip_embedding,88.99,False,2026-08-28T10:14:02+00:00
+6d29d914ae3448d2a3a1c3691d300684,A1c252_11a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_11a.jpg,41,clip_embedding,91.31,False,2026-08-28T10:14:02+00:00
+d1e8c275a0d947a38135b21c25579da5,A1c252_123456.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_123456.jpg,41,clip_embedding,82.84,False,2026-08-28T10:14:02+00:00
+52bc0fbeecb2405484557b65b3d2cd47,A1c252_789.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1c252_789.jpg,41,clip_embedding,88.53,False,2026-08-28T10:14:02+00:00
+1e454d27d4ab48b88ee3f7285ae3c8cd,A1d21.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1d21.jpg,42,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+252fb37e915c4f2cbdae8f014da0719b,A1e50&d21.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e50&d21.jpg,42,clip_embedding,92.43,False,2026-08-28T10:14:02+00:00
+9a7d17a5ae8f4a5ab2a9040475756e4b,A1d22d.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1d22d.jpg,43,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+c83ec3b2196f46d296e23fe956fe8cab,A1d22e.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1d22e.jpg,43,clip_embedding,92.12,False,2026-08-28T10:14:02+00:00
+64200855cc074812b49703d1f6a1388e,A1e25a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e25a.jpg,44,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+dc966426457241ecb3645dec50687423,A1e41y.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e41y.jpg,44,clip_embedding,92.09,False,2026-08-28T10:14:02+00:00
+a215a0624b7042cdb18149d2f3e4f7f3,A1e41z.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e41z.jpg,44,clip_embedding,89.21,False,2026-08-28T10:14:02+00:00
+0d79f985007b464a88e69eff6687167a,A1e34.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e34.jpg,45,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+f1265c5705a74a5e8832d5d7ebc6652b,A1e34a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e34a.jpg,45,clip_embedding,93.23,False,2026-08-28T10:14:02+00:00
+d8696cab90384f5ebee40d37dcf7b14d,A1e41t.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e41t.jpg,46,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+bbb190db0de34036af935e168ffe2e72,A1e41u.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1e41u.jpg,46,clip_embedding,93.34,False,2026-08-28T10:14:02+00:00
+cd6c94c541f14f49bc30557ee699a804,A1f17.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f17.jpg,47,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+c554f2007fba4c92a582a5a3dc590301,A1f17_2a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f17_2a.jpg,47,clip_embedding,92.68,False,2026-08-28T10:14:02+00:00
+85119119c7614c029f5763e44799b425,A1f17_2b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f17_2b.jpg,47,clip_embedding,90.99,False,2026-08-28T10:14:02+00:00
+b88fb6ffaa5d4e7d9d5b4c05e25a6f78,A1f17a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f17a.jpg,47,clip_embedding,93.51,False,2026-08-28T10:14:02+00:00
+eb6997de9cfb469bb3bffc0a87904400,A1f22a.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f22a.jpg,48,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+fe4f1ea49526454abf75e857222b9a3b,A1f22b.jpg,UK Antarctic Heritage Trust Data/Condition_Artefacts/Artefacts_A_Var_Copyrright_L_Ling/A1f22b.jpg,48,clip_embedding,93.08,False,2026-08-28T10:14:02+00:00
+8c4d6cd5a04b45f5a0e1385298b0a505,RRS JB unloading at Stonington.jpg,"UK Antarctic Heritage Trust Data/Hist_E_Var_Copyright_NeilMarsden/Marsden, Neil/Marsden, Neil/RRS JB unloading at Stonington.jpg",49,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+219cac185ed64ac4a002288fd5464c36,RRS JB wedged into Back Bay ice.jpg,"UK Antarctic Heritage Trust Data/Hist_E_Var_Copyright_NeilMarsden/Marsden, Neil/Marsden, Neil/RRS JB wedged into Back Bay ice.jpg",49,clip_embedding,95.2,False,2026-08-28T10:14:02+00:00
+44f0825c27aa45f0a71f6d8b6e07a615,DSC_7114.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7114.JPG,50,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+663c4858f134424bba829a772437d0a0,DSC_7115.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7115.JPG,50,clip_embedding,95.89,False,2026-08-28T10:14:02+00:00
+8440208b018440c0a5d6948c1fd008f1,DSC_7118.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7118.JPG,50,clip_embedding,96.19,False,2026-08-28T10:14:02+00:00
+e33309c60b514bb592a08c9119208eb7,DSC_7119.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7119.JPG,50,clip_embedding,94.18,False,2026-08-28T10:14:02+00:00
+1e1f71e4743a458ebc30561bce4be61d,DSC_7120.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7120.JPG,50,clip_embedding,93.85,False,2026-08-28T10:14:02+00:00
+51860805a78142fab0a6ac13b1aba4b1,DSC_7121.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7121.JPG,50,clip_embedding,91.9,False,2026-08-28T10:14:02+00:00
+cbf0b30272c443cd8b2899ad31932db1,DSC_7122.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7122.JPG,50,clip_embedding,90.18,False,2026-08-28T10:14:02+00:00
+4863e3d3d4e14d2ca41cf21afcaf78a0,DSC_7123.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7123.JPG,50,clip_embedding,90.09,False,2026-08-28T10:14:02+00:00
+937a504f1c0040218b4b5eb14b875b99,DSC_7124.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7124.JPG,50,clip_embedding,86.94,False,2026-08-28T10:14:02+00:00
+dd3c767493ce4f07a3718e56c74b4b27,DSC_7125.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7125.JPG,50,clip_embedding,88.93,False,2026-08-28T10:14:02+00:00
+b9fb761d11564929bfd4cee649c4247a,DSC_7126.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7126.JPG,50,clip_embedding,87.87,False,2026-08-28T10:14:02+00:00
+f169ec322e04484ea4e6a76bb8169963,DSC_7127.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7127.JPG,50,clip_embedding,89.61,False,2026-08-28T10:14:02+00:00
+d218b29f11b044abba9c2f72160e5bdb,DSC_7128.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7128.JPG,50,clip_embedding,89.4,False,2026-08-28T10:14:02+00:00
+aea0687b3b6b4f168c9dcd8b0e42e8a1,DSC_7129.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7129.JPG,50,clip_embedding,91.01,False,2026-08-28T10:14:02+00:00
+8a6619b423f44a44a278232508dbb5a8,DSC_7130.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7130.JPG,50,clip_embedding,90.77,False,2026-08-28T10:14:02+00:00
+8903e1711aba4483b5b736cce0490830,DSC_7131.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7131.JPG,50,clip_embedding,91.41,False,2026-08-28T10:14:02+00:00
+8fd57a99314648a59563aeef0cbe986a,DSC_7132.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7132.JPG,50,clip_embedding,90.05,False,2026-08-28T10:14:02+00:00
+62b2596684724d36952d1d3ca99af90e,DSC_7133.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7133.JPG,50,clip_embedding,90.27,False,2026-08-28T10:14:02+00:00
+a0cbcf7083b84a518eff9c89bb49488b,DSC_7134.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7134.JPG,50,clip_embedding,88.73,False,2026-08-28T10:14:02+00:00
+a03337e4ad7649be917fb04a7520b629,DSC_7142.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7142.JPG,50,clip_embedding,86.11,False,2026-08-28T10:14:02+00:00
+76344d673b2642dc8464310ec66cb841,DSC_7143.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7143.JPG,50,clip_embedding,86.09,False,2026-08-28T10:14:02+00:00
+d92a92aa456043119e5c58aa54f516c1,DSC_7144.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7144.JPG,50,clip_embedding,82.0,False,2026-08-28T10:14:02+00:00
+e1e944f299f842eb9c00bafbe930be71,DSC_7145.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7145.JPG,50,clip_embedding,84.37,False,2026-08-28T10:14:02+00:00
+f0c7328d27b44f87b13269618c319935,DSC_7146.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7146.JPG,50,clip_embedding,82.61,False,2026-08-28T10:14:02+00:00
+9c99e94b15ec4c20b671b43a14a3da64,DSC_7147.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7147.JPG,50,clip_embedding,83.55,False,2026-08-28T10:14:02+00:00
+74bf86142aa8489f8d388934bbeaf97c,DSC_7148.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7148.JPG,50,clip_embedding,83.11,False,2026-08-28T10:14:02+00:00
+4dae63ea477048ef8512df5ecfdf1c96,DSC_7149.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7149.JPG,50,clip_embedding,80.8,False,2026-08-28T10:14:02+00:00
+486444d454864a36896fb02b61b35ef3,DSC_7150.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7150.JPG,50,clip_embedding,81.11,False,2026-08-28T10:14:02+00:00
+ae14e3671b4049969682381070638438,DSC_7151.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7151.JPG,50,clip_embedding,77.96,False,2026-08-28T10:14:02+00:00
+5cd948f15571466d8f7366f23bc6ee75,DSC_7155.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7155.JPG,50,clip_embedding,82.64,False,2026-08-28T10:14:02+00:00
+92fc19f46d094278acaa3abc4f2f3380,DSC_7156.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7156.JPG,50,clip_embedding,84.1,False,2026-08-28T10:14:02+00:00
+3fe2671204d54803a49b14ff84129fae,DSC_7162.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7162.JPG,50,clip_embedding,87.21,False,2026-08-28T10:14:02+00:00
+715c75a2349148019be76bdb61002efa,DSC_7163.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7163.JPG,50,clip_embedding,86.24,False,2026-08-28T10:14:02+00:00
+7f70c45dff384df8a583b56f3eaf4bc6,DSC_7164.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7164.JPG,50,clip_embedding,83.85,False,2026-08-28T10:14:02+00:00
+212f9b0d3f2d4c09b1550e582d1b2eb6,DSC_7165.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7165.JPG,50,clip_embedding,86.6,False,2026-08-28T10:14:02+00:00
+0bde7ca1c28646879ceb1585d25fa778,DSC_7166.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7166.JPG,50,clip_embedding,85.06,False,2026-08-28T10:14:02+00:00
+a26277d163104bfc8dafe6bc36e26c25,DSC_7167.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7167.JPG,50,clip_embedding,88.62,False,2026-08-28T10:14:02+00:00
+4e8a73e25d0e43989b1f6b8a588baaf0,DSC_7168.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7168.JPG,50,clip_embedding,86.7,False,2026-08-28T10:14:02+00:00
+25cf7a2a974b42d3beaf10fe023a775c,DSC_7169.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7169.JPG,50,clip_embedding,83.62,False,2026-08-28T10:14:02+00:00
+956181e7fe414ce38349d09110c22142,DSC_7170.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7170.JPG,50,clip_embedding,84.56,False,2026-08-28T10:14:02+00:00
+5b658c17332f41f190cc7086f4765513,DSC_7171.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7171.JPG,50,clip_embedding,87.79,False,2026-08-28T10:14:02+00:00
+bec44cf19b6a43309b6bbd4423ab720e,DSC_7172.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7172.JPG,50,clip_embedding,88.75,False,2026-08-28T10:14:02+00:00
+37111a0c6be94ef4ad2296127896e8fa,DSC_7173.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7173.JPG,50,clip_embedding,88.81,False,2026-08-28T10:14:02+00:00
+5d86d8482cd94be88b2dbc79bfc0434c,DSC_7174.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7174.JPG,50,clip_embedding,90.57,False,2026-08-28T10:14:02+00:00
+b8d77e2077b44af39d9d4802fc5f26a1,DSC_7175.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7175.JPG,50,clip_embedding,91.77,False,2026-08-28T10:14:02+00:00
+fad01d30d4414ad59049b8654c7a4622,DSC_7176.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7176.JPG,50,clip_embedding,89.23,False,2026-08-28T10:14:02+00:00
+809968f964384278b99ce0408e35b077,DSC_7177.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7177.JPG,50,clip_embedding,89.52,False,2026-08-28T10:14:02+00:00
+88efd0a6072a43c08971ffb7a1720928,DSC_7178.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7178.JPG,50,clip_embedding,90.27,False,2026-08-28T10:14:02+00:00
+c3a8a26a36854559802236719963c30d,DSC_7179.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7179.JPG,50,clip_embedding,89.72,False,2026-08-28T10:14:02+00:00
+f23e79f467dd42d3a376f787b510d7c0,DSC_7180.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7180.JPG,50,clip_embedding,90.39,False,2026-08-28T10:14:02+00:00
+8bfac7a5c8684e5ab34636c1ccfb3a72,DSC_7181.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7181.JPG,50,clip_embedding,89.33,False,2026-08-28T10:14:02+00:00
+c6fdb83fc9fc4edfbcb2be92c9c96164,DSC_7182.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7182.JPG,50,clip_embedding,86.37,False,2026-08-28T10:14:02+00:00
+cf82d2ecd7c9430c855fe2103501995f,DSC_7183.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7183.JPG,50,clip_embedding,87.26,False,2026-08-28T10:14:02+00:00
+526f404846974f128a01ce338b4e3636,DSC_7184.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7184.JPG,50,clip_embedding,86.42,False,2026-08-28T10:14:02+00:00
+e0f43629bf104dd9bcb6ea0b29f0a252,DSC_7185.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7185.JPG,50,clip_embedding,87.11,False,2026-08-28T10:14:02+00:00
+720217e064ef4248882b9c5ef0ea9157,DSC_7186.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7186.JPG,50,clip_embedding,85.04,False,2026-08-28T10:14:02+00:00
+e6c86b7a137346a4b197fabef5fc49fe,DSC_7187.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7187.JPG,50,clip_embedding,88.62,False,2026-08-28T10:14:02+00:00
+1ccb8fc536894934a6a14e7dec19f01f,DSC_7188.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7188.JPG,50,clip_embedding,90.5,False,2026-08-28T10:14:02+00:00
+fb99f51249ed4c2a91fc934bf9c31e3d,DSC_7189.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7189.JPG,50,clip_embedding,87.85,False,2026-08-28T10:14:02+00:00
+49cfa1328b5f437da3c67b6a768f1841,DSC_7190.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7190.JPG,50,clip_embedding,87.68,False,2026-08-28T10:14:02+00:00
+18b9665165624925a3974c3d94601e50,DSC_7191.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7191.JPG,50,clip_embedding,89.66,False,2026-08-28T10:14:02+00:00
+9c7c1c35c8ab45938bc32b57f092481b,DSC_7192.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7192.JPG,50,clip_embedding,85.36,False,2026-08-28T10:14:02+00:00
+e01d451d2c564f39a096e3a958b9d394,DSC_7193.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7193.JPG,50,clip_embedding,84.79,False,2026-08-28T10:14:02+00:00
+e30a44b9339d49a0bfa6dadb52769a6c,DSC_7194.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7194.JPG,50,clip_embedding,90.84,False,2026-08-28T10:14:02+00:00
+eac9038a114c49a385cdded8eeb90150,DSC_7195.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7195.JPG,50,clip_embedding,89.25,False,2026-08-28T10:14:02+00:00
+85287288a0ae47318413f16e8acf9360,DSC_7197.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7197.JPG,50,clip_embedding,89.76,False,2026-08-28T10:14:02+00:00
+462d4edc548042c58713eb20dc05120d,DSC_7198.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7198.JPG,50,clip_embedding,88.28,False,2026-08-28T10:14:02+00:00
+7290dfcdb4514dfbb0f34d91a53ed3cb,DSC_7199.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7199.JPG,50,clip_embedding,88.31,False,2026-08-28T10:14:02+00:00
+efe42679a3934b0db2560abb79136d48,DSC_7201.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7201.JPG,50,clip_embedding,86.85,False,2026-08-28T10:14:02+00:00
+d593d309fa6a432897936f302ffc5b0e,DSC_7202.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7202.JPG,50,clip_embedding,85.94,False,2026-08-28T10:14:02+00:00
+a852b8f36590449d8fe724a01af3b5fd,DSC_7203.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7203.JPG,50,clip_embedding,87.59,False,2026-08-28T10:14:02+00:00
+66e047845e9a46e4aebaf16be122db64,DSC_7204.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7204.JPG,50,clip_embedding,85.65,False,2026-08-28T10:14:02+00:00
+98e9d0fd832c4ed8a82855461c6253e9,DSC_7205.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7205.JPG,50,clip_embedding,87.38,False,2026-08-28T10:14:02+00:00
+f6bec05822b3469995a4561f50bd1e04,DSC_7206.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7206.JPG,50,clip_embedding,87.64,False,2026-08-28T10:14:02+00:00
+23c91211be064459bd63153af31f8e9a,DSC_7207.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7207.JPG,50,clip_embedding,88.29,False,2026-08-28T10:14:02+00:00
+17fc90513efa4fefb27c2d213d623629,DSC_7208.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7208.JPG,50,clip_embedding,87.28,False,2026-08-28T10:14:02+00:00
+c1058ad76a024439bf9c661bdb695448,DSC_7135.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7135.JPG,51,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+7e7684d535a1499abde7f4bd5de7e588,DSC_7136.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7136.JPG,51,clip_embedding,83.7,False,2026-08-28T10:14:02+00:00
+6ea36d7ca11746cbaacabf5bc55530e1,DSC_7140.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7140.JPG,51,clip_embedding,93.23,False,2026-08-28T10:14:02+00:00
+825929e06bda437c9178cd90aae2a1f8,DSC_7141.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7141.JPG,51,clip_embedding,89.74,False,2026-08-28T10:14:02+00:00
+d4e833547bb94100850eac2cb0192acf,DSC_7159.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7159.JPG,52,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+97613f78efb946af9da80165b41ba2e3,DSC_7160.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_A_external/DSC_7160.JPG,52,clip_embedding,94.73,False,2026-08-28T10:14:02+00:00
+1d683621130641c4a6b42a694d0797e5,DSC_0056.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0056.JPG,53,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+7a0dacb65d6045179f83daa58e0c2074,DSC_0058.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0058.JPG,53,clip_embedding,92.06,False,2026-08-28T10:14:02+00:00
+1752353d4a584e1095b04f83c7d20e70,DSC_0061.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0061.JPG,53,clip_embedding,92.43,False,2026-08-28T10:14:02+00:00
+a00182cdd14c4b099853b72a677f1cc1,DSC_0063.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0063.JPG,53,clip_embedding,90.03,False,2026-08-28T10:14:02+00:00
+b5508c5d997c4cc19c0a343ddaa29300,DSC_0065.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0065.JPG,53,clip_embedding,88.01,False,2026-08-28T10:14:02+00:00
+a33d4f4af2de4019b5d2d052b63d5b5d,DSC_0067.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0067.JPG,53,clip_embedding,90.7,False,2026-08-28T10:14:02+00:00
+89d5797e822448639395fa0b111f2c62,DSC_0069.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0069.JPG,53,clip_embedding,90.37,False,2026-08-28T10:14:02+00:00
+1c9acd379dee464cb832fa5588f6bd66,DSC_0071.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0071.JPG,53,clip_embedding,91.97,False,2026-08-28T10:14:02+00:00
+ea9bf1ddf4fc4596ae450573f6a86768,DSC_0073.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0073.JPG,53,clip_embedding,88.32,False,2026-08-28T10:14:02+00:00
+d2e4b075e5b34151ab5e61a7e9a1aa1e,DSC_0075.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/Other/DSC_0075.JPG,53,clip_embedding,89.63,False,2026-08-28T10:14:02+00:00
+fdadf77dd1a34413b99c7ce245b0e35e,DSC_0076.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/Other/DSC_0076.JPG,53,clip_embedding,90.34,False,2026-08-28T10:14:02+00:00
+698ebd364fbd483ab6b320a803855f5e,DSC_0078.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0078.JPG,53,clip_embedding,87.1,False,2026-08-28T10:14:02+00:00
+40005f1d67084402becb2bfdb3f2c1c2,DSC_0083.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0083.JPG,53,clip_embedding,87.23,False,2026-08-28T10:14:02+00:00
+bfefa9c8f0db44aa8b1b31dba675e8ea,DSC_0085.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0085.JPG,53,clip_embedding,81.56,False,2026-08-28T10:14:02+00:00
+53530c2288e0479e9415aafc921be555,DSC_0087.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0087.JPG,53,clip_embedding,78.59,False,2026-08-28T10:14:02+00:00
+dda126bc699b41ad9204f2e362c35de3,DSC_0089.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0089.JPG,53,clip_embedding,81.58,False,2026-08-28T10:14:02+00:00
+33f0c7a71d48444ab21e5c0977c21dd8,DSC_0091.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0091.JPG,53,clip_embedding,86.18,False,2026-08-28T10:14:02+00:00
+5ddec895fc6142548a2101c0ffd7557f,DSC_0093.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0093.JPG,53,clip_embedding,84.92,False,2026-08-28T10:14:02+00:00
+7888f863406043b2b8e36bf9535b645c,DSC_0105.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0105.JPG,53,clip_embedding,90.99,False,2026-08-28T10:14:02+00:00
+352e7348267947958b8dd991839815a4,DSC_0109.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/Other/DSC_0109.JPG,53,clip_embedding,88.34,False,2026-08-28T10:14:02+00:00
+14eea32355d24242b2c74bb0d49485a5,DSC_0110.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0110.JPG,53,clip_embedding,91.23,False,2026-08-28T10:14:02+00:00
+ed529724dc654bdb89d9033bc1fd2c43,DSC_0114.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0114.JPG,53,clip_embedding,97.87,False,2026-08-28T10:14:02+00:00
+aa7a8461710c49b49cf4ec940ecbee96,DSC_0057.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0057.JPG,54,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+1811ae63870c4a06bdd14faaf89c6fd8,DSC_0059.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0059.JPG,54,clip_embedding,92.56,False,2026-08-28T10:14:02+00:00
+b02aa63c951c4f5babdaec67253630be,DSC_0062.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0062.JPG,54,clip_embedding,86.91,False,2026-08-28T10:14:02+00:00
+edfedd4e2af840099627f1847fe510e1,DSC_0064.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0064.JPG,54,clip_embedding,89.01,False,2026-08-28T10:14:02+00:00
+87b6f73396084db8a56f87d650623e69,DSC_0066.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0066.JPG,54,clip_embedding,89.62,False,2026-08-28T10:14:02+00:00
+f3d0bef625424287b1186eb34d609015,DSC_0068.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0068.JPG,54,clip_embedding,88.14,False,2026-08-28T10:14:02+00:00
+0d8149faaa9c43b6afc49e005b3be48d,DSC_0070.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0070.JPG,54,clip_embedding,89.24,False,2026-08-28T10:14:02+00:00
+6cb4dd613d164d5cb8d4b393cb9df26b,DSC_0086.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0086.JPG,54,clip_embedding,90.21,False,2026-08-28T10:14:02+00:00
+4f81ffa39373410981640cd02b8ff5cd,DSC_0088.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0088.JPG,54,clip_embedding,88.76,False,2026-08-28T10:14:02+00:00
+ea739d219cee4f39adeb2c05835dcc28,DSC_0090.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0090.JPG,54,clip_embedding,90.17,False,2026-08-28T10:14:02+00:00
+7c6d0484ab0a462282da9ed37907be8b,DSC_0092.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0092.JPG,54,clip_embedding,90.58,False,2026-08-28T10:14:02+00:00
+97ef199829b04695b474e938cc01e99f,DSC_0094.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0094.JPG,54,clip_embedding,92.0,False,2026-08-28T10:14:02+00:00
+b47c4d2b2c934242b4c71f1fc9f71ab9,DSC_0096.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0096.JPG,54,clip_embedding,92.53,False,2026-08-28T10:14:02+00:00
+8bcfefba55494c6f8f7ad4856999d0ee,DSC_0098.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0098.JPG,54,clip_embedding,93.3,False,2026-08-28T10:14:02+00:00
+f26032b6b20b472fbfed1941ca6e337d,DSC_0100.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0100.JPG,54,clip_embedding,93.97,False,2026-08-28T10:14:02+00:00
+ae757aff72c04a02bb76a4b18cab0878,DSC_0103.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0103.JPG,54,clip_embedding,94.39,False,2026-08-28T10:14:02+00:00
+3a17faea6e11427aac8581154b928d05,DSC_0106.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0106.JPG,54,clip_embedding,94.49,False,2026-08-28T10:14:02+00:00
+00c1488a728c48c0b3036e7a5dbcce63,DSC_0111.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0111.JPG,54,clip_embedding,94.6,False,2026-08-28T10:14:02+00:00
+e4de9b7e7d2945be82ac93a14738e33e,DSC_0113.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0113.JPG,54,clip_embedding,93.27,False,2026-08-28T10:14:02+00:00
+371df8d62f7c4e47aede0e43e8cfac62,DSC_0115.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0115.JPG,54,clip_embedding,96.92,False,2026-08-28T10:14:02+00:00
+d47790edb06a4b6f826c837db59f3bcc,S7R08443.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08443.JPG,54,clip_embedding,77.89,False,2026-08-28T10:14:02+00:00
+3dc49d908e1c4a658f230f29eb175c12,S7R08444.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08444.JPG,54,clip_embedding,85.06,False,2026-08-28T10:14:02+00:00
+79d29de16d42482d898170160158977f,S7R08445.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08445.JPG,54,clip_embedding,80.66,False,2026-08-28T10:14:02+00:00
+43173590691d40fca79baaaf53fececa,S7R08446.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08446.JPG,54,clip_embedding,80.92,False,2026-08-28T10:14:02+00:00
+8c1fee29eeea4806ab054e200192f195,S7R08447.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08447.JPG,54,clip_embedding,78.42,False,2026-08-28T10:14:02+00:00
+67a57e16ed504614980493768fe8269b,S7R08448.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08448.JPG,54,clip_embedding,80.77,False,2026-08-28T10:14:02+00:00
+6a63126a67aa499c9d81cdacdc3c366d,S7R08449.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08449.JPG,54,clip_embedding,75.57,False,2026-08-28T10:14:02+00:00
+aadd265cf24043b9bddeb81865baa932,S7R08450.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08450.JPG,54,clip_embedding,79.82,False,2026-08-28T10:14:02+00:00
+a50739d35c464454a5cb0385d1ee95fa,S7R08451.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08451.JPG,54,clip_embedding,82.76,False,2026-08-28T10:14:02+00:00
+21881321fce54c87adfe5cb593818cbc,S7R08452.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08452.JPG,54,clip_embedding,76.32,False,2026-08-28T10:14:02+00:00
+cf6a889650784f319bf51a9976324d08,S7R08453.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08453.JPG,54,clip_embedding,80.37,False,2026-08-28T10:14:02+00:00
+83ac0dacaabf49ddb0430afdbeae99e8,S7R08454.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08454.JPG,54,clip_embedding,81.23,False,2026-08-28T10:14:02+00:00
+0dd19dd5baa24f4fb7645c0afc5f3468,S7R08455.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08455.JPG,54,clip_embedding,81.25,False,2026-08-28T10:14:02+00:00
+bb257edf6c444253a05c7bf994183d1c,S7R08456.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08456.JPG,54,clip_embedding,80.23,False,2026-08-28T10:14:02+00:00
+b1716f7bdca743db94128d90d1fdf8d7,S7R08457.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08457.JPG,54,clip_embedding,79.15,False,2026-08-28T10:14:02+00:00
+1a1e36cb53604dd492dd0d0945f2b562,S7R08458.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08458.JPG,54,clip_embedding,78.18,False,2026-08-28T10:14:02+00:00
+2fbff6323e6e4ec3b343a62821a0e53b,S7R08459.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08459.JPG,54,clip_embedding,77.67,False,2026-08-28T10:14:02+00:00
+d6f428b74ba84f5b85c0930e0b76cf99,S7R08460.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08460.JPG,54,clip_embedding,80.5,False,2026-08-28T10:14:02+00:00
+dd030488c58b424ab629f60ec9709681,S7R08461.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08461.JPG,54,clip_embedding,78.35,False,2026-08-28T10:14:02+00:00
+6290f6535de04b44a39d4a2dd30e94fc,S7R08462.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08462.JPG,54,clip_embedding,76.73,False,2026-08-28T10:14:02+00:00
+8a197a12047945c1bea92125863d9a4c,S7R08463.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08463.JPG,54,clip_embedding,76.36,False,2026-08-28T10:14:02+00:00
+3430b08933ce451ebf5a4401696b0c81,S7R08464.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08464.JPG,54,clip_embedding,77.59,False,2026-08-28T10:14:02+00:00
+7da40e8c7ce94c9bb3b45833a7e2ca77,S7R08465.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08465.JPG,54,clip_embedding,79.89,False,2026-08-28T10:14:02+00:00
+a12abc0f3c2c454c961c69f56dd8bfd4,S7R08466.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08466.JPG,54,clip_embedding,77.75,False,2026-08-28T10:14:02+00:00
+8bf1451491c64f4cb4e1b16056fb8fea,S7R08467.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08467.JPG,54,clip_embedding,79.88,False,2026-08-28T10:14:02+00:00
+48fdefda087e4c95a0858fbc424a5516,S7R08468.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08468.JPG,54,clip_embedding,78.81,False,2026-08-28T10:14:02+00:00
+7038980fa3b34a1a8304e85ef6b93b25,S7R08469.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08469.JPG,54,clip_embedding,78.9,False,2026-08-28T10:14:02+00:00
+fb4014bb56814eaeaf7f6a1afc1a692f,S7R08470.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08470.JPG,54,clip_embedding,77.57,False,2026-08-28T10:14:02+00:00
+15580799bf774add9bc12b4d0f8051e4,S7R08471.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08471.JPG,54,clip_embedding,77.41,False,2026-08-28T10:14:02+00:00
+4e17d03c08c146598ca7216ea33c1e27,S7R08472.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08472.JPG,54,clip_embedding,77.36,False,2026-08-28T10:14:02+00:00
+fc5256ce1de24d29be404b5de587cbd9,S7R08473.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08473.JPG,54,clip_embedding,74.44,False,2026-08-28T10:14:02+00:00
+ac016d8b78d348ce8381af61d9ce0099,S7R08474.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08474.JPG,54,clip_embedding,80.85,False,2026-08-28T10:14:02+00:00
+c5162e417f2c45aa926023f9784c6661,S7R08475.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08475.JPG,54,clip_embedding,77.62,False,2026-08-28T10:14:02+00:00
+e897dbbadef7485aa85b1c0d793782c8,S7R08476.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08476.JPG,54,clip_embedding,80.76,False,2026-08-28T10:14:02+00:00
+79f317f4a22a436dbb957b36f703462b,S7R08477.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08477.JPG,54,clip_embedding,81.86,False,2026-08-28T10:14:02+00:00
+523bd98e3aa94fbbaf61ece190c74837,S7R08478.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08478.JPG,54,clip_embedding,78.64,False,2026-08-28T10:14:02+00:00
+cfa830613a7d41aeb062cf458c0e20b2,S7R08479.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08479.JPG,54,clip_embedding,75.66,False,2026-08-28T10:14:02+00:00
+7b3a25eff5114b10b6e0ade4fa3616e6,S7R08480.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08480.JPG,54,clip_embedding,79.34,False,2026-08-28T10:14:02+00:00
+b86a7b09d67d4f5fabc85191d46564bc,S7R08481.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08481.JPG,54,clip_embedding,79.07,False,2026-08-28T10:14:02+00:00
+09cfcdb8a37b42259d759d5c933440e5,S7R08482.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08482.JPG,54,clip_embedding,83.34,False,2026-08-28T10:14:02+00:00
+63b7ff1d54ec4c72a02d6575f9c26b04,S7R08483.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08483.JPG,54,clip_embedding,75.81,False,2026-08-28T10:14:02+00:00
+ce0a226b00134edfadee22dc299daa1c,S7R08484.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08484.JPG,54,clip_embedding,86.38,False,2026-08-28T10:14:02+00:00
+14e7858064174470a6639796a4da3d0d,S7R08485.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08485.JPG,54,clip_embedding,88.16,False,2026-08-28T10:14:02+00:00
+d8316777170d4f2e9bbceb789c9a82c4,S7R08486.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08486.JPG,54,clip_embedding,89.99,False,2026-08-28T10:14:02+00:00
+c72ba21298fe49a2a21a65e57f9e498a,S7R08487.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08487.JPG,54,clip_embedding,86.24,False,2026-08-28T10:14:02+00:00
+a574862eabf548469f15d4d0572a8693,S7R08488.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08488.JPG,54,clip_embedding,87.19,False,2026-08-28T10:14:02+00:00
+67ea84e1fb9d4c4eb7b40e1d315db754,S7R08489.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08489.JPG,54,clip_embedding,84.37,False,2026-08-28T10:14:02+00:00
+e644e8112d274331ac3a383c008da832,S7R08490.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08490.JPG,54,clip_embedding,84.65,False,2026-08-28T10:14:02+00:00
+163ff364b310420b862ade0b69ac1d12,S7R08491.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08491.JPG,54,clip_embedding,87.31,False,2026-08-28T10:14:02+00:00
+7c70b2f9f07243e9a3ae566d6acf01cb,S7R08492.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08492.JPG,54,clip_embedding,86.62,False,2026-08-28T10:14:02+00:00
+17ed47f267dd427098f9ea85e7bc07c9,S7R08493.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08493.JPG,54,clip_embedding,79.23,False,2026-08-28T10:14:02+00:00
+a4614e7e3adb4ff49c399190e57d3753,S7R08494.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08494.JPG,54,clip_embedding,81.17,False,2026-08-28T10:14:02+00:00
+c999cc7dd421415180df2ec40d007656,S7R08495.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08495.JPG,54,clip_embedding,83.08,False,2026-08-28T10:14:02+00:00
+dd26744baae14cd899be7f1fd2385bbb,S7R08496.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08496.JPG,54,clip_embedding,78.36,False,2026-08-28T10:14:02+00:00
+9b50c224f76b481abf212539abec7f7c,S7R08497.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08497.JPG,54,clip_embedding,77.73,False,2026-08-28T10:14:02+00:00
+1af8891df7b947349bb1d9130caa5783,S7R08498.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08498.JPG,54,clip_embedding,82.96,False,2026-08-28T10:14:02+00:00
+8b5072b379da4066971b67f60b490de1,S7R08500.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08500.JPG,54,clip_embedding,81.57,False,2026-08-28T10:14:02+00:00
+38a510dd50f64f7b8f9067d755a6f2df,S7R08501.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08501.JPG,54,clip_embedding,82.51,False,2026-08-28T10:14:02+00:00
+410fead1a95b42d0aa6729e062b89609,S7R08502.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08502.JPG,54,clip_embedding,84.47,False,2026-08-28T10:14:02+00:00
+48e95fb0d20340f9a4267d7e08b9f805,S7R08503.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08503.JPG,54,clip_embedding,88.26,False,2026-08-28T10:14:02+00:00
+8caae8ad9cb6468ab8e3b4af424f7419,S7R08504.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08504.JPG,54,clip_embedding,85.9,False,2026-08-28T10:14:02+00:00
+f5c3558d055546bba1b92ee4c87f5a3b,S7R08505.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08505.JPG,54,clip_embedding,84.52,False,2026-08-28T10:14:02+00:00
+2bb283db276d4620b648f4c7397d564c,S7R08506.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08506.JPG,54,clip_embedding,84.07,False,2026-08-28T10:14:02+00:00
+a3e842a061df4e1cad523f076552c3f6,S7R08507.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08507.JPG,54,clip_embedding,87.05,False,2026-08-28T10:14:02+00:00
+5e5ad5833b594bea8247c5cff3ec763d,S7R08508.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08508.JPG,54,clip_embedding,85.94,False,2026-08-28T10:14:02+00:00
+90fdb2ff527f45c18c73f293fceb3d79,S7R08509.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08509.JPG,54,clip_embedding,87.26,False,2026-08-28T10:14:02+00:00
+dd03709ceefd4310894bba6807923c6d,S7R08510.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08510.JPG,54,clip_embedding,82.63,False,2026-08-28T10:14:02+00:00
+f01d706f593e49eca67c0c40ab41bc4d,S7R08511.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08511.JPG,54,clip_embedding,87.03,False,2026-08-28T10:14:02+00:00
+e77291b0ec0f4f4f858d83af7f5446fb,S7R08512.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08512.JPG,54,clip_embedding,82.02,False,2026-08-28T10:14:02+00:00
+60b8f11f763b4eaf87b82aefc15448cc,S7R08513.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08513.JPG,54,clip_embedding,81.1,False,2026-08-28T10:14:02+00:00
+9c932f92bb9647cd835025f581b54a80,S7R08514.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08514.JPG,54,clip_embedding,79.22,False,2026-08-28T10:14:02+00:00
+761608d167b446aaac5f5509a003ab5d,S7R08515.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08515.JPG,54,clip_embedding,77.16,False,2026-08-28T10:14:02+00:00
+614dd38c186a48c29ed22be42df4eb1b,S7R08516.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08516.JPG,54,clip_embedding,86.55,False,2026-08-28T10:14:02+00:00
+3ba80ce5f68e45c6b6165d9dea635450,S7R08517.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08517.JPG,54,clip_embedding,89.05,False,2026-08-28T10:14:02+00:00
+dd0bb0d3e01e4f71b5075b74afc93133,S7R08518.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08518.JPG,54,clip_embedding,84.8,False,2026-08-28T10:14:02+00:00
+2cc13cf3c39f449aa9a3d1f90901b915,S7R08519.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08519.JPG,54,clip_embedding,87.98,False,2026-08-28T10:14:02+00:00
+25b7c5be7ae345ac951582aebcb7fa31,S7R08521.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08521.JPG,54,clip_embedding,84.46,False,2026-08-28T10:14:02+00:00
+084b48c6d22042a9b0545aaa7be92187,S7R08522.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08522.JPG,54,clip_embedding,83.39,False,2026-08-28T10:14:02+00:00
+78d01bfd9ea145dc8b1976a730a8d38a,S7R08523.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08523.JPG,54,clip_embedding,86.97,False,2026-08-28T10:14:02+00:00
+227d8a21ee37406b8210fe3280be5cb8,S7R08524.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08524.JPG,54,clip_embedding,86.44,False,2026-08-28T10:14:02+00:00
+3479c6d58d7647f28e424781e90c38fb,S7R08527.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08527.JPG,54,clip_embedding,84.12,False,2026-08-28T10:14:02+00:00
+25f860e43dd24a25905f82c971cbf38c,S7R08528.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08528.JPG,54,clip_embedding,82.24,False,2026-08-28T10:14:02+00:00
+471f542f721f4693970cbcb703909e4e,DSC_0095.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0095.JPG,55,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+88921e6f43b64aeeb386726ed65afe74,DSC_0097.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0097.JPG,55,clip_embedding,90.87,False,2026-08-28T10:14:02+00:00
+ad019838f58b402db0b420252d9c2c4a,DSC_0099.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0099.JPG,55,clip_embedding,93.16,False,2026-08-28T10:14:02+00:00
+53dcd806173243efb0f0c77a4c45f604,DSC_0102.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_E_external/Main Hut/DSC_0102.JPG,55,clip_embedding,91.77,False,2026-08-28T10:14:02+00:00
+b08676401583432f86257c506f32acdc,S7R08441.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08441.JPG,56,clip_embedding,100.0,True,2026-08-28T10:14:02+00:00
+179dd3ccb852416f91302b5d8d10a477,S7R08442.JPG,UK Antarctic Heritage Trust Data/SfM/SfM_W_external/S7R08442.JPG,56,clip_embedding,96.74,False,2026-08-28T10:14:02+00:00

@@ -208,3 +208,9 @@ team27-UKAHT/
   │           └── generate_mock_data.py <- run only for FE/middleware dev
   └── ...
 ```
+## RDS certificate bundle
+
+The certificate bundle for verifying RDS connections is not held in version
+control. Fetch it before deploying:
+
+    curl -O https://truststore.pki.rds.amazonaws.com/global-bundle.pem

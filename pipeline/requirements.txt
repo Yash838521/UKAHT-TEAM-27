@@ -10,4 +10,10 @@ tqdm
 timm
 einops
 safetensors
-
+opencv-python-headless
+mysql-connector-python
+boto3
+flask
+requests
+scipy
+scikit-learn
