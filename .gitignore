@@ -40,3 +40,6 @@ build/
 **/data/images/
 **/data/sample_images/
 **/model_evaluation_mvp/data/
+
+# AWS RDS certificate bundle - fetched at deploy time
+global-bundle.pem
