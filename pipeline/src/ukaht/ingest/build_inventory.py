@@ -1,6 +1,6 @@
 import csv
-import uuid
 from pathlib import Path
+import hashlib
 
 from ukaht.config import load_config
 
@@ -64,7 +64,7 @@ def main() -> int:
 
         new_rows.append(
             {
-                "image_uid": uuid.uuid4().hex,
+                "image_uid": hashlib.sha1(relative_path.encode("utf-8")).hexdigest()[:32],
                 "relative_path": relative_path,
                 "file_name": image_path.name,
             }

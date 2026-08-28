@@ -250,7 +250,7 @@ def load_quality(path: Path, index: pd.DataFrame) -> dict[str, dict[str, float]]
     rather than by identifier, so the index supplies the correspondence.
     """
     quality = pd.read_csv(path)
-    quality["join_key"] = quality["file_name"].str.strip().str.lower()
+    quality["join_key"] = (quality["relative_path"].str.split("/").str[-2:].str.join("/")).str.strip().str.lower()
 
     lookup = {}
     for row in index.to_dict(orient="records"):
